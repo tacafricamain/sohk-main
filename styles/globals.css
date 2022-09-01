@@ -17,7 +17,23 @@ a {
 
 * {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
+
+@font-face {
+	font-family: "mavin";
+	src: url("../fonts/MavenPro-Bold.ttf");
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "openSans";
+	src: url("../fonts/MavenPro-Regular.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
 
 @media (prefers-color-scheme: dark) {
   html {
@@ -27,4 +43,16 @@ a {
     color: white;
     background: black;
   }
+}
+
+.react-multi-carousel-dot-list {
+  position: relative;
+}
+
+.react-multi-carousel-dot button {
+  border: 1px solid #FA9600;
+}
+
+.react-multi-carousel-dot--active button {
+  background: #FA9600 !important;
 }

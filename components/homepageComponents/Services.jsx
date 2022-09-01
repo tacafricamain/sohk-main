@@ -1,5 +1,5 @@
 import React from 'react'
-import SwiperFull from '../Swiper/CardSlider'
+import SwiperFull from '../Sliders/CardSlider'
 
 export default function Services() {
   return (
