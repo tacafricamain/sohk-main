@@ -3,12 +3,12 @@ import Image from 'next/image'
 // components
 import Story from '../components/homepageComponents/Story'
 import HeroSection from '../components/homepageComponents/HeroSection'
-import Services from '../components/homepageComponents/Services'
 import Promotion from '../components/homepageComponents/Promotion'
 import Courses from '../components/Courses'
 import Testimonials from '../components/homepageComponents/Testimonials'
 import Contact from '../components/homepageComponents/Contact'
 import Membership from '../components/homepageComponents/Membership'
+import Activities from '../components/homepageComponents/Activities'
 
 export default function Home() {
   return (
@@ -20,7 +20,7 @@ export default function Home() {
       </Head>
       <HeroSection />
       <Story />
-      <Services />
+      <Activities />
       <Promotion />
       <Courses />
       <Testimonials />
