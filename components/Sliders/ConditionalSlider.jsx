@@ -14,6 +14,7 @@ const ConditionalSlider = ({ }) => {
     //   text: "School of Hardknocks is passionate about empowering kids and adults of all",
     //   link: "/cyber_security_and_cyber_defense",
     // },
+    
     {
       title: " Digital Specialized Skills Training",
       image: "https://res.cloudinary.com/tacafrica/image/upload/v1661951257/my_folder/compressed/youth-skill-day-compressed/IMG-20220718-WA0026_result_ajz5g0.webp",
