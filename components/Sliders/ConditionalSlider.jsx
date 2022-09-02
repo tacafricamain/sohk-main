@@ -28,19 +28,19 @@ const ConditionalSlider = ({ }) => {
     },
     {
       title: "Technology Clubs",
-      image: "https://res.cloudinary.com/tacafrica/image/upload/v1661950928/my_folder/compressed/friendshipDay-compressed/1-2207300111_result_m1x2fd.webp",
+      image: "https://res.cloudinary.com/tacafrica/image/upload/v1661951036/my_folder/compressed/mandella-and-chess-day-compressed/1-2207230076_result_ymyfvl.webp",
       text: "At the moment, we have two clubs in this category. These are the Crypto Club and Drone Club.",
       link: "/",
     },
     {
       title: "Mentoring and Coaching Services",
-      image: "",
+      image: "https://res.cloudinary.com/tacafrica/image/upload/v1661950982/my_folder/compressed/int_youth-day-compressed/1-2208130024_result_stl96u.webp",
       text: "At SOHK, we provide an avenue where people can  come and update their skills by learning...",
       link: "/"
     },
     {
       title: "Office-on-the-go",
-      image: "",
+      image: "https://res.cloudinary.com/tacafrica/image/upload/v1661951049/my_folder/compressed/mandella-and-chess-day-compressed/1-2207230098_result_n4rzts.webp",
       text: "We provide a conducive office environment for anyone who wants to indulge in brainstorming.",
       link: "/"
     },
@@ -66,7 +66,7 @@ const ConditionalSlider = ({ }) => {
                     </div>
                     <div className="px-4 py-2">
                       <div className="text-lg font-medium leading-6 text-center">
-                        <h3 className=" max-h-10 mb-3 text-base font-semibold lg:font-bold font-mavin text-gold">
+                        <h3 className=" max-h-12 mb-3 text-base font-semibold lg:font-bold font-mavin text-gold">
                           {edge?.title}
                         </h3>
                       </div>
