@@ -18,6 +18,7 @@ export default function Contact() {
                <h2
                   className="
                   text-dark
+                  font-mavin
                   mb-6
                   uppercase
                   font-bold

@@ -12,8 +12,8 @@ export default function Courses() {
         'Conducive office space and facility'
     ]
   return (
-    <div className='flex lg:h-screen'>
-        <div className='flex flex-col lg:flex-row lg:w-[80vw] mt-16 lg:m-auto h-screen '>
+    <div className='flex '>
+        <div className='flex flex-col lg:flex-row lg:w-[80vw] mt-16 lg:m-auto lg:h-screen '>
             <h3 className='lg:hidden w-11/12 mx-auto mb-4 text-gold text-2xl font-mavin'>Courses</h3>
             <div  className='lg:w-5/12 m-4 my-auto space-y-3 my_grid'>
                 <div className=' overflow-hidden rounded-sm'>
@@ -32,7 +32,7 @@ export default function Courses() {
                 <h3 className='hidden lg:block text-gold text-2xl font-mavin'>Courses</h3>
                 <h2 className=' font-mavin text-3xl mt-5'>Quality Courses for you <br className='hidden lg:block'/> and your wards.</h2>
                 <p className='mb-5 mt-2'>Certifiable curriculum with world leading coaches</p>
-                <ul>
+                <ul className='mb-12 lg:mb-0'>
                     {services.map(service => (
                         <li key={service} className='mb-3'>
                             <button className='border-gold border-4 w-4 h-4 mr-3 rounded-full inline' />

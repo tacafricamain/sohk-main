@@ -53,12 +53,12 @@ const MiniSlider = ({ }) => {
             swipeable={true}
             draggable={true}
             responsive={responsive}
-            ssr={true} // means to render carousel on server-side.
+            ssr={!true} // means to render carousel on server-side.
             infinite={true}
             autoPlay={true}
-            autoPlaySpeed={15000}
+            autoPlaySpeed={5000}
             keyBoardControl={true}
-            customTransition="all .5"
+            customTransition="all 0.3s"
             transitionDuration={1500}
             containerClass="carousel-container "
             renderButtonGroupOutside={true}

@@ -76,12 +76,12 @@ const CardSlider = ({ }) => {
             draggable={true}
             showDots={true}
             responsive={responsive}
-            ssr={true} // means to render carousel on server-side.
+            ssr={!true} // means to render carousel on server-side.
             infinite={true}
             autoPlay={true}
             autoPlaySpeed={15000}
             keyBoardControl={true}
-            customTransition="all .5"
+            customTransition="all 0.3s"
             transitionDuration={1500}
             containerClass="carousel-container "
             // removeArrowOnDeviceType={['tablet', 'mobile']}
