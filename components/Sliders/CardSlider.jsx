@@ -6,35 +6,42 @@ import Carousel from "react-multi-carousel";
 const CardSlider = ({ }) => {
   const data = [
     {
-      title: "Brain Gym", //https://www.pexels.com/photo/close-up-view-of-a-golden-coin-315788/
-      image: "https://res.cloudinary.com/tacafrica/image/upload/v1661951048/my_folder/compressed/mandella-and-chess-day-compressed/1-2207230009_result_rrgy6s.webp",
-      text: "School of Hardknocks is passionate about empowering kids and adults of all",
-      link: "/cyber_security_and_cyber_defense",
-    },
-    {
-      title: "Digital Training",
+      title: " Digital Specialized Skills Training",
       image: "https://res.cloudinary.com/tacafrica/image/upload/v1661951257/my_folder/compressed/youth-skill-day-compressed/IMG-20220718-WA0026_result_ajz5g0.webp",
-      text: "The future of aviation is gradually being powered by unmanned Aerial Vehicles.",
+      text: "At SOHK, we provide specialized training on skills such as Drone training, AI and Robotics",
       link: "/drone_and_counter_drone",
     },
     {
       title: "Sporting Activities",
       image: "https://res.cloudinary.com/tacafrica/image/upload/v1661950966/my_folder/compressed/int_youth-day-compressed/1-2208130038_result_s0lwbr.webp",
-      text: "School of Hardknocks is passionate about empowering kids and adults of all",
-      link: "/artificial_intelligence_and_robotics",
+      text: "TAC Community Hub provides a home for sport. We bring together key local partners and ...",
+      link: "/",
     },
     {
-      title: "Events And Hangout",
+      title: "Relaxation and Event",
       image: "https://res.cloudinary.com/tacafrica/image/upload/v1661950932/my_folder/compressed/friendshipDay-compressed/1-2207300093_result_se81px.webp",
-      text: "School of Hardknocks is passionate about empowering kids and adults of all",
-      link: "/tech_for_social_good",
+      text: "The Hub provides a conducive and well furnished space for relaxation and other events. ",
+      link: "/",
     },
     {
-      title: "Meet and Greet",
+      title: "Technology Clubs",
       image: "https://res.cloudinary.com/tacafrica/image/upload/v1661950928/my_folder/compressed/friendshipDay-compressed/1-2207300111_result_m1x2fd.webp",
-      text: "School of Hardknocks is passionate about empowering kids and adults of all",
-      link: "/tech_for_social_good",
+      text: "At the moment, we have two clubs in this category. These are the Crypto Club and Drone Club.",
+      link: "/",
     },
+    {
+      title: "Mentoring and Coaching Services",
+      image: "",
+      text: "At SOHK, we provide an avenue where people can  come and update their skills by learning...",
+      link: "/"
+    },
+    {
+      title: "Office-on-the-go",
+      image: "",
+      text: "We provide a conducive office environment for anyone who wants to indulge in brainstorming.",
+      link: "/"
+    },
+
   ];
 
   const responsive = {

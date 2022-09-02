@@ -8,13 +8,6 @@ import { useState, useEffect } from "react";
 
 const ConditionalSlider = ({ }) => {
   const data = [
-    // {
-    //   title: "Brain Gym",
-    //   image: "https://res.cloudinary.com/tacafrica/image/upload/v1661951048/my_folder/compressed/mandella-and-chess-day-compressed/1-2207230009_result_rrgy6s.webp",
-    //   text: "School of Hardknocks is passionate about empowering kids and adults of all",
-    //   link: "/cyber_security_and_cyber_defense",
-    // },
-    
     {
       title: " Digital Specialized Skills Training",
       image: "https://res.cloudinary.com/tacafrica/image/upload/v1661951257/my_folder/compressed/youth-skill-day-compressed/IMG-20220718-WA0026_result_ajz5g0.webp",
