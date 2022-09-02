@@ -56,3 +56,14 @@ a {
 .react-multi-carousel-dot--active button {
   background: #FA9600 !important;
 }
+
+.my_grid{
+  height: 24rem;
+  display: grid;
+  grid-template-rows:    repeat(2, 1fr);
+}
+
+.inner_grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}

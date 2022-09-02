@@ -13,7 +13,8 @@ module.exports = {
       backgroundImage: {
         'mobileBG': "url('https://res.cloudinary.com/tacafrica/image/upload/v1661883004/my_folder/int%20youth%20day/mobileHome_mymzw9.png')",
         'desktopBG': "url('https://res.cloudinary.com/tacafrica/image/upload/v1660567320/my_folder/int%20youth%20day/1-2208130139_h5slq9.jpg')",
-        'membershipBgDesktop': "url('https://res.cloudinary.com/tacafrica/image/upload/v1661951200/my_folder/compressed/tennis-championship-compressed/1-2208070080_result_szlrig.webp')"
+        'membershipBgDesktop': "url('https://res.cloudinary.com/tacafrica/image/upload/v1661951200/my_folder/compressed/tennis-championship-compressed/1-2208070080_result_szlrig.webp')",
+        'footerBG': "url('https://res.cloudinary.com/tacafrica/image/upload/v1661950975/my_folder/compressed/int_youth-day-compressed/1-2208130105_result_kuvblc.webp')"
       },
       colors: {
         'gold': '#FA9600',

@@ -4,6 +4,10 @@ import Image from 'next/image'
 import Story from '../components/homepageComponents/Story'
 import HeroSection from '../components/homepageComponents/HeroSection'
 import Services from '../components/homepageComponents/Services'
+import Promotion from '../components/homepageComponents/Promotion'
+import Courses from '../components/Courses'
+import Testimonials from '../components/homepageComponents/Testimonials'
+import Contact from '../components/homepageComponents/Contact'
 import Membership from '../components/homepageComponents/Membership'
 
 export default function Home() {
@@ -17,8 +21,11 @@ export default function Home() {
       <HeroSection />
       <Story />
       <Services />
+      <Promotion />
+      <Courses />
+      <Testimonials />
+      <Contact />
       <Membership />
-     
     </div>
   )
 }

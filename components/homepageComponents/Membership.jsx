@@ -1,15 +1,17 @@
+import React from 'react'
 import Button from '../Button'
-export default function Membership(){
-    return(
-        <div className=" bg-fixed bg-center bg-cover bg-membershipBgDesktop">
-            <div className="h-screen flex flex-col justify-end " style={{background: 'rgba(0, 0, 0, 0.69)' }}>
-                <div className=' w-10/12 mb-20 mx-auto'>
-                    <p className='text-[#ff9700] text-3xl font-mavin '>Promotion</p>
-                    <h1 className='text-white text-7xl my-6 font-mavin overflow-hidden'>Explore how it <br className='hidden lg:block' /> really feels to Excel!</h1>
-                    <p className='text-white font-light font-["openSans"] text-xl mb-7'>We are a cutting Edge Co-Creation Hub for sports, Research <br className='hidden lg:block' /> passionate about enhancing learning with sports</p>
-                    <Button text={'Get your Membership'} />
-                </div>
+
+export default function Membership() {
+  return (
+    <div className=' text-white flex justify-center bg-gradient-to-r from-gold to-orange' >
+        <div className='h-[8rem] w-10/12 flex justify-between items-center '>
+            <p className='font-mavin text-2xl'>Learn as if you were going  <br className='hidden lg:block' /> to live forever!</p>
+
+            <div>
+                <button type="button" className=" inline border border-white bg-transparent focus:outline-none font-medium rounded-lg text-sm px-8 py-4 text-center mr-2">Start Your Membership</button>
             </div>
         </div>
-    )   
+
+    </div>
+  )
 }
