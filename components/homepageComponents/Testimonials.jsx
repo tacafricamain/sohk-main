@@ -5,7 +5,7 @@ import { ImQuotesRight } from 'react-icons/im'
 
 export default function Testimonials() {
   return (
-    <div className='flex h-screen bg-[#F7F5F2]'>
+    <div className='flex lg:h-screen bg-[#F7F5F2]'>
     <div className='flex flex-col lg:flex-row lg:w-[80vw] mt-16 lg:m-auto '>
         <h3 className='lg:hidden w-11/12 mx-auto mb-4 text-gold text-2xl font-mavin'>Testimonials</h3>
         <div  className='lg:w-5/12 m-4 rounded-3xl overflow-hidden h-[27rem]'>

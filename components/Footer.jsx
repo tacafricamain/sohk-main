@@ -88,7 +88,7 @@ export default function Footer() {
 
                     <div className="">
                       <p className="text-sm mb-1 text-white">
-                        email: secretariat@tacafrica.org
+                        email: contactus@schoolofhardknocks.com.ng
                       </p>
                       <hr className="w-4/5" />
                     </div>

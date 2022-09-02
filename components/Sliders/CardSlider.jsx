@@ -64,7 +64,7 @@ const CardSlider = ({ }) => {
     <div className="w-full">
       <div className="pt-12 pb-20 mx-auto my-0 xl:px-12">
         <div className="pl-4 pb-8 ">
-          {/* <Carousel
+          <Carousel
             swipeable={true}
             draggable={true}
             showDots={true}
@@ -83,7 +83,7 @@ const CardSlider = ({ }) => {
             // deviceType={props.deviceType}
             // dotListClass="relative pt-2  z-50"
             // itemClass="carousel-item-padding-40-px flex flex-no-wrap items-stretch "
-          > */}
+          >
             {data.map((edge, i) => (
               <div
                 key={i}
@@ -114,7 +114,7 @@ const CardSlider = ({ }) => {
                 </Link>
               </div>
             ))}
-          {/* </Carousel> */}
+          </Carousel>
         </div>
 
       </div>

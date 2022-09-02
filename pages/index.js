@@ -9,8 +9,13 @@ import Testimonials from '../components/homepageComponents/Testimonials'
 import Contact from '../components/homepageComponents/Contact'
 import Membership from '../components/homepageComponents/Membership'
 import Activities from '../components/homepageComponents/Activities'
+import { useEffect, useState } from 'react'
 
 export default function Home() {
+
+  const [isMobile, setIsMobile] = useState(false)
+
+
   return (
     <div className='w-screen ' >
       <Head>

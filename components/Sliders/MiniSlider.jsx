@@ -6,33 +6,33 @@ import Carousel from "react-multi-carousel";
 const MiniSlider = ({ }) => {
   const data = [
     {
-      name: "Abbey Akubo", //https://www.pexels.com/photo/close-up-view-of-a-golden-coin-315788/
+      name: "Somade Akinola", //https://www.pexels.com/photo/close-up-view-of-a-golden-coin-315788/
       image: "https://res.cloudinary.com/tacafrica/image/upload/v1661951048/my_folder/compressed/mandella-and-chess-day-compressed/1-2207230009_result_rrgy6s.webp",
-      text: "School of Hardknocks is passionate about empowering kids and adults of all",
-      role: "student",
+      text: "The coaches at *SOHK* have an infectious excitement for sports. *SOHK* has taken me from a tentative, average player to a confident, solid competitor.",
+      role: "Player",
     },
     {
-      name: "Wale Martins",
+      name: "Theophilus Akubo",
       image: "https://res.cloudinary.com/tacafrica/image/upload/v1661951257/my_folder/compressed/youth-skill-day-compressed/IMG-20220718-WA0026_result_ajz5g0.webp",
-      text: "The future of aviation is gradually being powered by unmanned Aerial Vehicles.",
-      role: "parent",
+      text: "Tennis didn't exist in my world until I heard of *SOHK*. I decided to explore the possibility of actually playing. Now I am in the court and having the time of my life. I am very grateful to *SOHK* for helping me discover a sport I can play well into my golden years.",
+      role: "Tennis Player",
     },
     {
-      name: "Joy Eze",
+      name: "Matthew Ameh",
       image: "https://res.cloudinary.com/tacafrica/image/upload/v1661950966/my_folder/compressed/int_youth-day-compressed/1-2208130038_result_s0lwbr.webp",
-      text: "School of Hardknocks is passionate about empowering kids and adults of all",
-      role: "student",
+      text: "Just recently, my son started learning taekwondo at *SOHK*. He looks forward to going every week and the coaches are amazing! I would definitely recommend for anyone interested in taekwondo, tennis etc for their child.",
+      role: "Parent",
     },
     {
-      name: "Obinna Abraham",
+      name: "Oiza Emmanuel",
       image: "https://res.cloudinary.com/tacafrica/image/upload/v1661950932/my_folder/compressed/friendshipDay-compressed/1-2207300093_result_se81px.webp",
-      text: "School of Hardknocks is passionate about empowering kids and adults of all",
+      text: "Half an hour with SOHK will tell you all you need to know. The coach's passion for helping people learn real tennis is self-evident. He loves the sport and wants to share that. It was important for me that my kids develop the proper technique",
       role: "parent",
     },
     {
-      name: "Meet and Greet",
+      name: "Rabiu Ayomide",
       image: "https://res.cloudinary.com/tacafrica/image/upload/v1661950928/my_folder/compressed/friendshipDay-compressed/1-2207300111_result_m1x2fd.webp",
-      text: "School of Hardknocks is passionate about empowering kids and adults of all",
+      text: "I have seen SOHK work with my elementary school-age children and students of all ages. The coaches have a remarkable ability to analyze and convey stroke nuances in an age-appropriate man",
       role: "parent",
     },
   ];
