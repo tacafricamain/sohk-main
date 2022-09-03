@@ -1,10 +1,6 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import Carousel from "react-multi-carousel";
-import { ConditionalWrapper } from "../ConditionalWrapper";
-import { isMobile, browserName } from "react-device-detect";
-import { useState, useEffect } from "react";
 
 const ConditionalSlider = ({ }) => {
   const data = [
@@ -53,7 +49,7 @@ const ConditionalSlider = ({ }) => {
         { data.map((edge, i) => (
                 <div
                 key={i}
-                className="flex-none w-12/12 lg:w-10/12 mr-8 overflow-hidden rounded-lg md:mr-4 md:pb-4 "
+                className="flex-none w-11/12 mx-auto mb-16 overflow-hidden rounded-lg md:pb-4 "
               >
                 <Link href={edge?.link}>
                   <a className="space-y-4">

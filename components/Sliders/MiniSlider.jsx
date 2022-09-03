@@ -53,7 +53,7 @@ const MiniSlider = ({ }) => {
             swipeable={true}
             draggable={true}
             responsive={responsive}
-            ssr={!true} // means to render carousel on server-side.
+            // ssr={!true} // means to render carousel on server-side.
             infinite={true}
             autoPlay={true}
             autoPlaySpeed={5000}
