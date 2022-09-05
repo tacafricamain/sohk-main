@@ -9,7 +9,7 @@ display: block;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #fff;
+    background-color: #212121;
     display: flex;
     left: 0,
     right: 0;
@@ -17,43 +17,72 @@ display: block;
     height: 100%;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+  }
+  .loaderani{
+    animation: load 2s linear infinite;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 .loader {
- --clr: #3498db;
- /* color of spining  */
- width: 50px;
- height: 50px;
- position: relative;
-}
-.loader div:nth-child(1), .loader div:nth-child(2) {
- content: "";
- position: absolute;
- top: -10px;
- left: -10px;
- width: 100%;
- height: 100%;
- border-radius: 100%;
- border: 10px solid transparent;
- border-top-color: var(--clr);
-}
-.loader div:nth-child(1) {
- z-index: 100;
- animation: spin 1s infinite;
-}
-.loader div:nth-child(2) {
- border: 10px solid #ccc;
-}
-@keyframes spin {
- 0% {
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
- }
- 100% {
-  -webkit-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
-  transform: rotate(360deg);
- }
-}`;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border-top: 5px solid #e74c3c;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .loaderb, .loadera {
+    content: ' ';
+    width: 100px;
+    height: 100px;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    border-radius: 50%;
+  }
+  
+  .loaderb {
+    content: ' ';
+    display: block;
+    position: absolute;
+    border-top: 5px solid #e67e22;
+    transform: rotate(120deg);
+  }
+  
+  .loadera {
+    content: ' ';
+    display: block;
+    position: absolute;
+    border-top: 5px solid #3498db;
+    transform: rotate(240deg);
+  }
+  
+  .loader span {
+    position: absolute;
+    font-size: small;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    animation: a2 2s linear infinite;
+  }
+  
+  @keyframes load {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes a2 {
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+  `;

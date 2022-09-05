@@ -15,10 +15,11 @@ class MyDocument extends Document {
                 </head>
                 <body>
                 <div id={'globalLoader'}>
-                     <div className="loader">
-                        <div/>
-                        <div/>
-                    </div>
+                <div className='loaderani'>
+                    <div className='loader loadera'></div>
+                    <div className='loaderb'></div>
+                    <div className="loader loader"> <span>Loading...</span></div>
+                </div>
                 </div>
                 <Main/>
                 <NextScript/>
