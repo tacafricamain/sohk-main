@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-head-element */
 import React from 'react'
 import Document, {Html, Head, Main, NextScript} from 'next/document'
 import loader from "../styles/loader";
