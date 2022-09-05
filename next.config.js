@@ -4,7 +4,9 @@ const nextConfig = {
   concurrentFeatures: true,
   swcMinify: true,
   images: {
-    domains: ['res.cloudinary.com']
+    domains: ['res.cloudinary.com'],
+    loader: 'imgix',
+    path: '/',
   }
 }
 

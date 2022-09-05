@@ -1,7 +1,7 @@
 import Button from '../Button'
 export default function HeroSection(){
     return(
-        <section className="z-50 h-screen  bg-fixed bg-center bg-cover bg-mobileBG lg:bg-desktopBG">
+        <section id='home' className="z-50 h-screen  bg-fixed bg-center bg-cover bg-mobileBG lg:bg-desktopBG">
             <div className="h-screen flex flex-col justify-end " style={{background: 'rgba(0, 0, 0, 0.69)' }}>
                 <div className=' w-10/12 mb-48 lg:mb-20 mx-auto'>
                     <p className='text-[#ff9700] text-lg lg:text-3xl font-mavin '>We Are The School Of Hard Knocks</p>

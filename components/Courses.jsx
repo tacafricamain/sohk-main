@@ -12,7 +12,7 @@ export default function Courses() {
         'Conducive office space and facility'
     ]
   return (
-    <div className='flex '>
+    <div id='services' className='flex '>
         <div className='flex flex-col lg:flex-row lg:w-[80vw] mt-16 lg:m-auto lg:h-screen '>
             <h3 className='lg:hidden w-11/12 mx-auto mb-4 text-gold text-2xl font-mavin'>Courses</h3>
             <div  className='lg:w-5/12 m-4 my-auto space-y-3 my_grid'>

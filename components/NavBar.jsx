@@ -36,7 +36,7 @@ export default function Navbar({ fixed }) {
               <li className="nav-item my-auto">
                 <a
                   className="px-12 py-2 flex items-center justify-center text-xs font-bold leading-snug text-white hover:opacity-75"
-                  href="#pablo"
+                  href="#home"
                 >
                  <span className="ml-2 text-lg font-normal">Home</span>
                 </a>
@@ -44,7 +44,7 @@ export default function Navbar({ fixed }) {
               <li className="nav-item my-auto">
                 <a
                   className="px-12 py-2 flex items-center text-xs font-bold leading-snug text-white hover:opacity-75"
-                  href="#pablo"
+                  href="#aboutus"
                 >
                   <span className="ml-2 text-lg font-normal">About Us</span>
                 </a>
@@ -52,7 +52,7 @@ export default function Navbar({ fixed }) {
               <li className="nav-item my-auto">
                 <a
                   className="px-12 py-2 flex items-center text-xs font-bold leading-snug text-white hover:opacity-75"
-                  href="#pablo"
+                  href="#services"
                 >
                   <span className="ml-2 text-lg font-normal">Services</span>
                 </a>
@@ -60,7 +60,7 @@ export default function Navbar({ fixed }) {
               <li className="nav-item my-auto">
                 <a
                   className="px-12 py-2 flex items-center text-xs font-bold leading-snug text-white hover:opacity-75"
-                  href="#pablo"
+                  href="#activities"
                 >
                   <span className="ml-2 text-lg font-normal">Events</span>
                 </a>
