@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Story() {
   return (
-    <div className='flex lg:h-screen'>
+    <div className='flex lg:h-screen '>
         <div className='flex flex-col lg:flex-row lg:w-[80vw] mt-16 lg:m-auto '>
             <h3 className='lg:hidden w-11/12 mx-auto mb-4 text-gold max-h- text-center  text-2xl font-mavin'>Our Story</h3>
             <div  className='lg:w-5/12 m-4 rounded-3xl'>
