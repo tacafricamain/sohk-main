@@ -1,6 +1,13 @@
 /* eslint-disable react/jsx-key */
 import { useState, useCallback } from 'react';
 import Link from 'next/link';
+import { 
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaLinkedinIn,
+  FaYoutube
+} from "react-icons/fa";
 
 export default function Footer() {
   const [menuState, setMenuState] = useState(false);
@@ -19,8 +26,8 @@ export default function Footer() {
   ]
 
   return (
-    <div className="bg-fixed bg-center bg-cover bg-footerBG">
-      <div className="pt-12 pb-12 text-white md:h-[80vh]" style={{background: 'rgba(0, 0, 0, 0.69)' }}>
+    <div className="bg-fixed bg-center bg-cover bg-footerBG" style={{backgroundAttachment: 'scroll' }}>
+      <div className="pt-12 flex flex-col justify-between pb-12 text-white md:h-[80vh]" style={{background: 'rgba(0, 0, 0, 0.69)' }}>
         <div className="container mx-auto sm:px-4 max-w-full ">
           <div className="container mt-md-5">
             <div className="flex flex-wrap ">
@@ -100,33 +107,35 @@ export default function Footer() {
         </div>
         <div className="flex justify-center my-6">
           {/* facebook */}
-          <Link href={'https://m.facebook.com/pg/TACinAfrica/posts'}>
+          <Link href={'https://www.facebook.com/profile.php?id=100084838556925'}>
             <a target="_blank" rel="noreferrer">
-              <i className="mx-4 fa fa-brands fa-facebook fa-2x text-white" />
+                <FaFacebookF className="mx-4 fa fa-brands fa-instagram fa-2x text-white" />
             </a>
           </Link>
-          <Link href={'https://www.instagram.com/tac.africa'}>
+          <Link href={'https://instagram.com/hardknocksng?igshid=YmMyMTA2M2Y'}>
             <a target="_blank" rel="noreferrer">
-              <i className="mx-4 fa fa-brands fa-instagram fa-2x text-white" />
+              <FaInstagram className="mx-4 fa fa-brands fa-instagram fa-2x text-white" />
             </a>
           </Link>
-          <Link href={'https://ng.linkedin.com/company/tacafrica'}>
+          <Link href={'https://www.linkedin.com/company/hardknocksng/'}>
             <a target="_blank" rel="noreferrer">
-              <i className="mx-4 fa fa-brands fa-linkedin fa-2x text-white" />
+              <FaLinkedinIn className="mx-4 fa fa-brands fa-linkedin fa-2x text-white" />
             </a>
           </Link>
-          <Link href={'https://twitter.com/Tacafrica2'}>
+          <Link href={'https://twitter.com/hardknocksng'}>
             <a target="_blank" rel="noreferrer">
-              <i className="mx-4 fa fa-brands fa-twitter fa-2x text-white " />
+              <FaTwitter className="mx-4 fa fa-brands fa-linkedin fa-2x text-white" />
             </a>
           </Link>
-          <Link href={'https://www.youtube.com/channel/UCsOPBwlkXfJspo22MJcC8NA'}>
+          {/* <Link href={'https://www.youtube.com/channel/UCsOPBwlkXfJspo22MJcC8NA'}>
             <a target="_blank" rel="noreferrer">
-              <i className="mx-2 fa fa-brands fa-youtube fa-2x text-white " />
+              <FaYoutube className="mx-2 fa fa-brands fa-youtube fa-2x text-white " />
             </a>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>
   );
 }
+
+// AIzaSyBu_w9W9QpvzHO99eHf5s0n3NIjw-jb-m0

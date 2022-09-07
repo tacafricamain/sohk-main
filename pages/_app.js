@@ -4,12 +4,9 @@ import { useEffect } from 'react';
 
 import Layout from '../components/Layout'
 
-    // Hide splash screen shen we are server side 
-    
-    
 function MyApp({ Component, pageProps }) {
 
-      useEffect(() => {
+      useEffect(() => { // hide splash screen
         if (typeof window !== 'undefined') {
                 const loader = document.getElementById('globalLoader');
             if (loader)
