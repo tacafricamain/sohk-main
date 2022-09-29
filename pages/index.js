@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import React, {useEffect, useState} from 'react'
 
 // components
 import Story from '../components/homepageComponents/Story'
@@ -10,15 +11,17 @@ import Contact from '../components/homepageComponents/Contact'
 import Membership from '../components/homepageComponents/Membership'
 import Activities from '../components/homepageComponents/Activities'
 import Map from '../components/Map'
+import NoticePopup from '../components/noticePopup'
 
 
 
 
 export default function Home() {
-
+  
+  const [showModal, setShowModal] = useState(true)
 
   return (
-          <main className='' >
+          <main className='h-full' >
             <Head>
               <title>School of HardKnocks nigeria</title>
               <meta name="description" content="school of hard knocks nigeria" />
@@ -26,6 +29,7 @@ export default function Home() {
               <link rel="icon" href="/favicon.ico" />
             </Head>
             <HeroSection />
+            <NoticePopup showModal={showModal} setShowModal={setShowModal}/>
             <Story />
             <Activities />
             <Promotion />
@@ -33,7 +37,7 @@ export default function Home() {
             <Testimonials />
             <Contact />
             <Map />
-            <Membership />
+            {/* <Membership /> */}
           </main>
   )
 }

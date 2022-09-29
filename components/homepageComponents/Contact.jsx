@@ -3,6 +3,7 @@ import React from 'react'
 import Button from '../Button'
 
 export default function Contact() {
+   const myENV = process.env.NEXT_PUBLIC_WEB3FORMS_API_KEY
   return (
     <>
 {/* <link rel="stylesheet" href="https://cdn.tailgrids.com/tailgrids-fallback.css" /> */}
@@ -43,7 +44,8 @@ export default function Contact() {
          </div>
          <div className="w-full lg:w-1/2 xl:w-5/12">
             <div className="bg-[#F5F2F7] relative rounded-lg p-8 sm:p-12 shadow-lg">
-               <form>
+               <form action="https://api.web3forms.com/submit" method="POST">
+               <input type="hidden" name="access_key" value={myENV} />
                <div className="grid grid-cols-2 gap-4">
       <div className="form-group mb-6">
         <input type="text" className="form-control
@@ -109,7 +111,7 @@ export default function Contact() {
                         py-3
                         px-[14px]
                         text-body-color text-base
-                        border border-[f0f0f0]
+                        border border-[#f0f0f0]
                         resize-none
                         outline-none
                         focus-visible:shadow-none
@@ -117,8 +119,9 @@ export default function Contact() {
                         "
                         ></textarea>
                   </div>
+                  <input type="hidden" name="redirect" value="/aboutus"></input>
                   <div className='flex flex-col' >
-                    <Button text={'Send Message'} />
+                    <Button type="submit" text={'Send Message'} />
                   </div>
                </form>
             </div>

@@ -76,7 +76,7 @@ const MiniSlider = ({ }) => {
                         </p>
                       </div>
                       <div className="text-sm flex">
-                        <div className='w-16 h-16 p-2 mr-3 inline-block rounded-full bg-gradient-to-r from-gold to-orange'>
+                        <div className='w-16 h-16 p-2 mr-3 inline-block rounded-full bg-gradient-to-r from-gold to-orange rotate'>
                             <div className='rounded-full w-full h-full bg-white'></div>
                         </div>
                         <span className='inline-block my-auto'>

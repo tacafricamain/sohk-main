@@ -19,7 +19,8 @@ display: block;
     align-items: center;
     overflow: hidden;
   }
-  .loaderani{
+
+.loaderani{
     animation: load 2s linear infinite;
     position: relative;
     width: 100px;

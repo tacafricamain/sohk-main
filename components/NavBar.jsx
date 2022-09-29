@@ -1,6 +1,7 @@
 import React from "react";
 import { FaBars } from "react-icons/fa"
 import Button from "./Button";
+import Link from "next/link";
 
 export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -34,20 +35,23 @@ export default function Navbar({ fixed }) {
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="nav-item my-auto">
-                <a
-                  className="px-12 py-2 flex items-center justify-center text-xs font-bold leading-snug text-white hover:opacity-75"
-                  href="#home"
-                >
-                 <span className="ml-2 text-lg font-normal">Home</span>
-                </a>
+                <Link href="/">
+                  <a
+                    className="px-12 py-2 flex items-center justify-center text-xs font-bold leading-snug text-white hover:opacity-75" 
+                  >
+                  <span className="ml-2 text-lg font-normal">Home</span>
+                  </a>
+                </Link>
               </li>
               <li className="nav-item my-auto">
-                <a
-                  className="px-12 py-2 flex items-center text-xs font-bold leading-snug text-white hover:opacity-75"
-                  href="#aboutus"
-                >
-                  <span className="ml-2 text-lg font-normal">About Us</span>
-                </a>
+                <Link href="/aboutus">
+                  <a
+                    className="px-12 py-2 flex items-center text-xs font-bold leading-snug text-white hover:opacity-75"
+                    
+                  >
+                    <span className="ml-2 text-lg font-normal">About Us</span>
+                  </a>
+                </Link>
               </li>
               <li className="nav-item my-auto">
                 <a

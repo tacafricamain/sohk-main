@@ -2,17 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
+html,body  {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  /* height: 100%; */
-}
-
-body {
   height: 100%;
-  min-height: 100vh;
+  overflow-x: hidden;
 }
 
 
@@ -23,7 +19,6 @@ a {
 
 * {
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 @font-face {
@@ -72,4 +67,14 @@ a {
 .inner_grid{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.rotate{
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    100%{
+        transform : rotate(360deg)
+    }
 }

@@ -16,14 +16,14 @@ export default function Courses() {
         <div className='flex flex-col lg:flex-row lg:w-[80vw] mt-16 lg:m-auto lg:h-screen '>
             <h3 className='lg:hidden w-11/12 mx-auto mb-4 text-gold text-2xl font-mavin'>Courses</h3>
             <div  className='lg:w-5/12 m-4 my-auto space-y-3 my_grid'>
-                <div className=' overflow-hidden rounded-sm'>
-                    <img alt='sports' className='object-fit' src={'https://res.cloudinary.com/tacafrica/image/upload/v1661950987/my_folder/compressed/int_youth-day-compressed/1-2208130097_result_vh9xol.webp'}/>
+                <div className=' overflow-hidden rounded-lg'>
+                    <img alt='sports' className='object-fit ' src={'https://res.cloudinary.com/tacafrica/image/upload/v1661950987/my_folder/compressed/int_youth-day-compressed/1-2208130097_result_vh9xol.webp'}/>
                 </div>
                 <div className='inner_grid space-x-3'>
-                    <div className='overflow-hidden rounded-sm' >
+                    <div className='overflow-hidden rounded-lg' >
                         <img alt='sports' className='object-cover  h-full' src={'https://res.cloudinary.com/tacafrica/image/upload/v1661950971/my_folder/compressed/int_youth-day-compressed/1-2208130137_result_hvsunq.webp'}/>
                     </div>
-                    <div className='overflow-hidden rounded-sm' >
+                    <div className='overflow-hidden rounded-lg' >
                         <img alt='sports' className='object-cover h-full' src={'https://res.cloudinary.com/tacafrica/image/upload/v1661950981/my_folder/compressed/int_youth-day-compressed/1-2208130004_result_w7bffg.webp'}/>
                     </div>
                 </div>     
