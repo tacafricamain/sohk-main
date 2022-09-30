@@ -78,3 +78,16 @@ a {
         transform : rotate(360deg)
     }
 }
+
+.fade_in {
+  animation: fadeIn 1.9s;
+}
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}

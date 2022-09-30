@@ -5,11 +5,11 @@ import { ImQuotesRight } from 'react-icons/im'
 
 export default function Testimonials() {
   return (
-    <div className='flex lg:h-screen bg-softGrey'>
+    <div className='flex flex-col lg:flex-row lg:h-screen bg-softGrey'>
     <div className='flex flex-col lg:flex-row lg:w-[80vw] mt-16 lg:m-auto '>
         <h3 className='lg:hidden w-11/12 mx-auto mb-4 text-gold text-2xl font-mavin'>Testimonials</h3>
         <div  className='lg:w-5/12 m-4 rounded-3xl overflow-hidden h-[27rem]'>
-            <img alt='sports' className=' object-cover h-full ' src={'https://res.cloudinary.com/tacafrica/image/upload/v1663587460/my_folder/int%20youth%20day/compressed/1-2208130031_result_mvqdyj.webp'}/>
+            <img alt='sports' className='object-cover h-full ' src={'https://res.cloudinary.com/tacafrica/image/upload/v1663587460/my_folder/int%20youth%20day/compressed/1-2208130031_result_mvqdyj.webp'}/>
         </div>
         <div  className='w-11/12 mx-auto lg:w-6/12  lg:ml-7 '>
             <h3 className='hidden lg:block text-gold text-2xl mt-3 font-mavin'>Testimonials</h3>

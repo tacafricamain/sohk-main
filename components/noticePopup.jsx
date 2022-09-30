@@ -6,8 +6,16 @@ export default function NoticePopup({ showModal, setShowModal }) {
   return (
     
 // <!-- Modal toggle -->
-          <div className={` ${showModal? '': 'hidden'} overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-modal my-auto md:h-full justify-center items-center`}  style={{background: 'rgba(0, 0, 0, 0.69)' }} >
-              <div className=" m-auto p-4 w-full max-w-2xl h-screen">
+          <div className={` ${showModal? '': 'hidden'} 
+                            overflow-y-auto overflow-x-hidden fixed top-0 
+                            right-0 left-0 z-50 w-full md:inset-0 h-modal 
+                            my-auto md:h-full 
+                            fade_in h-screen
+                            `}  
+                            style={{background: 'rgba(0, 0, 0, 0.69)' }} >
+                              
+            <div className='flex justify-center h-full'>
+              <div className="flex self-center p-4 w-full max-w-2xl">
                   {/* <!-- Modal content --> */}
                   <div className=" bg-white rounded-lg shadow dark:bg-gray-700">
                       {/* <!-- Modal header --> */}
@@ -44,6 +52,7 @@ export default function NoticePopup({ showModal, setShowModal }) {
                       </div>
                   </div>
               </div>
+            </div>
           </div>
 
   )

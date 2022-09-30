@@ -18,7 +18,20 @@ import NoticePopup from '../components/noticePopup'
 
 export default function Home() {
   
-  const [showModal, setShowModal] = useState(true)
+  const [showModal, setShowModal] = useState(false)
+  
+  const callPopup = () => {
+    const timer = setTimeout(() => {
+      setShowModal(true)
+    }, 5000)
+    return () => clearTimeout(timer)
+  }
+
+  useEffect(() => {
+    callPopup()
+  }, [])
+
+
 
   return (
           <main className='h-full' >
@@ -29,7 +42,10 @@ export default function Home() {
               <link rel="icon" href="/favicon.ico" />
             </Head>
             <HeroSection />
+            {
+              showModal &&
             <NoticePopup showModal={showModal} setShowModal={setShowModal}/>
+            }
             <Story />
             <Activities />
             <Promotion />
