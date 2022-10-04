@@ -6,7 +6,7 @@ import Layout from '../components/Layout'
 
 function MyApp({ Component, pageProps }) {
 
-      useEffect(() => { // hide splash screen
+      useEffect(() => { // !hide splash screen
         if (typeof window !== 'undefined') {
                 const loader = document.getElementById('globalLoader');
             if (loader)
