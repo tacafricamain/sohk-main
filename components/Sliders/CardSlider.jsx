@@ -8,37 +8,37 @@ const CardSlider = ({ }) => {
     {
       title: " Golf Academy",
       image: "https://res.cloudinary.com/tacafrica/image/upload/v1669128666/my_folder/sohk/jj_ru4spg.png",
-      text: "At SOHK, we provide specialized training on skills such as Drone training, AI and Robotics",
+      // text: "At SOHK, we provide specialized training on skills such as Drone training, AI and Robotics",
       link: "/drone_and_counter_drone",
     },
     {
       title: "Tennis Academy ",
       image: "https://res.cloudinary.com/tacafrica/image/upload/v1669127206/my_folder/sohk/1-2208130060_b3ep2q.jpg",
-      text: "TAC Community Hub provides a home for sport. We bring together key local partners and ...",
+      // text: "TAC Community Hub provides a home for sport. We bring together key local partners and ...",
       link: "/",
     },
     {
       title: "Digital Specialized Skills",
       image: "https://res.cloudinary.com/tacafrica/image/upload/v1669127204/my_folder/sohk/image00009_igqvlf.jpg",
-      text: "The Hub provides a conducive and well furnished space for relaxation and other events. ",
+      // text: "The Hub provides a conducive and well furnished space for relaxation and other events. ",
       link: "/",
     },
     {
       title: "Digital Communication Skills",
       image: "https://res.cloudinary.com/tacafrica/image/upload/v1669127205/my_folder/sohk/1-2207230068_ukqrkd.jpg",
-      text: "At the moment, we have two clubs in this category. These are the Crypto Club and Drone Club.",
+      // text: "At the moment, we have two clubs in this category. These are the Crypto Club and Drone Club.",
       link: "/",
     },
     {
       title: "Coaching and Mentorship",
       image: "https://res.cloudinary.com/tacafrica/image/upload/v1669127258/my_folder/sohk/1-2207230100_o1x2sk.jpg",
-      text: "At SOHK, we provide an avenue where people can  come and update their skills by learning...",
+      // text: "At SOHK, we provide an avenue where people can  come and update their skills by learning...",
       link: "/"
     },
     {
       title: "Rehabilitation",
       image: "https://res.cloudinary.com/tacafrica/image/upload/v1669127203/my_folder/sohk/image00034_u7vdgo.jpg",
-      text: "We provide a conducive office environment for anyone who wants to indulge in brainstorming.",
+      // text: "We provide a conducive office environment for anyone who wants to indulge in brainstorming.",
       link: "/"
     },
 
