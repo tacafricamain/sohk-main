@@ -2,7 +2,7 @@ import Head from 'next/head'
 import React, {useEffect, useState} from 'react'
 
 // components
-import Story from '../components/homepageComponents/Story'
+import Objective from '../components/homepageComponents/Objective'
 import HeroSection from '../components/homepageComponents/HeroSection'
 import Promotion from '../components/homepageComponents/Promotion'
 import Courses from '../components/Courses'
@@ -25,7 +25,7 @@ export default function Home() {
               <link rel="icon" href="/favicon.ico" />
             </Head>
             <HeroSection />
-            <Story />
+            <Objective />
             <Activities />
             <Promotion />
             <Courses />
