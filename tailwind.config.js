@@ -12,8 +12,8 @@ module.exports = {
       },
       backgroundImage: {
         'test': "url('https://res.cloudinary.com/tacafrica/image/upload/v1663587468/my_folder/int%20youth%20day/compressed/1-2208130077_result_czg3ww.webp')",
-        'test2': "url('https://res.cloudinary.com/tacafrica/image/upload/v1663587448/my_folder/int%20youth%20day/compressed/1-2208130106_result_m3lfbz.webp')",
-        'mobileBG': "url('https://res.cloudinary.com/tacafrica/image/upload/v1661883004/my_folder/int%20youth%20day/mobileHome_mymzw9.png')",
+        'test2': "url('https://res.cloudinary.com/tacafrica/image/upload/v1669126381/my_folder/sohk/WhatsApp_Image_2022-11-22_at_1.12.49_PM_1_h89nid.jpg')",
+        'mobileBG': "url('https://res.cloudinary.com/tacafrica/image/upload/v1669126381/my_folder/sohk/WhatsApp_Image_2022-11-22_at_1.12.49_PM_1_h89nid.jpg')",
         'desktopBG': "url('https://res.cloudinary.com/tacafrica/image/upload/v1660567320/my_folder/int%20youth%20day/1-2208130139_h5slq9.jpg')",
         'membershipBgDesktop': "url('https://res.cloudinary.com/tacafrica/image/upload/v1661951200/my_folder/compressed/tennis-championship-compressed/1-2208070080_result_szlrig.webp')",
         'footerBG': "url('https://res.cloudinary.com/tacafrica/image/upload/v1661950975/my_folder/compressed/int_youth-day-compressed/1-2208130105_result_kuvblc.webp')",
