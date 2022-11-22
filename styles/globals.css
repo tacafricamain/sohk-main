@@ -35,7 +35,7 @@ a {
 	font-style: normal;
 }
 
-
+/* 
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -44,7 +44,7 @@ a {
     color: white;
     background: black;
   }
-}
+} */
 
 .react-multi-carousel-dot-list {
   position: relative;
