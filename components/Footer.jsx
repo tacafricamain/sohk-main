@@ -1,13 +1,13 @@
 /* eslint-disable react/jsx-key */
 import { useState, useCallback } from 'react';
 import Link from 'next/link';
-import { 
+import {
   FaFacebookF,
   FaTwitter,
   FaInstagram,
   FaLinkedinIn,
-  FaYoutube
-} from "react-icons/fa";
+  FaYoutube,
+} from 'react-icons/fa';
 
 export default function Footer() {
   const [menuState, setMenuState] = useState(false);
@@ -22,12 +22,18 @@ export default function Footer() {
     'Services',
     'Events',
     'Discover More',
-    'Become A Member'
-  ]
+    'Become A Member',
+  ];
 
   return (
-    <div className="bg-fixed bg-center bg-cover bg-footerBG" style={{backgroundAttachment: 'scroll' }}>
-      <div className="pt-12 flex flex-col justify-between pb-12 text-white md:h-[80vh]" style={{background: 'rgba(0, 0, 0, 0.69)' }}>
+    <div
+      className="bg-fixed bg-center bg-cover bg-footerBG"
+      style={{ backgroundAttachment: 'scroll' }}
+    >
+      <div
+        className="pt-12 flex flex-col justify-between pb-12 text-white md:h-[60vh]"
+        style={{ background: 'rgba(0, 0, 0, 0.69)' }}
+      >
         <div className="container mx-auto sm:px-4 max-w-full ">
           <div className="container mt-md-5">
             <div className="flex flex-wrap ">
@@ -35,17 +41,27 @@ export default function Footer() {
                 <div className="flex">
                   <div className="max-w-xs">
                     <div>
-                      <h3 className="font-bold text-xl text-white">
-                        ABOUT US
-                      </h3>
+                      <h3 className="font-bold text-xl text-white">ABOUT US</h3>
                       <p className="">
-                      
+                        SOHK is a mind reorientation school based on
+                        recreational events, talent discovery and sports
+                        curiculum activities that transforms the Psyche, Mind
+                        and well being of individuals exposed and afflicted by
+                        trauma, drug abuse, and depression.
                       </p>
                     </div>
 
-                    <div className="">
+                    <div className="pt-4 ">
                       <Link href="/">
-                        <a style={{ color: 'white' }}>READ MORE</a>
+                        <a
+                          className="text-gold ease-in duration-200 hover:text-white"
+                          style={{
+                            fontSize: '15px',
+                            textDecoration: 'underline',
+                          }}
+                        >
+                          READ MORE
+                        </a>
                       </Link>
                     </div>
                   </div>
@@ -57,11 +73,11 @@ export default function Footer() {
                     <h3 className="font-bold text-xl text-white uppercase">
                       Quicklinks
                     </h3>
-                        <ul>
-                            {data.map((item, i) => (
-                                <li>{item}</li>
-                            ))}
-                        </ul>
+                    <ul>
+                      {data.map((item, i) => (
+                        <li>{item}</li>
+                      ))}
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -72,16 +88,14 @@ export default function Footer() {
                       get in touch
                     </h3>
                     <div className="">
-                      <p className="text-sm mb-1 text-white">
-                       
-                      </p>
+                      <p className="text-sm mb-1 text-white"></p>
                       <hr className="w-4/5" />
                     </div>
 
                     <div className="">
                       <p className="text-sm mb-1 text-white">
-                        TAC Community Hub: No.1 Sleekseed Crescent,
-                        Chikakore District, Kubwa, Abuja
+                        TAC Community Hub: No.1 Sleekseed Crescent, Chikakore
+                        District, Kubwa, Abuja
                       </p>
                       <hr className="w-4/5" />
                     </div>
@@ -105,26 +119,28 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center my-6">
+        <div className="flex justify-center my-6 ">
           {/* facebook */}
-          <Link href={'https://www.facebook.com/profile.php?id=100084838556925'}>
+          <Link
+            href={'https://www.facebook.com/profile.php?id=100084838556925'}
+          >
             <a target="_blank" rel="noreferrer">
-                <FaFacebookF className="mx-4 fa fa-brands fa-instagram fa-2x text-white" />
+              <FaFacebookF className="mx-6 fa fa-brands fa-instagram fa-2x  text-gold ease-in duration-200 hover:text-white" />
             </a>
           </Link>
           <Link href={'https://instagram.com/hardknocksng?igshid=YmMyMTA2M2Y'}>
             <a target="_blank" rel="noreferrer">
-              <FaInstagram className="mx-4 fa fa-brands fa-instagram fa-2x text-white" />
+              <FaInstagram className="mx-5 fa fa-brands fa-instagram fa-2x  text-gold ease-in duration-200 hover:text-white" />
             </a>
           </Link>
           <Link href={'https://www.linkedin.com/company/hardknocksng/'}>
             <a target="_blank" rel="noreferrer">
-              <FaLinkedinIn className="mx-4 fa fa-brands fa-linkedin fa-2x text-white" />
+              <FaLinkedinIn className="mx-5 fa fa-brands fa-linkedin fa-2x  text-gold ease-in duration-200 hover:text-white" />
             </a>
           </Link>
           <Link href={'https://twitter.com/hardknocksng'}>
             <a target="_blank" rel="noreferrer">
-              <FaTwitter className="mx-4 fa fa-brands fa-linkedin fa-2x text-white" />
+              <FaTwitter className="mx-5 fa fa-brands fa-linkedin fa-2x text-gold ease-in duration-200 hover:text-white" />
             </a>
           </Link>
           {/* <Link href={'https://www.youtube.com/channel/UCsOPBwlkXfJspo22MJcC8NA'}>
