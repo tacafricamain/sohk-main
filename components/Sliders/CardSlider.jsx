@@ -58,8 +58,6 @@ const CardSlider = ({ }) => {
           >
             {data.map((edge, i) => (
               <Popup trigger={
-                // <button> Trigger</button>
-                
                 <div
                   key={i}
                   className="flex-none w-12/12 lg:w-10/12 mr-8 overflow-hidden rounded-lg md:mr-4 md:pb-4 "
@@ -91,14 +89,19 @@ const CardSlider = ({ }) => {
                 } position="right center" modal>
                     <div className='px-6 bg-yellow-50 '>
                       <div className="text-md line-clamp-3 bg-yellow-50 min-h-[20rem] flex flex-col justify-center">
+                      <div className=" font-medium leading-6 text-center">
+                          <h3 className=" max-h-12 mb-3 text-2xl font-semibold lg:font-bold font-mavin text-gold">
+                            {edge?.title}
+                          </h3>
+                        </div>
                         <p className=" max-h-fit font-['openSans'] ">
                           {edge?.text}
                         </p>
                         <div className='block'>
                           {
-                            <ul className='block py-4 text-sm'>{edge.serviceList.map((item) => (
+                            <ul className='block py-4 text-sm font-semibold'>{edge.serviceList.map((item) => (
                             <li className='mb-2'>
-                              {item}
+                              - {item}
                             </li> 
                             ))}</ul>
                           }
