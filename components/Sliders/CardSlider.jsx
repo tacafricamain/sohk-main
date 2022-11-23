@@ -66,7 +66,7 @@ const CardSlider = ({ }) => {
                     <a className="space-y-4">
                       <div className="aspect-w-16 aspect-h-9 rounded-lg border-8 border-white">
                         <img
-                          className="object-cover h-[300px] w-full shadow-md hover:shadow-xl "
+                          className="object-cover h-[300px] w-full shadow-md hover:shadow-x3 "
                           src={edge?.image}
                           alt={edge.image}
                         />
