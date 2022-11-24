@@ -13,7 +13,15 @@ export default function Courses() {
     ]
   return (
     <div id='services' className='flex '>
-        <div className='flex flex-col lg:flex-row lg:w-[80vw] mt-16 lg:m-auto lg:h-screen '>
+        <div  className='lg:w-11/12 m-4 rounded-3xl overflow-hidden'>
+                {/* mobile */}
+                <img alt='sports' className=' object-cover lg:hidden' src={'https://res.cloudinary.com/tacafrica/image/upload/v1669307209/my_folder/sohk/mobile-13_znst0q.png'}/>
+                <img alt='sports' className=' object-cover lg:hidden' src={'https://res.cloudinary.com/tacafrica/image/upload/v1669307209/my_folder/sohk/mobile-14_cjvf4l.png'}/>
+                <img alt='sports' className=' object-cover lg:hidden' src={'https://res.cloudinary.com/tacafrica/image/upload/v1669307209/my_folder/sohk/mobile-15_mgcfst.png'}/>
+                {/* desktop */}
+                <img alt='sports' className=' object-cover hidden lg:block' src={'https://res.cloudinary.com/tacafrica/image/upload/v1669307071/my_folder/sohk/web1-01_1_vcjmam.png'}/>
+            </div>
+        {/* <div className='flex flex-col lg:flex-row lg:w-[80vw] mt-16 lg:m-auto lg:h-screen '>
             <h3 className='lg:hidden w-11/12 mx-auto mb-4 text-gold text-2xl font-mavin'>Courses</h3>
             <div  className='lg:w-5/12 m-4 my-auto space-y-3 my_grid'>
                 <div className=' overflow-hidden rounded-lg'>
@@ -41,7 +49,7 @@ export default function Courses() {
                     ))}
                 </ul>
             </div>
-        </div>
+        </div> */}
     </div>
   )
 }
