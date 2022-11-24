@@ -52,7 +52,7 @@ export default function Footer() {
                     </div>
 
                     <div className="pt-4 ">
-                      <Link href="/">
+                      <Link href="/aboutus/#aboutus">
                         <a
                           className="text-gold ease-in duration-200 hover:text-white"
                           style={{

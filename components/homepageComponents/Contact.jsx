@@ -42,13 +42,17 @@ export default function Contact() {
 
             </div>
          </div>
+         
          <div className="w-full lg:w-1/2 xl:w-5/12">
             <div className="bg-[#F5F2F7] relative rounded-lg p-8 sm:p-12 shadow-lg">
-               <form action="https://api.web3forms.com/submit" method="POST">
-               <input type="hidden" name="access_key" value={myENV} />
+               <form className="mc__form"  action="https://api.web3forms.com/submit" method="POST" >
+               <input type="hidden" name="access_key" value='46af3412-e39b-45b9-8a58-d74ce05bbfac' />
                <div className="grid grid-cols-2 gap-4">
       <div className="form-group mb-6">
-        <input type="text" className="form-control
+        <input type="text"
+                              name="first_name"
+                              placeholder="first_name"
+                              required className="form-control
           block
           w-full
           px-3
@@ -63,10 +67,13 @@ export default function Contact() {
           ease-in-out
           m-0
           focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput123"
-          aria-describedby="emailHelp123" placeholder="First name" />
+          aria-describedby="emailHelp123" />
       </div>
       <div className="form-group mb-6">
-        <input type="text" className="form-control
+        <input type="text"
+               name="last_name"
+               placeholder="last_name"
+               required className="form-control
           block
           w-full
           px-3
@@ -81,13 +88,15 @@ export default function Contact() {
           ease-in-out
           m-0
           focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput124"
-          aria-describedby="emailHelp124" placeholder="Last name" />
+          aria-describedby="emailHelp124" />
       </div>
     </div>
                   <div className="mb-6">
                      <input
-                        type="text"
-                        placeholder="Your Name"
+                        type="email"
+                        name="email"
+                        placeholder="Email"
+                        required
                         className="
                         w-full
                         rounded
@@ -101,10 +110,37 @@ export default function Contact() {
                         "
                         />
                   </div>
+                  <div className="flex md:flex-col w-full p-0 m-0">
+                            <div className="mb-4 w-full">
+                              <input
+                                type="text"
+                                className="form-control
+                                             block
+                                             w-full
+                                             px-3
+                                             py-1.5
+                                             text-base
+                                             font-normal
+                                             text-gray-700
+                                             bg-white bg-clip-padding
+                                             border border-solid border-gray-300
+                                             rounded
+                                             transition
+                                             ease-in-out
+                                             m-0
+                                             focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                                name="subject"
+                              placeholder="Subject"
+                              required
+                              />
+                            </div>
+                          </div>
                   <div className="mb-6">
                      <textarea
                         rows="6"
-                        placeholder="Your Message"
+                        name="message"
+                        placeholder="Message"
+                        required
                         className="
                         w-full
                         rounded
@@ -119,9 +155,13 @@ export default function Contact() {
                         "
                         ></textarea>
                   </div>
-                  <input type="hidden" name="redirect" value="/aboutus"></input>
+                  {/* <input type="hidden" name="redirect" value="/aboutus"></input> */}
                   <div className='flex flex-col' >
-                    <Button type="submit" text={'Send Message'} />
+                     <button type="submit" value="submit" className="text-white bg-gradient-to-r from-gold to-orange hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-8 py-4 text-center mr-2">
+                        Send Message 
+                     </button>
+                    {/* <Button type="submit"
+                                value="submit" text={'Send Message'} /> */}
                   </div>
                </form>
             </div>

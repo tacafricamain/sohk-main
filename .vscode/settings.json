@@ -2,5 +2,8 @@
     "cSpell.words": [
         "Coverflow",
         "Swiper"
+    ],
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "main"
     ]
 }

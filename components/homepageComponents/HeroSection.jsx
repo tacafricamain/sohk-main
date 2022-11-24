@@ -1,5 +1,6 @@
 import Button from '../Button'
 import { useState, useEffect } from 'react'
+import Link from 'next/link'
 
 
 export default function HeroSection(){
@@ -12,7 +13,12 @@ export default function HeroSection(){
                     <h1 className='text-white text-3xl lg:text-6xl my-6 font-mavin  overflow-hidden'>Welcome To <br /> SOHK Foundation-NG </h1>
                     <p className='text-white font-light font-["openSans"] text-xl mb-7'>The prestigious School of Hardknocks SOHK- Foundation Nigeria has constructed a facility entirely dedicated for service to humanity. You can also be part of this foundation by contributing financially, through mentorship, or serving as advisory to the organization.  
                     </p>
+                    <Link href='/services'>
+                        <a>
+
                     <Button text={'Discover More'} />
+                        </a>
+                    </Link>
                 </div>
             </div>
         </section>
