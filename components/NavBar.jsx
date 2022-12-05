@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { FaBars } from "react-icons/fa"
 import Button from "./Button";
@@ -51,6 +52,15 @@ export default function Navbar({ fixed }) {
                   >
                     <span className="ml-2 text-lg font-normal">About Us</span>
                   </a>
+                </Link>
+              </li>
+              <li className="nav-item my-auto">
+              <Link href="/newsletters">
+                <a
+                  className="px-12 py-2 flex items-center text-xs font-bold leading-snug text-gold ease-in duration-200 hover:opacity-65"
+                >
+                  <span className="ml-2 text-lg font-normal">newsletters</span>
+                </a>
                 </Link>
               </li>
               <li className="nav-item my-auto">
