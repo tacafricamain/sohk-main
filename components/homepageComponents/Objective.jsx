@@ -3,9 +3,9 @@ import Image from 'next/image'
 
 export default function Objective() {
   return (
-    <div id='aboutus' className='flex lg:h-screen '>
-        <div className='flex flex-col lg:flex-row lg:w-[80vw] mt-16 lg:m-auto '>
-            <h3 className='lg:hidden w-11/12 mx-auto mb-4 text-gold max-h- text-center  text-2xl font-mavin'>Our Objective</h3>
+    <div id='aboutus' className='flex flex-col  '>
+            {/* <h3 className=' w-11/12 mx-auto mb-4 pt-20 text-gold max-h- text-center  text-2xl font-mavin'>Our Objective</h3> */}
+        <div className='flex flex-col lg:flex-row  lg:m-auto '>
             <div  className='lg:w-11/12 m-4 rounded-3xl overflow-hidden'>
                 {/* mobile */}
                 <img alt='sports' className=' object-cover lg:hidden' src={'https://res.cloudinary.com/tacafrica/image/upload/v1669305042/my_folder/sohk/For_Mobile-10_1__result_wdsypy.webp'}/>

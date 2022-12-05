@@ -13,7 +13,7 @@ export default function Courses() {
     ]
   return (
     <div id='services' className='flex '>
-        <div  className='lg:w-11/12 m-4 rounded-3xl overflow-hidden'>
+        <div  className='lg:w-11/12 m-4 rounded-3xl mx-auto overflow-hidden'>
                 {/* mobile */}
                 <img alt='sports' className=' object-cover lg:hidden' src={'https://res.cloudinary.com/tacafrica/image/upload/v1669307209/my_folder/sohk/mobile-13_znst0q.png'}/>
                 <img alt='sports' className=' object-cover lg:hidden' src={'https://res.cloudinary.com/tacafrica/image/upload/v1669307209/my_folder/sohk/mobile-14_cjvf4l.png'}/>
