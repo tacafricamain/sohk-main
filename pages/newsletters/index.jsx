@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-key */
-import { GetStaticProps } from 'next';
+// import { GetStaticProps } from 'next';
 import React from 'react'
 import { getDatabase } from '../../lib/notion';
 import { Text } from './[id]';

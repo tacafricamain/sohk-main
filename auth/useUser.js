@@ -9,9 +9,8 @@ import {
   getUserFromCookie
 } from './userCookie';
 
-import { getAuth } from "firebase/auth"
-
-getAuth();
+// import { getAuth } from "firebase/auth"
+// getAuth();
 
 export const mapUserData = async user => {
   const { uid, email } = user;

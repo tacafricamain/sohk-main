@@ -1,16 +1,16 @@
-import {getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut} from 'firebase/auth';
-import {useAuthState} from 'react-firebase-hooks/auth';
-import {auth, provider} from '../firebaseConfig';
-import {signInWithPopup} from 'firebase/auth'
-import {useState, useEffect} from 'react';
+import { signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from 'firebase/auth';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import { auth, provider } from '../firebaseConfig';
+import { signInWithPopup } from 'firebase/auth'
+import { useState } from 'react';
 
 import {useRouter} from 'next/router';
 
 
-const signUp = async (email, password) => {
-    console.log(email, password)
+const signUp = async ( email, password ) => {
+    console.log( email, password )
     try {
-        const result = await createUserWithEmailAndPassword(auth, email, password);
+        const result = await createUserWithEmailAndPassword( auth, email, password );
     } catch (error) {
         if (error.message == "Firebase: Error (auth/email-already-in-use).") {
             console.log('this user exists')
@@ -21,10 +21,10 @@ const signUp = async (email, password) => {
 
 };
 
-const signIn = async (email, password) => {
-    console.log(email, password)
+const signIn = async ( email, password ) => {
+    console.log( email, password )
     try {
-        const result = await signInWithEmailAndPassword(auth, email, password);
+        const result = await signInWithEmailAndPassword( auth, email, password );
         console.log(result, auth)
     } catch (error) {
         console.error(error);
@@ -58,8 +58,6 @@ const CurrentUser = () => {
             }
         })
     }
-
-    // console.log(value.email, value.password)
 
     if (loading) {
         return (

@@ -1,6 +1,5 @@
 import React from 'react'
 import withAuth from '../auth/withAuth';
-import { useUser } from '../auth/useUser';
 
 const RegistrationForm = () => {
   return (
