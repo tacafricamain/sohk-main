@@ -7,7 +7,6 @@ import {
 } from '../firebaseConfig';
 // import { signInWithPopup } from 'firebase/auth'
 import { useState } from 'react';
-import NoSSR from 'react-no-ssr';
 
 import {useRouter} from 'next/router';
 
