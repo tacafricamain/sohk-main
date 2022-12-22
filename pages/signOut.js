@@ -2,9 +2,9 @@ import { useSignOut } from 'react-firebase-hooks/auth';
 import { getAuth, signOut } from 'firebase/auth';
 import { useRouter } from 'next/router';
 import { auth } from '../firebaseConfig';
-import NoSSR from 'react-no-ssr'
+import dynamic from "next/dynamic";
 
-import { initFirebase } from '../firebaseConfig'
+// import { initFirebase } from '../firebaseConfig'
 
 
 // const auth = getAuth(initFirebase());
@@ -14,19 +14,16 @@ const SignOut = () => {
     const router = useRouter()
 
   if (error) {
-      return (
-        <NoSSR>        
+      return (       
             <div>
                 <p>Error: {error.message}</p>
             </div>
-        </NoSSR>
     );
   }
   if (loading) {
-    return (<NoSSR> <p>Loading...</p> </NoSSR>)
+    return (<p>Loading...</p> )
   }
-    return (
-      <NoSSR>       
+    return (      
         <div className="App pt-28">
         <button
             onClick={async () => {
@@ -39,8 +36,11 @@ const SignOut = () => {
             Sign out
         </button>
         </div>
-      </NoSSR>
   );
 };
 
-export default SignOut
+export default dynamic(() => Promise.resolve(SignOut), {
+    ssr: false,
+  });
+
+// export default SignOut

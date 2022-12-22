@@ -1,5 +1,6 @@
 import { signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from 'firebase/auth';
 import { useAuthState } from 'react-firebase-hooks/auth';
+import dynamic from "next/dynamic";
 import {
     auth,
     // provider
@@ -65,39 +66,32 @@ const CurrentUser = () => {
 
     if (loading) {
         return (
-            <NoSSR>
                 <div className='pt-28'>
                     <p>Initialising User...</p>
                 </div>
-            </NoSSR>
         );
     }
     if (error) {
         return (
-            <NoSSR>
                 <div className='pt-28'>
                     <p>Error: {error}</p>
                 </div>
-            </NoSSR>
         );
     }
     if (user) {
         router.push('/registrationForm');
         console.log(user)
         return (
-            <NoSSR>
                 <div className='pt-28'>
                     <p>Current User: {
                         user.email
                     }</p>
                     <button onClick={logout}>Log out</button>
                 </div>
-            </NoSSR>
         );
     }
 
     return (
-        <NoSSR>
 
             <div className="flex justify-center items-center min-h-screen bg-indigo-700">
                 <div className="card transition-all h-auto p-4 w-96 relative bg-white rounded-lg">
@@ -180,10 +174,11 @@ const CurrentUser = () => {
                     } </div>
                 </div>
             </div>
-        </NoSSR>
 
     );
 };
-
-export default CurrentUser
+export default dynamic(() => Promise.resolve(CurrentUser), {
+    ssr: false,
+  });
+// export default CurrentUser
 

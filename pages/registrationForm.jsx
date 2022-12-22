@@ -1,11 +1,8 @@
 import React from 'react'
 import withAuth from '../auth/withAuth';
-import NoSSR from 'react-no-ssr';
 
 const RegistrationForm = () => {
     return (
-      <NoSSR>
-            
         <div className='py-28 mx-auto'>
             <div className='flex justify-center'>
                 
@@ -188,7 +185,6 @@ const RegistrationForm = () => {
                 
             </div>
         </div>
-      </NoSSR>
   )
 }
 
