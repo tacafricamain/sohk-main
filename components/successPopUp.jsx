@@ -6,7 +6,7 @@ export default function SuccessPopUp({ showModal, setShowModal }) {
   return (
     
 // <!-- Modal toggle -->
-          <div className={` ${!showModal? '': 'hidden'} 
+          <div className={` ${showModal? '': 'hidden'} 
                             overflow-y-auto overflow-x-hidden fixed top-0 
                             right-0 left-0 z-50 w-full md:inset-0 h-modal 
                             my-auto md:h-full 
