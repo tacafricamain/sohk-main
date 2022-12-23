@@ -8,30 +8,38 @@ import {
 // import { signInWithPopup } from 'firebase/auth'
 import { useState } from 'react';
 
-import {useRouter} from 'next/router';
+import { useRouter } from 'next/router';
+
+let message = ''
 
 
-const signUp = async ( email, password ) => {
-    console.log( email, password )
+const signUp = async ( email, password , setMessage) => {
     try {
-        const result = await createUserWithEmailAndPassword( auth, email, password );
+        await createUserWithEmailAndPassword(auth, email, password); 
+        setMessage('success')
+        
     } catch (error) {
         if (error.message == "Firebase: Error (auth/email-already-in-use).") {
-            console.log('this user exists')
+            setMessage('this user exists, please sign in instead')
         } else {
-            console.error(JSON.stringify(error.message));
+            setMessage('an error occurred! please try after sometime')
         }
     }
 
 };
 
-const signIn = async ( email, password ) => {
-    console.log( email, password )
+const signIn = async ( email, password, setMessage ) => {
     try {
-        const result = await signInWithEmailAndPassword( auth, email, password );
-        console.log(result, auth)
+        await signInWithEmailAndPassword(auth, email, password);
+        setMessage('Success!')
+
     } catch (error) {
-        console.error(error);
+        if (error.message == 'Firebase: Error (auth/user-not-found).') {
+            setMessage('this user does not exist! please signUp')
+        } else {
+            setMessage(`an error occurred! please try after sometime ${error.message}`)
+            
+        }
     }
 };
 
@@ -47,6 +55,8 @@ const CurrentUser = () => {
     const [user, loading, error] = useAuthState(auth);
     const router = useRouter();
     const [showSelectedAuth, setshowSelectedAuth] = useState(true)
+    const [ popUpmessage, setPopUpMessage ] = useState('')
+
 
     const [value, setValue] = useState({
         email: '',
@@ -90,6 +100,7 @@ const CurrentUser = () => {
         );
     }
 
+
     return (
 
             <div className="flex justify-center items-center min-h-screen bg-indigo-700">
@@ -115,16 +126,17 @@ const CurrentUser = () => {
                                     </span>
                                 </div>
                                 <div className=" mt-5 flex gap-2">
-                                    <span className="click_signup h-5 w-5 border flex justify-center items-center rounded cursor-pointer border-gray-300">
+                                    {/* <span className="click_signup h-5 w-5 border flex justify-center items-center rounded cursor-pointer border-gray-300">
                                         <i className="fa fa-check text-white"></i>
-                                    </span>
-                                    <p className="text-sm text-gray-700">I agree with
+                                    </span> */}
+                                        <p className='text-red-600'>{ popUpmessage }</p>
+                                    {/* <p className="text-sm text-gray-700">I agree with
                                         <a className="text-blue-500" href="#">Terms</a>
                                         and
-                                        <a className="text-blue-500" href="#">Privacy</a>.</p>
+                                        <a className="text-blue-500" href="#">Privacy</a>.</p> */}
                                 </div>
                                 <button className="signup_btn mt-5 h-12 w-full outline-none bg-blue-500 rounded-lg text-sm text-white hover:bg-blue-600 transition-all"
-                                    onClick={() => signUp( value.email, value.password)} >Sign up</button>
+                                    onClick={() => signUp( value.email, value.password, setPopUpMessage )} >Sign up</button>
                                 <hr className="mt-5"/>
                                 <p className="text-sm text-center text-gray-800 mt-6">Already have an account?
                                     <br/>
@@ -153,12 +165,13 @@ const CurrentUser = () => {
                                     </span>
                                 </div>
                                 <div className=" mt-5 flex gap-2">
-                                    <span className="click_login h-5 w-5 border flex justify-center items-center rounded cursor-pointer border-gray-300">
+                                    {/* <span className="click_login h-5 w-5 border flex justify-center items-center rounded cursor-pointer border-gray-300">
                                         <i className="fa fa-check text-white"></i>
-                                    </span>
+                                    </span> */}
+                                            <p className='text-red-600'>{ popUpmessage}</p>
                                     {/* <p className="text-sm text-gray-700">Remember Me</p> */} </div>
                                 <button className="signin_btn mt-5 h-12 w-full outline-none bg-blue-500 rounded-lg text-sm text-white hover:bg-blue-600 transition-all"
-                                    onClick={() => signIn( value.email, value.password)} >Log in</button>
+                                    onClick={() => signIn( value.email, value.password, setPopUpMessage )} >Log in</button>
                                 {/* <p className="mt-4 text-center text-blue-500">Forgot Password?</p> */}
                                 <hr className="mt-5"/>
                                 <p className="text-sm text-center text-gray-800 mt-6">
