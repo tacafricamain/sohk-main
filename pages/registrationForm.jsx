@@ -3,6 +3,7 @@ import withAuth from '../auth/withAuth';
 import { addDoc , collection} from 'firebase/firestore';
 import { db } from '../firebaseConfig';
 import Button from '../components/Button';
+import SuccessPopUp from '../components/successPopUp';
 
 const RegistrationForm = () => {
 
@@ -64,6 +65,7 @@ const RegistrationForm = () => {
             }
         ).then(() => {
             console.log('success')
+            setShowModal(true)
         })
         .catch((e) => {
             console.log(e.message)
@@ -83,10 +85,12 @@ const RegistrationForm = () => {
         })
     }
 
+    const [ showModal, setShowModal ] = useState(false)
     // console.log(  value.gender, value.nationality, value.parent_guardian )
 
     return (
         <div className='py-28 mx-auto'>
+            <SuccessPopUp showModal={showModal} setShowModal={ setShowModal } />
             <div className='flex justify-center'>
                 
                 <div>
