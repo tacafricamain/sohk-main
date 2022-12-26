@@ -100,13 +100,13 @@
         // console.log(  value.gender, value.nationality, value.parent_guardian )
 
         return (
-            <div className='py-20 mx-auto'>
+            <div className='py-20 print:py-4 mx-auto'>
                 <SuccessPopUp showModal={showModal}
                     setShowModal={setShowModal}/>
                 <div className='flex flex-col md:flex-row p-2 '>
 
                     <div className='mx-auto w-10/12 print:h-[200vh] print:w-full print:inline-block print:overflow-visible'>
-                        <div className='flex justify-end'>            
+                        <div className='flex justify-end print:hidden'>            
                             <div>
                                 <a onClick={DynamicPrint}>
                                     <Button text={'Print'}/>
@@ -197,23 +197,24 @@
 
 
                         <div className=' mb-6 flex flex-col md:flex-row justify-between'>
-                            
-                            <div className='space-y-4 inline-block'>
-                                <label className='' htmlFor="Age">Age</label>
-                                <input className=' outline-none border-b border-black ' type="text" name="age" placeholder=""
-                                    value={
-                                        value.age
-                                    }
-                                    onChange={handleValueChange}/>
-                            </div>
+                            <div className=''>
+                                <div className='space-y-4 inline-block '>
+                                    <label className='' htmlFor="Age">Age</label>
+                                    <input className=' outline-none border-b border-black ' type="text" name="age" placeholder=""
+                                        value={
+                                            value.age
+                                        }
+                                        onChange={handleValueChange}/>
+                                </div>
 
-                            <div className='space-y-4 inline-block'>
-                                <label className='' htmlFor="State Of Origin">State Of Origin</label>
-                                <input className=' outline-none border-b border-black ' type="text" name="state_of_origin" placeholder=""
-                                    value={
-                                        value.state_of_origin
-                                    }
-                                    onChange={handleValueChange}/>
+                                <div className='space-y-4 inline-block '>
+                                    <label className='' htmlFor="State Of Origin">State Of Origin</label>
+                                    <input className=' outline-none border-b border-black ' type="text" name="state_of_origin" placeholder=""
+                                        value={
+                                            value.state_of_origin
+                                        }
+                                        onChange={handleValueChange}/>
+                                </div>
                             </div>
 
                             <div className='space-y-4'>
@@ -299,7 +300,7 @@
                                 </span>
                             </div>
 
-                            <div className='flex space-x-8'>
+                            <div className='flex space-x-8 print:hidden'>
                                 <div>
                                     <a onClick={register}>
                                         <Button text={'Register'}/>
