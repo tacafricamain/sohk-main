@@ -103,3 +103,11 @@ a {
   padding: 0px;
   overflow: hidden;
 }
+
+@media print{ 
+  body, html, #page-container, .scrollable-page, .ps, .panel {
+      height: 100% !important;
+      width: 100% !important;
+      display: inline-block;
+  }
+}
