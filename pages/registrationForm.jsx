@@ -12,7 +12,7 @@
         }
     }
 
-    const Form = React.forwardRef((props, ref) => {
+    const RegistrationForm = () => {
 
         const registrationRef = collection(db, 'registration')
 
@@ -100,7 +100,7 @@
         // console.log(  value.gender, value.nationality, value.parent_guardian )
 
         return (
-            <div ref={ref} className='py-28 mx-auto'>
+            <div className='py-20 mx-auto'>
                 <SuccessPopUp showModal={showModal}
                     setShowModal={setShowModal}/>
                 <div className='flex flex-col md:flex-row p-2 '>
@@ -113,9 +113,9 @@
                                 </a>
                             </div>
                         </div>
-                        <h1 className='text-center mb-12'>SOHK REGISTRATION FORM</h1>
+                        <h1 className='text-center mb-6'>SOHK REGISTRATION FORM</h1>
 
-                        <div className='flex mb-8 pr-4'>
+                        <div className='flex mb-6 pr-4'>
                             <label htmlFor="FullName">FullName:</label>
                             <span className='w-full'>
                                 <input className='w-full outline-none border-b border-black ml-4' type="text" name="FullName"
@@ -126,7 +126,7 @@
                             </span>
                         </div>
 
-                        <div className='flex mb-8 pr-4'>
+                        <div className='flex mb-6 pr-4'>
                             <label htmlFor="Residential Address">Residential_Address:</label>
                             <span className='w-full'>
                                 <input className='w-full outline-none border-b border-black ml-4' type="text" name="Residential_Address"
@@ -137,75 +137,79 @@
                             </span>
                         </div>
 
-                        <div className='Gender mb-8 pr-4 flex flex-col md:flex-row'>
+                        <div className='flex flex-row'>
+                            <div className='Gender pr-4 flex flex-col md:flex-row'>
 
-                            <span className='space-x-4 mb-8'>
-                                <select value={
-                                        value.gender
-                                    }
-                                    onChange={
-                                        (e) => handleSelect(e, 'gender')
-                                    }
-                                    id="countries"
-                                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-[200px] p-2.5  ">
-                                    <option selected>Gender</option>
-                                    <option value="FeMale">FeMale</option>
-                                    <option value="Male">Male</option>
-                                </select>
-                            </span>
+                                <span className='space-x-4 mb-6'>
+                                    <select value={
+                                            value.gender
+                                        }
+                                        onChange={
+                                            (e) => handleSelect(e, 'gender')
+                                        }
+                                        id="countries"
+                                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-[200px] p-2.5  ">
+                                        <option selected>Gender</option>
+                                        <option value="FeMale">FeMale</option>
+                                        <option value="Male">Male</option>
+                                    </select>
+                                </span>
 
-                            <span className='w-full md:ml-4 pt-2'>
-                                <label className='pt-2' htmlFor="Phone Number">Phone Number</label>
-                                <input className=' outline-none border-b border-black ml-4' type="text" name="phoneNumber"
-                                    value={
-                                        value.phoneNumber
-                                    }
-                                    onChange={handleValueChange}/>
-                            </span>
+                                <span className='w-full md:ml-4 pt-2'>
+                                    <label className='pt-2' htmlFor="Phone Number">Phone Number</label>
+                                    <input className=' outline-none border-b border-black ml-4' type="text" name="phoneNumber"
+                                        value={
+                                            value.phoneNumber
+                                        }
+                                        onChange={handleValueChange}/>
+                                </span>
 
+                            </div>
+
+
+                            <div className='Nationality pr-4 flex flex-col md:flex-row '>
+                                <span className='space-x-4 mb-6'>
+                                    <select value={
+                                            value.nationality
+                                        }
+                                        onChange={
+                                            (e) => handleSelect(e, 'nationality')
+                                        }
+                                        id="countries"
+                                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-[200px] p-2.5  ">
+                                        <option selected>Nationality</option>
+                                        <option value="Nigerian">Nigerian</option>
+                                        <option value="Others">Others</option>
+                                    </select>
+                                </span>
+
+
+                                <span className='space-x-2  pt-2 mb-6'>
+                                    <label className='pt-2' htmlFor="Please Specify">Please Specify</label>
+                                    <input className=' outline-none border-b border-black ml-4' type="text" name="countryName" placeholder=""
+                                        value={
+                                            value.countryName
+                                        }
+                                        onChange={handleValueChange}/>
+                                </span>
+                            </div>
                         </div>
 
 
-                        <div className='Nationality md:space-x-4 mb-8 flex flex-col md:flex-row '>
-                            <span className='space-x-2 pt-2 mb-8'>
-                                <select value={
-                                        value.nationality
-                                    }
-                                    onChange={
-                                        (e) => handleSelect(e, 'nationality')
-                                    }
-                                    id="countries"
-                                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-[200px] p-2.5  ">
-                                    <option selected>Nationality</option>
-                                    <option value="Nigerian">Nigerian</option>
-                                    <option value="Others">Others</option>
-                                </select>
-                            </span>
-
-
-                            <span className='space-x-2'>
-                                <label htmlFor="Please Specify">Please Specify</label>
-                                <input className=' outline-none border-b border-black ml-4' type="text" name="countryName" placeholder=""
-                                    value={
-                                        value.countryName
-                                    }
-                                    onChange={handleValueChange}/>
-                            </span>
-                        </div>
-
-                        <div className=' mb-8 flex flex-col md:flex-row justify-between'>
-                            <div className='space-y-4'>
+                        <div className=' mb-6 flex flex-col md:flex-row justify-between'>
+                            
+                            <div className='space-y-4 inline-block'>
                                 <label className='' htmlFor="Age">Age</label>
-                                <input className=' outline-none border-b border-black ml-4' type="text" name="age" placeholder=""
+                                <input className=' outline-none border-b border-black ' type="text" name="age" placeholder=""
                                     value={
                                         value.age
                                     }
                                     onChange={handleValueChange}/>
                             </div>
 
-                            <div className='space-y-4'>
-                                <label htmlFor="State Of Origin">State Of Origin</label>
-                                <input className=' outline-none border-b border-black ml-4' type="text" name="state_of_origin" placeholder=""
+                            <div className='space-y-4 inline-block'>
+                                <label className='' htmlFor="State Of Origin">State Of Origin</label>
+                                <input className=' outline-none border-b border-black ' type="text" name="state_of_origin" placeholder=""
                                     value={
                                         value.state_of_origin
                                     }
@@ -222,7 +226,7 @@
                             </div>
                         </div>
 
-                        <div className='parent/guardian space-x-4 mb-8'>
+                        <div className='parent/guardian space-x-4 mb-6'>
 
 
                             <span className='space-x-2 pt-2'>
@@ -241,8 +245,8 @@
 
                         </div>
 
-                        <div className='flex flex-col mb-8'>
-                            <div className='flex mb-8'>
+                        <div className='flex flex-col mb-6'>
+                            <div className='flex mb-6'>
                                 <label htmlFor="parent/guardians name">parent/guardians_name</label>
                                 <span className='w-full'>
                                     <input className='w-full  outline-none border-b border-black ml-4' type="text" name="parent_guardians_name" placeholder=""
@@ -253,7 +257,7 @@
                                 </span>
                             </div>
 
-                            <div className='flex mb-8'>
+                            <div className='flex mb-6'>
                                 <label htmlFor="parent/guardian email">parent/guardian_email</label>
                                 <span className='w-full'>
                                     <input className='w-full  outline-none border-b border-black ml-4' type="text" name="parent_guardian_email" placeholder=""
@@ -264,7 +268,7 @@
                                 </span>
                             </div>
 
-                            <div className='flex mb-8'>
+                            <div className='flex mb-6'>
                                 <label htmlFor="parent/guardian phoneNumber">parent/guardian_phoneNumber</label>
                                 <span className='w-full'>
                                     <input className='w-full  outline-none border-b border-black ml-4' type="text" name="parent_guardian_phoneNumber" placeholder=""
@@ -275,8 +279,8 @@
                                 </span>
                             </div>
 
-                            <div className='flex flex-col mb-8 space-x-4'>
-                                <span className='flex w-full mb-8'>
+                            <div className='flex flex-col mb-6 space-x-4'>
+                                <span className='flex w-full mb-6'>
                                     <label htmlFor="parent/guardian signature">parent/guardian_signature</label>
                                     <input className='w-full  outline-none border-b border-black ml-4' type="text" name="parent_guardian_signature" placeholder=""
                                         value={
@@ -377,15 +381,6 @@
             </div>
         )
     }
-    )
     
-    
-    class RegistrationForm extends React.Component {
-        render() {
-            return (
-                <Form />
-                )
-            }
-    }
-        
+
 export default withAuth(RegistrationForm)
