@@ -112,6 +112,11 @@
                                     <Button text={'Print'}/>
                                 </a>
                             </div>
+                            <div>
+                                <a href="https://www.dropbox.com/s/zffzft2m486b2p4/form%202%20%282%29.pdf?dl=1">
+                                    <Button text={'download'} />
+                                </a>
+                            </div>
                         </div>
                         <h1 className='text-center mb-6'>SOHK REGISTRATION FORM</h1>
 
