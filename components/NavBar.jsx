@@ -73,6 +73,16 @@ export default function Navbar({ fixed }) {
                 </a>
                 </Link>
               </li>
+              <li className="nav-item my-auto">
+              <Link href="/register">
+                <a
+                  className="px-12 py-2 flex items-center text-xs font-bold leading-snug text-gold ease-in duration-200 hover:opacity-65"
+                  href="register"
+                >
+                  <span className="ml-2 text-lg font-normal">register</span>
+                </a>
+                </Link>
+              </li>
               {/* <li className="nav-item my-auto">
                 <a
                   className="px-12 py-2 flex items-center text-xs font-bold leading-snug text-gold ease-in duration-200 hover:opacity-65"
