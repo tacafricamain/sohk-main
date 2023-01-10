@@ -12,6 +12,7 @@ import Membership from '../components/homepageComponents/Membership'
 import Activities from '../components/homepageComponents/Activities'
 import Map from '../components/Map'
 import NoticePopup from '../components/noticePopUp'
+import NewsLetter from '../components/newsletter'
 
 
 export default function Home() {
@@ -47,6 +48,7 @@ export default function Home() {
             <Activities />
             <Promotion />
             <Courses />
+            <NewsLetter />
             <Testimonials />
             <Contact />
             <Map />

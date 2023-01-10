@@ -7,7 +7,7 @@ export const data = [
     {
         title: 'Junior golf championship',
         description: 'Leaderjoe1808 foundation if a registered non profit organization founded in 2016 and registered on the 11 of April 2019',
-        link: 'https://www.dropbox.com/s/qz3gdk2j0p7gkwc/Junior%20%20Golf%20Championship%20.pdf?dl=0'
+        link: 'https://www.dropbox.com/s/qz3gdk2j0p7gkwc/Junior%20%20Golf%20Championship%20.pdf?dl=1'
     },
     {
         title: 'SOHK 2nd Edition NSL',
@@ -22,12 +22,12 @@ export const data = [
     {
         title: 'IBB golf club volume 4',
         description: 'IBB golf club volume 4',
-        link: 'https://www.dropbox.com/s/n34tjewi79m9mjs/IBB%20GOLF%20CLUB%20Volume%204.pdf?dl=0'
+        link: 'https://www.dropbox.com/s/n34tjewi79m9mjs/IBB%20GOLF%20CLUB%20Volume%204.pdf?dl=1'
     },
     {
         title: 'go green go global',
         description: 'Welcome to the first edition of go-green go-global project, an initiative of TAC Africa, powered by the School of Hardknocks',
-        link: 'https://www.dropbox.com/s/rcw8qxlfar0ss9q/Go%20green%21%20Go%20Global%21.pdf?dl=0'
+        link: 'https://www.dropbox.com/s/rcw8qxlfar0ss9q/Go%20green%21%20Go%20Global%21.pdf?dl=1'
     },
     // {
     //     title: '',
