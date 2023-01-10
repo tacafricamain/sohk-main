@@ -38,7 +38,7 @@ export default function NoticePopup({ showModal, setShowModal }) {
                       {/* <!-- Modal footer --> */}
                       <div className="flex items-center p-6 space-x-2 rounded-b border-t border-gray-200 ">
                           <button data-modal-toggle="defaultModal" type="button" className="text-white bg-gold hover:bg-gold focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">
-                            <Link href="https://www.dropbox.com/s/r4le37k1l017vfj/TAC%20Community%20Hub%20Membership%20form.pdf?dl=0">
+                            <Link href="https://www.dropbox.com/s/r4le37k1l017vfj/TAC%20Community%20Hub%20Membership%20form.pdf?dl=1">
                             <a >
                             {`Download membership form`}
                             </a>
