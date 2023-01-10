@@ -17,18 +17,18 @@ import NewsLetter from '../components/newsletter'
 
 export default function Home() {
 
-  const [showModal, setShowModal] = useState(false)
+  // const [showModal, setShowModal] = useState(false)
   
-  const callPopup = () => {
-    const timer = setTimeout(() => {
-      setShowModal(true)
-    }, 5000)
-    return () => clearTimeout(timer)
-  }
+  // const callPopup = () => {
+  //   const timer = setTimeout(() => {
+  //     setShowModal(true)
+  //   }, 5000)
+  //   return () => clearTimeout(timer)
+  // }
 
-  useEffect(() => {
-    callPopup()
-  }, [])
+  // useEffect(() => {
+  //   callPopup()
+  // }, [])
 
 
   return (
@@ -40,10 +40,10 @@ export default function Home() {
               <link rel="icon" href="/favicon.ico" />
             </Head>
             <HeroSection />
-            {
+            {/* {
               showModal &&
             <NoticePopup showModal={showModal} setShowModal={setShowModal}/>
-            }
+            } */}
             <Objective />
             <Activities />
             <Promotion />
