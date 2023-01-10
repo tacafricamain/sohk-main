@@ -11,10 +11,24 @@ import Contact from '../components/homepageComponents/Contact'
 import Membership from '../components/homepageComponents/Membership'
 import Activities from '../components/homepageComponents/Activities'
 import Map from '../components/Map'
-import NoticePopup from '../components/noticePopup'
+import NoticePopup from '../components/noticePopUp'
 
 
 export default function Home() {
+
+  const [showModal, setShowModal] = useState(false)
+  
+  const callPopup = () => {
+    const timer = setTimeout(() => {
+      setShowModal(true)
+    }, 5000)
+    return () => clearTimeout(timer)
+  }
+
+  useEffect(() => {
+    callPopup()
+  }, [])
+
 
   return (
           <main className='h-full' >
@@ -25,6 +39,10 @@ export default function Home() {
               <link rel="icon" href="/favicon.ico" />
             </Head>
             <HeroSection />
+            {
+              showModal &&
+            <NoticePopup showModal={showModal} setShowModal={setShowModal}/>
+            }
             <Objective />
             <Activities />
             <Promotion />
