@@ -4,6 +4,7 @@ import Carousel from "react-multi-carousel";
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 import { data } from '../pages/api/newsletter'
+import { BiDownload } from 'react-icons/bi'
 
 
 const NewsLetter = ({ }) => {
@@ -33,53 +34,43 @@ const NewsLetter = ({ }) => {
 
   return (
     <div className="w-full bg-softGrey">
-          <div className="pt-12 pb-20 mx-auto my-0 xl:px-12">
+          <div className="flex flex-col-reverse  md:flex-row  pt-12 pb-20 mx-auto my-0 xl:px-12">
               
           <div className='text-center'>
-            <h2 className='font-mavin text-3xl my-3 '>Our NewsLetters</h2>
-            {/* <p className='text-greyBlack font-["openSans"]'> Learning would become fun because it would bubble up from within <br className='hidden lg:block' /> and not be forced in from without.</p> */}
-        </div>
-
-
-        <div className="pl-4 pb-8 ">
-          <Carousel
-            swipeable={true}
-            draggable={true}
-            showDots={true}
-            responsive={responsive}
-            // ssr={!true} // means to render carousel on server-side.
-            infinite={true}
-            autoPlay={true}
-            autoPlaySpeed={15000}
-            keyBoardControl={true}
-            customTransition="all 0.3s"
-            transitionDuration={1500}
-            containerClass="carousel-container "
-            renderButtonGroupOutside={true}
-            renderDotsOutside={true}
-          >
+            <div className="hidden md:block">   
+                <h2 className='font-mavin text-3xl my-3 '>Our Weakly NewsLetters</h2>
+                <p className='text-greyBlack text-center text-sm font-["openSans"]'>
+                    Get upto date information about the happenings at the School Of HardKnocks
+                </p>
+            </div>
             {data.map((edge, i) => (
                 <a href={edge.link}  className="space-y-4 cursor-pointer">
             <div
                 key={i}
-                className="flex-none w-12/12 lg:w-10/12 mr-8 overflow-hidden rounded-lg md:mr-4 md:pb-4 "
-            >
-                <div className="aspect-w-16 aspect-h-9 rounded-lg border-8 border-white h-[150px]">      
+                className="flex-none w-12/12 lg:w-10/12 mr-8 overflow-hidden rounded-lg md:mr-4 md:pb-4 ">
                       <div className="px-4 py-2">
                         <div className="font-medium leading-6 ">
-                          <h3 className="text-center max-h-12 mb-3 text-lg font-semibold lg:font-bold font-mavin text-gold">
-                            {edge?.title}
+                          <h3 className="text-center max-h-12 mb-3 text-lg font-semibold lg:font-bold font-mavin ">
+                            <BiDownload className="inline mr-3" /> download 
+                            {' ' + edge?.title}
                           </h3>
-                          <p className='text-greyBlack text-center text-sm font-["openSans"]'>{ edge.description }</p>
+                          {/* <p className='text-greyBlack text-center text-sm font-["openSans"]'>{ edge.description }</p> */}
                         </div>
                       </div>
                 </div>
-                </div>
                     </a>
             ))}
-          </Carousel>
-        </div>
-
+              </div>
+              <div className="max-w-[700px] m-5">
+              <div className="md:hidden  py-4">   
+                <h2 className='font-mavin text-3xl my-3 '>Our Weakly NewsLetters</h2>
+                <p className='text-greyBlack text-center text-sm font-["openSans"]'>
+                    Get upto date information about the happenings at the School Of HardKnocks
+                </p>
+            </div>
+                  <img src="https://res.cloudinary.com/tacafrica/image/upload/v1660567313/my_folder/int%20youth%20day/1-2208130100_llasyk.jpg" alt="" />
+              </div>
+                  
       </div>
     </div>
   );

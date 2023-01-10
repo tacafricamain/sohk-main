@@ -13,12 +13,9 @@ export default function HeroSection(){
                     <h1 className='text-white text-3xl lg:text-6xl my-6 font-mavin  overflow-hidden'>Welcome To <br /> SOHK Foundation-NG </h1>
                     <p className='text-white font-light font-["openSans"] text-xl mb-7'>The prestigious School of Hardknocks SOHK- Foundation Nigeria has constructed a facility entirely dedicated for service to humanity. You can also be part of this foundation by contributing financially, through mentorship, or serving as advisory to the organization.  
                     </p> */}
-                    <Link href='/services'>
-                        <a>
-
-                    <Button text={'Discover More'} />
-                        </a>
-                    </Link>
+                    <a id='member' href="https://www.dropbox.com/s/r4le37k1l017vfj/TAC%20Community%20Hub%20Membership%20form.pdf?dl=1">
+                        <Button text={'Become a Member'} />
+                    </a>
                 </div>
             </div>
         </section>
