@@ -14,8 +14,8 @@ const LargeSingleSlider = ({ }) => {
   };
 
   return (
-    <div className="w-[700px]">
-      <div className="max-w-[600px] pb-20 px-10 mx-auto">
+    <div className="md:w-[700px]">
+      <div className="md:max-w-[600px] md:pb-20 md:px-10 md:mx-auto">
         <div className=" pb-8 ">
           <Carousel
             swipeable={true}
@@ -47,7 +47,7 @@ const LargeSingleSlider = ({ }) => {
                             </p>
                         </div>
                         <div className="text-sm flex">
-                            <div className='w-16 h-16 p-2 mr-3 inline-block rounded-full bg-gradient-to-r from-gold to-orange rotate'>
+                            <div className='hidden w-16 h-16 p-2 mr-3 md:inline-block rounded-full bg-gradient-to-r from-gold to-orange rotate'>
                                 <div className='rounded-full w-full h-full bg-white'></div>
                             </div>
                             <span className='inline-block my-auto'>

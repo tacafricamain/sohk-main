@@ -13,13 +13,13 @@ const NewsLetter = ({ }) => {
 
   return (
     <div className="w-full bg-softGrey md:h-screen ">
-          <div className="flex flex-col-reverse md:flex-row pt-12 pb-20 mx-auto my-0 xl:px-12 h-full ">
+          <div className="flex flex-col-reverse md:flex-row pt-12 md:pb-20 mx-auto my-0 xl:px-12 h-full ">
               
           <div className='text-center'>
-            <div className="hidden md:block h-full"> 
+            <div className="hidden md:block h-full space-y-4"> 
                 <div className="h-2/4">
-                    <h2  className='font-mavin text-3xl my-3 uppercase'>REGISTRATION</h2>
-                          <p className='text-greyBlack text-center text-sm font-["openSans"]' >Members of SOHK are passionate individuals who are ready to take the lead in changing their community positively. Join us today by simply downloading our membership application form below.</p>
+                    <h2  className='font-mavin text-3xl my-3 uppercase text-center'>REGISTRATION</h2>
+                          <p className='text-greyBlack text-sm font-["openSans"]' >Members of SOHK are passionate individuals who are ready to take the lead in changing their community positively. Join us today by simply downloading our membership application form below.</p>
                     <div className=' mt-10 m-auto'>
                         <a id='member' href="https://www.dropbox.com/s/r4le37k1l017vfj/TAC%20Community%20Hub%20Membership%20form.pdf?dl=1">
                             <Button text={'Download S.O.H.K membership form'} />
@@ -27,10 +27,10 @@ const NewsLetter = ({ }) => {
                     </div>
                 </div>
                 <div className="h-2/4">
-                    <h2 className='font-mavin text-3xl my-3 uppercase '>Our Weakly NewsLetters</h2>
-                    <p className='text-greyBlack text-center text-sm font-["openSans"]'>
+                    <h2 className='font-mavin text-3xl my-3 uppercase  text-center'>Our Weakly NewsLetters</h2>
+                    <p className='text-greyBlack  text-sm font-["openSans"]'>
                               Explore our official newsletter with stories from our ongoing programmes and get the facts, expert opinion and practical training, advice on the topic you care about.</p>
-                    <p className='text-greyBlack text-center text-sm font-["openSans"]'>
+                    <p className='text-greyBlack t text-sm font-["openSans"]'>
                                 Find out more about what  SOHK is doing  and how you can join us or support our activities by clicking on any of our newsletters below
                     </p>
                 </div> 
@@ -54,11 +54,24 @@ const NewsLetter = ({ }) => {
             ))} */}
               </div>
               <div className=" m-5">
-                <div className="md:hidden py-4">   
-                    <h2 className='font-mavin text-3xl my-3 '>Our Weakly NewsLetters</h2>
-                    <p className='text-greyBlack text-center text-sm font-["openSans"]'>
-                        Get upto date information about the happenings at the School Of HardKnocks
+                <div className="md:hidden py-4 space-y-8">   
+                <div className="h-2/4">
+                    <h2  className='font-mavin text-3xl my-3 uppercase text-center'>REGISTRATION</h2>
+                          <p className='text-greyBlack text-sm font-["openSans"]' >Members of SOHK are passionate individuals who are ready to take the lead in changing their community positively. Join us today by simply downloading our membership application form below.</p>
+                    <div className=' mt-10 m-auto'>
+                        <a id='member' href="https://www.dropbox.com/s/r4le37k1l017vfj/TAC%20Community%20Hub%20Membership%20form.pdf?dl=1">
+                            <Button text={'Download S.O.H.K membership form'} />
+                        </a>
+                    </div>
+                </div>
+                <div className="h-2/4">
+                    <h2 className='font-mavin text-3xl my-3 uppercase  text-center'>Our Weakly NewsLetters</h2>
+                    <p className='text-greyBlack text-sm font-["openSans"]'>
+                              Explore our official newsletter with stories from our ongoing programmes and get the facts, expert opinion and practical training, advice on the topic you care about.</p>
+                    <p className='text-greyBlack text-sm font-["openSans"]'>
+                                Find out more about what  SOHK is doing  and how you can join us or support our activities by clicking on any of our newsletters below
                     </p>
+                </div> 
                 </div>
                   
                   <span className="block">
