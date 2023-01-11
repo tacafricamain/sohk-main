@@ -44,11 +44,11 @@ export default function Home() {
               showModal &&
             <NoticePopup showModal={showModal} setShowModal={setShowModal}/>
             } */}
+            <NewsLetter />
             <Objective />
             <Activities />
             <Promotion />
             <Courses />
-            <NewsLetter />
             <Testimonials />
             <Contact />
             <Map />

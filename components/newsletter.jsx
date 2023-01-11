@@ -5,45 +5,38 @@ import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 import { data } from '../pages/api/newsletter'
 import { BiDownload } from 'react-icons/bi'
+import LargeSingleSlider from "./Sliders/LargeSingleSlider";
+import Button from "./Button";
 
 
 const NewsLetter = ({ }) => {
-  
-  const responsive = {
-    desktop: {
-      breakpoint: { max: 3000, min: 1536 },
-      items: 5,
-      slidesToSlide: 1, // optional, default to 1.
-    },
-    laptop: {
-      breakpoint: { max: 1536, min: 768 },
-      items: 4,
-      slidesToSlide: 1, // optional, default to 1.
-    },
-    tablet: {
-      breakpoint: { max: 768, min: 640 },
-      items: 2,
-      slidesToSlide: 1, // optional, default to 1.
-    },
-    mobile: {
-      breakpoint: { max: 640, min: 0 },
-      items: 1,
-      slidesToSlide: 1, // optional, default to 1.
-    },
-  };
 
   return (
-    <div className="w-full bg-softGrey">
-          <div className="flex flex-col-reverse  md:flex-row  pt-12 pb-20 mx-auto my-0 xl:px-12">
+    <div className="w-full bg-softGrey md:h-screen ">
+          <div className="flex flex-col-reverse md:flex-row pt-12 pb-20 mx-auto my-0 xl:px-12 h-full ">
               
           <div className='text-center'>
-            <div className="hidden md:block">   
-                <h2 className='font-mavin text-3xl my-3 '>Our Weakly NewsLetters</h2>
-                <p className='text-greyBlack text-center text-sm font-["openSans"]'>
-                    Get upto date information about the happenings at the School Of HardKnocks
-                </p>
+            <div className="hidden md:block h-full"> 
+                <div className="h-2/4">
+                    <h2  className='font-mavin text-3xl my-3 uppercase'>REGISTRATION</h2>
+                          <p className='text-greyBlack text-center text-sm font-["openSans"]' >Members of SOHK are passionate individuals who are ready to take the lead in changing their community positively. Join us today by simply downloading our membership application form below.</p>
+                    <div className=' mt-10 m-auto'>
+                        <a id='member' href="https://www.dropbox.com/s/r4le37k1l017vfj/TAC%20Community%20Hub%20Membership%20form.pdf?dl=1">
+                            <Button text={'Download S.O.H.K membership form'} />
+                        </a>
+                    </div>
+                </div>
+                <div className="h-2/4">
+                    <h2 className='font-mavin text-3xl my-3 uppercase '>Our Weakly NewsLetters</h2>
+                    <p className='text-greyBlack text-center text-sm font-["openSans"]'>
+                              Explore our official newsletter with stories from our ongoing programmes and get the facts, expert opinion and practical training, advice on the topic you care about.</p>
+                    <p className='text-greyBlack text-center text-sm font-["openSans"]'>
+                                Find out more about what  SOHK is doing  and how you can join us or support our activities by clicking on any of our newsletters below
+                    </p>
+                </div> 
             </div>
-            {data.map((edge, i) => (
+            
+            {/* {data.map((edge, i) => (
                 <a href={edge.link}  className="space-y-4 cursor-pointer">
             <div
                 key={i}
@@ -53,22 +46,25 @@ const NewsLetter = ({ }) => {
                           <h3 className="text-center max-h-12 mb-3 text-lg font-semibold lg:font-bold font-mavin ">
                             <BiDownload className="inline mr-3" /> download 
                             {' ' + edge?.title}
-                          </h3>
-                          {/* <p className='text-greyBlack text-center text-sm font-["openSans"]'>{ edge.description }</p> */}
-                        </div>
+                            </h3>
+                            </div>
                       </div>
                 </div>
                     </a>
-            ))}
+            ))} */}
               </div>
-              <div className="max-w-[700px] m-5">
-              <div className="md:hidden  py-4">   
-                <h2 className='font-mavin text-3xl my-3 '>Our Weakly NewsLetters</h2>
-                <p className='text-greyBlack text-center text-sm font-["openSans"]'>
-                    Get upto date information about the happenings at the School Of HardKnocks
-                </p>
-            </div>
-                  <img src="https://res.cloudinary.com/tacafrica/image/upload/v1660567313/my_folder/int%20youth%20day/1-2208130100_llasyk.jpg" alt="" />
+              <div className=" m-5">
+                <div className="md:hidden py-4">   
+                    <h2 className='font-mavin text-3xl my-3 '>Our Weakly NewsLetters</h2>
+                    <p className='text-greyBlack text-center text-sm font-["openSans"]'>
+                        Get upto date information about the happenings at the School Of HardKnocks
+                    </p>
+                </div>
+                  
+                  <span className="block">
+                      
+                <LargeSingleSlider />   
+                  </span>
               </div>
                   
       </div>
