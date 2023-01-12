@@ -27,7 +27,7 @@ const NewsLetter = ({ }) => {
                     </div>
                 </div>
                 <div className="h-2/4">
-                    <h2 className='font-mavin text-3xl my-3 uppercase  text-center'>Our Weakly NewsLetters</h2>
+                    <h2 className='font-mavin text-3xl my-3 uppercase  text-center'>Our Weekly NewsLetters</h2>
                     <p className='text-greyBlack  text-sm font-["openSans"]'>
                               Explore our official newsletter with stories from our ongoing programmes and get the facts, expert opinion and practical training, advice on the topic you care about.</p>
                     <p className='text-greyBlack t text-sm font-["openSans"]'>
@@ -65,7 +65,7 @@ const NewsLetter = ({ }) => {
                     </div>
                 </div>
                 <div className="h-2/4">
-                    <h2 className='font-mavin text-3xl my-3 uppercase  text-center'>Our Weakly NewsLetters</h2>
+                    <h2 className='font-mavin text-3xl my-3 uppercase  text-center'>Our Weekly NewsLetters</h2>
                     <p className='text-greyBlack text-sm font-["openSans"]'>
                               Explore our official newsletter with stories from our ongoing programmes and get the facts, expert opinion and practical training, advice on the topic you care about.</p>
                     <p className='text-greyBlack text-sm font-["openSans"]'>
