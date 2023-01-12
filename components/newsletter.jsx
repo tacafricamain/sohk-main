@@ -12,8 +12,8 @@ import Button from "./Button";
 const NewsLetter = ({ }) => {
 
   return (
-    <div id='member' className="w-full bg-softGrey md:h-screen ">
-          <div className="flex flex-col-reverse md:flex-row pt-12 md:pb-20 mx-auto my-0 xl:px-12 h-full ">
+    <div id='member' className="w-full pt-12 md:pt-20 bg-softGrey md:h-screen ">
+          <div className="flex flex-col-reverse md:flex-row  md:pb-20 mx-auto my-0 xl:px-12 h-full ">
               
           <div className='text-center'>
             <div className="hidden md:block h-full space-y-4"> 
