@@ -10,11 +10,11 @@ export default function HeroSection(){
             <div className="h-screen  overflow-hidden flex flex-col justify-end  "
                 style={{ background: 'rgba(0, 0, 0, 0.3)' }}
             >
-                <div className='  m-auto'>
+                {/* <div className='  m-auto'>
                     <a id='member' href="https://www.dropbox.com/s/r4le37k1l017vfj/TAC%20Community%20Hub%20Membership%20form.pdf?dl=1">
                         <Button text={'Download S.O.H.K membership form'} />
                     </a>
-                </div>
+                </div> */}
             </div>
         </section>
     )   

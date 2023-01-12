@@ -12,7 +12,7 @@ import Button from "./Button";
 const NewsLetter = ({ }) => {
 
   return (
-    <div className="w-full bg-softGrey md:h-screen ">
+    <div id='member' className="w-full bg-softGrey md:h-screen ">
           <div className="flex flex-col-reverse md:flex-row pt-12 md:pb-20 mx-auto my-0 xl:px-12 h-full ">
               
           <div className='text-center'>
@@ -21,7 +21,7 @@ const NewsLetter = ({ }) => {
                     <h2  className='font-mavin text-3xl my-3 uppercase text-center'>REGISTRATION</h2>
                           <p className='text-greyBlack text-sm font-["openSans"]' >Members of SOHK are passionate individuals who are ready to take the lead in changing their community positively. Join us today by simply downloading our membership application form below.</p>
                     <div className=' mt-10 m-auto'>
-                        <a id='member' href="https://www.dropbox.com/s/r4le37k1l017vfj/TAC%20Community%20Hub%20Membership%20form.pdf?dl=1">
+                        <a  href="https://www.dropbox.com/s/r4le37k1l017vfj/TAC%20Community%20Hub%20Membership%20form.pdf?dl=1">
                             <Button text={'Download S.O.H.K membership form'} />
                         </a>
                     </div>
@@ -59,7 +59,7 @@ const NewsLetter = ({ }) => {
                     <h2  className='font-mavin text-3xl my-3 uppercase text-center'>REGISTRATION</h2>
                           <p className='text-greyBlack text-sm font-["openSans"]' >Members of SOHK are passionate individuals who are ready to take the lead in changing their community positively. Join us today by simply downloading our membership application form below.</p>
                     <div className=' mt-10 m-auto'>
-                        <a id='member' href="https://www.dropbox.com/s/r4le37k1l017vfj/TAC%20Community%20Hub%20Membership%20form.pdf?dl=1">
+                        <a  href="https://www.dropbox.com/s/r4le37k1l017vfj/TAC%20Community%20Hub%20Membership%20form.pdf?dl=1">
                             <Button text={'Download S.O.H.K membership form'} />
                         </a>
                     </div>
