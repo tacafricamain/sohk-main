@@ -33,7 +33,7 @@ const LargeSingleSlider = ({ }) => {
             renderDotsOutside={true}
           >
             {data.map((edge, i) => (
-                <a key={i} href={edge.link}>
+                <a key={i} href={edge.link} target='_blank' rel="noreferrer" >
 
                 <div
                     key={i}
