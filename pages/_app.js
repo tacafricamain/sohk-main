@@ -24,6 +24,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="twitter:description" content="the school of hard knocks nigeria" />
         <meta name="twitter:image" content="/aboutushero.png" />
         {/* web icon */}
+        <meta property="og:image" content="/aboutushero.png" />
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       <Layout>
