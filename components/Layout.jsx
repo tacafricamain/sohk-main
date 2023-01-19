@@ -7,16 +7,21 @@ import Head from 'next/head'
 export default function Layout({children}) {
     return(
         <>
-             <Head>
-        {/* twiter */}
+            <Head>
+            <meta property="og:site_name" content="schoolofhardknocks" />
+                {/* twitter */}
                 <meta name="twitter:card" content="/og.jpg" />
                 <meta name="twitter:title" content="welcome to the website of the school of hard knocks Nigeria" />
                 <meta name="twitter:description" content="the school of hard knocks nigeria" />
-                <meta name="twitter:image" content="/og.jpg" />
+                <meta name="twitter:image" itemProp="image"  content="/og.jpg" />
                 {/* web icon */}
                 <meta property="og:title" content="welcome to the website of the school of hard knocks Nigeria" />
                 <meta property="og:description" content="the school of hard knocks nigeria" />
-                <meta property="og:image" content="/og.jpg" />
+                <meta property="og:image" itemProp="image" content="/og.jpg" />
+                <meta property="og:updated_time" content="updatedtime" />
+                {/*  */}
+                <link itemProp="thumbnailUrl" href="/favicon.ico" /> 
+                <meta property="og:image:type" content="image/jpeg" />
                 
                 <link rel="shortcut icon" href="/favicon.ico" />
             </Head>
