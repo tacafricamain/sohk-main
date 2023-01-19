@@ -1,6 +1,7 @@
 import 'react-multi-carousel/lib/styles.css';
 import '../styles/globals.css'
 import { useEffect } from 'react';
+import Head from "next/head"
 
 import Layout from '../components/Layout'
 
@@ -15,9 +16,14 @@ function MyApp({ Component, pageProps }) {
     }, []);
 
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <>
+      <Head>
+        <link rel="shortcut icon" href="/favicon.ico" />
+      </Head>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </>
     )
 }
 
