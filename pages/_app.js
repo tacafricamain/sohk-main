@@ -18,6 +18,12 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+        {/* twiter */}
+        <meta name="twitter:card" content="/aboutushero.png" />
+        <meta name="twitter:title" content="welcome to the website of the school of hard knocks nigeria" />
+        <meta name="twitter:description" content="the school of hard knocks nigeria" />
+        <meta name="twitter:image" content="/aboutushero.png" />
+        {/* web icon */}
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       <Layout>
