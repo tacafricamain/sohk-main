@@ -1,40 +1,41 @@
 export const data = [
     {
-        title: 'TYB Junior Championship',
-        description: 'The school of hard knocks marks its presence at the TYB junior Golf championship',
-        link: '/pdf/TYB Junior Championship-1.pdf',
-        image: 'https://res.cloudinary.com/tacafrica/image/upload/v1673451332/newsletters%20imager/Screenshot_from_2023-01-11_16-35-14_sokd2p.png'
-     },
-    {
-        title: 'Junior golf championship',
-        description: 'Leaderjoe1808 foundation if a registered non profit organization founded in 2016 and registered on the 11 of April 2019',
-        link: '/pdf/Junior Golf Championship .pdf',
-        image: 'https://res.cloudinary.com/tacafrica/image/upload/v1673449563/newsletters%20imager/Screenshot_from_2023-01-11_15-53-46_nuch7a.png'
-    },
-    {
-        title: 'SOHK 2nd Edition NSL',
-        description: 'SOHK 2nd Edition NSL',
-        link: '/pdf/SOHK 2nd Edition NSL-2.pdf',
-        image: 'https://res.cloudinary.com/tacafrica/image/upload/v1673449564/newsletters%20imager/Screenshot_from_2023-01-11_15-53-00_rnq1li.png'
-    },
-    {
-        title: 'Kids Drone Academy Volume 1',
-        description: 'Kids Drone Academy Volume 1',
+        title: 'First Newsletter',
+        description: "First Newsletter On October 1st 2022, to make the Nigeria's 62nd Independence Day Celebration, the School of HardKnocks Nigeria launched the Kids Drone Academy. Read more...",
         link: '/pdf/Kids Drone Academy Volume1-1.pdf',
         image: 'https://res.cloudinary.com/tacafrica/image/upload/v1673449931/newsletters%20imager/Screenshot_from_2023-01-11_16-11-43_tzqdnp.png'
     },
     {
-        title: 'IBB golf club volume 4',
-        description: 'IBB golf club volume 4',
+        title: 'Second Newsletter',
+        description: "Second Newsletter In accord with it's passionate drive to actualize the objectives of the School of HardKnocks, the CEO of TAC Africa, Dr Jerry Akubo made a tour visit with his team to the IBB International Golf Course. Read more ...",
         link: '/pdf/IBB GOLF CLUB Volume 4-1.pdf',
         image: 'https://res.cloudinary.com/tacafrica/image/upload/v1673449564/newsletters%20imager/Screenshot_from_2023-01-11_15-58-51_y4q7tt.png'
     },
     {
-        title: 'go green go global',
-        description: 'Welcome to the first edition of go-green go-global project, an initiative of TAC Africa, powered by the School of Hardknocks',
+        title: 'Third Newsletter ',
+        description: 'Through an initiative of TAC Africa, School of HardKnocks launched the first edition of "Go-Green Go-global project" to seamlessly integrate the game of golf with a life skill curriculum. Read more...',
         link: '/pdf/Go green! Go Global!-1.pdf',
         image: 'https://res.cloudinary.com/tacafrica/image/upload/v1673449564/newsletters%20imager/Screenshot_from_2023-01-11_15-57-38_pm9fjl.png'
     },
+    {
+        title: 'Fourth Newsletter',
+        description: "Fourth Newsletter The School of HardKnocks Golf Team participated in the TYB Golf Championship event. The Tournament created a platform for high Networth individuals to interact and explore mentorship training.",
+        link: '/pdf/TYB Junior Championship-1.pdf',
+        image: 'https://res.cloudinary.com/tacafrica/image/upload/v1673451332/newsletters%20imager/Screenshot_from_2023-01-11_16-35-14_sokd2p.png'
+     },
+    {
+        title: 'Fifth Newsletter ',
+        description: "Fifth Newsletter The LeaderJoe 1808 Foundation sponsored the Junior Golf Championship with the theme: Empowering Young minds, which took place at TYB-IGRCC Yar'adua Barracks. Read more...",
+        link: '/pdf/Junior Golf Championship .pdf',
+        image: 'https://res.cloudinary.com/tacafrica/image/upload/v1673449563/newsletters%20imager/Screenshot_from_2023-01-11_15-53-46_nuch7a.png'
+    },
+    {
+        title: 'Sixth Newsletter',
+        description: "Sixth Newsletter Due to the prevalence of crime in the society, the School of HardKnocks set up a specialized unarmed combat self defence training with global experts. Read more...",
+        link: '/pdf/SOHK 2nd Edition NSL-2.pdf',
+        image: 'https://res.cloudinary.com/tacafrica/image/upload/v1673449564/newsletters%20imager/Screenshot_from_2023-01-11_15-53-00_rnq1li.png'
+    },
+
     // {
     //     title: '',
     //     description: '',

@@ -59,7 +59,7 @@ export default function Navbar({ fixed }) {
                 <a
                   className="px-12 py-2 flex items-center text-xs font-bold leading-snug text-gold ease-in duration-200 hover:opacity-65"
                 >
-                  <span className="ml-2 text-lg font-normal">newsletters</span>
+                  <span className="ml-2 text-lg font-normal">Newsletters</span>
                 </a>
                 </Link>
               </li>
@@ -73,13 +73,25 @@ export default function Navbar({ fixed }) {
                 </a>
                 </Link>
               </li>
+
+              <li className="nav-item my-auto">
+              <Link href="/gallery">
+                <a
+                  className="px-12 py-2 flex items-center text-xs font-bold leading-snug text-gold ease-in duration-200 hover:opacity-65"
+                  href="#services"
+                >
+                  <span className="ml-2 text-lg font-normal">Gallery</span>
+                </a>
+                </Link>
+              </li>
+
               <li className="nav-item my-auto">
               <Link href="/register">
                 <a
                   className="px-12 py-2 flex items-center text-xs font-bold leading-snug text-gold ease-in duration-200 hover:opacity-65"
                   href="register"
                 >
-                  <span className="ml-2 text-lg font-normal">register</span>
+                  <span className="ml-2 text-lg font-normal">Register</span>
                 </a>
                 </Link>
               </li>
