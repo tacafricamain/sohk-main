@@ -9,7 +9,7 @@ export default function Navbar({ fixed }) {
   
 
   return (
-    <div className='absolute w-screen '>
+    <div className='absolute w-screen  '>
       <nav className="relative flex flex-wrap items-center  justify-between  z-20">
         <div className="w-screen mx-auto flex flex-wrap items-center justify-between backdrop-blur-lg ">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
