@@ -21,7 +21,7 @@ const NewsLetter = ({ }) => {
                     <h2  className='font-mavin text-3xl my-3 uppercase text-center'>REGISTRATION</h2>
                           <p className='text-greyBlack text-sm font-["openSans"]' >Members of SOHK are passionate individuals who are ready to take the lead in changing their community positively. Join us today by simply downloading our membership application form below.</p>
                     <div className=' mt-10 m-auto'>
-                        <a  href="https://www.dropbox.com/s/r4le37k1l017vfj/TAC%20Community%20Hub%20Membership%20form.pdf?dl=1">
+                        <a target='_blank' rel='noopener' href="/pdf/TAC Community Hub Membership form.pdf">
                             <Button text={'Download S.O.H.K membership form'} />
                         </a>
                     </div>

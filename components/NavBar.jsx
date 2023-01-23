@@ -67,7 +67,7 @@ export default function Navbar({ fixed }) {
               <Link href="/services">
                 <a
                   className="px-12 py-2 flex items-center text-xs font-bold leading-snug text-gold ease-in duration-200 hover:opacity-65"
-                  href="#services"
+                  
                 >
                   <span className="ml-2 text-lg font-normal">Services</span>
                 </a>
@@ -78,7 +78,7 @@ export default function Navbar({ fixed }) {
               <Link href="/gallery">
                 <a
                   className="px-12 py-2 flex items-center text-xs font-bold leading-snug text-gold ease-in duration-200 hover:opacity-65"
-                  href="#services"
+                  
                 >
                   <span className="ml-2 text-lg font-normal">Gallery</span>
                 </a>
@@ -86,10 +86,10 @@ export default function Navbar({ fixed }) {
               </li>
 
               <li className="nav-item my-auto">
-              <Link href="/register">
+              <Link  href="/pdf/TAC Community Hub Membership form.pdf">
                 <a
                   className="px-12 py-2 flex items-center text-xs font-bold leading-snug text-gold ease-in duration-200 hover:opacity-65"
-                  href="register"
+                  target='_blank' rel='noopener'
                 >
                   <span className="ml-2 text-lg font-normal">Register</span>
                 </a>
