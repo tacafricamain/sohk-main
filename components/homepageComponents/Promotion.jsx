@@ -9,7 +9,7 @@ export default function Promotion(){
                     <h1 className='text-white text-3xl lg:text-7xl my-6 font-mavin overflow-hidden'>Explore how it <br className='hidden lg:block' /> really feels to Excel!</h1>
                     <p className='text-white font-light font-["openSans"] text-xl mb-7'>Schools would undoubtedly still exist but good school teachers can do no better than to inspire curiosity, <br className='hidden lg:block' /> which an interested student can then satisfy at home at the console of his or her computer outlet </p>
                     <a id='member' href="https://www.dropbox.com/s/r4le37k1l017vfj/TAC%20Community%20Hub%20Membership%20form.pdf?dl=1">
-                        <Button text={'Download S.O.H.K membership form'} />
+                        <Button text={'Download membership form'} />
                     </a>
                 </div>
             </div>

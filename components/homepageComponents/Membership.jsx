@@ -10,7 +10,7 @@ export default function Membership() {
 
             <div className='px-1'>
             <a id='member' href="https://www.dropbox.com/s/r4le37k1l017vfj/TAC%20Community%20Hub%20Membership%20form.pdf?dl=1">
-                        <Button text={'Download S.O.H.K membership form'} />
+                        <Button text={'Download membership form'} />
                     </a>
             </div>
         </div>

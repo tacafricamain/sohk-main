@@ -16,11 +16,13 @@ module.exports = {
       backgroundImage: {
         test: "url('https://res.cloudinary.com/tacafrica/image/upload/v1663587468/my_folder/int%20youth%20day/compressed/1-2208130077_result_czg3ww.webp')",
         test2:
-          "url('https://res.cloudinary.com/tacafrica/image/upload/v1669213192/my_folder/sohk/1-2208130110_r5s1up.jpg')",
+          "url('https://res.cloudinary.com/tacafrica/image/upload/v1674564228/my_folder/UN_Education_Day-01-01-01-01_1_wwdkpq.png')",
         mobileBG:
-          "url('https://res.cloudinary.com/tacafrica/image/upload/v1669213192/my_folder/sohk/1-2208130110_r5s1up.jpg')",
+          "url('https://res.cloudinary.com/tacafrica/image/upload/v1674567042/my_folder/Education_Day_Mobile-06-10_xyi8hr.png')",
+          // "url('https://res.cloudinary.com/tacafrica/image/upload/v1669213192/my_folder/sohk/1-2208130110_r5s1up.jpg')",
         desktopBG:
-          "url('https://res.cloudinary.com/tacafrica/image/upload/v1660567320/my_folder/int%20youth%20day/1-2208130139_h5slq9.jpg')",
+          "url('https://res.cloudinary.com/tacafrica/image/upload/v1674564228/my_folder/UN_Education_Day-01-01-01-01_1_wwdkpq.png')",
+          // "url('https://res.cloudinary.com/tacafrica/image/upload/v1660567320/my_folder/int%20youth%20day/1-2208130139_h5slq9.jpg')",
         membershipBgDesktop:
           "url('https://res.cloudinary.com/tacafrica/image/upload/v1669213718/my_folder/sohk/k_cc3pgg.png')",
         footerBG:
