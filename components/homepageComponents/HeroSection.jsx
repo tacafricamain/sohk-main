@@ -11,7 +11,7 @@ export default function HeroSection(){
                 // style={{ background: 'rgba(0, 0, 0, 0.3)' }}
             >
                 {/* <div className='  m-auto'>
-                    <a id='member' href="https://www.dropbox.com/s/r4le37k1l017vfj/TAC%20Community%20Hub%20Membership%20form.pdf?dl=1">
+                    <a id='member' href="/pdf/TAC Community Hub Membership form.pdf">
                         <Button text={'Download S.O.H.K membership form'} />
                     </a>
                 </div> */}

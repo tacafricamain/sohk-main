@@ -9,7 +9,7 @@ export default function Membership() {
             <p className='font-mavin text-xl hidden lg:block'>Learn as if you were going  <br className='hidden lg:block' /> to live forever!</p>
 
             <div className='px-1'>
-            <a id='member' href="https://www.dropbox.com/s/r4le37k1l017vfj/TAC%20Community%20Hub%20Membership%20form.pdf?dl=1">
+            <a id='member' href="/pdf/TAC Community Hub Membership form.pdf" >
                         <Button text={'Download membership form'} />
                     </a>
             </div>
