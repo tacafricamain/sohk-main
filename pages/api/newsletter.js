@@ -1,13 +1,13 @@
 export const data = [
     {
         title: 'First Edition',
-        description: "First Newsletter On October 1st 2022, to make the Nigeria's 62nd Independence Day Celebration, the School of HardKnocks Nigeria launched the Kids Drone Academy. Read more...",
+        description: "First Edition, On October 1st 2022, to make the Nigeria's 62nd Independence Day Celebration, the School of HardKnocks Nigeria launched the Kids Drone Academy. Read more...",
         link: '/pdf/Kids Drone Academy Volume1-1.pdf',
         image: 'https://res.cloudinary.com/tacafrica/image/upload/v1673449931/newsletters%20imager/Screenshot_from_2023-01-11_16-11-43_tzqdnp.png'
     },
     {
         title: 'Second Edition',
-        description: "Second Newsletter In accord with it's passionate drive to actualize the objectives of the School of HardKnocks, the CEO of TAC Africa, Dr Jerry Akubo made a tour visit with his team to the IBB International Golf Course. Read more ...",
+        description: "Second Edition, In accord with it's passionate drive to actualize the objectives of the School of HardKnocks, the CEO of TAC Africa, Dr Jerry Akubo made a tour visit with his team to the IBB International Golf Course. Read more ...",
         link: '/pdf/IBB GOLF CLUB Volume 4-1.pdf',
         image: 'https://res.cloudinary.com/tacafrica/image/upload/v1673449564/newsletters%20imager/Screenshot_from_2023-01-11_15-58-51_y4q7tt.png'
     },
@@ -19,19 +19,19 @@ export const data = [
     },
     {
         title: 'Fourth Edition',
-        description: "Fourth Newsletter The School of HardKnocks Golf Team participated in the TYB Golf Championship event. The Tournament created a platform for high Networth individuals to interact and explore mentorship training.",
+        description: "Fourth Edition, The School of HardKnocks Golf Team participated in the TYB Golf Championship event. The Tournament created a platform for high Networth individuals to interact and explore mentorship training.",
         link: '/pdf/TYB Junior Championship-1.pdf',
         image: 'https://res.cloudinary.com/tacafrica/image/upload/v1673451332/newsletters%20imager/Screenshot_from_2023-01-11_16-35-14_sokd2p.png'
      },
     {
         title: 'Fifth Edition',
-        description: "Fifth Newsletter The LeaderJoe 1808 Foundation sponsored the Junior Golf Championship with the theme: Empowering Young minds, which took place at TYB-IGRCC Yar'adua Barracks. Read more...",
+        description: "Fifth Edition, The LeaderJoe 1808 Foundation sponsored the Junior Golf Championship with the theme: Empowering Young minds, which took place at TYB-IGRCC Yar'adua Barracks. Read more...",
         link: '/pdf/Junior Golf Championship .pdf',
         image: 'https://res.cloudinary.com/tacafrica/image/upload/v1673449563/newsletters%20imager/Screenshot_from_2023-01-11_15-53-46_nuch7a.png'
     },
     {
         title: 'Sixth Edition',
-        description: "Sixth Newsletter Due to the prevalence of crime in the society, the School of HardKnocks set up a specialized unarmed combat self defence training with global experts. Read more...",
+        description: "Sixth Edition, Due to the prevalence of crime in the society, the School of HardKnocks set up a specialized unarmed combat self defence training with global experts. Read more...",
         link: '/pdf/SOHK 2nd Edition NSL-2.pdf',
         image: 'https://res.cloudinary.com/tacafrica/image/upload/v1673449564/newsletters%20imager/Screenshot_from_2023-01-11_15-53-00_rnq1li.png'
     },
