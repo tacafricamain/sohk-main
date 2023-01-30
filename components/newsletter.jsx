@@ -35,23 +35,6 @@ const NewsLetter = ({ }) => {
                     </p>
                 </div> 
             </div>
-            
-            {/* {data.map((edge, i) => (
-                <a href={edge.link}  className="space-y-4 cursor-pointer">
-            <div
-                key={i}
-                className="flex-none w-12/12 lg:w-10/12 mr-8 overflow-hidden rounded-lg md:mr-4 md:pb-4 ">
-                      <div className="px-4 py-2">
-                        <div className="font-medium leading-6 ">
-                          <h3 className="text-center max-h-12 mb-3 text-lg font-semibold lg:font-bold font-mavin ">
-                            <BiDownload className="inline mr-3" /> download 
-                            {' ' + edge?.title}
-                            </h3>
-                            </div>
-                      </div>
-                </div>
-                    </a>
-            ))} */}
               </div>
               <div className=" m-5">
                 <div className="md:hidden py-4 space-y-8">   
@@ -59,7 +42,7 @@ const NewsLetter = ({ }) => {
                     <h2  className='font-mavin text-3xl my-3 uppercase text-center'>Registration</h2>
                           <p className='text-greyBlack text-sm font-["openSans"] text-left' >Members of SOHK are passionate individuals who are ready to take the lead in changing their community positively. Join us today by simply downloading our membership application form below.</p>
                     <div className=' mt-10 '>
-                        <a  href="https://www.dropbox.com/s/r4le37k1l017vfj/TAC%20Community%20Hub%20Membership%20form.pdf?dl=1">
+                        <a  href="/pdf/TAC Community Hub Membership form.pdf" >
                             <Button text={'Download membership form'} />
                         </a>
                     </div>
