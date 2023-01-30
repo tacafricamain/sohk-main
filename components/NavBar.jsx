@@ -13,14 +13,16 @@ export default function Navbar({ fixed }) {
       <nav className="relative flex flex-wrap items-center  justify-between  z-20">
         <div className="w-screen mx-auto flex flex-wrap items-center justify-between backdrop-blur-lg ">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-            <a
-              className="text-sm font-bold leading-relaxed inline-block mx-4 py-2 whitespace-nowrap text-white "
-              href="#pablo"
-            >
-              <img src="https://res.cloudinary.com/tacafrica/image/upload/v1669210357/my_folder/sohk/x_hidu7h.png" alt="" className="w-16" />
-            </a>
+            <Link href="/">
+              <a
+                className="text-sm font-bold leading-relaxed inline-block mx-4 py-2 whitespace-nowrap text-white "
+                
+              >
+                <img src="https://res.cloudinary.com/tacafrica/image/upload/v1669210357/my_folder/sohk/x_hidu7h.png" alt="" className="w-16" />
+              </a>
+            </Link>
             <button
-              className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+              className="text-gold cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
@@ -34,7 +36,7 @@ export default function Navbar({ fixed }) {
             }
             id="example-navbar-danger"
           >
-            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
+            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto" onClick={() => setNavbarOpen(!navbarOpen)}>
               <li className="nav-item my-auto">
                 <Link href="/">
                   <a
