@@ -6,7 +6,6 @@ import Link from "next/link";
 
 export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
-  
 
   return (
     <div className='absolute w-screen  '>
@@ -15,8 +14,7 @@ export default function Navbar({ fixed }) {
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link href="/">
               <a
-                className="text-sm font-bold leading-relaxed inline-block mx-4 py-2 whitespace-nowrap text-white "
-                
+                className="text-sm font-bold leading-relaxed inline-block mx-4 py-2 whitespace-nowrap text-white "    
               >
                 <img src="https://res.cloudinary.com/tacafrica/image/upload/v1669210357/my_folder/sohk/x_hidu7h.png" alt="" className="w-16" />
               </a>
@@ -46,16 +44,17 @@ export default function Navbar({ fixed }) {
                   </a>
                 </Link>
               </li>
+
               <li className="nav-item my-auto">
                 <Link href="/aboutus">
                   <a
-                    className="px-12 py-2 flex items-center text-xs font-bold leading-snug text-gold ease-in duration-200 hover:opacity-65"
-                    
+                    className="px-12 py-2 flex items-center text-xs font-bold leading-snug text-gold ease-in duration-200 hover:opacity-65"                    
                   >
                     <span className="ml-2 text-lg font-normal">About Us</span>
                   </a>
                 </Link>
               </li>
+
               <li className="nav-item my-auto">
               <Link href="/newsletters">
                 <a
@@ -65,11 +64,11 @@ export default function Navbar({ fixed }) {
                 </a>
                 </Link>
               </li>
+
               <li className="nav-item my-auto">
               <Link href="/services">
                 <a
-                  className="px-12 py-2 flex items-center text-xs font-bold leading-snug text-gold ease-in duration-200 hover:opacity-65"
-                  
+                  className="px-12 py-2 flex items-center text-xs font-bold leading-snug text-gold ease-in duration-200 hover:opacity-65"                  
                 >
                   <span className="ml-2 text-lg font-normal">Services</span>
                 </a>
@@ -79,8 +78,7 @@ export default function Navbar({ fixed }) {
               <li className="nav-item my-auto">
               <Link href="/gallery">
                 <a
-                  className="px-12 py-2 flex items-center text-xs font-bold leading-snug text-gold ease-in duration-200 hover:opacity-65"
-                  
+                  className="px-12 py-2 flex items-center text-xs font-bold leading-snug text-gold ease-in duration-200 hover:opacity-65"                 
                 >
                   <span className="ml-2 text-lg font-normal">Gallery</span>
                 </a>
@@ -97,6 +95,7 @@ export default function Navbar({ fixed }) {
                 </a>
                 </Link>
               </li>
+
               {/* <li className="nav-item my-auto">
                 <a
                   className="px-12 py-2 flex items-center text-xs font-bold leading-snug text-gold ease-in duration-200 hover:opacity-65"
