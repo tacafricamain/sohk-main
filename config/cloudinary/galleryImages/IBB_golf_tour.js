@@ -1,6 +1,7 @@
 export const IBB_Golf_tour = {
     title: 'IBB Golf tour',
     slug: 'IBB_Golf_tour',
+    content: "In accord with soak's passionate drive to actualize the objectives of the School Of HardKnocks, the CEO of School of Hard Knocks - Nigeria, Dr Jerry Akubo led the Abuja 2023 Golf Tour to four (4) high profile Golf Environs with his team. It is important to note that this Golf Tour is to further advance the realization of the objectives of the School of Hardknocks, which idea is to create a program that encourages children to adopt higher values through a series of steps or levels of various sports activities.",
     date: '2022',
     displayImage: 'https://res.cloudinary.com/tacafrica/image/upload/v1675094141/my_folder/IBB%20golf%20tour/YOD-20230113081_sqti5s.jpg',
     images: [

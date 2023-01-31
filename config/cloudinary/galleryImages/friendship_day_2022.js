@@ -1,6 +1,7 @@
 export const friendship_day_2022 = {
     title: 'friendship day 2022',
     slug: 'friendship_day_2022',
+    content: "International Friendship Day 2022                                    There are few things that are invaluable yet has no price tag attached to it. One of these is true friendship. This was how we celebrated the International Friendship Day 2022 at TAC Africa.",
     date: '2022',
     displayImage: 'https://res.cloudinary.com/tacafrica/image/upload/v1659619609/my_folder/friendshipday2022/1-2207300098_bjznzc.jpg',
     images: [

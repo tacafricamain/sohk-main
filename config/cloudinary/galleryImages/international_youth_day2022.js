@@ -1,6 +1,7 @@
 export const international_youth_day2022 = {
     title: 'international youth day2022',
     slug: 'international_youth_day2022',
+    content: "This year’s theme — “Intergenerational Solidarity: Creating a World for All Ages” — reminds us of a basic truth: we need people of all ages, young and old alike, to join forces to build a better world for all.  On this important day, we at TAC Africa join hands across communities to break down barriers and work as a unified NGO to achieve an inclusive environment for all ages.",
     date: '2022',
     displayImage: 'https://res.cloudinary.com/tacafrica/image/upload/v1660567583/my_folder/int%20youth%20day/1-2208130076_evduai.jpg',
     images: [

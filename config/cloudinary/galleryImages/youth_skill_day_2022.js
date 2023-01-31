@@ -1,6 +1,7 @@
 export const youth_skill_day_2022 = {
     title: 'youth skill day 2022',
     slug: 'youth_skill_day_2022',
+    content: "World Youth Skills Day on 15 July highlights the opportunities and challenges that young people face in employment. TAC Community Hub organized a Tennis and Chess knockout competition, Drone display and flight training to commemorate this year's World Youth Skills Day.",
     date: '2022',
     displayImage: 'https://res.cloudinary.com/tacafrica/image/upload/v1660171151/my_folder/tennis%20championship/1-2208070020_cvnapj.jpg',
     images: [
