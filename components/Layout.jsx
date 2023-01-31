@@ -10,7 +10,7 @@ export default function Layout({children}) {
         <>
  
             <NavBar />
-                <div className='py-20'>
+                <div className='pt-12'>
                     { children }
                 </div>
             <Membership />
