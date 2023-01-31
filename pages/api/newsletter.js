@@ -40,7 +40,7 @@ export const data = [
         title: 'Seventh Edition',
         description: 'The School Of Hardknocks SOHK Nigeria Makes A Historic Tour To IBB Golf Course Towards Promoting The Game Of Golf In Nigeria.',
         link: '/pdf/27th Jan. Update _ Newsletter.pdf',
-        image: ''
+        image: 'https://res.cloudinary.com/tacafrica/image/upload/v1675096447/my_folder/Screenshot_from_2023-01-30_16-16-13_s7bgsz.png'
     },
 ]
 
