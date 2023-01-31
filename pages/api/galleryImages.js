@@ -6,6 +6,8 @@ import {international_youth_day2022} from "../../config/cloudinary/galleryImages
 import {friendship_day_2022} from "../../config/cloudinary/galleryImages/friendship_day_2022";
 import {Parkland_Golf_Tour} from "../../config/cloudinary/galleryImages/Parkland_Golf_Tour";
 import {SOHK_team_at_TAC_HQ} from "../../config/cloudinary/galleryImages/SOHK_team_at_TAC_HQ";
+import {Vitality_Clubhouse_Tour} from "../../config/cloudinary/galleryImages/Vitality_Clubhouse_Tour";
+import { TYB_Golf_Tour } from "../../config/cloudinary/galleryImages/TYB_Golf_Tour";
 
 export const images = [
     {
@@ -27,5 +29,10 @@ export const images = [
         ...Parkland_Golf_Tour
     }, {
         ...SOHK_team_at_TAC_HQ
+    }, {
+        ...Vitality_Clubhouse_Tour
+    },
+    {
+        ...TYB_Golf_Tour
     }
 ];
