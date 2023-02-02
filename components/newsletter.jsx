@@ -12,7 +12,7 @@ import Button from "./Button";
 const NewsLetter = ({ }) => {
 
   return (
-    <div id='member' className="w-full pt-12 md:pt-20 bg-softGrey md:h-screen ">
+    <div id='member' className="w-full pt-12 md:pt-20 bg-softGrey md:h-screen shadow-xl">
           <div className="flex flex-col-reverse md:flex-row  md:pb-20 mx-auto my-0 xl:px-12 h-full ">
               
           <div className='text-center'>

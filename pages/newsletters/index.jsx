@@ -5,7 +5,7 @@ import { data } from '../api/newsletter';
 
 export default function Newsletters() {
     return (
-        <div className=' bg-white '>
+        <div className=' bg-white'>
             <div className="pt-32 pb-32 px-6 flex flex-col gap-4 items-center justify-center">
                 {
                 data.map((post, i) => (

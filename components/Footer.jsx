@@ -122,32 +122,31 @@ export default function Footer() {
         <div className="flex justify-center my-6 ">
           {/* facebook */}
           <Link
-            href={'https://www.facebook.com/profile.php?id=100084838556925'}
+            href={'https://web.facebook.com/search/top?q=school%20of%20hardknocks%20foundation%20-%20hardknocks%20ng&_rdc=1&_rdr'}
           >
             <a target="_blank" rel="noreferrer">
               <FaFacebookF className="mx-6 fa fa-brands fa-instagram fa-2x  text-gold ease-in duration-200 hover:text-white" />
             </a>
           </Link>
+          
           <Link href={'https://instagram.com/hardknocksng?igshid=YmMyMTA2M2Y'}>
             <a target="_blank" rel="noreferrer">
               <FaInstagram className="mx-5 fa fa-brands fa-instagram fa-2x  text-gold ease-in duration-200 hover:text-white" />
             </a>
           </Link>
+
           <Link href={'https://www.linkedin.com/company/hardknocksng/'}>
             <a target="_blank" rel="noreferrer">
               <FaLinkedinIn className="mx-5 fa fa-brands fa-linkedin fa-2x  text-gold ease-in duration-200 hover:text-white" />
             </a>
           </Link>
+
           <Link href={'https://twitter.com/hardknocksng'}>
             <a target="_blank" rel="noreferrer">
               <FaTwitter className="mx-5 fa fa-brands fa-linkedin fa-2x text-gold ease-in duration-200 hover:text-white" />
             </a>
           </Link>
-          {/* <Link href={'https://www.youtube.com/channel/UCsOPBwlkXfJspo22MJcC8NA'}>
-            <a target="_blank" rel="noreferrer">
-              <FaYoutube className="mx-2 fa fa-brands fa-youtube fa-2x text-white " />
-            </a>
-          </Link> */}
+          
         </div>
       </div>
     </div>
