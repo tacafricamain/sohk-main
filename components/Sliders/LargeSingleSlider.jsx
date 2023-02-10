@@ -15,7 +15,7 @@ const LargeSingleSlider = ({ }) => {
 
   return (
     <div className="md:w-[700px]">
-      <div className="md:max-w-[600px] md:pb-20 md:px-10 md:mx-auto">
+      <div className="lg:max-w-[600px] md:mx-auto">
         <div className=" pb-8 ">
           <Carousel
             swipeable={true}
@@ -37,25 +37,27 @@ const LargeSingleSlider = ({ }) => {
 
                 <div
                     key={i}
-                    className="flex-none w-12/12 lg:w-10/12 mx-auto overflow-hidden rounded-lg md:mr-4 md:pb-4 "
+                    className="flex-none w-12/12  mx-auto overflow-hidden rounded-lg md:mr-4 md:pb-4 "
                     >
-                        <div className="py-2">
+                        <div className="py-2 md:flex">
                         <img className="w-[400px] h-[350px] " src={edge?.image} alt={edge?.title} />
-                        <div className=" leading-6 ">
-                            <p className="mb-6 font-mavin text-2xl">
-                            {edge?.title}
-                            </p>
-                        </div>
-                        <div className="text-sm flex">
-                            <div className='hidden w-16 h-16 p-2 mr-3 md:inline-block rounded-full bg-gradient-to-r from-gold to-orange rotate'>
-                                <div className='rounded-full w-full h-full bg-white'></div>
-                            </div>
-                            <span className='inline-block my-auto'>
-                                <p className="font-bold font-['openSans'] ">
-                                {/* {edge?.description} */}
-                                </p>
-                                <p className='w-[300px]'>{edge?.description}</p>
-                            </span>
+                        <div className='pl-5'>  
+                          <div className=" leading-6 ">
+                              <p className="mb-6 font-mavin text-xl lg:text-2xl ">
+                              {edge?.title}
+                              </p>
+                          </div>
+                          <div className="text-sm flex">
+                              {/* <div className='hidden w-16 h-16 p-2 mr-3 md:inline-block rounded-full bg-gradient-to-r from-gold to-orange rotate'>
+                                  <div className='rounded-full w-full h-full bg-white'></div>
+                              </div> */}
+                              <span className='inline-block my-auto'>
+                                  <p className="font-bold font-['openSans'] ">
+                                  {/* {edge?.description} */}
+                                  </p>
+                                  <p >{edge?.description}</p>
+                              </span>
+                          </div>
                         </div>
                         </div>
                 </div>

@@ -11,7 +11,7 @@ const ImageGallery = ({ post }) => {
       </div>
         <div key={5} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mx-8 " >
           {post[0].images.map(({ src, alt }, i) => (
-            <img key={i} src={src} alt={ alt} className="w-full h-auto object-cover" />
+            <img key={i} src={src} alt={ alt} className="w-full h-[200px] object-cover transition ease-in-out delay-150 hover:scale-[2] " />
           ))}
         </div>
       </div>
