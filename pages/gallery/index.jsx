@@ -24,7 +24,7 @@ const ImageGallery = () => {
                                 </span>
                               </div> */}
                               <div className="px-8 pt-8 w-full text-gray-700 h-[150px] ">
-                                  <h1 className="title-font text-lg font-bold mb-3">{ title }</h1>
+                                  <h1 className="title-font text-sm font-bold mb-3">{ title }</h1>
                                   <p className='mb-1 text-xs'>{ date }</p>
                               </div>
                           </div> 

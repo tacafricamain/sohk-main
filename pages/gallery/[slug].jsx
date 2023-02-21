@@ -6,11 +6,11 @@ const ImageGallery = ({ post }) => {
   return (
     <div className="container px-5 py-24 mx-auto">
       <div className="flex flex-col w-full mb-20">
-        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">{post[0].title}</h1>
-        <p className="mt-4 max-w-xl text-gray-500 lg:text-2xl sm:text-xl sm:leading-relaxed">{post[0].content} </p>
+        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">{post[0]?.title}</h1>
+        <p className="mt-4 max-w-xl text-gray-500 lg:text-2xl sm:text-xl sm:leading-relaxed">{post[0]?.content} </p>
       </div>
         <div key={5} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mx-8 " >
-          {post[0].images.map(({ src, alt }, i) => (
+          {post[0]?.images.map(({ src, alt }, i) => (
             <img key={i} src={src} alt={ alt} className="w-full h-[200px] object-cover transition ease-in-out delay-150 hover:scale-[2] " />
           ))}
         </div>
