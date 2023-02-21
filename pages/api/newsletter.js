@@ -42,5 +42,11 @@ export const data = [
         link: '/pdf/27th Jan. Update _ Newsletter.pdf',
         image: 'https://res.cloudinary.com/tacafrica/image/upload/v1675096447/my_folder/Screenshot_from_2023-01-30_16-16-13_s7bgsz.png'
     },
+    {
+        title: 'Eighth Edition',
+        description: 'School Of Hardknocks (SOHK) Nigeria, Receives Certification Of Endorsement To Train Secondary Schools Students On Digital Specialized Skills & Sports: (Golf and Lawn Tennis).',
+        link: '/pdf/SOHK Significant Step.pdf',
+        image: 'https://res.cloudinary.com/tacafrica/image/upload/v1676988482/newsletters%20imager/Screenshot_from_2023-02-21_15-06-15_if4gqm.png'
+    },
 ]
 
