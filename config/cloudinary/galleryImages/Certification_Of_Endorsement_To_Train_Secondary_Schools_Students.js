@@ -1,6 +1,6 @@
 export const Certification_Of_Endorsement_To_Train_Secondary_Schools_Students = {
     title: 'School Of Hardknocks (SOHK) Nigeria, Receives Certification Of Endorsement To Train Secondary Schools Students On Digital Specialized Skills & Sports: (Golf and Lawn Tennis).',
-    slug: 'School_Of_Hardknocks_(SOHK)_Nigeria,_Receives_Certification_Of_Endorsement_To_Train_Secondary_Schools_Students_On_Digital_Specialized_Skills_&_Sports:_(Golf_and_Lawn_Tennis).',
+    slug: 'School_Of_Hardknocks_(SOHK)_Nigeria_Receives_Certification_Of_Endorsement_To_Train_Secondary_Schools_Students_On_Digital_Specialized_Skills_&_Sports',
     content: "The School Of Hardknocks (SOHK) Nigeria has recently attained significant recognition in accord with its passionate objectives to stimulate productivity and technology incubation through its Digital Specialized Skills and Sports Initiative. The Secondary Education Board (SEB) on 15th February 2023, through the Director General, has approved TAC Africa in accord with its SOHK initiative, to embark on free training s on some selected FCT Secondary Schools to further improve students' academic performance through its Project Program.",
     date: '15th Feb 2023',
     displayImage: 'https://res.cloudinary.com/tacafrica/image/upload/v1676989159/my_folder/Certification%20Of%20Endorsement%20To%20Train%20Secondary%20Schools%20Students/YOd20230216005-01_cnhp9k.jpg',
