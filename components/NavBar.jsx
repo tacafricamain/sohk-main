@@ -83,13 +83,13 @@ export default function Navbar({ fixed }) {
                 </Link>
               </li>
 
-              <DropDownButton
+              {/* <DropDownButton
                   label={'Digital skills & Golf'}
                   key={'Digital skills & Golf'}
                   content={data}
                   setMenuState={setMenuState}
                   menuState={menuState}
-                />
+                /> */}
 
               <li className="nav-item my-auto">
               <Link href="/gallery">
