@@ -3,9 +3,17 @@ import React from "react";
 import { FaBars } from "react-icons/fa"
 import Button from "./Button";
 import Link from "next/link";
+import DropDownButton from "./dropdown/dropdown";
 
 export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
+  const [menuState, setMenuState] = React.useState(false);
+
+  const data = [
+    {href: '/Digital_skills_&_Golf/GOLF_FOR_PRIMARY_SCHOOLS', name: 'GOLF FOR PRIMARY SCHOOLS '},
+    {href: '/Digital_skills_&_Golf/GOLF_FOR_JUNIOR_SECONDARY_SCHOOLS', name: 'GOLF FOR JUNIOR SECONDARY SCHOOLS'},
+    {href: '/Digital_skills_&_Golf/GOLF_FOR_SENIOR_SECONDARY_SCHOOLS', name: 'GOLF FOR SENIOR SECONDARY SCHOOLS'}
+  ]
 
   return (
     <div className='absolute w-screen  '>
@@ -40,7 +48,7 @@ export default function Navbar({ fixed }) {
                   <a
                     className="px-6 py-2 flex items-center justify-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65" 
                   >
-                  <span className="ml-2 text-lg font-normal">Home</span>
+                  <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center">Home</span>
                   </a>
                 </Link>
               </li>
@@ -50,7 +58,7 @@ export default function Navbar({ fixed }) {
                   <a
                     className="px-6 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"                    
                   >
-                    <span className="ml-2 text-lg font-normal">About Us</span>
+                    <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center">About Us</span>
                   </a>
                 </Link>
               </li>
@@ -60,7 +68,7 @@ export default function Navbar({ fixed }) {
                 <a
                   className="px-6 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
                 >
-                  <span className="ml-2 text-lg font-normal">Newsletters</span>
+                  <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center">Newsletters</span>
                 </a>
                 </Link>
               </li>
@@ -70,27 +78,25 @@ export default function Navbar({ fixed }) {
                 <a
                   className="px-6 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"                  
                 >
-                  <span className="ml-2 text-lg font-normal">Services</span>
+                  <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center">Services</span>
                 </a>
                 </Link>
               </li>
 
-              <li className="nav-item my-auto">
-              <Link href="/pdf/SOHK Golf To Schools.pdf">
-                <a
-                  className="px-6 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"                  
-                >
-                  <span className="ml-2 text-lg font-normal">Digital Skills & golf</span>
-                </a>
-                </Link>
-              </li>
+              <DropDownButton
+                  label={'Digital skills & Golf'}
+                  key={'Digital skills & Golf'}
+                  content={data}
+                  setMenuState={setMenuState}
+                  menuState={menuState}
+                />
 
               <li className="nav-item my-auto">
               <Link href="/gallery">
                 <a
                   className="px-6 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"                 
                 >
-                  <span className="ml-2 text-lg font-normal">Gallery</span>
+                  <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center">Gallery</span>
                 </a>
                 </Link>
               </li>
@@ -101,7 +107,7 @@ export default function Navbar({ fixed }) {
                   className="px-6 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
                   target='_blank' rel='noopener'
                 >
-                  <span className="ml-2 text-lg font-normal">Register</span>
+                  <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center">Register</span>
                 </a>
                 </Link>
               </li>
@@ -111,7 +117,7 @@ export default function Navbar({ fixed }) {
                   className="px-6 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
                   href="#activities"
                 >
-                  <span className="ml-2 text-lg font-normal">Events</span>
+                  <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center">Events</span>
                 </a>
               </li> */}
               {/* <Button text={'Discover More'}/> */}
