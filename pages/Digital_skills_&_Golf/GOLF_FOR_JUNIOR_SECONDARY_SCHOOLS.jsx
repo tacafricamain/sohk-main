@@ -1,4 +1,4 @@
-import type { NextPage } from "next";
+
 import React from 'react'
 
 export default function GOLF_FOR_JUNIOR_SECONDARY_SCHOOLS () {
