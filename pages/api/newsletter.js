@@ -22,31 +22,30 @@ export const data = [
         description: "The School of HardKnocks Golf Team participated in the TYB Golf Championship event. The Tournament created a platform for high Networth individuals to interact and explore mentorship training.",
         link: '/pdf/TYB Junior Championship-1.pdf',
         image: 'https://res.cloudinary.com/tacafrica/image/upload/v1673451332/newsletters%20imager/Screenshot_from_2023-01-11_16-35-14_sokd2p.png'
-     },
-    {
+    }, {
         title: 'Fifth Edition',
         description: "The LeaderJoe 1808 Foundation sponsored the Junior Golf Championship with the theme: Empowering Young minds, which took place at TYB-IGRCC Yar'adua Barracks. Read more...",
         link: '/pdf/Junior Golf Championship .pdf',
         image: 'https://res.cloudinary.com/tacafrica/image/upload/v1673449563/newsletters%20imager/Screenshot_from_2023-01-11_15-53-46_nuch7a.png'
-    },
-    {
+    }, {
         title: 'Sixth Edition',
         description: "Due to the prevalence of crime in the society, the School of HardKnocks set up a specialized unarmed combat self defence training with global experts. Read more...",
         link: '/pdf/SOHK 2nd Edition NSL-2.pdf',
         image: 'https://res.cloudinary.com/tacafrica/image/upload/v1673449564/newsletters%20imager/Screenshot_from_2023-01-11_15-53-00_rnq1li.png'
-    },
-
-    {
+    }, {
         title: 'Seventh Edition',
         description: 'The School Of Hardknocks SOHK Nigeria Makes A Historic Tour To IBB Golf Course Towards Promoting The Game Of Golf In Nigeria.',
         link: '/pdf/27th Jan. Update _ Newsletter.pdf',
         image: 'https://res.cloudinary.com/tacafrica/image/upload/v1675096447/my_folder/Screenshot_from_2023-01-30_16-16-13_s7bgsz.png'
-    },
-    {
+    }, {
         title: 'Eighth Edition',
         description: 'School Of Hardknocks (SOHK) Nigeria, Receives Certification Of Endorsement To Train Secondary Schools Students On Digital Specialized Skills & Sports: (Golf and Lawn Tennis).',
         link: '/pdf/SOHK Significant Stance.pdf',
         image: 'https://res.cloudinary.com/tacafrica/image/upload/v1676988482/newsletters%20imager/Screenshot_from_2023-02-21_15-06-15_if4gqm.png'
+    }, {
+        title: 'Ninth Edition',
+        description: 'SCHOOL OF HARDKNOCKS NIGERIA HOSTS CORPORATE UNITED FC AT ITS FACILITY IN KUBWA.',
+        link: '/pdf/United FC Newsletter.pdf',
+        image: 'https://res.cloudinary.com/tacafrica/image/upload/v1678882893/newsletters%20imager/Screenshot_from_2023-03-15_13-16-51_yjmt30.png'
     },
 ]
-
