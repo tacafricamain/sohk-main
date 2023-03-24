@@ -12,7 +12,11 @@ export default function Navbar({ fixed }) {
   const data = [
     {href: '/Digital_skills_&_Golf/GOLF_FOR_PRIMARY_SCHOOLS', name: 'GOLF FOR PRIMARY SCHOOLS '},
     {href: '/Digital_skills_&_Golf/GOLF_FOR_JUNIOR_SECONDARY_SCHOOLS', name: 'GOLF FOR JUNIOR SECONDARY SCHOOLS'},
-    {href: '/Digital_skills_&_Golf/GOLF_FOR_SENIOR_SECONDARY_SCHOOLS', name: 'GOLF FOR SENIOR SECONDARY SCHOOLS'}
+    { href: '/Digital_skills_&_Golf/GOLF_FOR_SENIOR_SECONDARY_SCHOOLS', name: 'GOLF FOR SENIOR SECONDARY SCHOOLS' },
+  ]
+
+  const events = [
+    {href: '/events/UN_Intl_Day_of_ZERO_WASTE', name: 'UN International Day of ZERO WASTE'}
   ]
 
   return (
@@ -87,6 +91,14 @@ export default function Navbar({ fixed }) {
                   label={'Digital skills & Golf'}
                   key={'Digital skills & Golf'}
                   content={data}
+                  setMenuState={setMenuState}
+                  menuState={menuState}
+              />
+              
+              <DropDownButton
+                  label={'Events'}
+                  key={'Events'}
+                  content={events}
                   setMenuState={setMenuState}
                   menuState={menuState}
                 />
