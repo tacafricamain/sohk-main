@@ -34,6 +34,8 @@ function MyApp({ Component, pageProps }) {
             <meta property="og:image:type" content="image/jpeg" />
             
             <link rel="shortcut icon" href="/favicon.ico" />
+            <link src="https://unpkg.com/swiper/swiper-bundle.min.js"></link>
+            <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet" ></link>
         </Head>
       <Layout>
         <Component {...pageProps} />

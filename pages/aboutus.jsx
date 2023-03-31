@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
-import Testimonials from '../components/homepageComponents/Testimonials'
+import Testimonials from '../components/newsletterr'
 
 export default function Aboutus() {
   return (
@@ -44,11 +44,11 @@ export default function Aboutus() {
               `}
             </p>
 
-
         </div>
-              </div>
+        </div>
     </div>
 </div>
+      <Testimonials  />
     </div>
   )
 }
