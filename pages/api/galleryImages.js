@@ -8,9 +8,13 @@ import {Parkland_Golf_Tour} from "../../config/cloudinary/galleryImages/Parkland
 import {SOHK_team_at_TAC_HQ} from "../../config/cloudinary/galleryImages/SOHK_team_at_TAC_HQ";
 import {Vitality_Clubhouse_Tour} from "../../config/cloudinary/galleryImages/Vitality_Clubhouse_Tour";
 import {TYB_Golf_Tour} from "../../config/cloudinary/galleryImages/TYB_Golf_Tour";
-import {Certification_Of_Endorsement_To_Train_Secondary_Schools_Students} from "../../config/cloudinary/galleryImages/Certification_Of_Endorsement_To_Train_Secondary_Schools_Students"
+import { Certification_Of_Endorsement_To_Train_Secondary_Schools_Students } from "../../config/cloudinary/galleryImages/Certification_Of_Endorsement_To_Train_Secondary_Schools_Students"
+import { UN_International_Day_of_ZERO_WASTE } from "../../config/cloudinary/galleryImages/UN_International_Day_of_ZERO_WASTE";
 
 export const images = [
+    {
+        ...UN_International_Day_of_ZERO_WASTE
+    },
     {
         ...Certification_Of_Endorsement_To_Train_Secondary_Schools_Students
     },

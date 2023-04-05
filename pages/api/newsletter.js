@@ -47,5 +47,10 @@ export const data = [
         description: 'SCHOOL OF HARDKNOCKS NIGERIA HOSTS CORPORATE UNITED FC AT ITS FACILITY IN KUBWA.',
         link: '/pdf/United FC Newsletter.pdf',
         image: 'https://res.cloudinary.com/tacafrica/image/upload/v1678882893/newsletters%20imager/Screenshot_from_2023-03-15_13-16-51_yjmt30.png'
+    },{
+        title: 'Tenth Edition',
+        description: 'UN International Day of ZERO WASTE',
+        link: '/pdf/UN_Intl_Day_of_ZERO_WASTE.pdf',
+        image: 'https://res.cloudinary.com/tacafrica/image/upload/v1680704643/UN_Intl_Day_of_ZERO_WASTE/Screenshot_from_2023-04-05_15-23-32_hpcrma.png'
     },
 ]
