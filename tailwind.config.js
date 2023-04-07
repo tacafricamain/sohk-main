@@ -16,7 +16,9 @@ module.exports = {
       backgroundImage: {
         test: "url('https://res.cloudinary.com/tacafrica/image/upload/v1675094357/my_folder/TYB%20Golf%20Tour/YOD01520230112_p8l014.jpg')",
         test2:
-          "url('https://res.cloudinary.com/tacafrica/image/upload/v1675094357/my_folder/TYB%20Golf%20Tour/YOD01520230112_p8l014.jpg')",
+          // "url('https://res.cloudinary.com/tacafrica/image/upload/v1675094357/my_folder/TYB%20Golf%20Tour/YOD01520230112_p8l014.jpg')",
+          "url('https://res.cloudinary.com/tacafrica/image/upload/v1680704643/UN_Intl_Day_of_ZERO_WASTE/Screenshot_from_2023-04-05_15-23-32_hpcrma.png')",
+          //
         mobileBG:
           "url('https://res.cloudinary.com/tacafrica/image/upload/v1675094357/my_folder/TYB%20Golf%20Tour/YOD01520230112_p8l014.jpg')",
           // "url('https://res.cloudinary.com/tacafrica/image/upload/v1669213192/my_folder/sohk/1-2208130110_r5s1up.jpg')",
