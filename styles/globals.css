@@ -121,12 +121,12 @@ a {
   position: relative;
 }
 
-.img_landing-container img {
+.img_landing-container > img {
   position: absolute;
   animation-name: multiple-image-crossfade;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in;
   animation-iteration-count: infinite;
-  animation-duration: 16s;
+  animation-duration: 12s;
 }
 
 .img_landing-container > img:nth-of-type(1) {
@@ -142,20 +142,20 @@ a {
 }
 
 .img_landing-container > img:nth-of-type(4) {
-  animation-delay: 0;
+  animation-delay: 0s;
 }
 
 @keyframes multiple-image-crossfade {
   0% {
     opacity: 1;
   }
-  17% {
+  25% {
     opacity: 1;
   }
-  25% {
+  50% {
     opacity: 0;
   }
-  92% {
+  75% {
     opacity: 0;
   }
   100% {

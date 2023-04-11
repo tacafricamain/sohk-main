@@ -7,15 +7,6 @@ import Link from 'next/link'
 export default function HeroSection(){
 
     return(
-        // bg-mobileBG lg:
-        // <section id='home' className="h-[100vh] overflow-hidden bg-fixed bg-center bg-cover
-        // bg-test2" style={{ backgroundAttachment: 'scroll' }} >
-        //     <div className="h-screen  overflow-hidden flex flex-col justify-end  "
-        //     >
-               
-        //     </div>
-        // </section>
-
 
         <div className="flex-col bg-main_grey ">
             <div
@@ -30,11 +21,11 @@ export default function HeroSection(){
                 className="object-cover"
                 style={{width: '100%', height: '100%'}} />
             <img alt="Technology Against Crime ideology"
-                src="https://res.cloudinary.com/tacafrica/image/upload/v1675095202/my_folder/Vitality%20Clubhouse%20Tour/YOD05720230112_qpcnb2.jpg"
+                src="https://res.cloudinary.com/tacafrica/image/upload/v1678189517/project%20774/YOd20230216021_vshcsg.jpg"
                 className="object-cover"
                 style={{width: '100%', height: '100%'}} />
             <img alt="Technology Against Crime ideology"
-                src="https://res.cloudinary.com/tacafrica/image/upload/v1663156490/my_folder/mandella_and_chess_day/Screenshot_from_2022-09-14_12-53-30_qz5g3p.png"
+                src="https://res.cloudinary.com/tacafrica/image/upload/v1665933795/my_folder/wetransfer_oct_2023/image00051_rcoxyz.jpg"
                 className="object-cover"
                 style={{width: '100%', height: '100%'}} /> 
             </div>
