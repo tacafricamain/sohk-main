@@ -16,7 +16,8 @@ export default function Navbar({ fixed }) {
   ]
 
   const events = [
-    {href: '/events/UN_Intl_Day_of_ZERO_WASTE', name: 'UN International Day of ZERO WASTE'}
+    { href: '/events/UN_Intl_Day_of_ZERO_WASTE', name: 'UN International Day of ZERO WASTE' },
+    {href: '/events/DroneSafetyDay', name: 'Drone Safety Day'}
   ]
 
   return (
