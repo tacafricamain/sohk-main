@@ -53,4 +53,10 @@ export const data = [
         link: '/pdf/UN_Intl_Day_of_ZERO_WASTE.pdf',
         image: 'https://res.cloudinary.com/tacafrica/image/upload/v1680704643/UN_Intl_Day_of_ZERO_WASTE/Screenshot_from_2023-04-05_15-23-32_hpcrma.png'
     },
+    ,{
+        title: 'Eleventh Edition',
+        description: 'TAC Africa, School Of Hardknocks Nigeria, Corporate United Football Club Co-Host the Maiden Novelty Football to officially Mark the opening of Corporate United Football Pitch and to Honour the Birthday of Mr. Goodwin Ekpa, the President of Corporate United Football Club.',
+        link: '/pdf/11th EDition NewsLetter.pdf',
+        image: 'https://res.cloudinary.com/tacafrica/image/upload/v1680704643/UN_Intl_Day_of_ZERO_WASTE/Screenshot_from_2023-04-05_15-23-32_hpcrma.png'
+    }
 ]
