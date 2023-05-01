@@ -1,7 +1,7 @@
 // TAC Africa, School Of Hardknocks Nigeria, Corporate United Football Club Co-Host the Maiden Novelty Football to officially Mark the opening of Corporate United Football Pitch and to Honour the Birthday of Mr. Goodwin Ekpa, the President of Corporate United Football Club.
-export const TAC_Africa_School_Of_Hardknocks_Nigeria_Corporate_United_Football_Club_Co_Host_the_Maiden_Novelty_Football_to_officially_Mark_the_opening_of_Corporate_United_Football_Pitch_and_to_Honour_the_Birthday_of_Mr_Goodwin_Ekpa_the_President_of_Corporate_United_Football_Club = {
+export const TAC_Africa_SOHK_Nigeria_Corporate_United_Football_Club_CoHost_the_Maiden_Novelty_Match_to_Honour_Mr_Goodwin_Ekpa_the_President_of_Corporate_United_Football_Club = {
     title: 'TAC Africa, School Of Hardknocks Nigeria, Corporate United Football Club Co-Host the Maiden Novelty Football to officially Mark the opening of Corporate United Football Pitch and to Honour the Birthday of Mr. Goodwin Ekpa, the President of Corporate United Football Club.',
-    slug: 'TAC_Africa_School_Of_Hardknocks_Nigeria_Corporate_United_Football_Club_Co-Host_the_Maiden_Novelty_Football_to_officially_Mark_the_opening_of_Corporate_United_Football_Pitch_and_to_Honour_the_Birthday_of_Mr_Goodwin_Ekpa_the_President_of_Corporate_United_Football_Club',
+    slug: 'TAC_Africa_SOHK_Nigeria_Corporate_United_Football_Club_CoHost_the_Maiden_Novelty_Match_to_Honour_Mr_Goodwin_Ekpa_the_President_of_Corporate_United_Football_Club',
     content: "TAC Africa, School Of Hardknocks Nigeria, Corporate United Football Club Co-Host the Maiden Novelty Football to officially Mark the opening of Corporate United Football Pitch and to Honour the Birthday of Mr. Goodwin Ekpa, the President of Corporate United Football Club.",
     date: '2022',
     displayImage: 'https://res.cloudinary.com/tacafrica/image/upload/v1682949116/sport_saisia/IMG_1177_muiw1n.jpg',
