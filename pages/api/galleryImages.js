@@ -10,11 +10,11 @@ import {Vitality_Clubhouse_Tour} from "../../config/cloudinary/galleryImages/Vit
 import {TYB_Golf_Tour} from "../../config/cloudinary/galleryImages/TYB_Golf_Tour";
 import { Certification_Of_Endorsement_To_Train_Secondary_Schools_Students } from "../../config/cloudinary/galleryImages/Certification_Of_Endorsement_To_Train_Secondary_Schools_Students"
 import { UN_International_Day_of_ZERO_WASTE } from "../../config/cloudinary/galleryImages/UN_International_Day_of_ZERO_WASTE";
-import { TAC_Africa_School_Of_Hardknocks_Nigeria_Corporate_United_Football_Club_Co_Host_the_Maiden_Novelty_Football_to_officially_Mark_the_opening_of_Corporate_United_Football_Pitch_and_to_Honour_the_Birthday_of_Mr_Goodwin_Ekpa_the_President_of_Corporate_United_Football_Club } from "../../config/cloudinary/galleryImages/TAC_Africa_SOHK_Nigeria_Corporate_United_Football_Club_CoHost_the_Maiden_Novelty_Match_to_Honour_Mr_Goodwin_Ekpa_the_President_of_Corporate_United_Football_Club"
+import { TAC_Africa_SOHK_Nigeria_Corporate_United_Football_Club_CoHost_the_Maiden_Novelty_Match_to_Honour_Mr_Goodwin_Ekpa_the_President_of_Corporate_United_Football_Club } from "../../config/cloudinary/galleryImages/TAC_Africa_SOHK_Nigeria_Corporate_United_Football_Club_CoHost_the_Maiden_Novelty_Match_to_Honour_Mr_Goodwin_Ekpa_the_President_of_Corporate_United_Football_Club"
 
 export const images = [
     {
-        ...TAC_Africa_School_Of_Hardknocks_Nigeria_Corporate_United_Football_Club_Co_Host_the_Maiden_Novelty_Football_to_officially_Mark_the_opening_of_Corporate_United_Football_Pitch_and_to_Honour_the_Birthday_of_Mr_Goodwin_Ekpa_the_President_of_Corporate_United_Football_Club
+        ...TAC_Africa_SOHK_Nigeria_Corporate_United_Football_Club_CoHost_the_Maiden_Novelty_Match_to_Honour_Mr_Goodwin_Ekpa_the_President_of_Corporate_United_Football_Club
     },
     {
         ...UN_International_Day_of_ZERO_WASTE
