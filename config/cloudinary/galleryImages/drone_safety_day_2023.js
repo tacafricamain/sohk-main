@@ -116,6 +116,90 @@ export const drone_safety_day_2023 = {
         },        {
             src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950714/drone_safety_day/IMG_1558_m7sqwk.jpg',
             alt: 'drone_safety_day_2023'
+        },{
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950462/drone_safety_day/IMG_1231_vnmrgh.jpg',
+            alt: 'drone_safety_day_2023'
+        },{
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950465/drone_safety_day/IMG_1227_hlec3w.jpg',
+            alt: 'drone_safety_day_2023'
+        },{
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950466/drone_safety_day/IMG_1228_sogy8g.jpg',
+            alt: 'drone_safety_day_2023'
+        },{
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950471/drone_safety_day/IMG_1241_fbxjvh.jpg',
+            alt: 'drone_safety_day_2023'
+        },{
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950474/drone_safety_day/IMG_1236_ycuot3.jpg',
+            alt: 'drone_safety_day_2023'
+        },{
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950478/drone_safety_day/IMG_1245_qzsqut.jpg',
+            alt: 'drone_safety_day_2023'
+        },{
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950485/drone_safety_day/IMG_1252_utbahn.jpg',
+            alt: 'drone_safety_day_2023'
+        },{
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950494/drone_safety_day/IMG_1258_gesowg.jpg',
+            alt: 'drone_safety_day_2023'
+        },{
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950497/drone_safety_day/IMG_1261_ilgj82.jpg',
+            alt: 'drone_safety_day_2023'
+        },{
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950503/drone_safety_day/IMG_1262_lthlqm.jpg',
+            alt: 'drone_safety_day_2023'
+        },{
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950509/drone_safety_day/IMG_1265_vivnj0.jpg',
+            alt: 'drone_safety_day_2023'
+        },{
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950512/drone_safety_day/IMG_1268_xqxq0p.jpg',
+            alt: 'drone_safety_day_2023'
+        },{
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950519/drone_safety_day/IMG_1277_g5hecq.jpg',
+            alt: 'drone_safety_day_2023'
+        },{
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950526/drone_safety_day/IMG_1279_kude4c.jpg',
+            alt: 'drone_safety_day_2023'
+        },{
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950529/drone_safety_day/IMG_1287_v3j9xn.jpg',
+            alt: 'drone_safety_day_2023'
+        },{
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950549/drone_safety_day/IMG_1306_fhcnry.jpg',
+            alt: 'drone_safety_day_2023'
+        },{
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950564/drone_safety_day/IMG_1335_vxawpv.jpg',
+            alt: 'drone_safety_day_2023'
+        },{
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950574/drone_safety_day/IMG_1350_hy0zcz.jpg',
+            alt: 'drone_safety_day_2023'
+        },{
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950633/drone_safety_day/IMG_1405_c6u5wn.jpg',
+            alt: 'drone_safety_day_2023'
+        },{
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950637/drone_safety_day/IMG_1406_vzdolu.jpg',
+            alt: 'drone_safety_day_2023'
+        },{
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950642/drone_safety_day/IMG_1419_ufmpic.jpg',
+            alt: 'drone_safety_day_2023'
+        },{
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950643/drone_safety_day/IMG_1416_z4fqen.jpg',
+            alt: 'drone_safety_day_2023'
+        },{
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950648/drone_safety_day/IMG_1426_d6a9vs.jpg',
+            alt: 'drone_safety_day_2023'
+        },{
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950651/drone_safety_day/IMG_1435_xtlcmc.jpg',
+            alt: 'drone_safety_day_2023'
+        },{
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950680/drone_safety_day/IMG_1478_byp5ke.jpg',
+            alt: 'drone_safety_day_2023'
+        },{
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950681/drone_safety_day/IMG_1487_qrjyfo.jpg',
+            alt: 'drone_safety_day_2023'
+        },{
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950689/drone_safety_day/IMG_1500_wthb66.jpg',
+            alt: 'drone_safety_day_2023'
+        },{
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950707/drone_safety_day/IMG_1529_bfu5lm.jpg',
+            alt: 'drone_safety_day_2023'
         },
     ]
 }
