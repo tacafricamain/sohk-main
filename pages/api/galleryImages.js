@@ -11,8 +11,12 @@ import {TYB_Golf_Tour} from "../../config/cloudinary/galleryImages/TYB_Golf_Tour
 import { Certification_Of_Endorsement_To_Train_Secondary_Schools_Students } from "../../config/cloudinary/galleryImages/Certification_Of_Endorsement_To_Train_Secondary_Schools_Students"
 import { UN_International_Day_of_ZERO_WASTE } from "../../config/cloudinary/galleryImages/UN_International_Day_of_ZERO_WASTE";
 import { TAC_Africa_SOHK_Nigeria_Corporate_United_Football_Club_CoHost_the_Maiden_Novelty_Match_to_Honour_Mr_Goodwin_Ekpa_the_President_of_Corporate_United_Football_Club } from "../../config/cloudinary/galleryImages/TAC_Africa_SOHK_Nigeria_Corporate_United_Football_Club_CoHost_the_Maiden_Novelty_Match_to_Honour_Mr_Goodwin_Ekpa_the_President_of_Corporate_United_Football_Club"
+import { drone_safety_day_2023 } from '../../config/cloudinary/galleryImages/drone_safety_day_2023'
 
 export const images = [
+    {
+        ...drone_safety_day_2023
+    },
     {
         ...TAC_Africa_SOHK_Nigeria_Corporate_United_Football_Club_CoHost_the_Maiden_Novelty_Match_to_Honour_Mr_Goodwin_Ekpa_the_President_of_Corporate_United_Football_Club
     },
