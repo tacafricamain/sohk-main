@@ -9,7 +9,7 @@ import { useIsomorphicLayoutEffect } from "../../utils";
 import Button from "../../components/Button";
 import BlogEditor from "../../components/BlogEditor";
 import { useRouter } from "next/router";
-import Cursor from "../../components/Cursor";
+// import Cursor from "../../components/Cursor";
 // import data from "../../data/portfolio.json";
 
 const BlogPost = ({ post }) => {
@@ -28,7 +28,7 @@ const BlogPost = ({ post }) => {
         <title>{"Blog - " + post.title}</title>
         <meta name="description" content={post.preview} />
       </Head>
-       <Cursor />
+       {/* <Cursor /> */}
       {/* {!showEditor && ( */}
         <>
             `<div
