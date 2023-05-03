@@ -16,8 +16,8 @@ export default function Navbar({ fixed }) {
   ]
 
   const events = [
-    { href: '/events/UN_Intl_Day_of_ZERO_WASTE', name: 'UN International Day of ZERO WASTE' },
-    {href: '/events/DroneSafetyDay', name: 'Drone Safety Day'}
+    { href: '/news&events/UN_Intl_Day_of_ZERO_WASTE', name: 'UN International Day of ZERO WASTE' },
+    {href: '/news&events/DroneSafetyDay', name: 'Drone Safety Day'}
   ]
 
   return (
@@ -95,14 +95,16 @@ export default function Navbar({ fixed }) {
                   setMenuState={setMenuState}
                   menuState={menuState}
               />
-              
-              <DropDownButton
-                  label={'Events'}
-                  key={'Events'}
-                  content={events}
-                  setMenuState={setMenuState}
-                  menuState={menuState}
-                />
+           
+              <li className="nav-item my-auto">
+              <Link href="/news&events">
+                <a
+                  className="px-6 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"                 
+                >
+                  <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center">News & Events</span>
+                </a>
+                </Link>
+              </li>
 
               <li className="nav-item my-auto">
               <Link href="/gallery">
