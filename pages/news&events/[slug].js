@@ -1,26 +1,14 @@
 import React, { useRef, useState } from "react";
 import { getPostBySlug, getAllPosts } from "../../utils/api";
-// import Header from "../../components/Header";
 import ContentSection from "../../components/ContentSection";
-// import Footer from "../../components/Footer";
 import Head from "next/head";
-import { useIsomorphicLayoutEffect } from "../../utils";
-// import { stagger } from "../../animations";
 import Button from "../../components/Button";
 import BlogEditor from "../../components/BlogEditor";
 import { useRouter } from "next/router";
-// import Cursor from "../../components/Cursor";
-// import data from "../../data/portfolio.json";
 
 const BlogPost = ({ post }) => {
   const [showEditor, setShowEditor] = useState(false);
-  const textOne = useRef();
-  const textTwo = useRef();
   const router = useRouter();
-
-  // useIsomorphicLayoutEffect(() => {
-  //   stagger([textOne.current, textTwo.current], { y: 30 }, { y: 0 });
-  // }, []);
 
   return (
     <>
@@ -32,9 +20,7 @@ const BlogPost = ({ post }) => {
       {/* {!showEditor && ( */}
         <>
             `<div
-              className={`container mx-auto mt-10 ${
-              "cursor-none"
-              }`}
+              className={`container mx-auto mt-10`}
             >
               {/* <Header isBlog={true} /> */}
               <div className="mt-10 flex flex-col ">
