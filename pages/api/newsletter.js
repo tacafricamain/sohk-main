@@ -59,11 +59,11 @@ export const data = [
         link: '/pdf/11th_Dition_Nwsltttr.pdf',
         image: 'https://res.cloudinary.com/tacafrica/image/upload/v1680704643/UN_Intl_Day_of_ZERO_WASTE/Screenshot_from_2023-04-05_15-23-32_hpcrma.png'
     },
-    ,{
-        title: 'Twelfth Edition',
-        description: 'TAC AFRICA/SOHK NIGERIA marks the drone safety international day',
-        link: '/pdf/12th Edition.pdf',
-        image: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950714/drone_safety_day/IMG_1556_vh0q4l.jpg'
-    }
+    // ,{
+    //     title: 'Twelfth Edition',
+    //     description: 'TAC AFRICA/SOHK NIGERIA marks the drone safety international day',
+    //     link: '/pdf/12th Edition.pdf',
+    //     image: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950714/drone_safety_day/IMG_1556_vh0q4l.jpg'
+    // }
    
 ]
