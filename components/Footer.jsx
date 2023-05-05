@@ -73,7 +73,7 @@ export default function Footer() {
                     <h3 className="font-bold text-xl text-white uppercase">
                       Quicklinks
                     </h3>
-                    <ul>
+                    <ul className='space-y-4'>
                       {data.map((item, i) => (
                         <li>{item}</li>
                       ))}
@@ -83,7 +83,7 @@ export default function Footer() {
               </div>
               <div className="md:w-1/3 pr-4 pl-4">
                 <div className="flex flex-wrap ">
-                  <div className=" xl:w-full pr-4 pl-4">
+                  <div className=" xl:w-full pr-4 pl-4 space-y-4">
                     <h3 className="w-full mt-0 mb-0 pt-0 pb-2 pl-0 pr-0 font-bold text-xl text-white uppercase">
                       get in touch
                     </h3>
@@ -101,18 +101,29 @@ export default function Footer() {
                     </div>
 
                     <div className="">
-                      <p className="text-sm mb-1 text-white">
-                        phone: +234 706 224 7581
+                      <p className="text-sm space-x-4 mb-1 text-white">
+                        phone:
+                      <a href='tel:+2349088559001 '>+2349088559001</a>
+                      <a href='tel:+2349088559002'>+2349088559002</a>
+                      </p>
+                      <hr className="w-4/5" />
+                    </div>
+
+                    <div className="">
+                      <p className="text-sm mb-1 text-white space-x-4 ">
+                        Whatsapp:
+                        <a className='text-white' href="https://wa.me/+2349088559003" target="_blank"  rel="noreferrer"> +2349088559003</a>
                       </p>
                       <hr className="w-4/5" />
                     </div>
 
                     <div className="">
                       <p className="text-sm mb-1 text-white">
-                        email: contactus@schoolofhardknocks.com.ng
+                        <a className='text-white' href="mailto:contactus@schoolofhardknocks.com.ng" target="_blank"  rel="noreferrer"> email: contactus@schoolofhardknocks.com.ng</a>                   
                       </p>
                       <hr className="w-4/5" />
                     </div>
+
                   </div>
                 </div>
               </div>
