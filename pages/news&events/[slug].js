@@ -14,7 +14,7 @@ const BlogPost = ({ post }) => {
     <>
       <Head>
         <title>{"Blog - " + post.title}</title>
-        <meta name="description" content={post.preview} />
+        <meta name={post.title} content={post.preview} />
       </Head>
        {/* <Cursor /> */}
       {/* {!showEditor && ( */}

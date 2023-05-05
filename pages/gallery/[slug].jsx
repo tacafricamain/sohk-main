@@ -4,11 +4,12 @@ import { images } from '../api/galleryImages';
 import Head from 'next/head';
 
 const ImageGallery = ({ post }) => {
+  
   return (
     <>
       <Head>
       <title>{post[0]?.title}</title>
-      <meta name="description" content={images[0].src} />
+      <meta name={images[0].title} content={images[0].displayImage} />
       </Head>
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col w-full mb-20">
