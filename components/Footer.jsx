@@ -118,6 +118,13 @@ export default function Footer() {
                     </div>
 
                     <div className="">
+                      <p className="text-sm mb-1 text-white space-x-4 ">
+                        <a className='text-white' href="https://www.youtube.com/@School-of-Hardknocks-NG" target="_blank"  rel="noreferrer"> Youtube</a>
+                      </p>
+                      <hr className="w-4/5" />
+                    </div>
+
+                    <div className="">
                       <p className="text-sm mb-1 text-white">
                         <a className='text-white' href="mailto:contactus@schoolofhardknocks.com.ng" target="_blank"  rel="noreferrer"> email: contactus@schoolofhardknocks.com.ng</a>                   
                       </p>
