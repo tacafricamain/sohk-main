@@ -6,6 +6,22 @@ export const drone_safety_day_2023 = {
     displayImage: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950732/drone_safety_day/IMG_1598_gaqptp.jpg',
     images: [
         {
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1683295847/sport_saisia/WhatsApp_Image_2023-05-05_at_3.08.45_PM_1_hb2ejm.jpg',
+            alt: 'drone_safety_day_2023'
+        }, 
+        {
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1683295846/sport_saisia/WhatsApp_Image_2023-05-05_at_3.08.45_PM_fnc1zn.jpg',
+            alt: 'drone_safety_day_2023'
+        },
+        {
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1683295846/sport_saisia/WhatsApp_Image_2023-05-05_at_3.08.46_PM_kwleac.jpg',
+            alt: 'drone_safety_day_2023'
+        },
+        {
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1683295846/sport_saisia/WhatsApp_Image_2023-05-05_at_3.08.44_PM_r4qo4e.jpg',
+            alt: 'drone_safety_day_2023'
+        },
+        {
             src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950714/drone_safety_day/IMG_1558_m7sqwk.jpg',
             alt: 'drone_safety_day_2023'
         },        {
