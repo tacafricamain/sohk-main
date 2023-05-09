@@ -15,6 +15,15 @@ export default function Navbar({ fixed }) {
     { href: '/Digital_skills_&_Golf/GOLF_FOR_SENIOR_SECONDARY_SCHOOLS', name: 'GOLF FOR SENIOR SECONDARY SCHOOLS' },
   ]
 
+  const about = [
+    { href: '/aboutus', name: 'aboutus' },
+    { href: '/our_team', name: 'Our team' },
+    {href: '/our_team/founder', name: 'founder'},
+    {href: '/our_team/coaches', name: 'coaches'},
+    {href: '/our_team/consultants', name: 'consultants'},
+    {href: '/our_team/secretariat', name: 'secretariat'},
+  ]
+
   const events = [
     { href: '/news&events/UN_Intl_Day_of_ZERO_WASTE', name: 'UN International Day of ZERO WASTE' },
     {href: '/news&events/DroneSafetyDay', name: 'Drone Safety Day'}
@@ -58,15 +67,13 @@ export default function Navbar({ fixed }) {
                 </Link>
               </li>
 
-              <li className="nav-item my-auto">
-                <Link href="/aboutus">
-                  <a
-                    className="px-6 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"                    
-                  >
-                    <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center">About Us</span>
-                  </a>
-                </Link>
-              </li>
+              <DropDownButton
+                  label={'About'}
+                  key={'About'}
+                  content={about}
+                  setMenuState={setMenuState}
+                  menuState={menuState}
+              />
 
               <li className="nav-item my-auto">
               <Link href="/newsletters">

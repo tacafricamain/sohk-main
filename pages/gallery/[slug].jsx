@@ -45,7 +45,8 @@ export const getStaticProps = async ({ params }) => {
   
 export const getStaticPaths = async () => {
     const posts = images
-    const paths = posts.map( image => ({ params: { slug: `${image.slug}`}})) 
+    const paths = posts.map( image => ({ params: { slug: `${image.slug}`}}))
+    console.log(paths)
     return {
       paths,
       fallback: false,

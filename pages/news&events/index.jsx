@@ -3,9 +3,6 @@ import Head from "next/head";
 import Router, { useRouter } from "next/router";
 import { JSXElementConstructor, Key, ReactElement, ReactFragment, ReactPortal, useEffect, useRef, useState } from "react";
 import Button from "../../components/Button";
-// import Cursor from "../../components/Cursor";
-// import Header from "../../components/Header";
-// import data from "../../data/portfolio.json";
 import { ISOToDate,  } from "../../utils";
 import { getAllPosts } from "../../utils/api";
 
