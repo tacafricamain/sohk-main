@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 const DropDownButton = ({
+  navbarOpen,
+  setNavbarOpen,
   setMenuState,
   menuState,
   label,
@@ -22,9 +24,11 @@ const DropDownButton = ({
         >
 
       <button
-        id="dropdownButton"
+        // id="dropdownButton"
         className="capitalize hover:bg-gold focus:ring-4 focus:outline-none font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-        type="button"
+        // type="button"
+          onClick={(e) => { setIsShown(true) }}
+        
       >
         {label}{' '}
         {  <svg
@@ -58,12 +62,14 @@ const DropDownButton = ({
                     (
                       <Link href={href}>
                       <a
-                        onClick={() => {
+                        onClick={(e) => {
                           setIsShown(!isShown);
                           setMenuState(!menuState);
+                          setNavbarOpen(!navbarOpen)
                         }}
+
                         // target='_blank'
-                        className={`capitalize block ${content[0].name ? "px-4 py-2" : undefined } 2xl:text-lg hover:bg-gray-100`}
+                        className={`capitalize block ${content[0].name ? "px-4 py-2" : undefined} 2xl:text-lg hover:bg-gray-100`}
                       >
                         { name }
                       </a>

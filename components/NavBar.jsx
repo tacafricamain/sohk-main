@@ -56,13 +56,13 @@ export default function Navbar({ fixed }) {
             }
             id="example-navbar-danger"
           >
-            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto" onClick={() => setNavbarOpen(!navbarOpen)}>
+            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto"  >
               <li className="nav-item my-auto">
                 <Link href="/">
                   <a
                     className="px-6 py-2 flex items-center justify-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65" 
                   >
-                  <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center">Home</span>
+                  <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>Home</span>
                   </a>
                 </Link>
               </li>
@@ -73,6 +73,8 @@ export default function Navbar({ fixed }) {
                   content={about}
                   setMenuState={setMenuState}
                   menuState={menuState}
+                  navbarOpen={navbarOpen}
+                  setNavbarOpen={setNavbarOpen}
               />
 
               <li className="nav-item my-auto">
@@ -80,7 +82,7 @@ export default function Navbar({ fixed }) {
                 <a
                   className="px-6 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
                 >
-                  <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center">Newsletters</span>
+                  <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>Newsletters</span>
                 </a>
                 </Link>
               </li>
@@ -90,17 +92,19 @@ export default function Navbar({ fixed }) {
                 <a
                   className="px-6 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"                  
                 >
-                  <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center">Services</span>
+                  <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>Services</span>
                 </a>
                 </Link>
               </li>
 
               <DropDownButton
-                  label={'Digital skills & Golf'}
-                  key={'Digital skills & Golf'}
-                  content={data}
-                  setMenuState={setMenuState}
-                  menuState={menuState}
+                label={'Digital skills & Golf'}
+                key={'Digital skills & Golf'}
+                content={data}
+                setMenuState={setMenuState}
+                menuState={menuState}
+                navbarOpen={navbarOpen}
+                setNavbarOpen={setNavbarOpen}
               />
            
               <li className="nav-item my-auto">
@@ -108,7 +112,7 @@ export default function Navbar({ fixed }) {
                 <a
                   className="px-6 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"                 
                 >
-                  <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center">News & Events</span>
+                  <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>News & Events</span>
                 </a>
                 </Link>
               </li>
@@ -118,7 +122,7 @@ export default function Navbar({ fixed }) {
                 <a
                   className="px-6 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"                 
                 >
-                  <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center">Gallery</span>
+                  <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>Gallery</span>
                 </a>
                 </Link>
               </li>
@@ -129,7 +133,7 @@ export default function Navbar({ fixed }) {
                   className="px-6 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
                   target='_blank' rel='noopener'
                 >
-                  <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center">Register</span>
+                  <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>Register</span>
                 </a>
                 </Link>
               </li>
