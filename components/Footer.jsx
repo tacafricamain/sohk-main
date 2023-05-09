@@ -7,6 +7,7 @@ import {
   FaInstagram,
   FaLinkedinIn,
   FaYoutube,
+  FaWhatsapp,
 } from 'react-icons/fa';
 
 export default function Footer() {
@@ -109,7 +110,7 @@ export default function Footer() {
                       <hr className="w-4/5" />
                     </div>
 
-                    <div className="">
+                    {/* <div className="">
                       <p className="text-sm mb-1 text-white space-x-4 ">
                         Whatsapp:
                         <a className='text-white' href="https://wa.me/+2349088559003" target="_blank"  rel="noreferrer"> +2349088559003</a>
@@ -122,7 +123,7 @@ export default function Footer() {
                         <a className='text-white' href="https://www.youtube.com/@School-of-Hardknocks-NG" target="_blank"  rel="noreferrer"> Youtube</a>
                       </p>
                       <hr className="w-4/5" />
-                    </div>
+                    </div> */}
 
                     <div className="">
                       <p className="text-sm mb-1 text-white">
@@ -138,6 +139,12 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex justify-center my-6 ">
+          <Link className='mx-2' href="https://wa.me/+2349088559003" >
+            <a target="_blank" rel="noreferrer">
+              <FaWhatsapp className="mx-6 fa fa-brands fa-whatsapp fa-2x  text-gold ease-in duration-200 hover:text-white" />
+              {/* <img className='w-5 mx-2' src="/whatsapp.png" title="whatsapp icons" alt='whatsapp'/> */}
+            </a>
+          </Link>
           {/* facebook */}
           <Link
             href={'https://web.facebook.com/search/top?q=school%20of%20hardknocks%20foundation%20-%20hardknocks%20ng&_rdc=1&_rdr'}
@@ -161,7 +168,13 @@ export default function Footer() {
 
           <Link href={'https://twitter.com/hardknocksng'}>
             <a target="_blank" rel="noreferrer">
-              <FaTwitter className="mx-5 fa fa-brands fa-linkedin fa-2x text-gold ease-in duration-200 hover:text-white" />
+              <FaTwitter className="mx-5 fa fa-brands fa-twitter fa-2x text-gold ease-in duration-200 hover:text-white" />
+            </a>
+          </Link>
+
+          <Link href='https://www.youtube.com/@School-of-Hardknocks-NG' >
+            <a target="_blank" rel="noreferrer">
+              <FaYoutube className="mx-5 fa fa-brands fa-Youtube fa-2x text-gold ease-in duration-200 hover:text-white" />
             </a>
           </Link>
           

@@ -6,7 +6,7 @@ export const drone_safety_day_2023 = {
     displayImage: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950732/drone_safety_day/IMG_1598_gaqptp.jpg',
     images: [
         {
-            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1683295847/sport_saisia/WhatsApp_Image_2023-05-05_at_3.08.45_PM_1_hb2ejm.jpg',
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1683296918/sport_saisia/WhatsApp_Image_2023-05-05_at_3.25.03_PM_gl1kvi.jpg',
             alt: 'drone_safety_day_2023'
         }, 
         {
@@ -14,7 +14,7 @@ export const drone_safety_day_2023 = {
             alt: 'drone_safety_day_2023'
         },
         {
-            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1683295846/sport_saisia/WhatsApp_Image_2023-05-05_at_3.08.46_PM_kwleac.jpg',
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1683296918/sport_saisia/WhatsApp_Image_2023-05-05_at_3.25.07_PM_ngvet1.jpg',
             alt: 'drone_safety_day_2023'
         },
         {
@@ -26,6 +26,9 @@ export const drone_safety_day_2023 = {
             alt: 'drone_safety_day_2023'
         },        {
             src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950980/drone_safety_day/IMG_2046_gzrrup.jpg',
+            alt: 'drone_safety_day_2023'
+        },        {
+            src: 'https://res.cloudinary.com/tacafrica/image/upload/v1683296918/sport_saisia/WhatsApp_Image_2023-05-05_at_3.25.07_PM_ngvet1.jpg',
             alt: 'drone_safety_day_2023'
         },          {
             src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950975/drone_safety_day/IMG_2020_d0uvzn.jpg',
@@ -48,9 +51,7 @@ export const drone_safety_day_2023 = {
         },        {
             src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950939/drone_safety_day/IMG_1933_rweaat.jpg',
             alt: 'drone_safety_day_2023'
-        },     
-        
-        
+        },
         {
             src: 'https://res.cloudinary.com/tacafrica/image/upload/v1682950927/drone_safety_day/IMG_1906_lxdojv.jpg',
             alt: 'drone_safety_day_2023'
