@@ -25,6 +25,7 @@ const Profile = ({ profile }) => {
         <div className="flex flex-col w-full mb-20">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">{profile[0].name}</h1>
           <p className="mt-4 max-w-xl text-gray-500 lg:text-2xl sm:text-xl sm:leading-relaxed">{profile[0].about} </p>
+          <p className="mt-4 max-w-xl text-gray-500 lg:text-2xl sm:text-xl sm:leading-relaxed">{profile[0].about2} </p>
         </div>
           <div key={5} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mx-8 " >
             

@@ -16,9 +16,8 @@ export default function Navbar({ fixed }) {
   ]
 
   const about = [
-    { href: '/aboutus', name: 'aboutus' },
     { href: '/our_team', name: 'Our team' },
-    {href: '/our_team/founder', name: 'founder'},
+    {href: '/our_team/dr_jerry_akubo', name: 'founder'},
     {href: '/our_team/coaches', name: 'coaches'},
     {href: '/our_team/consultants', name: 'consultants'},
     {href: '/our_team/secretariat', name: 'secretariat'},
@@ -67,8 +66,18 @@ export default function Navbar({ fixed }) {
                 </Link>
               </li>
 
+              <li className="nav-item my-auto">
+                <Link href="/aboutus">
+                  <a
+                    className="px-6 py-2 flex items-center justify-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65" 
+                  >
+                  <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>About Us</span>
+                  </a>
+                </Link>
+              </li>
+
               <DropDownButton
-                  label={'About'}
+                  label={'Our Team'}
                   key={'About'}
                   content={about}
                   setMenuState={setMenuState}
@@ -87,7 +96,7 @@ export default function Navbar({ fixed }) {
                 </Link>
               </li>
 
-              <li className="nav-item my-auto">
+              {/* <li className="nav-item my-auto">
               <Link href="/services">
                 <a
                   className="px-6 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"                  
@@ -95,7 +104,7 @@ export default function Navbar({ fixed }) {
                   <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>Services</span>
                 </a>
                 </Link>
-              </li>
+              </li> */}
 
               <DropDownButton
                 label={'Digital skills & Golf'}
