@@ -33,7 +33,19 @@ const Profile = ({ profile }) => {
               <p className="mt-4 max-w-xl text-white lg:text-sm sm:text-xl sm:leading-relaxed">{profile[0].about2} </p>
             </div>
           </div>
+
         </div>
+          <div className='mb-20'>        
+            <p className=" text-black text-lg opacity-60 mt-10 sm:leading-relaxed flex flex-col md:flex-row lg:w-10/12 mx-auto">{profile[0].about3} </p>
+            
+            <p className=" text-black text-lg opacity-60 mt-3 sm:leading-relaxed flex flex-col md:flex-row lg:w-10/12 mx-auto">{profile[0].about4} </p>
+            
+            <p className=" text-black text-lg opacity-60 mt-3 sm:leading-relaxed flex flex-col md:flex-row lg:w-10/12 mx-auto">{profile[0].about3} </p>
+            
+            <p className=" text-black text-lg opacity-60 mt-3 sm:leading-relaxed flex flex-col md:flex-row lg:w-10/12 mx-auto">{profile[0].about5} </p>
+
+            <p className=" text-black text-lg opacity-60 mt-3 sm:leading-relaxed flex flex-col md:flex-row lg:w-10/12 mx-auto">{profile[0].about6} </p>
+          </div>
       </div>
     </>
   )
