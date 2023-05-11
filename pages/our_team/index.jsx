@@ -14,11 +14,11 @@ export default function Index() {
           <title>Our Team</title>
           <meta name='Our team' />
         </Head>
-      <div className='mb-20 mx-5'>
+      <div className='pb-20 bg-slate-100'>
         <h1 className=' text-blue-700 mt-10 text-center text-4xl uppercase font-semibold'> Our Team</h1>
         <Founder />
-        <Coaches />
         <Consultants />
+        <Coaches />
         <Secretariat />
       </div>
     </>

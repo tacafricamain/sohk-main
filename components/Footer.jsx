@@ -154,7 +154,7 @@ export default function Footer() {
             </a>
           </Link>
           
-          <Link href={'https://instagram.com/hardknocksng?igshid=YmMyMTA2M2Y'}>
+          <Link href={'https://instagram.com/sohk_foundation_nigeria'}>
             <a target="_blank" rel="noreferrer">
               <FaInstagram className="mx-5 fa fa-brands fa-instagram fa-2x  text-gold ease-in duration-200 hover:text-white" />
             </a>

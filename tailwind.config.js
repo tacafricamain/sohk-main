@@ -9,6 +9,9 @@ module.exports = {
       screens: {
         'print': { 'raw': 'print' },
       },
+      boxShadow: {
+        "main": "rgba(0, 0, 0, 0.35) 0px 5px 15px"
+      },
       fontFamily: {
         mavin: ['mavin'],
         mavinRegular: ['mavinRegular'],

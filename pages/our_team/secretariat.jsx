@@ -18,35 +18,32 @@ export default function Secretariat() {
           {
             item.secretariat.map(({ name, designation, image, about, slug }) => (
               <>
-                <div key={name} className="col-span-12 sm:col-span-6 md:col-span-3 shadow rounded-md">
-                    <div className="w-full flex flex-col">
-                        <div className="relative rounded-lg overflow-hidden mx-auto my-5">
-                            <span>
-                                <img src={image} alt={name} className="w-40 h-40 object-cover rounded-full"/>
-                            </span>
-                        </div>
+                <div key={name} className="col-span-12  sm:col-span-6 md:col-span-3 shadow rounded-md bg-white relative">
+                <div className="w-full flex flex-col">
+                      <div className="relative rounded-lg overflow-hidden mx-auto my-5">
+                          <span>
+                              <img src={image} alt={name} className="w-40 h-40 object-cover rounded-full"/>
+                          </span>
+                      </div>
 
-                        <div className="flex flex-row mt-2 gap-2">
+                      <div className="flex flex-row mt-2 gap-2">
 
-                            <div className="flex flex-col px-4 pb-4">
-                                <span>
-                                    <p className="text-gray-600 text-sm font-semibold text-center">{name}</p>
-                                </span>
-                                <span className="text-gray-600 text-xs mt-2 hover:text-gray-600 font-bold">
-                                    {designation}
-                                </span>
-                                <span className="text-gray-600 text-base mt-2 hover:text-gray-600 text-3">
-                                    {about}
-                                </span>
-                                <span>
-                                <Link href={ router.includes('our_team/secretariat') ?  `/our_team/${slug}` : `/our_team/${slug}` }  >
-                                    Read More
-                                </Link>
-                                </span>
-                            </div>
+                          <div className="flex flex-col px-4 pb-4 min-w-[270px] mb-4">
+                              <span>
+                                  <p className="text-[#071238] text-sm font-semibold text-center ">{name}</p>
+                              </span>
+                              <span className="text-[#071238] w-9/12 h-16 opacity-90 mx-auto text-center text-xs mt-2 hover:text-gray-600 ">
+                                  {designation}
+                              </span>
+                          </div>
 
-                        </div>
-                    </div>
+                      </div>
+                      <Link href={ router.includes('our_team/secretariat') ?  `/our_team/${slug}` : `our_team/${slug}` }  >
+                        <button className=' bg-[#071238] absolute w-full bottom-0 rounded-md text-white h-10 uppercase'>
+                            view profile
+                        </button>
+                      </Link>
+                  </div>
                 </div>
               </>
           
