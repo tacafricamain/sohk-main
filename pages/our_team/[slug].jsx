@@ -21,7 +21,7 @@ const Profile = ({ profile }) => {
       <div className="container lg:px-5 pt-8 lg:py-32 space-x-4 mx-auto">
         <div className='flex flex-col md:flex-row lg:w-10/12 lg:rounded-xl overflow-hidden mx-auto lg:max-h-[532.75px]'>
           <span className='lg:w-2/4'>
-            <img src={profile[0].image} alt={profile[0].name} className="w-full object-cover" />
+            <img src={profile[0].image} alt={profile[0].name} className="w-full object-cover h-full" />
             
           </span>
           <div className="lg:w-2/4 relative flex flex-col w-full bg-[#071238] p-8">
