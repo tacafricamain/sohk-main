@@ -37,7 +37,7 @@ console.log(router)
                               <span>
                                   <p className="text-[#071238] text-sm font-semibold text-center capitalize">{name}</p>
                               </span>
-                              <span className="text-[#071238] w-9/12 h-16 opacity-90 mx-auto text-center text-xs mt-2 hover:text-gray-600 ">
+                              <span className="text-[#071238] w-9/12 h-16 opacity-90 mx-auto text-center text-xs mt-2 hover:text-gray-600 uppercase">
                                   {designation}
                               </span>
                           </div>
