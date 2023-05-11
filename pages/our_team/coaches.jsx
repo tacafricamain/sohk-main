@@ -29,7 +29,7 @@ export default function Coaches() {
 
                           <div className="flex flex-col px-4 pb-4 min-w-[270px] mb-4">
                               <span>
-                                  <p className="text-[#071238] text-sm font-semibold text-center">{name}</p>
+                                  <p className="text-[#071238] text-sm font-semibold text-center capitalize">{name}</p>
                               </span>
                               <span className="text-[#071238] w-9/12 h-16 opacity-90 mx-auto text-center text-xs mt-2 hover:text-gray-600 ">
                                   {designation}
