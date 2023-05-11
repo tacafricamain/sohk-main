@@ -25,7 +25,7 @@ const Profile = ({ profile }) => {
             
           </span>
           <div className="lg:w-2/4 relative flex flex-col w-full bg-[#071238] p-8">
-            <img src='https://res.cloudinary.com/tacafrica/image/upload/v1683725188/my_folder/TACteam/Polygon_1_ejxvxz.png' alt={profile[0].name} className="absolute z-50 h-24 -left-12 top-[43%] " />
+            <img src='https://res.cloudinary.com/tacafrica/image/upload/v1683725188/my_folder/TACteam/Polygon_1_ejxvxz.png' alt={profile[0].name} className="absolute rotate-[90deg] -top-16 right-[43%] z-50 h-24 lg:-left-12 lg:top-[43%] lg:rotate-[0deg] " />
             <div className='my-auto'>
               <h1 className="sm:text-3xl text-2xl mb-2 text-white uppercase font-semibold">{profile[0].name}</h1>
               <h2 className="text-base font-medium mb-4 text-white">{profile[0].designation}</h2>
