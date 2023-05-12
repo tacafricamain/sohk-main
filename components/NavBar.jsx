@@ -19,7 +19,7 @@ export default function Navbar({ fixed }) {
     { href: '/our_team', name: 'Our team' },
     {href: '/our_team/dr_jerry_akubo', name: 'founder'},
     {href: '/our_team/coaches', name: 'coaches'},
-    {href: '/our_team/consultants', name: 'consultants'},
+    {href: '/our_team/subjectMatterExperts', name: 'subject Matter Experts'},
     {href: '/our_team/secretariat', name: 'secretariat'},
   ]
 

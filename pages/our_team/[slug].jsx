@@ -1,11 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
-// import { consultants, founder, secretariat, coaches } from '../api/staffData.json'
 import item from '../api/staffData.json'
 import Head from 'next/head'
 
 const data = [
-  item.consultants,
+  item.subjectMatterExpert,
   item.founder,
   item.secretariat,
   item.coaches

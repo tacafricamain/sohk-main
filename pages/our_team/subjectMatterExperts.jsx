@@ -10,14 +10,15 @@ export default function Consultants() {
 
   return (
     <div className="pt-20 mb-20 flex flex-col items-center justify-center space-y-10">
-              <span>
-      <h2 className=' gap-6 gap-y-8 text-xl mb-5 text-blue-700 uppercase font-semibold'>Consultants</h2>
-      <div className="grid grid-cols-12 gap-6 gap-y-8 max-w-6xl">
+      
+      <span className=' px-8 lg:px-0'>
+      <h2 className=' gap-6 gap-y-8 text-xl mb-5 text-blue-700 capitalize font-semibold'>subject Matter Expert</h2>
+      <div className="grid grid-cols-12 gap-6 gap-y-8 max-w-6xl">   
 
         {
-          item.consultants.map(({ name, designation, image, about, slug }) => (
+          item.subjectMatterExpert.map(({ name, designation, image, about, slug }) => (
             <>
-              <div key={name} className="col-span-12 sm:col-span-6 md:col-span-3 shadow rounded-md bg-white relative">
+              <div key={name} className="col-span-12 sm:col-span-6 md:col-span-3 hover:shadow-main rounded-md bg-white relative">
               <div className="w-full flex flex-col">
                       <div className="relative rounded-lg overflow-hidden mx-auto my-5">
                           <span>
@@ -37,7 +38,7 @@ export default function Consultants() {
                           </div>
 
                       </div>
-                      <Link href={ router.includes('our_team/consultants') ?  `/our_team/${slug}` : `our_team/${slug}` }  >
+                      <Link href={ router.includes('our_team/subjectMatterExperts') ?  `/our_team/${slug}` : `our_team/${slug}` }  >
                         <button className=' bg-[#071238] absolute w-full bottom-0 rounded-md text-white h-10 uppercase'>
                             view profile
                         </button>
@@ -48,7 +49,6 @@ export default function Consultants() {
         
           ))
         }
-     
         </div>
       </span>
     </div>

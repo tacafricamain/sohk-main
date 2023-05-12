@@ -12,7 +12,7 @@
             "designation": "ED/CEO Technology Against Crime, Africa"
         }
     ],
-    "consultants": [
+    "subjectMatterExpert": [
         {
             "name": " Oyeh Ugonma",
             "slug": "Oyeh_Ugonma",
@@ -33,7 +33,7 @@
             "about3": "",
             "about5": "",
             "about6": "",
-            "designation": "COMMUNICATIONS & STRATEGY/PROGRAM COORDINATOR"
+            "designation": "COMMUNICATIONS & STRATEGY/ PROGRAM "
         },
         {
             "name": "Kind Akubo",

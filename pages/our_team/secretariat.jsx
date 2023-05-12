@@ -11,14 +11,14 @@ export default function Secretariat() {
   return (
     <>
       <div className="pt-20 mb-20 flex flex-col items-center justify-center space-y-10">
-                <span>
-        <h2 className=' gap-6 gap-y-8 text-xl mb-5 text-blue-700 uppercase font-semibold'>Secretariat</h2>
+                <span className=' px-8 lg:px-0'>
+        <h2 className=' gap-6 gap-y-8 text-xl mb-5 text-blue-700 font-semibold capitalize '>Secretariat</h2>
         <div className="grid grid-cols-12 gap-6 gap-y-8 max-w-6xl">
 
           {
             item.secretariat.map(({ name, designation, image, about, slug }) => (
               <>
-                <div key={name} className="col-span-12  sm:col-span-6 md:col-span-3 shadow rounded-md bg-white relative">
+                <div key={name} className="col-span-12  sm:col-span-6 md:col-span-3 hover:shadow-main rounded-md bg-white relative">
                 <div className="w-full flex flex-col">
                       <div className="relative rounded-lg overflow-hidden mx-auto my-5">
                           <span>
