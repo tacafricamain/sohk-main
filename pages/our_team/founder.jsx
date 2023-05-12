@@ -17,7 +17,7 @@ console.log(router)
   return (
     <div className="pt-20 mb-20 flex flex-col items-center justify-center space-y-10 ">
               <span className=' px-8 lg:px-0'>
-      <h2 className=' gap-6 gap-y-8 text-xl  mb-5 text-blue-700 uppercase font-semibold'>Founder</h2>
+      <h2 className=' gap-6 gap-y-8 text-xl  mb-5 text-[#071238] uppercase font-semibold'>Founder</h2>
       <div className="grid grid-cols-12 gap-6 gap-y-8 max-w-6xl">
 
         {

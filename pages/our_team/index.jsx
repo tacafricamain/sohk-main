@@ -15,7 +15,7 @@ export default function Index() {
           <meta name='Our team' />
         </Head>
       <div className='pb-20 bg-slate-100'>
-        <h1 className=' pt-10 text-blue-700 mt-10 text-center text-4xl uppercase font-semibold'> Our Team</h1>
+        <h1 className=' pt-10 text-[#071238] mt-10 text-center text-4xl uppercase font-semibold'> Our Team</h1>
         <Founder />
         <Consultants />
         <Coaches />
