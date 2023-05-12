@@ -47,17 +47,6 @@
             "designation": "Head, Blockchain and Cryptocurrency "
         },
         {
-            "name": "Simon Odoma Ademu",
-            "slug": "simon_odoma_ademu",
-            "image": "https://res.cloudinary.com/tacafrica/image/upload/v1683561506/my_folder/TACteam/MAIN_PICTURE_-_Ademu_Simon_no5zxr.jpg",
-            "about": "An avid and passionate Educator, Life Coach, Strategic Trainer, Motivational Speaker and a renowned Educational Consultant with over ten years of result-oriented experience. He is a Cambridge and Harvard Certified educator. ",
-            "about2": "“Mr Simon” as learners fondly call him is also a certified trainer by the British Council Partner Schools Network. Simon believes that every learner is endowed with great potentials to excel beyond every imagination. He collaborates with various schools and organizations of International repute in Nigeria and abroad while adopting the 21st century innovative approaches to learning.  ",
-            "about3": "",
-            "about5": "",
-            "about6": "",
-            "designation": "Educational Coach/Mentor"
-        },
-        {
             "name": "Barr Charles Okenwa",
             "slug": "barr_charles_okenwa",
             "image": "https://res.cloudinary.com/tacafrica/image/upload/v1683807305/my_folder/TACteam/21ba6a44-b898-44cd-b388-be23329cb289_tu1ejm.jpg",
@@ -90,6 +79,17 @@
             "about5": "",
             "about6": "",
             "designation": "Tennis Coach"
+        },
+        {
+            "name": "Simon Odoma Ademu",
+            "slug": "simon_odoma_ademu",
+            "image": "https://res.cloudinary.com/tacafrica/image/upload/v1683561506/my_folder/TACteam/MAIN_PICTURE_-_Ademu_Simon_no5zxr.jpg",
+            "about": "An avid and passionate Educator, Life Coach, Strategic Trainer, Motivational Speaker and a renowned Educational Consultant with over ten years of result-oriented experience. He is a Cambridge and Harvard Certified educator. ",
+            "about2": "“Mr Simon” as learners fondly call him is also a certified trainer by the British Council Partner Schools Network. Simon believes that every learner is endowed with great potentials to excel beyond every imagination. He collaborates with various schools and organizations of International repute in Nigeria and abroad while adopting the 21st century innovative approaches to learning.  ",
+            "about3": "",
+            "about5": "",
+            "about6": "",
+            "designation": "Educational Coach/Mentor"
         }
     ],
     "secretariat": [
