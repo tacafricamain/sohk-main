@@ -38,6 +38,10 @@ module.exports = {
           "url('https://res.cloudinary.com/tacafrica/image/upload/v1663155956/my_folder/mandella_and_chess_day/Screenshot_from_2022-09-14_12-44-11_zochqz.png')",
         whyWeDoThis:
           "url('https://res.cloudinary.com/tacafrica/image/upload/v1663166066/my_folder/int%20youth%20day/Screenshot_from_2022-09-14_15-33-13_fh3nuq.png')",
+        buttonBG:
+          "url('https://res.cloudinary.com/tacafrica/image/upload/v1684156514/my_folder/assets/Rectangle_15button_1_ultq6c.png')",
+        popupImg:
+          "url('https://res.cloudinary.com/tacafrica/image/upload/v1684160430/my_folder/assets/Rectangle_15button_1_gsafop.png')"
       },
       colors: {
         gold: '#FA9600',

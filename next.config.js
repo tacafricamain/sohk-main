@@ -5,6 +5,15 @@ const nextConfig = {
   swcMinify: true,
   images: {
     domains: ['res.cloudinary.com'],
+    remotePatterns: [
+      {
+          protocol: 'https',
+          hostname: '**',
+          port: '',
+          pathname: '**',
+      },
+  ],
+    formats: ["image/webp"],
     loader: 'imgix',
     path: '/',
   },
