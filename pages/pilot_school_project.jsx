@@ -1,8 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Head from 'next/head'
+import VideoComp from '../components/video'
+import YoutubeEmbed from '../components/video';
 
 export default function SchoolProject() {
+
+    const videoSrc = 'https://www.youtube.com/watch?v=JBUnIRlYvuo&ab_channel=School-of-HardknocksFoundation';
+    const videoThumbnail = 'https://res.cloudinary.com/tacafrica/image/upload/v1683971134/image00002_krsbdi.jpg'
+
     return (
 
         <>
@@ -70,6 +76,7 @@ export default function SchoolProject() {
                                 <br className='block lg:hidden'/>{` `} { /* for space */}
                                 Skills</h3>
                             <div className='rounded-xl overflow-hidden lg:m-5'>
+                                {/* <YoutubeEmbed embedId={'JBUnIRlYvuo'} videoSrc={'youtube'} /> */}
                                 <img src="https://res.cloudinary.com/tacafrica/image/upload/v1683971134/image00002_krsbdi.jpg" alt=""/>
                             </div>
                         </div>
@@ -146,6 +153,25 @@ export default function SchoolProject() {
                                     </p>
                                 </div>
                                 <div className='my-5'>
+                                    <h4 className='font-semibold text-xl  font-PanchangSemibold'>Approved Government Primary Schools</h4>
+                                    <h3 className='text-4xl lg:text-5xl mb-3 font-semibold font-PanchangSemibold'>05</h3>
+                                    <ul className='font-SpaceGrotesk font-semibold opacity-90'>
+                                        <li>
+                                            - LEA Primary School, Phase 4 Kubwa</li>
+                                        <li>
+                                            - Chikakore Primary School Kubwa</li>
+                                        <li>
+                                            - LEA Primary School, Nyanya 1</li>
+                                        <li>
+                                            - LEA Primary School, Sauka</li>
+                                        <li>
+                                            - LEA Primary School, Festival Road, Area 10</li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                            <div className='w-full m-5'>
+                            <div className='my-5'>
                                     <h4 className='font-semibold text-xl font-PanchangSemibold'>
                                         Approved Junior Secondary Schools
                                     </h4>
@@ -161,24 +187,6 @@ export default function SchoolProject() {
                                             - JSS Area 11</li>
                                         <li>
                                             - JSS Tudun Wada</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className='w-full m-5'>
-                                <div className='my-5'>
-                                    <h4 className='font-semibold text-xl  font-PanchangSemibold'>Approved Government Primary Schools</h4>
-                                    <h3 className='text-4xl lg:text-5xl mb-3 font-semibold font-PanchangSemibold'>05</h3>
-                                    <ul className='font-SpaceGrotesk font-semibold opacity-90'>
-                                        <li>
-                                            - LEA Primary School, Phase 4 Kubwa</li>
-                                        <li>
-                                            - Chikakore Primary School Kubwa</li>
-                                        <li>
-                                            - LEA Primary School, Nyanya 1</li>
-                                        <li>
-                                            - LEA Primary School, Sauka</li>
-                                        <li>
-                                            - LEA Primary School, Festival Road, Area 10</li>
                                     </ul>
                                 </div>
                                 <div className='my-5'>

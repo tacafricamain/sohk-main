@@ -10,7 +10,7 @@ export default function Navbar({ fixed }) {
   const [menuState, setMenuState] = React.useState(false);
 
   const data = [
-    {href: '/pilot_school_project', name: 'PILOT SCHOOL PROJECT'},
+    {href: '/pilot_school_project', name: 'SOHK PILOT SCHOOL PROGRAM TO SCHOOLS'},
     {href: '/Digital_skills_&_Golf/GOLF_FOR_PRIMARY_SCHOOLS', name: 'GOLF FOR PRIMARY SCHOOLS '},
     {href: '/Digital_skills_&_Golf/GOLF_FOR_JUNIOR_SECONDARY_SCHOOLS', name: 'GOLF FOR JUNIOR SECONDARY SCHOOLS'},
     { href: '/Digital_skills_&_Golf/GOLF_FOR_SENIOR_SECONDARY_SCHOOLS', name: 'GOLF FOR SENIOR SECONDARY SCHOOLS' },
