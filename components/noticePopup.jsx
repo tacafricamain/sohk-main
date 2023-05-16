@@ -38,7 +38,7 @@ export default function NoticePopup({ showModal, setShowModal }) {
                           </p>
                           {/* <!-- Modal footer --> */}
                           <div className="flex justify-center lg:justify-start mt-6 space-x-2 rounded-b  ">
-                            <Link  href='/schoolProject' >
+                            <Link  href='/pilot_school_project' >
                               <a >
                               <button data-modal-toggle="defaultModal" type="button" 
                                   className="text-whit focus:ring-4    focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center bg-buttonBG object-fill w-full m-3 lg:w-[205px]">

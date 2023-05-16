@@ -25,47 +25,47 @@ a {
 /* mavin */
 @font-face {
 	font-family: "mavin";
-	src: url("../fonts/MavenPro-Bold.ttf");
+	src: url("/fonts/MavenPro-Bold.ttf");
 	font-weight: 900;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "openSans";
-	src: url("../fonts/MavenPro-Regular.ttf");
+	src: url("/fonts/MavenPro-Regular.ttf");
 	font-weight: normal;
 	font-style: normal;
 }
 /*  Panchang fonts*/
 @font-face {
 	font-family: "PanchangRegular";
-	src: url("../fonts/Panchang-Regular.ttf");
+	src: url("/fonts/Panchang-Regular.ttf");
   font-weight: 400;
-  font-display: swap;
+  /* font-display: swap; */
   font-style: normal;
 }
 
 @font-face {
 	font-family: "PanchangSemibold";
-	src: url("../fonts/Panchang-Semibold.ttf");
+	src: url("/fonts/Panchang-Semibold.ttf");
   font-weight: 600;
-  font-display: swap;
+  /* font-display: swap; */
   font-style: normal;
 }
 
 @font-face {
 	font-family: "PanchangExtrabold";
-	src: url("../fonts/Panchang-Extrabold.ttf");
+	src: url("/fonts/Panchang-Extrabold.ttf");
   font-weight: 800;
-  font-display: swap;
+  /* font-display: swap; */
   font-style: normal;
 }
 
 @font-face {
 	font-family: "PanchangBold";
-	src: url("../fonts/Panchang-Bold.ttf");
+	src: url("/fonts/Panchang-Bold.ttf");
   font-weight: 800;
-  font-display: swap;
+  /* font-display: swap; */
   font-style: normal;
 }
 /*  */
