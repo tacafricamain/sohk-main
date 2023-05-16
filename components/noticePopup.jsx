@@ -14,6 +14,7 @@ export default function NoticePopup({ showModal, setShowModal }) {
                             fade_in h-screen
                             `}  
                             style={{background: 'rgba(0, 0, 0, 0.69)' }} 
+                            onClick={() => setShowModal(!showModal)} 
                             >
       <div className='flex justify-center h-full'>
         
@@ -28,7 +29,7 @@ export default function NoticePopup({ showModal, setShowModal }) {
             </button> 
             
                       <div className="flex flex-col-reverse mb-10 lg:mb-0 lg:flex-row space-y-6">
-                        <div className='mx-12 my-auto w-[300px]'>
+                        <div className='lg:mx-12 my-auto w-[300px]'>
                           <h1 className='text-white text-center lg:text-left'>OUR LATEST PROJECT</h1>
                           <p className="text-white mt-4 font-bold text-3xl  lg:text-4xl leading-[2.2rem] text-center lg:text-left">
                             SOHK Free <br className='hidden lg:block' />
