@@ -15,6 +15,11 @@ module.exports = {
       fontFamily: {
         mavin: ['mavin'],
         mavinRegular: ['mavinRegular'],
+        SpaceGrotesk: ['Space Grotesk'],
+        PanchangRegular: ['PanchangRegular'],
+        PanchangBold: ['PanchangBold'],
+        PanchangSemibold: ['PanchangSemibold'],
+        PanchangExtrabold: ['PanchangExtrabold'],
       },
       backgroundImage: {
         test: "url('https://res.cloudinary.com/tacafrica/image/upload/v1675094357/my_folder/TYB%20Golf%20Tour/YOD01520230112_p8l014.jpg')",
@@ -51,5 +56,14 @@ module.exports = {
       },
     },
   },
+  variants: {
+    extend: {
+      fontFamily: ['hover', 'focus'],
+    },
+  },
+
   plugins: [],
+  corePlugins: {
+    fontFamily: true,
+  },
 };
