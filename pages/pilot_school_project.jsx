@@ -62,28 +62,28 @@ export default function SchoolProject() {
                             </div>
                         </div>
                     </section>
-                    <section className='bg-[#c3d9ff] flex flex-col lg:flex-row lg:pt-20'>
-                        <div className='w-full'>
+                    <section className='bg-[#c3d9ff] flex flex-col lg:flex-row lg:pt-20 '>
+                        <div className='w-full lg:w-6/12'>
                             <img src="/illustration_image_01.png" alt="" className='my-20 lg:my-0' />
                         </div>
-                        <div className='flex flex-col items-center w-full'>
+                        <div className='flex flex-col items-center w-full lg:w-6/12'>
                             <p className='font-semibold font-PanchangSemibold'>OUR MISSION</p>
                             <h3 className='font-semibold font-PanchangBold text-2xl text-center mb-5'>To Build Young
                                 <br className='block lg:hidden'/>{` `} { /* for space */}
                                 Leaders Through
                                 <br className=''/>
                                 Sports And Digital
-                                <br className='block lg:hidden'/>{` `} { /* for space */}
+                                <br className='block lg:hidden '/>{` `} { /* for space */}
                                 Skills</h3>
-                            <div className='rounded-xl overflow-hidden lg:m-5'>
-                                {/* <YoutubeEmbed embedId={'JBUnIRlYvuo'} videoSrc={'youtube'} /> */}
-                                <img src="https://res.cloudinary.com/tacafrica/image/upload/v1683971134/image00002_krsbdi.jpg" alt=""/>
+                            <div className=' lg:m-5 w-full '>
+                                <YoutubeEmbed embedId={'JBUnIRlYvuo'} videoSrc={'youtube'} />
+                                {/* <img src="https://res.cloudinary.com/tacafrica/image/upload/v1683971134/image00002_krsbdi.jpg" alt=""/> */}
                             </div>
                         </div>
                     </section>
                 </div>
                 {/*  */}
-                <div className='space-y-10 lg:space-y-20 bg-[#c3d9ff] py-32 lg:pt-0 px-8'>
+                <div className='space-y-10 lg:space-y-20 bg-[#c3d9ff] lg:pt-0 px-8'>
                     <section className='flex flex-col lg:flex-row w-full pt-28'>
                         <img src="https://res.cloudinary.com/tacafrica/image/upload/v1684090798/Artboard_1_ypyh8f.png" alt="" className='lg:w-5/12 lg:mr-8 rounded-full'/>
                         <div className='lg:w-7/12 lg:mx-20 my-auto'>
@@ -94,7 +94,7 @@ export default function SchoolProject() {
                             <p className='text-xl my-6 font-SpaceGrotesk opacity-90' >
                                 This is an initiative of TAC Africa, helping youths in government Primary, Junior Secondary, and Senior Secondary Schools to develop digital and physical skills. This will no doubt shape their future and the society at large. Our core trainings are hinged on:
                             </p>
-                            <ul className='font-semibold leading-6 text-xl space-y-2 font-SpaceGrotesk opacity-90'>
+                            <ul className='font-semibold leading-6 text-xl space-y-2 font-SpaceGrotesk opacity-90 checkMark'>
                                 <li>Sports Trainings</li>
                                 <li>Career Coaching & Mentorship</li>
                                 <li>Digital Skills Trainings</li>
@@ -110,8 +110,9 @@ export default function SchoolProject() {
                             <p className='text-xl my-6 font-SpaceGrotesk opacity-90'>
                                 This free training will allow for the evolution of talents across Nigeria, using these schools as a pilot phase. The essence of acquiring relevant skills in the 21st century cannot be over emphasized.
                             </p>
-                            <div>
-                                <p>{`For us, it's all about Excellence`}</p>
+                            <div className='flex items-center'>
+                                <img src="/trophy.png" alt="trophy icon" className='w-[100px]'  />
+                                <p className='text-2xl font-semibold '>{`For us, it's all about Excellence`}</p>
                             </div>
                         </div>
                         <img src="https://res.cloudinary.com/tacafrica/image/upload/v1684091914/Artboard_1_w3qeww.png" alt="" className='lg:w-5/12 lg:mr-8 rounded-full'/>
@@ -125,7 +126,7 @@ export default function SchoolProject() {
                             <p className='text-xl my-6 font-SpaceGrotesk opacity-90'>
                                 This free training, in conjunction with Universal Basic Education Council (UBEC) and Secondary Education Board (SEB), is extended to 15 Government schools with a selection of 30 students from each school. These include:
                             </p>
-                            <ul className='font-semibold leading-6 text-xl space-y-2 font-SpaceGrotesk opacity-90'>
+                            <ul className='font-semibold leading-6 text-xl space-y-2 font-SpaceGrotesk opacity-90 checkMark'>
                                 <li>5 Govt. Primary Schools</li>
                                 <li>5 Govt. Junior Secondary Schools</li>
                                 <li>5 Govt.Senior Secondary Schools</li>
