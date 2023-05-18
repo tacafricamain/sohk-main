@@ -38,7 +38,7 @@ module.exports = {
         footerBG:
           "url('https://res.cloudinary.com/tacafrica/image/upload/v1661950975/my_folder/compressed/int_youth-day-compressed/1-2208130105_result_kuvblc.webp')",
         aboutUsHeroBg:
-          "url('https://res.cloudinary.com/tacafrica/image/upload/v1663154890/my_folder/int%20youth%20day/Screenshot_from_2022-09-14_12-12-50_wjcct8.png')",
+          "url('https://res.cloudinary.com/tacafrica/image/upload/v1684419035/my_folder/school%20programs/hero_about_us_mbcs4x.jpg')",
         aboutUsSndImg:
           "url('https://res.cloudinary.com/tacafrica/image/upload/v1663155956/my_folder/mandella_and_chess_day/Screenshot_from_2022-09-14_12-44-11_zochqz.png')",
         whyWeDoThis:

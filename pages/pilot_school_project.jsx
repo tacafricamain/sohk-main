@@ -19,9 +19,9 @@ export default function SchoolProject() {
               <link rel="icon" href="/favicon.ico" />
             </Head>
             <div className='mx-4 lg:mx-8 font-SpaceGrotesk'>
-                <div id='aboutus' className='flex items-center min-h-[45rem] bg-aboutUsHeroBg bg-cover  mt-32 rounded-t-3xl'>
-                    <div className='w-full  relat ive'>
-                        <div className='flex flex-col justify-center items-center w-full h-[45rem]'>
+                <div id='aboutus' className='flex items-center h-[40rem] lg:h-[45rem] bg-aboutUsHeroBg bg-cover bg-top mt-12 rounded-t-3xl' >
+                    <div className='w-full  relative'>
+                        <div className='flex flex-col justify-center items-center w-full h-[40rem] lg:h-[45rem]'>
                             <h1 className='text-center text-white font-bold text-4xl lg:text-8xl mb-10 font-PanchangExtrabold'>SOHK Pilot
                                 <br/>
                                 Program To
@@ -31,7 +31,7 @@ export default function SchoolProject() {
                                 <span className="text-white hover:text-black text-base lg:text-lg font-semibold lg:px-10 font-PanchangRegular ">READ MORE BELOW</span>
                             </button>
                         </div>
-                        <img src="/bottom_green_image_01.png" alt="bottom_green_image" className=''/>
+                        <img src="/bottom_green_image_01.png" alt="bottom_green_image" className='absolute -bottom-[0.1rem]'/>
                     </div>
                 </div>
                 {/*  */}
@@ -169,7 +169,7 @@ export default function SchoolProject() {
                                             - LEA Primary School, Festival Road, Area 10</li>
                                     </ul>
                                 </div>
-                                
+
                             </div>
                             <div className='w-full m-5'>
                             <div className='my-5'>
