@@ -53,6 +53,9 @@ module.exports = {
         orange: '#FF5151',
         softGrey: '#F7F5F2',
         greyBlack: '#10181A',
+        blueHighLight: '#F2F6FF',
+        softBlue: '#2B3CFC',
+        darkBlue: '#141FC3'
       },
     },
   },

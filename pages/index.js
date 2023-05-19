@@ -33,7 +33,7 @@ export default function Home() {
             <Objective />
             <Activities />
             <Promotion />
-            <Courses />
+            {/* <Courses /> */}
             <Testimonials />
             <Contact />
             <Map />

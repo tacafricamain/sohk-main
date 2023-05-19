@@ -1,24 +1,57 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from 'next/image'
+import Button from '../Button'
+import Link from 'next/link'
 
 export default function Objective() {
-  return (
-    <div id='aboutus' className='flex flex-col  '>
-            {/* <h3 className=' w-11/12 mx-auto mb-4 pt-20 text-gold max-h- text-center  text-2xl font-mavin'>Our Objective</h3> */}
-        <div className='flex flex-col lg:flex-row  lg:m-auto '>
-            <div  className='lg:w-11/12 m-4 rounded-3xl overflow-hidden'>
-                {/* mobile */}
-                <img alt='sports' className=' object-cover lg:hidden' src={'https://res.cloudinary.com/tacafrica/image/upload/v1669305042/my_folder/sohk/For_Mobile-10_1__result_wdsypy.webp'}/>
-                <img alt='sports' className=' object-cover lg:hidden' src={'https://res.cloudinary.com/tacafrica/image/upload/v1669305042/my_folder/sohk/WhatsApp_Image_2022-11-24_at_2.43.47_PM_result_cxeigl.webp'}/>
-                {/* desktop */}
-                <img alt='sports' className=' object-cover hidden lg:block' src={'https://res.cloudinary.com/tacafrica/image/upload/v1669305179/my_folder/sohk/For_web-01_result_gflznl.webp'}/>
-            </div>
-            {/* <div  className='w-11/12 mx-auto lg:w-6/12 my-auto lg:ml-7'>
-                <h3 className='hidden lg:block text-gold text-2xl font-mavin'>Our Objective</h3>
-                <h2 className=' font-mavin text-3xl my-5'>To deliver absolute service to humanity</h2>
-                <p className='font-light font-["openSans"]'> SOHK is a mind reorientation school based on recreational events, talent discovery and sports curiculum activities that transforms the Psyche, Mind and well being of individuals exposed and afflicted by trauma, drug abuse, and depression. As an NGO, SOHK bring together local and global subject matter experts from a multidisciplinary background of sports, academia, law enforcement agencies, social infrastructure, equipment manufacturers, and civil society with a focus to solving Nigeria’s social vices challenges which includes; Cultism, Prostitution, Kidnapping, Armed Robbery, Rape, etc, through rehabilitation, mentoring, coaching, youth capacity development, specialized digital skills training, and mental empowerment to grow and promote Morally Global Young Leaders in Nigeria through Mentorship.</p>
-            </div> */}
+    return (
+        <div className='space-y-10 lg:space-y-20 lg:pt-0 px-8'>
+            <section className='flex flex-col justify-center lg:flex-row w-full pt-28'>
+                <img src="https://res.cloudinary.com/tacafrica/image/upload/v1684090798/Artboard_1_ypyh8f.png" alt="" className='lg:w-4/12 lg:ml-8 rounded-full max-h-[600px]'/>
+                <div className='lg:w-6/12 lg:mx-20 my-auto'>
+                    <h3 className='text-4xl lg:text-3xl font-semibold font-PanchangSemibold'>Welcome To SOHK
+                        <br className='hidden lg:block '/>{` `}
+                        {/* for space */}
+                        Foundation, Nigeria</h3>
+                    <span className='space-y-3'>
+                        <p className='text-xl my-6 font-SpaceGrotesk opacity-90'>
+                            SOHK Nigeria is a mind re-orientation school that uses recreational events, talent discovery, and sports-based activities to transform the Psyche, Mind, and well-being of individuals.
+                        </p>
+                        <p className='text-xl my-6 font-SpaceGrotesk opacity-90'>
+                            Our targets are in-school children, out-of-school children, artisans, and persons exposed to, or afflicted by trauma, drug abuse, depression amongst others.
+                        </p>
+                    </span>
+                    <hr className='h-2 my-4'/>
+                    <span>
+                        <p>
+                            There is nothing outside of yourself that can ever enable you to get better, stronger, richer, quicker or smarter.
+                        </p>
+                        <b>
+                            - Miyamoto Musashi</b>
+                    </span>
+                </div>
+            </section>
+
+            <section className='flex flex-col-reverse  lg:flex-row w-full pt-32 lg:pt-0'>
+                <div className='lg:w-6/12 lg:mx-20 my-auto'>
+                    <p className='font-semibold text-lg mb-3 mt-12 font-PanchangSemibold'>OUR SCHOOLS PROJECT
+                    </p>
+                    <h3 className='text-4xl lg:text-3xl font-semibold font-PanchangSemibold'>Our First Pilot Programs
+                        <br className='hidden lg:block '/>{` `}
+                        {/* for space */}
+                        to Schools in FCT</h3>
+                    <p className='text-xl my-6 font-SpaceGrotesk opacity-90'>
+                        This free training will allow for the evolution of talents across Nigeria, using these schools as a pilot phase. The essence of acquiring relevant skills in the 21st century cannot be over emphasized.
+                    </p>
+                    <Link href='/pilot_school_project'>
+                        <a>
+                            <Button text={'Read More'}/>
+                        </a>
+                    </Link>
+                </div>
+                <img src="https://res.cloudinary.com/tacafrica/image/upload/v1684091914/Artboard_1_w3qeww.png" alt="" className='lg:w-4/12 lg:mr-8 rounded-full max-h-[600px]'/>
+            </section>
+
         </div>
-    </div>
-  )
+    )
 }
