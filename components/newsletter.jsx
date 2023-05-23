@@ -12,14 +12,13 @@ import Button from "./Button";
 const NewsLetter = ({}) => {
 
     return (
-        <div id='member' className="w-full shadow-xl">
+        <div id='member' className="w-full">
             <div className="flex flex-col  w-full md:flex-col lg:flex-row mx-auto my-0 xl:px -12 h-full ">
 
                 <div className=' bg-blueHighLight lg:w-7/12 p-20'>
-                    <div></div>
                     <div className="block h-full space-y-4 ">
                         {/** large screen */}
-                        <div className="h-2/4 py-12">
+                        <div className="h-2/5 pt-12 mb-8">
                             <h2 className='font-mavin text-3xl my-3'>Registration</h2>
                             <p className='text-greyBlack text-xl font-["openSans"] text-left'>Members of SOHK are passionate individuals who are ready to take the lead in changing their community positively. Join us today by simply downloading our membership application form below.</p>
                             <div className=' mt-10 '>
@@ -29,7 +28,7 @@ const NewsLetter = ({}) => {
                             </div>
                         </div>
                         <hr className="h-[2px] bg-black" />
-                        <div className="h-2/4 py-12">
+                        <div className="h-2/4 pt-8 pb-12">
                             <h2 className='font-mavin text-3xl mb-3'>Our Weekly NewsLetters</h2>
                             <p className='text-greyBlack text-xl font-["openSans"] text-left'>
                                 Explore our official newsletter with stories from our ongoing programmes and get the facts, expert opinion and practical training, advice on the topic you care about.</p>

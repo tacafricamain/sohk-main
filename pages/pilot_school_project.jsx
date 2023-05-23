@@ -92,13 +92,21 @@ export default function SchoolProject() {
                                 <br className='hidden lg:block ' />{` `} { /* for space */}
                                 Free Training?</h3>
                             <p className='text-xl my-6 font-SpaceGrotesk opacity-90' >
-                                This is an initiative of TAC Africa, helping youths in government Primary, Junior Secondary, and Senior Secondary Schools to develop digital and physical skills. This will no doubt shape their future and the society at large. Our core trainings are hinged on:
+                                This is an initiative of TAC Africa, helping youths in government Primary Schools, Junior Secondary Schools, and Senior Secondary Schools to develop digital, physical skills and Soft Skills. This will no doubt shape their future and the society at large. Our core trainings are hinged on i.e
                             </p>
                             <ul className='font-semibold leading-6 text-xl space-y-2 font-SpaceGrotesk opacity-90 checkMark'>
-                                <li>Sports Trainings</li>
-                                <li>Career Coaching & Mentorship</li>
-                                <li>Digital Skills Trainings</li>
-                                <li>Digital Communication Training</li>
+                                <li>Drone Pilot Training</li>
+                                <li>Artificial Intelligence and Robotics Training</li>
+                                <li>Cyber Security and Cyber Defense Training</li>
+                                <li>Blockchain and Cryptocurrency Training</li>
+                                <li>Technology For Social Good
+                                    <ul className='ml-20 space-y-2 pt-4'>
+                                        <li>Golf Training</li>
+                                        <li>Tennis Training</li>
+                                        <li>Taekwando Training</li>
+                                        <li> Coaching / Mentorship Training</li>
+                                    </ul>
+                                </li>
                             </ul>
                         </div>
                     </section>
