@@ -17,7 +17,7 @@ const LargeSingleSlider = ({ }) => {
   return (
     <div className=" container bg-white">
       <div className="lg:max-w-[600px] mx-10 h-full">
-        <div className=" pb-8 flex flex-col justify-center ">
+        <div className=" lg:pb-8 flex flex-col justify-center ">
           <Carousel
             swipeable={true}
             draggable={true}

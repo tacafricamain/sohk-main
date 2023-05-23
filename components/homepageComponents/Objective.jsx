@@ -6,10 +6,10 @@ import Link from 'next/link'
 export default function Objective() {
     return (
         <div className='space-y-10 lg:space-y-20 lg:pt-0 px-8'>
-            <section className='flex flex-col justify-center lg:flex-row w-full pt-28'>
+            <section className='flex flex-col justify-center lg:flex-row w-full lg:pt-28'>
                 <img src="https://res.cloudinary.com/tacafrica/image/upload/v1684090798/Artboard_1_ypyh8f.png" alt="" className='lg:w-4/12 lg:ml-8 rounded-full max-h-[600px]'/>
                 <div className='lg:w-6/12 lg:mx-20 my-auto'>
-                    <h3 className='text-4xl lg:text-3xl font-semibold font-PanchangSemibold'>Welcome To SOHK
+                    <h3 className='text-4xl lg:text-3xl mt-12 lg:mt-0 font-semibold font-PanchangSemibold'>Welcome To SOHK
                         <br className='hidden lg:block '/>{` `}
                         {/* for space */}
                         Foundation, Nigeria</h3>
@@ -32,7 +32,7 @@ export default function Objective() {
                 </div>
             </section>
 
-            <section className='flex flex-col-reverse  lg:flex-row w-full pt-32 lg:pt-0'>
+            <section className='flex flex-col-reverse  lg:flex-row w-full pt-20 lg:pt-0'>
                 <div className='lg:w-6/12 lg:mx-20 my-auto'>
                     <p className='font-semibold text-lg mb-3 mt-12 font-PanchangSemibold'>OUR SCHOOLS PROJECT
                     </p>

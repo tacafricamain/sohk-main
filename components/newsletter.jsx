@@ -32,7 +32,7 @@ const NewsLetter = ({}) => {
                             <p className='text-greyBlack text-xl font-["openSans"] text-left'>
                                 Explore our official newsletter with stories from our ongoing programmes and get the facts, expert opinion and practical training, advice on the topic you care about.</p>
                             <p className='text-greyBlack text-xl font-["openSans"] text-left'>
-                                Find out more about what  SOHK is doing  and how you can join us or support our activities by clicking on any of our newsletters below
+                                Find out more about what SOHK is doing  and how you can join us or support our activities by clicking on any of our newsletters below
                             </p>
                         </div>
                     </div>
