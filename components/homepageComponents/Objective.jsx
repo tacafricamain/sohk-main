@@ -9,7 +9,7 @@ export default function Objective() {
             <section className='flex flex-col justify-center lg:flex-row w-full lg:pt-28'>
                 <img src="https://res.cloudinary.com/tacafrica/image/upload/v1684090798/Artboard_1_ypyh8f.png" alt="" className='lg:w-4/12 lg:ml-8 rounded-full max-h-[600px]'/>
                 <div className='lg:w-6/12 lg:mx-20 my-auto'>
-                    <h3 className='text-4xl lg:text-3xl mt-12 lg:mt-0 font-semibold font-PanchangSemibold'>Welcome To SOHK
+                    <h3 className='text-4xl lg:text-5xl mt-12 lg:mt-0 font-semibold font-mavin'>Welcome To SOHK
                         <br className='hidden lg:block '/>{` `}
                         {/* for space */}
                         Foundation, Nigeria</h3>
@@ -36,7 +36,7 @@ export default function Objective() {
                 <div className='lg:w-6/12 lg:mx-20 my-auto'>
                     <p className='font-semibold text-lg mb-3 mt-12 font-PanchangSemibold'>OUR SCHOOLS PROJECT
                     </p>
-                    <h3 className='text-4xl lg:text-3xl font-semibold font-PanchangSemibold'>Our First Pilot Programs
+                    <h3 className='text-4xl lg:text-5xl font-semibold font-mavin'>Our First Pilot Programs
                         <br className='hidden lg:block '/>{` `}
                         {/* for space */}
                         to Schools in FCT</h3>

@@ -6,7 +6,7 @@ import Carousel from "react-multi-carousel";
 const MiniSlider = ({ }) => {
   const data = [
     {
-      name: "Somade Akinola", //https://www.pexels.com/photo/close-up-view-of-a-golden-coin-315788/
+      name: "Somade Akinola", //https://www.pexels.com/photo/close-up-view-of-a-darkBlueen-coin-315788/
       image: "https://res.cloudinary.com/tacafrica/image/upload/v1661951048/my_folder/compressed/mandella-and-chess-day-compressed/1-2207230009_result_rrgy6s.webp",
       text: "The coaches at *SOHK* have an infectious excitement for sports. *SOHK* has taken me from a tentative, average player to a confident, solid competitor.",
       role: "Player",
@@ -14,7 +14,7 @@ const MiniSlider = ({ }) => {
     {
       name: "Theophilus Akubo",
       image: "https://res.cloudinary.com/tacafrica/image/upload/v1661951257/my_folder/compressed/youth-skill-day-compressed/IMG-20220718-WA0026_result_ajz5g0.webp",
-      text: "Tennis didn't exist in my world until I heard of *SOHK*. I decided to explore the possibility of actually playing. Now I am in the court and having the time of my life. I am very grateful to *SOHK* for helping me discover a sport I can play well into my golden years.",
+      text: "Tennis didn't exist in my world until I heard of *SOHK*. I decided to explore the possibility of actually playing. Now I am in the court and having the time of my life. I am very grateful to *SOHK* for helping me discover a sport I can play well into my darkBlueen years.",
       role: "Tennis Player",
     },
     {
@@ -76,7 +76,7 @@ const MiniSlider = ({ }) => {
                         </p>
                       </div>
                       <div className="text-sm flex">
-                        <div className='w-16 h-16 p-2 mr-3 inline-block rounded-full bg-gradient-to-r from-gold to-orange rotate'>
+                        <div className='w-16 h-16 p-2 mr-3 inline-block rounded-full bg-darkBlue to-softBlue rotate'>
                             <div className='rounded-full w-full h-full bg-white'></div>
                         </div>
                         <span className='inline-block my-auto'>

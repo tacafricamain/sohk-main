@@ -24,7 +24,7 @@ const LargeSingleSlider = ({ }) => {
             responsive={responsive}
             // ssr={!true} // means to render carousel on server-side.
             infinite={true}
-            // autoPlay={true}
+            autoPlay={true}
             autoPlaySpeed={5000}
             keyBoardControl={true}
             customTransition="all 0.3s"

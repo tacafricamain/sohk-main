@@ -75,11 +75,11 @@ a {
 }
 
 .react-multi-carousel-dot button {
-  border: 1px solid #FA9600;
+  border: 1px solid #141FC3;
 }
 
 .react-multi-carousel-dot--active button {
-  background: #FA9600 !important;
+  background: #141FC3 !important;
 }
 
 .my_grid{
@@ -119,7 +119,7 @@ a {
 .mixblend:after {
   color: rgb(0,255,255);
   mix-blend-mode: difference;
-  
+
 }
 
 .popup-content {
@@ -128,7 +128,7 @@ a {
   overflow: hidden;
 }
 
-@media print{ 
+@media print{
   /* body, html, #page-container, .scrollable-page, .ps, .panel {
       height: 100% !important;
       width: 100% !important;
@@ -192,7 +192,7 @@ a {
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 3; /* number of lines to show */
-          line-clamp: 3; 
+          line-clamp: 3;
   -webkit-box-orient: vertical;
 }
 
