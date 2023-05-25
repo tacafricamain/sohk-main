@@ -11,7 +11,7 @@ import Membership from '../components/homepageComponents/Membership'
 import Activities from '../components/homepageComponents/Activities'
 import Map from '../components/Map'
 import NewsLetter from '../components/newsletter'
-import NoticePopup from '../components/noticePopUp'
+import NoticePopup from '../components/noticePopup'
 
 
 export default function Home() {
