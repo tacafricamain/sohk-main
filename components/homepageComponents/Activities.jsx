@@ -5,7 +5,7 @@ import ConditionalSlider from '../Sliders/ConditionalSlider'
 export default function Activities() {
 
     return (
-        <div id='activities' className=' bg-softGrey mt-20'>
+        <div id='activities' className=' bg-blueHighLight mt-20'>
             <div className='text-center mt-12 lg:mt-0 pt-8'>
                 {/* <h3 className='text-darkBlue font-mavin mt-24 text-2xl pt-8'  >Our Activities</h3> */}
                 <h2 className='font-mavin text-3xl my-3 '>Our Learning Offers</h2>

@@ -9,7 +9,8 @@ export default function Objective() {
             <section className='flex flex-col justify-center lg:flex-row w-full lg:pt-28'>
                 <img src="https://res.cloudinary.com/tacafrica/image/upload/v1684090798/Artboard_1_ypyh8f.png" alt="" className='lg:w-4/12 lg:ml-8 rounded-full max-h-[600px]'/>
                 <div className='lg:w-6/12 lg:mx-20 my-auto'>
-                    <h3 className='text-4xl lg:text-5xl mt-12 lg:mt-0 font-semibold font-mavin'>Welcome To SOHK
+                    <img src="/giphy.gif" alt="waving hand" className='w-20 mt-12 lg:mt-0' />
+                    <h3 className='text-4xl lg:text-5xl  font-semibold font-mavin'>Welcome To SOHK
                         <br className='hidden lg:block '/>{` `}
                         {/* for space */}
                         Foundation, Nigeria</h3>
