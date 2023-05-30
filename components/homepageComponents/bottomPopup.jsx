@@ -32,7 +32,16 @@ Join the skilled and dynamic Team at SOHK Nigeria by signing up to be a voluntee
 We are looking for passionate, committed and innovative individuals who have made marks in their area of expertise and who are willing to make a valuable impact to the success of this project.</p>
 
         </div>
-    </div>
+            <div className="">
+                <p className="text-sm mb-1 text-gray-900">
+                    <a className='text-gray-900' href="mailto:secretariat@tacafrica.org?subject=APPLICATION TO BECOME A SUBJECT MATTER EXPERT &body=I am writing to become a subject matter expert" target="_blank" rel="noreferrer">
+                    email: secretariat@tacafrica.org</a>
+                </p>
+                <hr className="w-4/5"/>
+            </div>
+            </div>
+
+
   </div>
               </div>
             </div>

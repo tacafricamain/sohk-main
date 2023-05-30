@@ -111,21 +111,6 @@ export default function Footer() {
                                             <hr className="w-4/5"/>
                                         </div>
 
-                                        {/* <div className="">
-                      <p className="text-sm mb-1 text-white space-x-4 ">
-                        Whatsapp:
-                        <a className='text-white' href="https://wa.me/+2349088559003" target="_blank"  rel="noreferrer"> +2349088559003</a>
-                      </p>
-                      <hr className="w-4/5" />
-                    </div>
-
-                    <div className="">
-                      <p className="text-sm mb-1 text-white space-x-4 ">
-                        <a className='text-white' href="https://www.youtube.com/@School-of-Hardknocks-NG" target="_blank"  rel="noreferrer"> Youtube</a>
-                      </p>
-                      <hr className="w-4/5" />
-                    </div> */}
-
                                         <div className="">
                                             <p className="text-sm mb-1 text-white">
                                                 <a className='text-white' href="mailto:contactus@schoolofhardknocks.com.ng" target="_blank" rel="noreferrer">
@@ -181,5 +166,3 @@ export default function Footer() {
         </div>
     );
 }
-
-// AIzaSyBu_w9W9QpvzHO99eHf5s0n3NIjw-jb-m0
