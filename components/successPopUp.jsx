@@ -4,16 +4,16 @@ import Link from 'next/link'
 
 export default function SuccessPopUp({ showModal, setShowModal }) {
   return (
-    
+
 // <!-- Modal toggle -->
-          <div className={` ${showModal? '': 'hidden'} 
-                            overflow-y-auto overflow-x-hidden fixed top-0 
-                            right-0 left-0 z-50 w-full md:inset-0 h-modal 
-                            my-auto md:h-full 
+          <div className={` ${showModal? '': 'hidden'}
+                            overflow-y-auto overflow-x-hidden fixed top-0
+                            right-0 left-0 z-50 w-full md:inset-0 h-modal
+                            my-auto md:h-full
                             fade_in h-screen
-                            `}  
+                            `}
                             style={{background: 'rgba(0, 0, 0, 0.69)' }} >
-                              
+
             <div className='flex justify-center h-full'>
               <div className="flex self-center p-4 w-full ">
               {/* <!-- component --> */}
@@ -30,7 +30,7 @@ export default function SuccessPopUp({ showModal, setShowModal }) {
             <p> Have a great day!  </p>
             <div className="py-10 text-center">
                 <Link href="/" className="px-12 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold py-3">
-                    GO BACK 
+                    GO BACK
                </Link>
             </div>
         </div>

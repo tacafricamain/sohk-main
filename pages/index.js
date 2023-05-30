@@ -12,11 +12,13 @@ import Activities from '../components/homepageComponents/Activities'
 import Map from '../components/Map'
 import NewsLetter from '../components/newsletter'
 import NoticePopup from '../components/noticePopup'
+import BottomPopUp from '../components/homepageComponents/bottomPopup'
 
 
 export default function Home() {
 
   const [showModal, setShowModal] = useState(true)
+  const [showBottomModal, setShowBottomModal] = useState(true)
 
   return (
           <main className='h-full' >
@@ -36,6 +38,7 @@ export default function Home() {
             <Testimonials />
             <Contact />
             <Map />
+            <BottomPopUp showBottomModal={showBottomModal} setShowBottomModal={setShowBottomModal} />
           </main>
   )
 }
