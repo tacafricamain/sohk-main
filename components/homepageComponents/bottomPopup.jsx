@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-key */
 import Link from 'next/link'
+import Button from '../Button'
 
 
 export default function BottomPopUp({ showBottomModal, setShowBottomModal }) {
@@ -27,16 +28,22 @@ export default function BottomPopUp({ showBottomModal, setShowBottomModal }) {
 
         <div className="text-center">
             <h3 className="md:text-2xl text-base text-gray-900 font-semibold text-center">JOIN US AS A SUBJECT MATTER EXPERT</h3>
-            <p className="text-gray-600 my-2">
-Join the skilled and dynamic Team at SOHK Nigeria by signing up to be a volunteer for our upcoming free training to 450 students in the FCT.
-We are looking for passionate, committed and innovative individuals who have made marks in their area of expertise and who are willing to make a valuable impact to the success of this project.</p>
+            {/* <p className="text-gray-600 my-2">
+              Join the skilled and dynamic Team at SOHK Nigeria by signing up to be a volunteer for our upcoming free training to 450 students in the FCT.
+                  We are looking for passionate, committed and innovative individuals who have made marks in their area of expertise and who are willing to make a valuable impact to the success of this project.
+            </p> */}
 
         </div>
             <div className="">
-                <p className="text-sm mb-1 text-gray-900">
+                {/* <p className="text-sm mb-1 text-gray-900">
                     <a className='text-gray-900' href="mailto:secretariat@tacafrica.org?subject=APPLICATION TO BECOME A SUBJECT MATTER EXPERT &body=I am writing to become a subject matter expert" target="_blank" rel="noreferrer">
                     email: secretariat@tacafrica.org</a>
-                </p>
+                </p> */}
+                <Link  href="/SMEvolunteers">
+                  <a >
+                    <Button text="Learn More" />
+                  </a>
+                </Link>
                 <hr className="w-4/5"/>
             </div>
             </div>
