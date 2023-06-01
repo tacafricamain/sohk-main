@@ -65,5 +65,12 @@ export const data = [
         link: '/pdf/12th Edition.pdf',
         image: 'https://res.cloudinary.com/tacafrica/image/upload/v1684843166/newsletters%20imager/new/WhatsApp_Image_2023-05-22_at_11.32.53_AM_y5m6nn.jpg'
     }
+    ,{
+        title: 'Thirteenth Edition',
+        description: "The School Of Hardknocks Nigeria recognizes Children's Day as an annual celebration dedicated to honoring and promoting the well-being of children worldwide.",
+        link: "/pdf/Children's Da2.pdf",
+        image: 'https://res.cloudinary.com/tacafrica/image/upload/v1683973355/image00082_tsg7um.jpg'
+    }
+    // Children's Da2.pdf
 
 ]
