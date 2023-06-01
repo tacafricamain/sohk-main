@@ -38,7 +38,7 @@ export default function Navbar({ fixed }) {
               <a
                 className="text-sm font-bold leading-relaxed inline-block mx-4 py-2 whitespace-nowrap text-white "
               >
-                <img src="https://res.cloudinary.com/tacafrica/image/upload/v1669210357/my_folder/sohk/x_hidu7h.png" alt="" className="w-16" />
+                <img src="https://res.cloudinary.com/tacafrica/image/upload/v1685618893/my_folder/sohk/eka-06_3_q6297e.png" alt="" className="w-16" />
               </a>
             </Link>
             <button

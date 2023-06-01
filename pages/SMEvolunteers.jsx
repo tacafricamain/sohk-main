@@ -18,7 +18,7 @@ export default function SMEvolunteers() {
                 </div>
                 <div>
                     <a href='https://forms.gle/nWGKb3FG4vwpXqQbA' target='_blank' rel="noreferrer" >
-                        <Button text='Volunteer' />
+                        <Button text='Volunteer Here' />
                     </a>
                 </div>
             </div>

@@ -7,14 +7,14 @@ import og from '../public/og.jpg'
 
 export default function Layout({children}) {
     return(
-        <>
- 
+        <div>
+
             <NavBar />
                 <div className='pt-12'>
                     { children }
                 </div>
             <Membership />
             <Footer />
-        </>
+        </div>
     )
 }
