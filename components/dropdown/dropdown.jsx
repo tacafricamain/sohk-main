@@ -25,7 +25,7 @@ const DropDownButton = ({
 
       <button
         // id="dropdownButton"
-        className="capitalize hover:bg-gray-100 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        className="capitalize hover:bg-gray-100 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center inline-flex items-center"
         // type="button"
           onClick={(e) => { setIsShown(true) }}
 
