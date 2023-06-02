@@ -1,7 +1,6 @@
 import 'react-multi-carousel/lib/styles.css';
 import '../styles/globals.css'
 import '../styles/markdown.css'
-import '../styles/style.css'
 // import '~video-react/dist/video-react.css'
 import { useEffect } from 'react';
 import Head from "next/head"
@@ -33,9 +32,9 @@ function MyApp({ Component, pageProps }) {
             <meta property="og:image" itemProp="image" content="https://res.cloudinary.com/tacafrica/image/upload/v1674135945/my_folder/Website%20pics/og_ejtymf.jpg" key="ogimage" />
             <meta property="og:updated_time" content="updatedtime" />
             {/*  */}
-            <link itemProp="thumbnailUrl" href="/favicon.ico" /> 
+            <link itemProp="thumbnailUrl" href="/favicon.ico" />
             <meta property="og:image:type" content="image/jpeg" />
-            
+
             <link rel="shortcut icon" href="/favicon.ico" />
             <link src="https://unpkg.com/swiper/swiper-bundle.min.js"></link>
             <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet" ></link>

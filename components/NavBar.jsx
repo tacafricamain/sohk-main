@@ -31,12 +31,12 @@ export default function Navbar({ fixed }) {
 
   return (
     <div className='absolute w-screen  '>
-      <nav className="relative flex flex-wrap items-center  justify-between  z-20">
-        <div className="w-screen mx-auto flex flex-wrap items-center justify-between backdrop-blur-lg ">
+      <nav className="relative flex flex-wrap items-center justify-between z-20">
+        <div className="w-screen mx-auto flex flex-wrap items-center justify-between bg-white py-4 ">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link href="/">
               <a
-                className="text-sm font-bold leading-relaxed inline-block mx-4 py-2 whitespace-nowrap text-white "
+                className="text-sm font-bold leading-relaxed hidden md:inline-block mx-4 py-2 whitespace-nowrap text-white "
               >
                 <img src="https://res.cloudinary.com/tacafrica/image/upload/v1685618893/my_folder/sohk/eka-06_3_q6297e.png" alt="" className="w-16" />
               </a>
@@ -56,11 +56,11 @@ export default function Navbar({ fixed }) {
             }
             id="example-navbar-danger"
           >
-            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto"  >
+            <ul className="flex flex-col lg:flex-row list-none lg:mx-auto"  >
               <li className="nav-item my-auto">
                 <Link href="/">
                   <a
-                    className="px-6 py-2 flex items-center justify-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
+                    className="px-3 py-2 flex items-center justify-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
                   >
                   <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>Home</span>
                   </a>
@@ -70,7 +70,7 @@ export default function Navbar({ fixed }) {
               <li className="nav-item my-auto">
                 <Link href="/aboutus">
                   <a
-                    className="px-6 py-2 flex items-center justify-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
+                    className="px-3 py-2 flex items-center justify-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
                   >
                   <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>About Us</span>
                   </a>
@@ -90,12 +90,20 @@ export default function Navbar({ fixed }) {
               <li className="nav-item my-auto">
               <Link href="/newsletters">
                 <a
-                  className="px-6 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
+                  className="px-3 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
                 >
                   <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>Newsletters</span>
                 </a>
                 </Link>
               </li>
+
+              <Link href="/">
+              <a
+                className="text-sm font-bold leading-relaxed hidden md:inline-block mx-14 py-2 whitespace-nowrap text-white "
+              >
+                <img src="https://res.cloudinary.com/tacafrica/image/upload/v1685618893/my_folder/sohk/eka-06_3_q6297e.png" alt="" className="w-16" />
+              </a>
+            </Link>
 
               <DropDownButton
                 label={'School Projects'}
@@ -110,7 +118,7 @@ export default function Navbar({ fixed }) {
               <li className="nav-item my-auto">
               <Link href="/news&events">
                 <a
-                  className="px-6 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
+                  className="px-3 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
                 >
                   <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>News & Events</span>
                 </a>
@@ -120,7 +128,7 @@ export default function Navbar({ fixed }) {
               <li className="nav-item my-auto">
               <Link href="/gallery">
                 <a
-                  className="px-6 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
+                  className="px-3 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
                 >
                   <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>Gallery</span>
                 </a>
@@ -130,7 +138,7 @@ export default function Navbar({ fixed }) {
               <li className="nav-item my-auto">
               <Link  href="/pdf/TAC Community Hub Membership form.pdf">
                 <a
-                  className="px-6 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
+                  className="px-3 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
                   target='_blank' rel='noopener'
                 >
                   <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>Register</span>
