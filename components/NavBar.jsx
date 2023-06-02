@@ -36,7 +36,7 @@ export default function Navbar({ fixed }) {
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link href="/">
               <a
-                className="text-sm font-bold leading-relaxed hidden md:inline-block mx-4 py-2 whitespace-nowrap text-white "
+                className="text-sm font-bold leading-relaxed inline-block md:hidden mx-4 py-2 whitespace-nowrap text-white "
               >
                 <img src="https://res.cloudinary.com/tacafrica/image/upload/v1685618893/my_folder/sohk/eka-06_3_q6297e.png" alt="" className="w-16" />
               </a>
