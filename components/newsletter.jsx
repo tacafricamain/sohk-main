@@ -1,15 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/jsx-key */
-import Carousel from "react-multi-carousel";
-import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
-import {data} from '../pages/api/newsletter'
-import {BiDownload} from 'react-icons/bi'
 import LargeSingleSlider from "./Sliders/LargeSingleSlider";
 import Button from "./Button";
+import {data } from "../pages/api/newsletter"
 
 
-const NewsLetter = ({}) => {
+const NewsLetter = () => {
 
     return (
         <div id='member' className="w-full">
@@ -44,7 +41,7 @@ const NewsLetter = ({}) => {
 
                 <div className=" m-5 lg:w-5/12">
                     <span className="block lg:mt-20">
-                        <LargeSingleSlider/>
+                        <LargeSingleSlider data={data} />
                     </span>
                 </div>
 
