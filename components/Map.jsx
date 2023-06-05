@@ -11,7 +11,7 @@ export default function Map() {
                     <div className='flex w-full h-1/3  md:h-full font-mavin text-xl md:text-3xl  '>
                         <h2 className='m-auto'>Come Visit Us at
                             <br/>
-                             School Of Hardknocks Foundation</h2>
+                             School Of Hardknocks Foundation Nigeria</h2>
                     </div>
                     <div className="flex  flex-col md:flex-row w-full md:h-full justify-center md:justify-start md:items-center md:space-x-4 h-full px-5 md:pl-10 ">
                         <span className=''>
@@ -33,7 +33,7 @@ export default function Map() {
             <h2 className="text-3xl p-6  text-center font-mavin mb-6">
                 {/* Come Visit Us At the TAC community Hub */} </h2>
             <div className="h-[80vh]">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3938.7013032334535!2d7.341990300000001!3d9.1813933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104dd9fc990fcb29%3A0xf260b1e8512372ff!2sTAC%20Africa%20Community%20Hub!5e0!3m2!1sen!2sng!4v1662564357096!5m2!1sen!2sng" allowFullScreen=""
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3938.7013122235794!2d7.339415874283801!3d9.181392490886157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104dd922e873f3f1%3A0x74b09b003cf45a54!2sSchool%20of%20HardKnocks%20Foundation%20Nigeria!5e0!3m2!1sen!2sng!4v1685976351947!5m2!1sen!2sng" allowFullScreen=""
                     style={
                         {
                             border: "0",

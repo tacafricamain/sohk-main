@@ -54,7 +54,7 @@ export default function Footer() {
 
                                         <div className="pt-4 ">
                                             <Link href="/aboutus/#aboutus">
-                                                <a className="text-darkBlue ease-in duration-200 hover:text-white"
+                                                <a className="text-white ease-in duration-200 hover:text-white"
                                                     style={
                                                         {
                                                             fontSize: '15px',
@@ -95,25 +95,33 @@ export default function Footer() {
                                         </div>
 
                                         <div className="">
-                                            <p className="text-sm mb-1 text-white">
-                                                TAC Community Hub: No.1 Sleekseed Crescent, Chikakore
-                                                                        District, Kubwa, Abuja
+                                            <p className="text-sm space-x-2 mb-1 text-white">
+                                                <b className='uppercase'>
+                                                    Address:
+                                                </b>
+                                                <span>
+                                                 School of Hardknocks Foundation Nigeria: No 1 Sleekseed Crecent Chikakore District, Kubwa, Abuja Bwari Area Council 901101, Kubwa Federal Capital Territory
+                                                </span>
                                             </p>
                                             <hr className="w-4/5"/>
                                         </div>
 
                                         <div className="">
-                                            <p className="text-sm space-x-4 mb-1 text-white">
-                                                phone:
+                                            <p className="text-sm space-x-2 mb-1 text-white">
+                                            <b className='uppercase'>phone: </b>
                                                 <a href='tel:+2349088559002'>+2349088559002</a>
                                             </p>
                                             <hr className="w-4/5"/>
                                         </div>
 
                                         <div className="">
-                                            <p className="text-sm mb-1 text-white">
+                                            <p className="text-sm space-x-2 mb-1 text-white">
                                                 <a className='text-white' href="mailto:contactus@schoolofhardknocks.com.ng" target="_blank" rel="noreferrer">
-                                                    email: contactus@schoolofhardknocks.com.ng</a>
+                                                    <b className='uppercase'>email: </b>
+                                                    <span>
+                                                        
+                                                    </span>
+                                                     contactus@schoolofhardknocks.com.ng</a>
                                             </p>
                                             <hr className="w-4/5"/>
                                         </div>
@@ -127,36 +135,36 @@ export default function Footer() {
                 <div className="flex justify-center my-6 ">
                     <Link className='mx-2' href="https://wa.me/+2349088559003">
                         <a target="_blank" rel="noreferrer">
-                            <FaWhatsapp className="mx-6 fa fa-brands fa-whatsapp fa-2x  text-darkBlue ease-in duration-200 hover:text-white"/> {/* <img className='w-5 mx-2' src="/whatsapp.png" title="whatsapp icons" alt='whatsapp'/> */} </a>
+                            <FaWhatsapp className="mx-6 fa fa-brands fa-whatsapp fa-2x  text-white ease-in duration-200 hover:text-white"/> {/* <img className='w-5 mx-2' src="/whatsapp.png" title="whatsapp icons" alt='whatsapp'/> */} </a>
                     </Link>
                     {/* facebook */}
                     <Link href={'https://web.facebook.com/search/top?q=school%20of%20hardknocks%20foundation%20-%20hardknocks%20ng&_rdc=1&_rdr'}>
                         <a target="_blank" rel="noreferrer">
-                            <FaFacebookF className="mx-6 fa fa-brands fa-instagram fa-2x  text-darkBlue ease-in duration-200 hover:text-white"/>
+                            <FaFacebookF className="mx-6 fa fa-brands fa-instagram fa-2x  text-white ease-in duration-200 hover:text-white"/>
                         </a>
                     </Link>
 
                     <Link href={'https://instagram.com/sohk_foundation_nigeria'}>
                         <a target="_blank" rel="noreferrer">
-                            <FaInstagram className="mx-5 fa fa-brands fa-instagram fa-2x  text-darkBlue ease-in duration-200 hover:text-white"/>
+                            <FaInstagram className="mx-5 fa fa-brands fa-instagram fa-2x  text-white ease-in duration-200 hover:text-white"/>
                         </a>
                     </Link>
 
                     <Link href={'https://www.linkedin.com/company/hardknocksng/'}>
                         <a target="_blank" rel="noreferrer">
-                            <FaLinkedinIn className="mx-5 fa fa-brands fa-linkedin fa-2x  text-darkBlue ease-in duration-200 hover:text-white"/>
+                            <FaLinkedinIn className="mx-5 fa fa-brands fa-linkedin fa-2x  text-white ease-in duration-200 hover:text-white"/>
                         </a>
                     </Link>
 
                     <Link href={'https://twitter.com/hardknocksng'}>
                         <a target="_blank" rel="noreferrer">
-                            <FaTwitter className="mx-5 fa fa-brands fa-twitter fa-2x text-darkBlue ease-in duration-200 hover:text-white"/>
+                            <FaTwitter className="mx-5 fa fa-brands fa-twitter fa-2x text-white ease-in duration-200 hover:text-white"/>
                         </a>
                     </Link>
 
                     <Link href='https://www.youtube.com/@School-of-Hardknocks-NG'>
                         <a target="_blank" rel="noreferrer">
-                            <FaYoutube className="mx-5 fa fa-brands fa-Youtube fa-2x text-darkBlue ease-in duration-200 hover:text-white"/>
+                            <FaYoutube className="mx-5 fa fa-brands fa-Youtube fa-2x text-white ease-in duration-200 hover:text-white"/>
                         </a>
                     </Link>
 
