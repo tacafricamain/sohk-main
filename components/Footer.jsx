@@ -105,7 +105,6 @@ export default function Footer() {
                                         <div className="">
                                             <p className="text-sm space-x-4 mb-1 text-white">
                                                 phone:
-                                                <a href='tel:+2349088559001 '>+2349088559001</a>
                                                 <a href='tel:+2349088559002'>+2349088559002</a>
                                             </p>
                                             <hr className="w-4/5"/>

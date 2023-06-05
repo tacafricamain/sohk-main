@@ -9,9 +9,9 @@ export default function Map() {
             <div className='absolute bg-white rounded-lg h-96 md:h-40 w-11/12 md:w-10/12 shadow-[0_8px_30px_rgb(0,0,0,0.12)] top-2/4 md:top-1 left-1/2 transform -translate-x-1/2 -translate-y-[170%] md:-translate-y-1/2'>
                 <div className="flex flex-col md:flex-row h-full sm:divide-y-2 md:divide-y-0 md:divide-x-2 divide-slate-200 py-3">
                     <div className='flex w-full h-1/3  md:h-full font-mavin text-xl md:text-3xl  '>
-                        <h2 className='m-auto'>Come Visit Us
+                        <h2 className='m-auto'>Come Visit Us at
                             <br/>
-                            At the TAC community Hub</h2>
+                             School Of Hardknocks Foundation</h2>
                     </div>
                     <div className="flex  flex-col md:flex-row w-full md:h-full justify-center md:justify-start md:items-center md:space-x-4 h-full px-5 md:pl-10 ">
                         <span className=''>
@@ -21,7 +21,7 @@ export default function Map() {
                             <h3 className='font-mavin text-2xl md:text-2xl'>Been Here Lately?</h3>
                             <p className='font-mavin text-sm'>Take a moment to leave a review for us</p>
                             {/* <div className='flex flex-col md:flex-row'> */}
-                            <a href='https://www.google.com/maps/place/58JV%2B97F+TAC+Africa+Community+Hub,+901101,+Abuja,+Federal+Capital+Territory/@9.1813933,7.3419903,16z/data=!4m6!3m5!1s0x104dd9fc990fcb29:0xf260b1e8512372ff!8m2!3d9.1813933!4d7.3419903!16s%2Fg%2F11t6mqcr8d?authuser=0&hl=en' target='_blank' rel="noreferrer" className=' flex flex-col md:flex-row'>
+                            <a href='https://g.page/r/CVRa9DwAm7B0EBM/review' target='_blank' rel="noreferrer" className=' flex flex-col md:flex-row'>
                                 <button className="text-white bg-darkBlue hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-8 py-3 mt-3 text-center mr-2">
                                     Rate Us
                                 </button>
