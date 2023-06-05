@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/jsx-key */
 import Link from 'next/link';
 import { useState } from 'react';
@@ -9,7 +10,8 @@ const DropDownButton = ({
   menuState,
   label,
   content,
-  i
+  i,
+  icon
 }) => {
 
   const [isShown, setIsShown] = useState(false);
@@ -17,19 +19,20 @@ const DropDownButton = ({
   return (
   <>
         <li
-          className='mt-2'
+          className='mt-2 flex pl-3 items-center'
           key={i}
           onMouseOver={() => setIsShown(true)}
           onMouseLeave={() => setIsShown(false)}
         >
 
+      <img src={`/nav_icons/${icon}`} alt="" className="w-5 h-5 lg:hidden" />
       <button
         // id="dropdownButton"
         className="capitalize hover:bg-gray-100 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center inline-flex items-center"
         // type="button"
           onClick={(e) => { setIsShown(true) }}
 
-      >
+        >
         {label}{' '}
         {  <svg
           className="w-4 h-4 ml-2"

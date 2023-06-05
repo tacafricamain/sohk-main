@@ -60,9 +60,10 @@ export default function Navbar({ fixed }) {
               <li className="nav-item my-auto">
                 <Link href="/">
                   <a
-                    className="px-3 py-2 flex items-center justify-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
+                    className="px-3 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
                   >
-                  <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>Home</span>
+                  <img src="/nav_icons/home.png" alt="home" className="w-5 h-5 lg:hidden" />
+                  <span className="lg:ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-5 lg:px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>Home</span>
                   </a>
                 </Link>
               </li>
@@ -70,9 +71,10 @@ export default function Navbar({ fixed }) {
               <li className="nav-item my-auto">
                 <Link href="/aboutus">
                   <a
-                    className="px-3 py-2 flex items-center justify-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
+                    className="px-3 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
                   >
-                  <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>About Us</span>
+                  <img src="/nav_icons/aboutUs.png" alt="" className="w-5 lg:hidden" />
+                  <span className="lg:ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-5 lg:px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>About Us</span>
                   </a>
                 </Link>
               </li>
@@ -85,14 +87,16 @@ export default function Navbar({ fixed }) {
                   menuState={menuState}
                   navbarOpen={navbarOpen}
                   setNavbarOpen={setNavbarOpen}
+                  icon={'ourTeam.png'}
               />
 
               <li className="nav-item my-auto">
               <Link href="/newsletters">
                 <a
                   className="px-3 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
-                >
-                  <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>Newsletters</span>
+                  >
+                  <img src="/nav_icons/newsletter.png" alt="" className="w-5 lg:hidden" />
+                  <span className="lg:ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-5 lg:px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>Newsletters</span>
                 </a>
                 </Link>
               </li>
@@ -113,6 +117,7 @@ export default function Navbar({ fixed }) {
                 menuState={menuState}
                 navbarOpen={navbarOpen}
                 setNavbarOpen={setNavbarOpen}
+                icon={'SchoolProjects.png'}
               />
 
               <li className="nav-item my-auto">
@@ -120,7 +125,8 @@ export default function Navbar({ fixed }) {
                 <a
                   className="px-3 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
                 >
-                  <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>News & Events</span>
+                  <img src="/nav_icons/News&Events.png" alt="" className="w-5 lg:hidden" />
+                  <span className="lg:ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-5 lg:px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>News & Events</span>
                 </a>
                 </Link>
               </li>
@@ -129,8 +135,9 @@ export default function Navbar({ fixed }) {
               <Link href="/gallery">
                 <a
                   className="px-3 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
-                >
-                  <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>Gallery</span>
+                  >
+                  <img src="/nav_icons/gallery.png" alt="" className="w-5 lg:hidden" />
+                  <span className="lg:ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-5 lg:px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>Gallery</span>
                 </a>
                 </Link>
               </li>
@@ -140,8 +147,9 @@ export default function Navbar({ fixed }) {
                 <a
                   className="px-3 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
                   target='_blank' rel='noopener'
-                >
-                  <span className="ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>Register</span>
+                  >
+                  <img src="/nav_icons/Register.png" alt="" className="w-5 lg:hidden" />
+                  <span className="lg:ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-5 lg:px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>Register</span>
                 </a>
                 </Link>
               </li>
