@@ -19,7 +19,7 @@ export default function Hero() {
         </div>
         </div>
         <div className="flex flex-col-reverse lg:flex-row mx-auto max-w-screen-xl px-4 py-20 sm:px-6 lg:flex lg:h-screen lg:items- center lg:px-8">
-            <div className="max-w-3xl px-16 mt-14 text-center sm:text-left">
+            <div className="max-w-3xl lg:px-16 mt-14 text-center sm:text-left">
                 <h1 className="font-extrabold text-5xl text-white mb-6">
                     {/* MrTidy Nigeria */}
                     <strong className="z-50 text-5xl block font-extrabol font-semibold bg-clip-text">
