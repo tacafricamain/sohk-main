@@ -1,9 +1,27 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/jsx-key */
 import Link from 'next/link'
+import cookieCutter from 'cookie-cutter'
+import { useState, useEffect } from 'react'
+
+export default function NoticePopup() {
+
+  const [showModal, setShowModal] = useState(true)
+
+  useEffect(() => {
+    let SOHK_FCT_Training_cookie = cookieCutter.get('SOHK_FCT_Training')
+
+    if (!SOHK_FCT_Training_cookie) {
+      cookieCutter.set('SOHK_FCT_Training', true)
+      // setShowModal(SOHK_FCT_Training_cookie)
+    } else {
+      cookieCutter.set('SOHK_FCT_Training', false)
+      setShowModal(false)
+    }
+
+  },[])
 
 
-export default function NoticePopup({ showModal, setShowModal }) {
   return (
 
 // <!-- Modal toggle -->

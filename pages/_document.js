@@ -17,7 +17,7 @@ class MyDocument extends Document {
                             "alternateName": "SOHK Nigeria.",
                             "description": "As an NGO, SOHK brings together local and global subject matter experts from a multidisciplinary background of sports, academics, law enforcement agencies, social infrastructure, equipment manufacturers, and civil societies with a focus to solve Nigeria's social vices and challenges which include; Cultism, Prostitution, Kidnapping, Armed robbery, Rape etc. Through rehabilitation, mentoring, coaching, youth capacity development, specialised digital skills training and mental empowerment to grow and promote morally global young leaders in Nigeria through menthorship",
                             "url" : "https://www.schoolofhardknocks.com.ng/",
-                        "Logo":"https://res.cloudinary.com/tacafrica/image/upload/v1685618893/my_folder/sohk/eka-06_3_q6297e.png",
+                            "Logo":"https://res.cloudinary.com/tacafrica/image/upload/v1685618893/my_folder/sohk/eka-06_3_q6297e.png",
                             "image" : "https://res.cloudinary.com/tacafrica/image/upload/v1685618893/my_folder/sohk/eka-06_3_q6297e.png",
                             "telephone": "+2349088559003",
                             "priceRange": " Free Consultation",
@@ -36,7 +36,7 @@ class MyDocument extends Document {
                             "https://www.linkedin.com/company/hardknocksng/",
                             "https://twitter.com/hardknocksng",
                             "https://www.youtube.com/@School-of-Hardknocks-NG",
-                        "https://web.facebook.com/search/top?q=school%20of%20hardknocks%20foundation%20-%20hardknocks%20ng&_rdc=1&_rdr",
+                            "https://web.facebook.com/search/top?q=school%20of%20hardknocks%20foundation%20-%20hardknocks%20ng&_rdc=1&_rdr",
                             ]
                         }
                         )

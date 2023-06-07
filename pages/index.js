@@ -7,7 +7,7 @@ import HeroSection from '../components/homepageComponents/HeroSection'
 import Promotion from '../components/homepageComponents/Promotion'
 import Testimonials from '../components/homepageComponents/Testimonials'
 import Contact from '../components/homepageComponents/Contact'
-import Membership from '../components/homepageComponents/Membership'
+import Hero from '../components/homepageComponents/Hero'
 import Activities from '../components/homepageComponents/Activities'
 import Map from '../components/Map'
 import NewsLetter from '../components/newsletter'
@@ -17,8 +17,8 @@ import BottomPopUp from '../components/homepageComponents/bottomPopup'
 
 export default function Home() {
 
-  const [showModal, setShowModal] = useState(true)
-  const [showBottomModal, setShowBottomModal] = useState(true)
+
+
 
   return (
           <main className='h-full' >
@@ -28,9 +28,10 @@ export default function Home() {
               <meta name="viewport" content="minimum-scale=1, minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover" />
               <link rel="icon" href="/favicon.ico" />
             </Head>
-            <HeroSection />
+      {/* <HeroSection /> */}
+            <Hero />
             <NewsLetter />
-            <NoticePopup showModal={showModal} setShowModal={setShowModal} />
+            <NoticePopup  />
             <Objective />
             <Activities />
             <Promotion />
@@ -38,7 +39,7 @@ export default function Home() {
             <Testimonials />
             <Contact />
             <Map />
-            <BottomPopUp showBottomModal={showBottomModal} setShowBottomModal={setShowBottomModal} />
+            <BottomPopUp />
           </main>
   )
 }

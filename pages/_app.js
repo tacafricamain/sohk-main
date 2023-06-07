@@ -1,6 +1,7 @@
 import 'react-multi-carousel/lib/styles.css';
 import '../styles/globals.css'
 import '../styles/markdown.css'
+import '../styles/gradient.css'
 // import '~video-react/dist/video-react.css'
 import { useEffect } from 'react';
 import Head from "next/head"

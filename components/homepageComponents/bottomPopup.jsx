@@ -1,9 +1,25 @@
 /* eslint-disable react/jsx-key */
 import Link from 'next/link'
 import Button from '../Button'
+import { useState, useEffect } from 'react'
+import cookieCutter from 'cookie-cutter'
 
+export default function BottomPopUp() {
 
-export default function BottomPopUp({ showBottomModal, setShowBottomModal }) {
+  const [showBottomModal, setShowBottomModal] = useState(true)
+
+  useEffect(() => {
+    let SME_volunteer_cookie = cookieCutter.get('SME_volunteer')
+
+    if (!SME_volunteer_cookie) {
+      cookieCutter.set('SME_volunteer', true)
+    } else {
+      cookieCutter.set('SME_volunteer', false)
+      setShowBottomModal(false)
+    }
+
+  },[])
+
   return (
 
 // <!-- Modal toggle -->
