@@ -41,8 +41,8 @@ export default function SchoolProject() {
                     <section className='pb-12 lg:h-[75rem]  bg-[#0098ff] relative'>
                         <img src="/bottom_white_image_01.png" alt="bottom_green_image" className='absolute bottom-0'/>
                         <section className='bg-[#0098ff]  flex flex-col lg:fl ex-row lg:pt-20 '>
-                            <div className='text-center font-SpaceGrotesk'>
-                                <h2 className='font-semibold font-PanchangBold text-4xl text-center mb-5'>So what makes
+                            <div className='text-center font-SpaceGrotesk pt-16 text-white'>
+                                <h2 className='font-semibold font-PanchangBold  text-4xl  text-center mb-5'>So what makes
                                     <br/>
                                     the School of Hardknocks
                                     <br/>
@@ -52,7 +52,7 @@ export default function SchoolProject() {
                             </div>
 
                         </section>
-                        <div className='flex flex-col lg:flex-row pt-20 mx-5 space-y-12 lg:space-y-0 lg:space-x-12'>
+                        <div className='flex flex-col lg:flex-row pt-20 mx-5 space-y-12 lg:space-y-0 lg:space-x-12 text-white'>
                             <div className='text-center'>
                                 <img src="/coach.png" alt="" className='w-[120px] h-[120px] mx-auto'/>
                                 <h2 className='font-semibold font-PanchangSemibold text-2xl'>
@@ -77,7 +77,7 @@ export default function SchoolProject() {
                                 </p>
                             </div>
                         </div>
-                        <div className='flex flex-col lg:flex-row pt-20 mx-5 space-y-12 lg:space-y-0 lg:space-x-12 lg:w-8/12'>
+                        <div className='flex flex-col lg:flex-row pt-20 mx-5 space-y-12 lg:space-y-0 lg:space-x-12 lg:w-8/12 text-white'>
                             <div className='text-center'>
                                 <img src="/coach.png" alt="" className='w-[120px] h-[120px] mx-auto'/>
                                 <h2 className='font-semibold font-PanchangSemibold text-2xl'>Learning:</h2>
