@@ -19,7 +19,7 @@ export default function SchoolProject() {
               <link rel="icon" href="/favicon.ico" />
             </Head>
             <div className='mx-4 lg:mx-8 font-SpaceGrotesk'>
-                <div id='aboutus' className='flex items-center h-[40rem] lg:h-[45rem] bg-aboutUsHeroBg bg-cover bg-top mt-12 rounded-t-3xl' >
+                <div id='aboutus' className='flex items-center h-[40rem] lg:h-[45rem] bg-schoolProjectHeroBg bg-cover bg-top mt-12 rounded-t-3xl' >
                     <div className='w-full  relative'>
                         <div className='flex flex-col justify-center items-center w-full h-[40rem] lg:h-[45rem]'>
                             <h1 className='text-center text-white font-bold text-4xl lg:text-8xl mb-10 font-PanchangExtrabold'>SOHK Pilot

@@ -6,8 +6,6 @@ import YoutubeEmbed from '../components/video';
 
 export default function SchoolProject() {
 
-    const videoSrc = 'https://www.youtube.com/watch?v=JBUnIRlYvuo&ab_channel=School-of-HardknocksFoundation';
-    const videoThumbnail = 'https://res.cloudinary.com/tacafrica/image/upload/v1683971134/image00002_krsbdi.jpg'
 
     return (
 
@@ -20,14 +18,15 @@ export default function SchoolProject() {
             </Head>
             <div className='mx-4 lg:mx-8 font-SpaceGrotesk'>
                 <div id='aboutus' className='flex items-center h-[40rem] lg:h-[45rem] bg-aboutUsHeroBg bg-cover bg-top mt-12 rounded-t-3xl'>
-                    <div className='w-full  relative'>
+                    <div className='w-full  relative '>
+                      <div className='absolute bg-black'></div>
                         <div className='flex flex-col justify-center items-center w-full h-[40rem] lg:h-[45rem]'>
-                            <h1 className='text-center text-white font-bold text-4xl lg:text-5xl mb-10 font-PanchangExtrabold'>
+                            <h1 className='text-center text-black font-bold text-4xl lg:text-5xl mb-10 font-PanchangExtrabold'>
                                 A Radical
                                 <br/>
                                 Approach  To 21st Century Education
                             </h1>
-                            <span className='space-x-4 flex text-3xl text-white items-center'>
+                            <span className='space-x-4 flex text-3xl  items-center'>
                                 <p>Play</p>
                                 <p>Learn</p>
                                 <p>Earn</p>
@@ -98,21 +97,18 @@ export default function SchoolProject() {
                 </div>
                 {/*  */}
 
-                <div className='px-8 bg-[#c3d9ff]'>
+                <div className='px-8 bg-[#c3d9ff] py-20'>
                     <section className='flex flex-col-reverse  lg:flex-row w-full pt-32 lg:pt-0'>
                         <div className='lg:w-7/12 lg:mx-20 my-auto'>
                             <p className='text-xl my-6 font-SpaceGrotesk opacity-90'>
                             At the School of Hardknocks, students are not just passive learners. They`re active participants in their own education. They`re encouraged to explore, experiment, and collaborate with their peers and teachers to develop the critical thinking, problem-solving, creativity, and communication skills that are essential for success in the modern world.
                             </p>
-                            <div className='flex items-center'>
-                                <img src="/trophy.png" alt="trophy icon" className='w-[100px]'/>
-                            </div>
                         </div>
-                        <img src="https://res.cloudinary.com/tacafrica/image/upload/v1684091914/Artboard_1_w3qeww.png" alt="" className='lg:w-5/12 lg:mr-8 rounded-full'/>
+                        <img src="https://res.cloudinary.com/tacafrica/image/upload/v1661951046/my_folder/compressed/mandella-and-chess-day-compressed/1-2207230065_result_vm4qzp.webp" alt="" className='lg:w-5/12 lg:mr-8 rounded-full'/>
                     </section>
 
                     <section className='flex flex-col lg:flex-row w-full pt-32 lg:pt-0 '>
-                        <img src="https://res.cloudinary.com/tacafrica/image/upload/v1683976921/image00083_rtscxc.png" alt="" className='lg:w-5/12 lg:mr-8 rounded-full'/>
+                        <img src="https://res.cloudinary.com/tacafrica/image/upload/v1661951039/my_folder/compressed/mandella-and-chess-day-compressed/1-2207230069_result_pio8ig.webp" alt="" className='lg:w-5/12 lg:mr-8 rounded-full'/>
                         <div className='lg:w-7/12 lg:mx-20 my-auto'>
                             <p className='text-xl my-6 font-SpaceGrotesk opacity-90'>
                             But here`s the best part: the School of Hard Knocks isn`t a rigid, one-size-fits-all model. It`s flexible and adaptable, and can be customized to meet the needs and goals of each individual school and community. Whether you`re in a small rural school or a large urban district, you can apply the principles of the School of Hard Knocks to create a learning environment that`s engaging, effective, and empowering for all students.

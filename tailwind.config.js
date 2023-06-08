@@ -34,12 +34,14 @@ module.exports = {
                 // "url('https://res.cloudinary.com/tacafrica/image/upload/v1660567320/my_folder/int%20youth%20day/1-2208130139_h5slq9.jpg')",
                 membershipBgDesktop: "url('https://res.cloudinary.com/tacafrica/image/upload/v1669213718/my_folder/sohk/k_cc3pgg.png')",
                 footerBG: "url('https://res.cloudinary.com/tacafrica/image/upload/v1661950975/my_folder/compressed/int_youth-day-compressed/1-2208130105_result_kuvblc.webp')",
-                aboutUsHeroBg: "url('https://res.cloudinary.com/tacafrica/image/upload/v1684419035/my_folder/school%20programs/hero_about_us_mbcs4x.jpg')",
+                schoolProjectHeroBg: "url('https://res.cloudinary.com/tacafrica/image/upload/v1684419035/my_folder/school%20programs/hero_about_us_mbcs4x.jpg')",
+                aboutUsHeroBg: "url('https://res.cloudinary.com/tacafrica/image/upload/v1658796721/my_folder/mandella_and_chess_day/1-2207230048_rrimmm.jpg')",
                 aboutUsSndImg: "url('https://res.cloudinary.com/tacafrica/image/upload/v1663155956/my_folder/mandella_and_chess_day/Screenshot_from_2022-09-14_12-44-11_zochqz.png')",
                 whyWeDoThis: "url('https://res.cloudinary.com/tacafrica/image/upload/v1663166066/my_folder/int%20youth%20day/Screenshot_from_2022-09-14_15-33-13_fh3nuq.png')",
                 buttonBG: "url('https://res.cloudinary.com/tacafrica/image/upload/v1684156514/my_folder/assets/Rectangle_15button_1_ultq6c.png')",
-                popupImg: "url('https://res.cloudinary.com/tacafrica/image/upload/v1684160430/my_folder/assets/Rectangle_15button_1_gsafop.png')"
-            },
+                popupImg: "url('https://res.cloudinary.com/tacafrica/image/upload/v1684160430/my_folder/assets/Rectangle_15button_1_gsafop.png')",
+                aboutUsBestPartSec: "url('https://res.cloudinary.com/tacafrica/image/upload/v1661951046/my_folder/compressed/mandella-and-chess-day-compressed/1-2207230065_result_vm4qzp.webp')",
+                aboutUsXploreSec: "url('https://res.cloudinary.com/tacafrica/image/upload/v1661951039/my_folder/compressed/mandella-and-chess-day-compressed/1-2207230069_result_pio8ig.webp')",            },
             colors: {
                 gold: '#FA9600',
                 orange: '#FF5151',
