@@ -97,8 +97,8 @@ export default function SchoolProject() {
                 </div>
                 {/*  */}
 
-                <div className='px-8 bg-[#c3d9ff] py-20'>
-                    <section className='flex flex-col-reverse  lg:flex-row w-full pt-32 lg:pt-0'>
+                <div className='px-8 bg-[#c3d9ff] py-10 lg:py-20'>
+                    <section className='flex flex-col-reverse  lg:flex-row w-full pt-  lg:pt-0'>
                         <div className='lg:w-7/12 lg:mx-20 my-auto'>
                             <p className='text-xl my-6 font-SpaceGrotesk opacity-90'>
                             At the School of Hardknocks, students are not just passive learners. They`re active participants in their own education. They`re encouraged to explore, experiment, and collaborate with their peers and teachers to develop the critical thinking, problem-solving, creativity, and communication skills that are essential for success in the modern world.
@@ -107,7 +107,7 @@ export default function SchoolProject() {
                         <img src="https://res.cloudinary.com/tacafrica/image/upload/v1661951046/my_folder/compressed/mandella-and-chess-day-compressed/1-2207230065_result_vm4qzp.webp" alt="" className='lg:w-5/12 lg:mr-8 rounded-full'/>
                     </section>
 
-                    <section className='flex flex-col lg:flex-row w-full pt-32 lg:pt-0 '>
+                    <section className='flex flex-col lg:flex-row w-full pt-10 lg:pt-0 '>
                         <img src="https://res.cloudinary.com/tacafrica/image/upload/v1661951039/my_folder/compressed/mandella-and-chess-day-compressed/1-2207230069_result_pio8ig.webp" alt="" className='lg:w-5/12 lg:mr-8 rounded-full'/>
                         <div className='lg:w-7/12 lg:mx-20 my-auto'>
                             <p className='text-xl my-6 font-SpaceGrotesk opacity-90'>
