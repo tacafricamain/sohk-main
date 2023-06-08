@@ -3,6 +3,7 @@ import React from 'react'
 import Carousel from "react-multi-carousel";
 import { data } from '../../pages/api/data';
 import Button from '../Button';
+import Link from 'next/link';
 
 export default function Hero() {
   return (
@@ -18,11 +19,11 @@ export default function Hero() {
             <span></span>
         </div>
         </div>
-        <div className="flex flex-col-reverse lg:flex-row mx-auto max-w-screen-xl px-4 py-20 sm:px-6 lg:flex lg:h-screen lg:items- center lg:px-8">
-            <div className="max-w-3xl lg:px-16 mt-14 text-center sm:text-left">
+        <div className="flex flex-col lg:flex-row mx-auto max-w-screen-xl px-4 py-3 lg:py-20 sm:px-6 lg:flex lg:h-screen lg:items- center lg:px-8">
+            <div className="max-w-3xl lg:px-16 mt-4 lg:mt-14 sm:text-left z-30">
                 <h1 className="font-extrabold text-5xl text-white mb-6">
                     {/* MrTidy Nigeria */}
-                    <strong className="z-50 text-5xl block font-extrabol font-semibold bg-clip-text">
+                    <strong className="z-50 text-3xl lg:text-5xl block font-extrabol font-semibold bg-clip-text">
                     A Radical <br /> Approach  To 21st Century Education
                     </strong>
                 </h1>
@@ -30,11 +31,19 @@ export default function Hero() {
                 <div className='my-3 space-x-3 text-[#F3C626] '><b>PLAY </b> <span className='font-bold'>|</span><b> LEARN  </b> <span className='font-bold'>|</span> <b>EARN</b></div>
 
                 <p className="mt-4 max-w-lg sm:text-xl leading-normal text-white">
-                      {`At its core, the School of Hard knocks curriculum is an innovative approach to education that's designed to equip students with the skills they'll need to tackle the challenges and opportunities of the 21st century.`}
+                      {`At its core, the School of Hard knocks curriculum is an innovative approach to education that's designed to equip students with the skills they'll need`}
                   </p>
-                  <Button extraStyles="bg-white text-black mt-5" text={'Learn More'} />
+                  <div>
+                    <Link href="/aboutus"  className='z-[100]' >
+                        <a className='z-[100]'>
+                            <Button extraStyles="hidden lg:block bg-white text-black mt-5" text={'Learn More'} />
+                        </a>
+                    </Link>
+                  </div>
               </div>
               <LargeSingleSlider data={data} />
+
+
         </div>
         </section>
   )
@@ -80,13 +89,18 @@ const LargeSingleSlider = ({ data }) => {
                       {/* <img src={edge?.image} alt={edge?.name} className='lg:w-5/12 lg:mr-8 object-cover rounded-xl max-h-[500px]'/> */}
                       <div className="py-2 md:mb-8">
                           <div className=" max-h-[600px] m-auto">
-                              <img className=" h-[450px]  w-full content-cover object-cover rounded-xl" src={edge?.image} alt={edge?.name}  />
+                              <img className="h-[300px] lg:h-[450px]  w-full content-cover object-cover rounded-xl" src={edge?.image} alt={edge?.name}  />
                           </div>
                       </div>
 
                   </div>
               ))}
             </Carousel>
+            <Link href="/aboutus" className='z-50'>
+                  <a className='z-50'>
+                    <Button extraStyles="lg:hidden bg-blue-700 text-white mt-5" text={'Learn More'} />
+                  </a>
+              </Link>
           </div>
 
         </div>
