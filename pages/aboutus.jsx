@@ -1,8 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Head from 'next/head'
-import VideoComp from '../components/video'
-import YoutubeEmbed from '../components/video';
+import Link from 'next/link'
 
 export default function SchoolProject() {
 
@@ -17,103 +16,131 @@ export default function SchoolProject() {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
             <div className='mx-4 lg:mx-8 font-SpaceGrotesk'>
-                <div id='aboutus' className='flex items-center h-[40rem] lg:h-[45rem] bg-aboutUsHeroBg bg-cover bg-top mt-12 rounded-t-3xl'>
-                    <div className='w-full  relative '>
-                      <div className='absolute bg-black'></div>
-                        <div className='flex flex-col justify-center items-center w-full h-[40rem] lg:h-[45rem]'>
-                            <h1 className='text-center text-black font-bold text-4xl lg:text-5xl mb-10 font-PanchangExtrabold'>
+                <div id='aboutus' className='flex items-center h-[50vh] lg:h-[40rem] bg-aboutUsHeroBg bg-cover bg-top mt-12 rounded-t-3xl'>
+                    <div className='w-full h-full relative '>
+                        <div className='absolute bg-black top-0 left-0 right-0 bottom-0 opacity-50 rounded-t-3xl'></div>
+                        <div className='flex flex-col relative lg:justify-center items-center w-full h-[40rem] lg:h-[45rem]'>
+                            <h1 className='text-center text-white font-bold text-4xl lg:text-5xl mt-20 lg:mb-10 font-PanchangExtrabold'>
                                 A Radical
                                 <br/>
                                 Approach  To 21st Century Education
                             </h1>
-                            <span className='space-x-4 flex text-3xl  items-center'>
-                                <p>Play</p>
-                                <p>Learn</p>
-                                <p>Earn</p>
-                            </span>
                         </div>
-                        <img src="/bottom_green_image_01.png" alt="bottom_green_image" className='absolute -bottom-[0.1rem]'/>
+                        <img src="/Vector18.png" alt="bottom_green_image" className='absolute -bottom-[0.1rem]'/>
                     </div>
                 </div>
                 {/*  */}
                 <div>
-                    <section className='pb-12 lg:h-[75rem]  bg-[#0098ff] relative'>
-                        <img src="/bottom_white_image_01.png" alt="bottom_green_image" className='absolute bottom-0'/>
-                        <section className='bg-[#0098ff]  flex flex-col lg:fl ex-row lg:pt-20 '>
-                            <div className='text-center font-SpaceGrotesk pt-16 text-white'>
-                                <h2 className='font-semibold font-PanchangBold  text-4xl  text-center mb-5'>So what makes
+                    <section className=' pb-12 relative'>
+                        <section className=' flex flex-col '>
+                            <div className='text-center font-SpaceGrotesk pt-8 lg:pt-16 text-black'>
+                                <h2 className='font-semibold font-PanchangBold text-2xl lg:text-4xl  text-center mb-5'>What sets the School of
                                     <br/>
-                                    the School of Hardknocks
-                                    <br/>
-                                    different?
+                                    Hardknocks apart?
+
                                 </h2>
-                                <p className='text-3xl max-w-5xl mx-auto'>For starters, it`s characterized by a number of key features that set it apart from traditional schools:</p>
+                                <p className='text-xl max-w-5xl mx-auto'>For starters, we are characterized by a number of key
+                                    <br/>
+                                    features that set it apart from traditional schools These include the following:
+                                </p>
                             </div>
 
                         </section>
-                        <div className='flex flex-col lg:flex-row pt-20 mx-5 space-y-12 lg:space-y-0 lg:space-x-12 text-white'>
-                            <div className='text-center'>
-                                <img src="/coach.png" alt="" className='w-[120px] h-[120px] mx-auto'/>
-                                <h2 className='font-semibold font-PanchangSemibold text-2xl'>
-                                    Digital Learning:</h2>
-                                <p className='text-base my-6 font-SpaceGrotesk opacity-90'>
-                                    Think online classes, interactive apps, and educational games that use technology to enhance the learning experience.
-                                </p>
+
+                        <section className=' flex flex-col max-w-6xl mx-auto mt-12 space-y-5 lg:space-y-10'>
+                            <div className="flex flex-col lg:flex-row w-full justify-center space-y-5 lg:space-y-0">
+                                <div className="bg-[#F5F5F6] rounded-xl p-5 w-full lg:mx-5 lg:w-5/12 ">
+                                    <img src="/aboutus/digitalLearning.png" alt="aboutUs" className='w-20'/>
+                                    <h3 className='text-md font-bold'>Digital learning</h3>
+                                    <p>Think online classes, interactive apps, and educational games that use technology to enhance the learning experience.</p>
+                                </div>
+                                <div className="bg-[#F5F5F6] rounded-xl p-5 w-full lg:mx-5 lg:w-5/12 ">
+                                    <img src="/aboutus/learning.png" alt="aboutUs" className='w-20'/>
+                                    <h3 className='text-md font-bold'>Project based learning</h3>
+                                    <p>A teaching method that has students working on real-world projects to develop practical skills and knowledge needed in our society.</p>
+                                </div>
                             </div>
-                            <div className='text-center'>
-                                <img src="/digital.png" alt="" className='w-[120px] h-[120px] mx-auto'/>
-                                <h2 className='font-semibold font-PanchangSemibold text-2xl'>
-                                    Project-Based Learning:</h2>
-                                <p className='text-base my-6 font-SpaceGrotesk opacity-90'>
-                                    {`  A teaching method that has students working on real-world projects to develop practical skills and knowledge.`} </p>
+                            <div className="flex flex-col lg:flex-row w-full justify-center space-y-5 lg:space-y-0">
+                                <div className="bg-[#F5F5F6] rounded-xl p-5 w-full lg:mx-5 lg:w-5/12 ">
+                                    <img src="/aboutus/sports.png" alt="aboutUs" className='w-20'/>
+                                    <h3 className='text-md font-bold'>Sports and extra curriculum activities</h3>
+                                    <p>An approach to education that considers each
+                                      student`s unique strengths, weaknesses, interests,
+                                      and learning style.</p>
+                                </div>
+                                <div className="bg-[#F5F5F6] rounded-xl p-5 w-full lg:mx-5 lg:w-5/12 ">
+                                    <img src="/aboutus/networking.png" alt="aboutUs" className='w-20'/>
+                                    <h3 className='text-md font-bold'>Networking and Connections</h3>
+                                    <p>We prioritize social connections which can be valuable sources of support, advice, and inspiration for both kids, teenagers, and adults.</p>
+                                </div>
                             </div>
-                            <div className='text-center'>
-                                <img src="/sports.png" alt="" className='w-[120px] h-[120px] mx-auto'/>
-                                <h2 className='font-semibold font-PanchangSemibold text-2xl'>
-                                    Personalized Learning:</h2>
-                                <p className='text-base my-6 font-SpaceGrotesk opacity-90'>
-                                    An approach to education that considers each student`s unique strengths, weaknesses, interests, and learning style.
-                                </p>
+                            <div className="flex flex-col lg:flex-row w-full justify-center space-y-5 lg:space-y-0">
+                                <div className="bg-[#F5F5F6] rounded-xl p-5 w-full lg:mx-5 lg:w-5/12 ">
+                                    <img src="/aboutus/practicalSkill.png" alt="aboutUs" className='w-20'/>
+                                    <h3 className='text-md font-bold'>Practical skill acquisition</h3>
+                                    <p>A focus on global citizenship, cultural awareness, and understanding of different perspectives which are helpful to all works of life.</p>
+                                </div>
+                                <div className="bg-[#F5F5F6] rounded-xl p-5 w-full lg:mx-5 lg:w-5/12 ">
+                                    <img src="/aboutus/STEAM.png" alt="aboutUs" className='w-20'/>
+                                    <h3 className='text-md font-bold'>Adherence to STEAM education style</h3>
+                                    <p>A curriculum that integrates science, technology, engineering, arts, and math to prepare students for careers in these fields</p>
+                                </div>
                             </div>
-                        </div>
-                        <div className='flex flex-col lg:flex-row pt-20 mx-5 space-y-12 lg:space-y-0 lg:space-x-12 lg:w-8/12 text-white'>
-                            <div className='text-center'>
-                                <img src="/coach.png" alt="" className='w-[120px] h-[120px] mx-auto'/>
-                                <h2 className='font-semibold font-PanchangSemibold text-2xl'>Learning:</h2>
-                                <p className='text-base my-6 font-SpaceGrotesk opacity-90'>
-                                    A focus on global citizenship, cultural awareness, and understanding of different perspectives.
-                                </p>
-                            </div>
-                            <div className='text-center'>
-                                <img src="/digital.png" alt="" className='w-[120px] h-[120px] mx-auto'/>
-                                <h2 className='font-semibold font-PanchangSemibold text-2xl'>
-                                    STEAM Education:
-                                </h2>
-                                <p className='text-base my-6 font-SpaceGrotesk opacity-90'>
-                                    {`A curriculum that integrates science, technology, engineering, arts, and math to prepare students for careers in these fields.`} </p>
-                            </div>
-                        </div>
+                        </section>
+
                     </section>
                 </div>
                 {/*  */}
 
-                <div className='px-8 bg-[#c3d9ff] py-10 lg:py-20'>
-                    <section className='flex flex-col-reverse  lg:flex-row w-full pt-  lg:pt-0'>
-                        <div className='lg:w-7/12 lg:mx-20 my-auto'>
-                            <p className='text-xl my-6 font-SpaceGrotesk opacity-90'>
-                            At the School of Hardknocks, students are not just passive learners. They`re active participants in their own education. They`re encouraged to explore, experiment, and collaborate with their peers and teachers to develop the critical thinking, problem-solving, creativity, and communication skills that are essential for success in the modern world.
-                            </p>
+                <div className='space-y-10 max-w-5xl mx-auto lg:space-y-14 lg:pt-0 px-8 mb-14'>
+                    <section className='flex flex-col lg:flex-row-reverse justify-between w-full'>
+                        <img src="https://res.cloudinary.com/tacafrica/image/upload/v1661951046/my_folder/compressed/mandella-and-chess-day-compressed/1-2207230065_result_vm4qzp.webp" alt="our focus area" className='lg:w-3/12 lg:mr-8 rounded-full object-cover'/>
+                        <div className='lg:w-7/12  my-auto'>
+                            <p className='font-semibold text-md mb-3 mt-12 font-PanchangSemibold'>OUR FOCUS AREAS</p>
+                            <h3 className='text-4xl lg:text-2xl font-semibold font-PanchangSemibold'>Active Learning and Skill Development</h3>
+                            <div className='space-y-3'>
+                                <p className=' font-SpaceGrotesk opacity-90'>
+                                    At the School of Hardknocks, students are not just passive learners. They are active participants in their own education.
+                                </p>
+                                <p className=' font-SpaceGrotesk opacity-90 pb-4'>
+                                    They are encouraged to explore, experiment, and collaborate with their peers and teachers to develop the critical thinking, problem-solving, creativity, and communication skills that are essential for success in the modern world.
+                                </p>
+
+                                <Link href="/pilot_school_project" className='inline'>
+                                  <a className='inline text-[#3908FF] mt-10' >Read more about our school project <img src="/aboutus/right arrow.png" alt="right arrow"  className='w-4 inline ml-2' /> </a>
+                                </Link>
+                            </div>
+
                         </div>
-                        <img src="https://res.cloudinary.com/tacafrica/image/upload/v1661951046/my_folder/compressed/mandella-and-chess-day-compressed/1-2207230065_result_vm4qzp.webp" alt="" className='lg:w-5/12 lg:mr-8 rounded-full'/>
                     </section>
 
-                    <section className='flex flex-col lg:flex-row w-full pt-10 lg:pt-0 '>
-                        <img src="https://res.cloudinary.com/tacafrica/image/upload/v1661951039/my_folder/compressed/mandella-and-chess-day-compressed/1-2207230069_result_pio8ig.webp" alt="" className='lg:w-5/12 lg:mr-8 rounded-full'/>
+                    <section className='flex flex-col lg:flex-row w-full'>
+                        <img src="https://res.cloudinary.com/tacafrica/image/upload/v1665933765/my_folder/wetransfer_oct_2023/image00021_wpjrm8.jpg" alt="thats not all" className='lg:w-3/12 lg:mr-8 rounded-full object-cover'/>
                         <div className='lg:w-7/12 lg:mx-20 my-auto'>
-                            <p className='text-xl my-6 font-SpaceGrotesk opacity-90'>
-                            But here`s the best part: the School of Hard Knocks isn`t a rigid, one-size-fits-all model. It`s flexible and adaptable, and can be customized to meet the needs and goals of each individual school and community. Whether you`re in a small rural school or a large urban district, you can apply the principles of the School of Hard Knocks to create a learning environment that`s engaging, effective, and empowering for all students.
-                            </p>
+                            <p className='font-semibold text-md mb-3 mt-12 font-PanchangSemibold'>
+                                {`THAT'S NOT ALL`}</p>
+                            <h3 className='text-4xl lg:text-2xl font-semibold font-PanchangSemibold'>
+                                {`There's more! Here's the Best Part`}</h3>
+                            <div className='space-y-5'>
+                                <p className=' my-6 font-SpaceGrotesk opacity-90'>
 
+                                    {`We aren't a rigid, one-size-fits-all model. It's flexible and adaptable, and can be customized to meet the needs and goals of each individual school and community.`} </p>
+                            </div>
+                            <p className='font-bold text-sm'>OUR WORKING MODEL:</p>
+                            <div className='flex space-x-3'>
+                              <span className="bg-[#F5F5F6] px-4 py-2">
+                                <img src="/aboutus/play.png" alt="play" className='w-10' />
+                                <p className='text-sm text-center'>Play</p>
+                              </span>
+                              <span className="bg-[#F5F5F6] px-4 py-2">
+                                <img src="/aboutus/STEAM.png" alt="steam" className='w-10' />
+                                <p className='text-sm text-center'>Learn</p>
+                              </span>
+                              <span className="bg-[#F5F5F6] px-4 py-2">
+                                <img src="/aboutus/earn.png" alt="earn" className='w-10' />
+                                <p className='text-sm text-center'>Earn</p>
+                              </span>
+                            </div>
                         </div>
                     </section>
 
