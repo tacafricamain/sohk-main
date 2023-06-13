@@ -94,7 +94,10 @@ export default function SchoolProject() {
 
                 <div className='space-y-10 max-w-5xl mx-auto lg:space-y-14 lg:pt-0 px-8 mb-14'>
                     <section className='flex flex-col lg:flex-row-reverse justify-between w-full'>
-                        <img src="https://res.cloudinary.com/tacafrica/image/upload/v1661951046/my_folder/compressed/mandella-and-chess-day-compressed/1-2207230065_result_vm4qzp.webp" alt="our focus area" className='lg:w-3/12 lg:mr-8 rounded-full object-cover'/>
+                        <div  className='relative lg:w-4/12'>
+                            <img src="https://res.cloudinary.com/tacafrica/image/upload/v1661951046/my_folder/compressed/mandella-and-chess-day-compressed/1-2207230065_result_vm4qzp.webp" alt="our focus area" className=' rounded-t-3xl h-[30rem] lg:rounded-full object-cover'/>
+                            <img src="/Vector18.png" alt="bottom_green_image" className='absolute md:hidden  -bottom-[0.1rem]'/>
+                        </div>
                         <div className='lg:w-7/12  my-auto'>
                             <p className='font-semibold text-md mb-3 mt-12 font-PanchangSemibold'>OUR FOCUS AREAS</p>
                             <h3 className='text-4xl lg:text-2xl font-semibold font-PanchangSemibold'>Active Learning and Skill Development</h3>
@@ -115,7 +118,10 @@ export default function SchoolProject() {
                     </section>
 
                     <section className='flex flex-col lg:flex-row w-full'>
-                        <img src="https://res.cloudinary.com/tacafrica/image/upload/v1665933765/my_folder/wetransfer_oct_2023/image00021_wpjrm8.jpg" alt="thats not all" className='lg:w-3/12 lg:mr-8 rounded-full object-cover'/>
+                    <div  className='relative lg:w-4/12'>
+                            <img src="https://res.cloudinary.com/tacafrica/image/upload/v1665933765/my_folder/wetransfer_oct_2023/image00021_wpjrm8.jpg" alt="thats not all" className='rounded-t-3xl h-[30rem] lg:rounded-full object-cover'/>
+                            <img src="/Vector18.png" alt="bottom_green_image" className='absolute md:hidden  -bottom-[0.1rem]'/>
+                        </div>
                         <div className='lg:w-7/12 lg:mx-20 my-auto'>
                             <p className='font-semibold text-md mb-3 mt-12 font-PanchangSemibold'>
                                 {`THAT'S NOT ALL`}</p>
