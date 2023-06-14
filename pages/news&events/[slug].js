@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React, { useRef, useState } from "react";
 import { getPostBySlug, getAllPosts } from "../../utils/api";
 import ContentSection from "../../components/ContentSection";
@@ -36,7 +37,7 @@ const BlogPost = ({ post }) => {
                   src={post.image}
                   alt={post.title}
                 ></img>
-   
+
               </div>
               <ContentSection content={post.content}></ContentSection>
               {/* <Footer /> */}

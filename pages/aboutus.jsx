@@ -16,14 +16,15 @@ export default function SchoolProject() {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
             <div className='mx-4 lg:mx-8 font-SpaceGrotesk'>
-                <div id='aboutus' className='flex items-center h-[50vh] lg:h-[40rem] bg-aboutUsHeroBg bg-cover bg-top mt-12 rounded-t-3xl'>
+                <div id='aboutus' className='flex items-center h-[50vh] lg:h-[40rem] bg-[#0A157C] bg- aboutUsHeroBg bg-cover bg-top mt-12 rounded-t-3xl'>
                     <div className='w-full h-full relative '>
                         <div className='absolute bg-black top-0 left-0 right-0 bottom-0 opacity-50 rounded-t-3xl'></div>
-                        <div className='flex flex-col relative lg:justify-center items-center w-full h-[40rem] lg:h-[45rem]'>
-                            <h1 className='text-center text-white font-bold text-4xl lg:text-5xl mt-20 lg:mb-10 font-PanchangExtrabold'>
-                                A Radical
+                        <div className='flex flex-col relative lg:justify-start items-center w-full h-[40rem] lg:h-[45rem]'>
+                            <h1 className='text-center text-white font-bold text-4xl lg:text-5xl mt-48 font-PanchangExtrabold'>
+                                {/* A Radical
                                 <br/>
-                                Approach  To 21st Century Education
+                                Approach  To 21st Century Education */}
+                                About Us
                             </h1>
                         </div>
                         <img src="/Vector18.png" alt="bottom_green_image" className='absolute -bottom-[0.1rem]'/>

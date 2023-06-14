@@ -41,7 +41,9 @@ module.exports = {
                 buttonBG: "url('https://res.cloudinary.com/tacafrica/image/upload/v1684156514/my_folder/assets/Rectangle_15button_1_ultq6c.png')",
                 popupImg: "url('https://res.cloudinary.com/tacafrica/image/upload/v1684160430/my_folder/assets/Rectangle_15button_1_gsafop.png')",
                 aboutUsBestPartSec: "url('https://res.cloudinary.com/tacafrica/image/upload/v1661951046/my_folder/compressed/mandella-and-chess-day-compressed/1-2207230065_result_vm4qzp.webp')",
-                aboutUsXploreSec: "url('https://res.cloudinary.com/tacafrica/image/upload/v1661951039/my_folder/compressed/mandella-and-chess-day-compressed/1-2207230069_result_pio8ig.webp')",            },
+                aboutUsXploreSec: "url('https://res.cloudinary.com/tacafrica/image/upload/v1661951039/my_folder/compressed/mandella-and-chess-day-compressed/1-2207230069_result_pio8ig.webp')",
+                newHomeImage: "url('https://res.cloudinary.com/tacafrica/image/upload/v1686759659/my_folder/Website%20pics/b0ef863b-99cf-4cac-aba0-79c5a08ca9e2_elz9hd.jpg')"
+            },
             colors: {
                 gold: '#FA9600',
                 orange: '#FF5151',
