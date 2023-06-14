@@ -12,7 +12,7 @@ export default function Hero() {
                 <div className='w-full h-full relative '>
                     <div className='absolute bg-[#0b1dc1] top-0 left-0 right-0 bottom-0 opacity-70 rounded-t-3xl'></div>
                     <div className='flex flex-col relative lg:justify-start items-center w-full h-[40rem] lg:h-[45rem]'>
-                        <h1 className='text-center text-white font-bold text-3xl lg:text-4xl mt-48 mb-8  uppercase'>
+                        <h1 className='text-center text-white font-bold text-3xl lg:text-4xl mt-24 lg:mt-48 mb-8  uppercase'>
                             A Radical
                                           Approach
                             <br/>
