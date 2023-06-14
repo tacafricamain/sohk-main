@@ -90,7 +90,7 @@ export default function Navbar({ fixed }) {
                   icon={'ourTeam.png'}
               />
 
-              <li className="nav-item my-auto">
+              {/* <li className="nav-item my-auto">
               <Link href="/newsletters">
                 <a
                   className="px-3 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
@@ -99,7 +99,7 @@ export default function Navbar({ fixed }) {
                   <span className="lg:ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-5 lg:px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>Newsletters</span>
                 </a>
                 </Link>
-              </li>
+              </li> */}
 
               <Link href="/">
               <a

@@ -5,6 +5,7 @@ import { JSXElementConstructor, Key, ReactElement, ReactFragment, ReactPortal, u
 import Button from "../../components/Button";
 import { ISOToDate,  } from "../../utils";
 import { getAllPosts } from "../../utils/api";
+import Newsletters from "../../components/newsletters";
 
 const Blog = ({ posts }) => {
   const showBlog = useRef(true); //data.showBlog
@@ -12,7 +13,7 @@ const Blog = ({ posts }) => {
   const router = useRouter();
   const [mounted, setMounted] = useState(false);
 
- 
+
   useEffect(() => {
     setMounted(true);
   }, []);
@@ -49,7 +50,7 @@ const Blog = ({ posts }) => {
       alert("This thing only works in development mode.");
     }
   };
-  
+
   return (
     showBlog.current && (
       <>
@@ -57,22 +58,64 @@ const Blog = ({ posts }) => {
         <Head>
           <title>Blog</title>
         </Head>
+        <Newsletters />
         <div
-          className={`container mx-auto mb-10 
+          className={`container mx-auto mb-10
           ${
             ``// data.showCursor && "cursor-none"
           }
           `}
         >
           {/* <Header isBlog={true}></Header> */}
-          <div className="mt-10">
+          <div className="mt-1 0">
+
+
+
+            <section className="flex flex-col items-center w-full bg-white">
+                <div className="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-20 max-w-7xl">
             <h1
               // ref={`${text}`}
               className="mx-auto mob:p-2 text-bold text-6xl laptop:text-8xl w-full"
             >
               Blog.
             </h1>
-            <div className="mt-10 grid grid-cols-1 mob:grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 justify-between gap-10">
+                  <div className="grid grid-cols-1 gap-6 py-12 md:grid-cols-3 lg:grid-cols-2">
+
+                  {posts &&
+                    posts.map((post) => (
+
+                    <figure className="relative fl ex" key={post.slug}
+                        onClick={() => Router.push(`/news&events/${post.slug}`)}>
+                    <img className="w-full bg-gray-200 w- 6/12"
+                      src={post.image}
+                      alt={`${post.title }`} width="1310" height="873" />
+
+                      {/* <div className="flex flex-col m-5 "> */}
+                        <p className="mt-5 text-2xl font-medium leading-6 text-black">
+                        {post.title}
+                        </p>
+                        <p className="mt-3 text-base text-gray-500">
+                          {post.preview}
+                        </p>
+                        {process.env.NODE_ENV === "development" && mounted && (
+                            <div className="absolute top-0 right-0"  onClick={(e) => {
+                              deleteBlog(post.slug);
+                              e.stopPropagation();
+                            }}>
+                              <Button text="Delete"
+                              />
+                            </div>
+                          )}
+                      {/* </div> */}
+                    </figure>
+                    ))}
+                  </div>
+                </div>
+              </section>
+
+
+
+            {/* <div className="mt-10 grid grid-cols-1 mob:grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 justify-between gap-10">
               {posts &&
                 posts.map((post) => (
                   <div
@@ -95,18 +138,18 @@ const Blog = ({ posts }) => {
                         deleteBlog(post.slug);
                         e.stopPropagation();
                       }}>
-                        <Button text="Delete" 
+                        <Button text="Delete"
                         />
                       </div>
                     )}
                   </div>
                 ))}
-            </div>
+            </div> */}
           </div>
         </div>
         {process.env.NODE_ENV === "development" && mounted && (
           <div className="fixed bottom-6 right-6"  onClick={createBlog} >
-            <Button text='Add New Post  }' />
+            <Button text='Add New Post' />
           </div>
         )}
       </>
