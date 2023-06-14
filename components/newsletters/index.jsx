@@ -3,6 +3,7 @@
 // import {GetStaticProps} from 'next';
 import React from 'react'
 import { data } from '../../pages/api/newsletter';
+import Link from 'next/link';
 
 export default function Newsletters() {
     return (
@@ -31,9 +32,12 @@ export default function Newsletters() {
                             </p>
                             <div className="flex gap-3 mt-3 -10 justify-left">
                                 <a className="inline-flex items-center justify-center text-sm font-semibold text-black duration-200 hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600" href="#">
-                                <span className=''>
-                                    Read more
-                                </span>
+
+                                <Link href={ post.link}>
+                                    <span className=''>
+                                        Read more
+                                    </span>
+                                </Link>
                                 <ion-icon class="flex-none w-3 h-3 ml-3 fill-blue-600 group-active:fill-current md hydrated" name="arrow-forward-outline" role="img" aria-label="arrow forward outline"></ion-icon>
                                 </a>            </div>
                             </figure>
