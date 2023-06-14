@@ -19,7 +19,7 @@ const DropDownButton = ({
   return (
   <>
         <li
-          className='mt-2 flex pl-3 items-center'
+          className=' mt-2 flex pl-3 items-center'
           key={i}
           onMouseOver={() => setIsShown(true)}
           onMouseLeave={() => setIsShown(false)}
@@ -53,7 +53,7 @@ const DropDownButton = ({
       {isShown && (
         <div
           id="dropdownMenu"
-          className={` bg-white z-10 absolute divide-gray-100 rounded shadow  `}
+          className={` bg-white z-10 absolute top-16 divide-gray-100 rounded shadow `}
         >
           <ul className={` ${content[0].name ? "py-1 px-2" : undefined } text-sm divide-y text-gray-700 `}>
             {content.map(({ name, href }, i) => (

@@ -17,6 +17,7 @@ export default function Navbar({ fixed }) {
   ]
 
   const about = [
+    { href: '/aboutus', name: 'About Us' },
     { href: '/our_team', name: 'Our team' },
     {href: '/our_team/dr_jerry_akubo', name: 'founder'},
     {href: '/our_team/subjectMatterExperts', name: 'subject Matter Experts'},
@@ -30,7 +31,7 @@ export default function Navbar({ fixed }) {
   ]
 
   return (
-    <div className='absolute w-screen  '>
+    <div className='absolute w-screen z-50  '>
       <nav className="relative flex flex-wrap items-center justify-between z-20">
         <div className="w-screen mx-auto flex flex-wrap items-center justify-between bg-white py-4 ">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
@@ -68,7 +69,7 @@ export default function Navbar({ fixed }) {
                 </Link>
               </li>
 
-              <li className="nav-item my-auto">
+              {/* <li className="nav-item my-auto">
                 <Link href="/aboutus">
                   <a
                     className="px-3 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
@@ -77,10 +78,10 @@ export default function Navbar({ fixed }) {
                   <span className="lg:ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-5 lg:px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>About Us</span>
                   </a>
                 </Link>
-              </li>
+              </li> */}
 
               <DropDownButton
-                  label={'Our Team'}
+                  label={'About Us'}
                   key={'About'}
                   content={about}
                   setMenuState={setMenuState}
@@ -89,6 +90,17 @@ export default function Navbar({ fixed }) {
                   setNavbarOpen={setNavbarOpen}
                   icon={'ourTeam.png'}
               />
+
+              <li className="nav-item my-auto">
+                <Link href="/news&events">
+                <a
+                  className="px-3 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
+                >
+                  <img src="/nav_icons/News&Events.png" alt="" className="w-5 lg:hidden" />
+                  <span className="lg:ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-5 lg:px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>News & Events</span>
+                </a>
+                </Link>
+              </li>
 
               {/* <li className="nav-item my-auto">
               <Link href="/newsletters">
@@ -120,7 +132,7 @@ export default function Navbar({ fixed }) {
                 icon={'SchoolProjects.png'}
               />
 
-              <li className="nav-item my-auto">
+              {/* <li className="nav-item my-auto">
               <Link href="/news&events">
                 <a
                   className="px-3 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
@@ -129,7 +141,7 @@ export default function Navbar({ fixed }) {
                   <span className="lg:ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-5 lg:px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>News & Events</span>
                 </a>
                 </Link>
-              </li>
+              </li> */}
 
               <li className="nav-item my-auto">
               <Link href="/gallery">
