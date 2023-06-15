@@ -18,7 +18,7 @@ export default function SchoolProject() {
               <meta name="viewport" content="minimum-scale=1, minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover" />
               <link rel="icon" href="/favicon.ico" />
             </Head>
-            <div className='mx-4 lg:mx-8 font-SpaceGrotesk'>
+            <div className='mx-4 lg:mx-8 font-SpaceGrotesk max-w-7xl'>
                 <div id='aboutus' className='flex items-center h-[40rem] lg:h-[45rem] bg-schoolProjectHeroBg bg-cover bg-top mt-12 rounded-t-3xl' >
                     <div className='w-full  relative'>
                         <div className='flex flex-col justify-center items-center w-full h-[40rem] lg:h-[45rem]'>

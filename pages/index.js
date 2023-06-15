@@ -21,7 +21,7 @@ export default function Home() {
 
 
   return (
-          <main className='h-full' >
+          <main className='h-full max-w-7xl' >
             <Head>
               <title>School of HardKnocks Foundation Nigeria</title>
               <meta name="description" content="school of hard knocks Foundation Nigeria" />
