@@ -31,7 +31,7 @@ const ConditionalSlider = ({ }) => {
                     </div>
                     <div className="py-2">
                       <div className="text-lg font-medium leading-6 text-center">
-                        <h3 className=" max-h-12 mb-3 text-base font-semibold lg:font-bold font-mavin text-darkBlue">
+                        <h3 className=" max-h-12 mb-3 text-base font-semibold lg:font-bold font-mavin ">
                           {edge?.title}
                         </h3>
                       </div>
@@ -48,7 +48,7 @@ const ConditionalSlider = ({ }) => {
                     <div className='px-4 bg-yellow-50 '>
                       <div className="text-md line-clamp-3 bg-yellow-50 min-h-[20rem] flex flex-col justify-center">
                       <div className=" font-medium leading-6 text-center">
-                          <h3 className=" max-h-12 mb-3 text-2xl font-semibold lg:font-bold font-mavin text-darkBlue">
+                          <h3 className=" max-h-12 mb-3 text-2xl font-semibold lg:font-bold font-mavin ">
                             {edge?.title}
                           </h3>
                         </div>

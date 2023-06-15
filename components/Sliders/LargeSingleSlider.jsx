@@ -43,7 +43,7 @@ const LargeSingleSlider = ({data }) => {
                         <img className="w- [400px] h- [350px] content-cover" src={edge?.image} alt={edge?.title}  />
                         <div className='pl -5'>
                           <div className=" leading-6 ">
-                              <p className="mt-6 mb-3 font-mavin text-xl lg:text-2xl ">
+                              <p className="mt-6 mb-3 font-mavin font-bold text-xl lg:text-2xl ">
                               {edge?.title}
                               </p>
                           </div>

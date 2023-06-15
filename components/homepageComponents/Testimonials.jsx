@@ -14,7 +14,7 @@ export default function Testimonials() {
                 </div>
                 <div className='w-11/12 mx-auto lg:w-6/12  lg:ml-7 '>
                     <h3 className='hidden lg:block text-darkBlue text-2xl mt-3 font-mavin'>Testimonials</h3>
-                    <h2 className=' font-mavin text-3xl mt-5 '>What they say about us</h2>
+                    <h2 className=' font-mavin font-bold text-3xl mt-5 '>What they say about us</h2>
                     <p className='font-light'>Find out what others, having benefited are saying.</p>
 
                     <div className='my-5'>

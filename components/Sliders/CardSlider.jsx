@@ -73,15 +73,15 @@ const CardSlider = ({ }) => {
                       </div>
                       <div className="px-4 py-2">
                         <div className="text-lg font-medium leading-6 text-center">
-                          <h3 className=" max-h-12 mb-3 text-base font-semibold lg:font-bold font-mavin text-darkBlue">
+                          <h3 className=" max-h-12 mb-3 text-base font-semibold lg:font-bold font-mavin ">
                             {edge?.title}
                           </h3>
                         </div>
-                        {/* <div className="text-sm line-clamp-3">
-                          <p className="text-center max-h-fit font-['openSans'] ">
+                        <div className="text-sm ">
+                          <p className="text-center h-4 line-clamp-3 font-['openSans'] ">
                             {edge?.text}
                           </p>
-                        </div> */}
+                        </div>
                       </div>
                     </a>
                   {/* </Link> */}
@@ -90,7 +90,7 @@ const CardSlider = ({ }) => {
                     <div className='px-6 bg-yellow-50 '>
                       <div className="text-md line-clamp-3 bg-yellow-50 min-h-[20rem] flex flex-col justify-center">
                       <div className=" font-medium leading-6 text-center">
-                          <h3 className=" max-h-12 mb-3 text-2xl font-semibold lg:font-bold font-mavin text-darkBlue">
+                          <h3 className=" max-h-12 mb-3 text-2xl font-semibold lg:font-bold font-mavin ">
                             {edge?.title}
                           </h3>
                         </div>

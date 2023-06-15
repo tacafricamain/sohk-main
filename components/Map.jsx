@@ -8,8 +8,8 @@ export default function Map() {
         <div className="relative w-full map mt-80 md:mt-28 bg-slate-100 ">
             <div className='absolute bg-white rounded-lg h-96 md:h-40 w-11/12 md:w-10/12 shadow-[0_8px_30px_rgb(0,0,0,0.12)] top-2/4 md:top-1 left-1/2 transform -translate-x-1/2 -translate-y-[170%] md:-translate-y-1/2'>
                 <div className="flex flex-col md:flex-row h-full sm:divide-y-2 md:divide-y-0 md:divide-x-2 divide-slate-200 py-3">
-                    <div className='flex w-full h-1/3  md:h-full font-mavin text-xl md:text-3xl  '>
-                        <h2 className='m-auto'>Come Visit Us at
+                    <div className='flex w-full h-1/3  md:h-full font-mavin text-lg md:text-3xl  '>
+                        <h2 className='m-auto text-xl font-bold'>Come Visit Us at
                             <br/>
                              School Of Hardknocks Foundation Nigeria</h2>
                     </div>

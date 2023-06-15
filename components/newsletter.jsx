@@ -15,7 +15,7 @@ const NewsLetter = () => {
                     <div className="block h-full space-y-4 ">
                         {/** large screen */}
                         <div className="h-2/5 pt-12 mb-8">
-                            <h2 className='font-mavin text-3xl my-3'>Registration</h2>
+                            <h2 className='font-mavin text-3xl font-bold my-3'>Registration</h2>
                             <p className='text-greyBlack text-xl font-["openSans"] text-left mb-5'>Members of SOHK are passionate individuals who are ready to take the lead in changing their community positively.
                             </p>
                             <p className='text-greyBlack text-xl font-["openSans"] text-left ' >
@@ -29,7 +29,7 @@ const NewsLetter = () => {
                         </div>
                         <hr className="h-[2px] bg-black"/>
                         <div className="h-2/4 pt-8 pb-12">
-                            <h2 className='font-mavin text-3xl mb-3'>Our Weekly NewsLetters</h2>
+                            <h2 className='font-mavin text-3xl font-bold  mb-3'>Our Weekly NewsLetters</h2>
                             <p className='text-greyBlack text-xl font-["openSans"] text-left mb-5'>
                                 Explore our official newsletter with stories from our ongoing programmes and get the facts, expert opinion and practical training, advice on the topic you care about.</p>
                             <p className='text-greyBlack text-xl font-["openSans"] text-left'>
