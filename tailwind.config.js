@@ -14,13 +14,13 @@ module.exports = {
                 "main": "rgba(0, 0, 0, 0.35) 0px 5px 15px"
             },
             fontFamily: {
-                mavin: ['mavin'],
-                mavinRegular: ['mavinRegular'],
+                mavin: ['Space Grotesk'],
+                mavinRegular: ['Space Grotesk'],
                 SpaceGrotesk: ['Space Grotesk'],
-                PanchangRegular: ['PanchangRegular'],
-                PanchangBold: ['PanchangBold'],
-                PanchangSemibold: ['PanchangSemibold'],
-                PanchangExtrabold: ['PanchangExtrabold']
+                PanchangRegular: ['Space Grotesk'],
+                PanchangBold: ['Space Grotesk'],
+                PanchangSemibold: ['Space Grotesk'],
+                PanchangExtrabold: ['Space Grotesk']
             },
             backgroundImage: {
                 test: "url('https://res.cloudinary.com/tacafrica/image/upload/v1675094357/my_folder/TYB%20Golf%20Tour/YOD01520230112_p8l014.jpg')",
@@ -35,7 +35,7 @@ module.exports = {
                 membershipBgDesktop: "url('https://res.cloudinary.com/tacafrica/image/upload/v1669213718/my_folder/sohk/k_cc3pgg.png')",
                 footerBG: "url('https://res.cloudinary.com/tacafrica/image/upload/v1661950975/my_folder/compressed/int_youth-day-compressed/1-2208130105_result_kuvblc.webp')",
                 schoolProjectHeroBg: "url('https://res.cloudinary.com/tacafrica/image/upload/v1684419035/my_folder/school%20programs/hero_about_us_mbcs4x.jpg')",
-                aboutUsHeroBg: "url('https://res.cloudinary.com/tacafrica/image/upload/v1686307872/drone_safety_day/6_result_akh8eh.webp')",
+                aboutUsHeroBg: "url('https://res.cloudinary.com/tacafrica/image/upload/v1686832204/my_folder/Website%20pics/Become_Like_Me_1_x126zl.png')",
                 aboutUsSndImg: "url('https://res.cloudinary.com/tacafrica/image/upload/v1663155956/my_folder/mandella_and_chess_day/Screenshot_from_2022-09-14_12-44-11_zochqz.png')",
                 whyWeDoThis: "url('https://res.cloudinary.com/tacafrica/image/upload/v1663166066/my_folder/int%20youth%20day/Screenshot_from_2022-09-14_15-33-13_fh3nuq.png')",
                 buttonBG: "url('https://res.cloudinary.com/tacafrica/image/upload/v1684156514/my_folder/assets/Rectangle_15button_1_ultq6c.png')",

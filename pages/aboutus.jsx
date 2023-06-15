@@ -16,7 +16,7 @@ export default function SchoolProject() {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
             <div className='mx-4 lg:mx-8 font-SpaceGrotesk'>
-                <div id='aboutus' className='flex items-center h-[50vh] lg:h-[40rem] bg-[#0A157C] bg- aboutUsHeroBg bg-cover bg-top mt-12 rounded-t-3xl'>
+                <div id='aboutus' className='flex items-center h-[50vh] lg:h-[40rem] bg-[#0A157C] bg-aboutUsHeroBg bg-cover bg-top mt-12 rounded-t-3xl'>
                     <div className='w-full h-full relative '>
                         <div className='absolute bg-black top-0 left-0 right-0 bottom-0 opacity-50 rounded-t-3xl'></div>
                         <div className='flex flex-col relative lg:justify-start items-center w-full h-[40rem] lg:h-[45rem]'>
@@ -42,7 +42,7 @@ export default function SchoolProject() {
                                 </h2>
                                 <p className='text-xl max-w-5xl mx-auto'>For starters, we are characterized by a number of key
                                     <br/>
-                                    features that set it apart from traditional schools These include the following:
+                                    features that set us apart from traditional schools. These include the following:
                                 </p>
                             </div>
 
@@ -52,19 +52,19 @@ export default function SchoolProject() {
                             <div className="flex flex-col lg:flex-row w-full justify-center space-y-5 lg:space-y-0">
                                 <div className="bg-[#F5F5F6] rounded-xl p-5 w-full lg:mx-5 lg:w-5/12 ">
                                     <img src="/aboutus/digitalLearning.png" alt="aboutUs" className='w-20'/>
-                                    <h3 className='text-md font-bold'>Digital learning</h3>
+                                    <h3 className='text-md font-bold'>Digital Learning</h3>
                                     <p>Think online classes, interactive apps, and educational games that use technology to enhance the learning experience.</p>
                                 </div>
                                 <div className="bg-[#F5F5F6] rounded-xl p-5 w-full lg:mx-5 lg:w-5/12 ">
                                     <img src="/aboutus/learning.png" alt="aboutUs" className='w-20'/>
-                                    <h3 className='text-md font-bold'>Project based learning</h3>
+                                    <h3 className='text-md font-bold'>Project-based Learning</h3>
                                     <p>A teaching method that has students working on real-world projects to develop practical skills and knowledge needed in our society.</p>
                                 </div>
                             </div>
                             <div className="flex flex-col lg:flex-row w-full justify-center space-y-5 lg:space-y-0">
                                 <div className="bg-[#F5F5F6] rounded-xl p-5 w-full lg:mx-5 lg:w-5/12 ">
                                     <img src="/aboutus/sports.png" alt="aboutUs" className='w-20'/>
-                                    <h3 className='text-md font-bold'>Sports and extra curriculum activities</h3>
+                                    <h3 className='text-md font-bold'>Sports and extra Curriculum Activities</h3>
                                     <p>An approach to education that considers each
                                       student`s unique strengths, weaknesses, interests,
                                       and learning style.</p>
@@ -78,13 +78,13 @@ export default function SchoolProject() {
                             <div className="flex flex-col lg:flex-row w-full justify-center space-y-5 lg:space-y-0">
                                 <div className="bg-[#F5F5F6] rounded-xl p-5 w-full lg:mx-5 lg:w-5/12 ">
                                     <img src="/aboutus/practicalSkill.png" alt="aboutUs" className='w-20'/>
-                                    <h3 className='text-md font-bold'>Practical skill acquisition</h3>
+                                    <h3 className='text-md font-bold'>Practical Skills Acquisition</h3>
                                     <p>A focus on global citizenship, cultural awareness, and understanding of different perspectives which are helpful to all works of life.</p>
                                 </div>
                                 <div className="bg-[#F5F5F6] rounded-xl p-5 w-full lg:mx-5 lg:w-5/12 ">
                                     <img src="/aboutus/STEAM.png" alt="aboutUs" className='w-20'/>
-                                    <h3 className='text-md font-bold'>Adherence to STEAM education style</h3>
-                                    <p>A curriculum that integrates science, technology, engineering, arts, and math to prepare students for careers in these fields</p>
+                                    <h3 className='text-md font-bold'>Adherence to STEAM Education style</h3>
+                                    <p>A curriculum that integrates science, technology, engineering, arts, and math to prepare students for careers in these fields.</p>
                                 </div>
                             </div>
                         </section>
@@ -125,13 +125,13 @@ export default function SchoolProject() {
                         </div>
                         <div className='lg:w-7/12 lg:mx-20 my-auto'>
                             <p className='font-semibold text-md mb-3 mt-12 font-PanchangSemibold'>
-                                {`THAT'S NOT ALL`}</p>
+                                {`THAT'S NOT ALL!`}</p>
                             <h3 className='text-4xl lg:text-2xl font-semibold font-PanchangSemibold'>
-                                {`There's more! Here's the Best Part`}</h3>
+                                {`There's more, Here's the Best Part:`}</h3>
                             <div className='space-y-5'>
                                 <p className=' my-6 font-SpaceGrotesk opacity-90'>
 
-                                    {`We aren't a rigid, one-size-fits-all model. It's flexible and adaptable, and can be customized to meet the needs and goals of each individual school and community.`} </p>
+                                    {`We aren't a rigid, one-size-fits-all model. It's flexible and adaptable, and can be customized to meet the needs and goals of each individual, school, and community.`} </p>
                             </div>
                             <p className='font-bold text-sm'>OUR WORKING MODEL:</p>
                             <div className='flex space-x-3'>

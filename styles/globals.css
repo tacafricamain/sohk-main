@@ -71,7 +71,7 @@ a {
 /*  */
 
 .react-multi-carousel-dot-list {
-  position: relative;
+  position: relative !important;
 }
 
 .react-multi-carousel-dot button {
