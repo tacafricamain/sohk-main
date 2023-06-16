@@ -135,17 +135,26 @@ export default function SchoolProject() {
                             </div>
                             <p className='font-bold text-sm'>OUR WORKING MODEL:</p>
                             <div className='flex space-x-3'>
-                              <span className="bg-[#F5F5F6] px-4 py-2">
-                                <img src="/aboutus/play.png" alt="play" className='w-10' />
-                                <p className='text-sm text-center'>Play</p>
+                              <span className="bg-[#F5F5F6] px-4 py-2 relative group cursor-pointer">
+                                <div>
+                                    <img src="/aboutus/play.png" alt="play" className='w-10 right-3 absolute group-hover:opacity-0' />
+                                    <img src="/aboutus/play.gif" alt="play" className='w-10 right-3 absolute opacity-0 group-hover:opacity-100' />
+                                </div>
+                                <p className='text-sm text-center mt-10'>Play</p>
                               </span>
-                              <span className="bg-[#F5F5F6] px-4 py-2">
-                                <img src="/aboutus/STEAM.png" alt="steam" className='w-10' />
-                                <p className='text-sm text-center'>Learn</p>
+                                <span className="bg-[#F5F5F6] px-4 py-2 relative group cursor-pointer">
+                                <div>
+                                    <img src="/aboutus/STEAM.png" alt="steam" className='w-10 right-3 absolute group-hover:opacity-0' />
+                                    <img src="/aboutus/STEAM.gif" alt="steam" className='w-10 right-3 absolute opacity-0 group-hover:opacity-100' />
+                                </div>
+                                <p className='text-sm text-center mt-10'>Learn</p>
                               </span>
-                              <span className="bg-[#F5F5F6] px-4 py-2">
-                                <img src="/aboutus/earn.png" alt="earn" className='w-10' />
-                                <p className='text-sm text-center'>Earn</p>
+                              <span className="bg-[#F5F5F6] px-4 py-2 relative group cursor-pointer">
+                                <div className=''>
+                                    <img src="/aboutus/earn.png" alt="earn" className='w-10 right-3 absolute group-hover:opacity-0 ' />
+                                    <img src="/aboutus/earn.gif" alt="earn" className='w-10 right-3 absolute opacity-0 group-hover:opacity-100' />
+                                </div>
+                                <p className='text-sm text-center mt-10'>Earn</p>
                               </span>
                             </div>
                         </div>

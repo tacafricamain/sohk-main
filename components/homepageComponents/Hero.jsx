@@ -18,6 +18,31 @@ export default function Hero() {
                             <br/>
                             To 21st Century Education
                         </h1>
+                        <div className='flex space-x-3'>
+                            <div>
+                                <span className=" px-4 py-2 relative group cursor-pointer">
+                                    <div className=''>
+                                        <img src="/aboutus/play.png" alt="play" className='w-10 right-3 absolute group-hover:opacity-0' />
+                                        <img src="/aboutus/play.gif" alt="play" className='w-10 right-3 absolute opacity-0 group-hover:opacity-100' />
+                                    </div>
+                                    <p className='text-sm text-center mt-10 text-white ml-12'>Play</p>
+                                </span>
+                            </div>
+                                <span className="  px-4 py-2 relative group cursor-pointer">
+                                <div className=''>
+                                    <img src="/aboutus/STEAM.png" alt="steam" className='w-10 right-3 absolute group-hover:opacity-0' />
+                                    <img src="/aboutus/STEAM.gif" alt="steam" className='w-10 right-3 absolute opacity-0 group-hover:opacity-100' />
+                                </div>
+                                <p className='text-sm text-center mt-10 text-white'>Learn</p>
+                              </span>
+                              <span className="flex  px-4 py-2 relative group cursor-pointer">
+                                <div className=''>
+                                    <img src="/aboutus/earn.png" alt="earn" className='w-10 right-3 absolute group-hover:opacity-0 ' />
+                                    <img src="/aboutus/earn.gif" alt="earn" className='w-10 right-3 absolute opacity-0 group-hover:opacity-100' />
+                                </div>
+                                <p className='text-sm text-center mt-10 text-white'>Earn</p>
+                              </span>
+                            </div>
                         <div className='flex flex-col space-y-2'>
                             <Link href='/aboutus'>
                               <a>
