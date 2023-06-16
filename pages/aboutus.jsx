@@ -57,14 +57,14 @@ export default function SchoolProject() {
                                 </div>
                                 <div className="bg-[#F5F5F6] rounded-xl p-5 w-full lg:mx-5 lg:w-5/12 ">
                                     <img src="/aboutus/learning.png" alt="aboutUs" className='w-20'/>
-                                    <h3 className='text-md font-bold'>Project-based Learning</h3>
+                                    <h3 className='text-md font-bold'>Project-Based Learning</h3>
                                     <p>A teaching method that has students working on real-world projects to develop practical skills and knowledge needed in our society.</p>
                                 </div>
                             </div>
                             <div className="flex flex-col lg:flex-row w-full justify-center space-y-5 lg:space-y-0">
                                 <div className="bg-[#F5F5F6] rounded-xl p-5 w-full lg:mx-5 lg:w-5/12 ">
                                     <img src="/aboutus/sports.png" alt="aboutUs" className='w-20'/>
-                                    <h3 className='text-md font-bold'>Sports and extra Curriculum Activities</h3>
+                                    <h3 className='text-md font-bold'>Sports and Extracurricular Activities</h3>
                                     <p>An approach to education that considers each
                                       student`s unique strengths, weaknesses, interests,
                                       and learning style.</p>
@@ -83,7 +83,7 @@ export default function SchoolProject() {
                                 </div>
                                 <div className="bg-[#F5F5F6] rounded-xl p-5 w-full lg:mx-5 lg:w-5/12 ">
                                     <img src="/aboutus/STEAM.png" alt="aboutUs" className='w-20'/>
-                                    <h3 className='text-md font-bold'>Adherence to STEAM Education style</h3>
+                                    <h3 className='text-md font-bold'>Adherence to STEAM Education Style</h3>
                                     <p>A curriculum that integrates science, technology, engineering, arts, and math to prepare students for careers in these fields.</p>
                                 </div>
                             </div>
