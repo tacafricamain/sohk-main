@@ -18,7 +18,7 @@ export default function Hero() {
                             <br/>
                             To 21st Century Education
                         </h1>
-                        <div className='flex space-x-3'>
+                        {/* <div className='flex space-x-3'>
                             <div>
                                 <span className=" px-4 py-2 relative group cursor-pointer">
                                     <div className=''>
@@ -42,7 +42,7 @@ export default function Hero() {
                                 </div>
                                 <p className='text-sm text-center mt-10 text-white'>Earn</p>
                               </span>
-                            </div>
+                            </div> */}
                         <div className='flex flex-col space-y-2'>
                             <Link href='/aboutus'>
                               <a>
