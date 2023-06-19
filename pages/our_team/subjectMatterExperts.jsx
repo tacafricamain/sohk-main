@@ -10,10 +10,10 @@ export default function Consultants() {
 
   return (
     <div className="pt-20 mb-20 flex flex-col items-center justify-center space-y-10">
-      
+
       <span className=' px-8 lg:px-0'>
-      <h2 className=' gap-6 gap-y-8 text-xl mb-5 text-[#071238] uppercase font-semibold'>subject Matter Expert</h2>
-      <div className="grid grid-cols-12 gap-6 gap-y-8 max-w-6xl">   
+      <h2 className=' gap-6 gap-y-8 text-xl mb-5 text-[#071238] uppercase font-semibold'>subject Matter Experts</h2>
+      <div className="grid grid-cols-12 gap-6 gap-y-8 max-w-6xl">
 
         {
           item.subjectMatterExpert.map(({ name, designation, image, about, slug }) => (
@@ -46,7 +46,7 @@ export default function Consultants() {
                   </div>
               </div>
             </>
-        
+
           ))
         }
         </div>

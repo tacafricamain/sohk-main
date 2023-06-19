@@ -5,8 +5,9 @@ title: >-
   Kubwa-Chikakore Railway tracks
 tagline: ''
 preview: >-
-  Indiscriminate Dumping of Refuse along Railway Tracks: A case Study of the
-  Kubwa-Chikakore Railway tracks
+  Read more to find out how detrimental the depositing of refuse beside the
+  railway tracks could lead to health hazards and what we have done in this
+  regard.
 image: >-
   https://res.cloudinary.com/tacafrica/image/upload/v1679668747/mr_tidy/WhatsApp_Image_2023-03-24_at_3.14.16_PM_hap5oi.jpg
 ---

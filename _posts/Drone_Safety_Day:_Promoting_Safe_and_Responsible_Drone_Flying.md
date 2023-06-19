@@ -3,11 +3,9 @@ date: '2023-03-31T17:04:11.000Z'
 title: 'Drone Safety Day: Promoting Safe and Responsible Drone Flying'
 tagline: Drone Safety
 preview: >-
-  Drone Safety Day: Promoting Safe and Responsible Drone Flying
-
-  Drones have become an increasingly popular gadget for recreational and
-  commercial purposes. These unmanned aerial vehicles offer exciting
-  possibilities for photography,
+  Drone Safety Day is an annual campaign designed to raise awareness on the
+  importance of flying safely. Learn more on how we commemorated this day at
+  SOHK.
 image: >-
   https://res.cloudinary.com/tacafrica/image/upload/v1681895627/logos/WhatsApp_Image_2023-04-14_at_12.50.03_PM_dh5tha.jpg
 ---

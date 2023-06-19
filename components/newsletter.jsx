@@ -31,9 +31,9 @@ const NewsLetter = () => {
                         <div className="h-2/4 pt-8 pb-12">
                             <h2 className='font-mavin text-3xl font-bold  mb-3'>Our Weekly NewsLetters</h2>
                             <p className='text-greyBlack text-xl font-["openSans"] text-left mb-5'>
-                                Explore our official newsletter with stories from our ongoing programmes and get the facts, expert opinion and practical training, advice on the topic you care about.</p>
+                            Explore our official newsletters with stories from our ongoing Programs and get the facts, expert opinion and practical training as well as advice on the topic you care about.</p>
                             <p className='text-greyBlack text-xl font-["openSans"] text-left'>
-                                Find out more about what SOHK is doing  and how you can join us or support our activities by clicking on any of our newsletters below
+                            Find out more about what SOHK is doing and how you can join us or support our activities by clicking on any of our newsletters below.
                             </p>
                         </div>
                     </div>
