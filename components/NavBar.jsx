@@ -21,9 +21,9 @@ export default function Navbar({ fixed }) {
     { href: '/our_team', name: 'Our team' },
   ]
 
-  const events = [
-    { href: '/news&events/UN_Intl_Day_of_ZERO_WASTE', name: 'UN International Day of ZERO WASTE' },
-    {href: '/news&events/DroneSafetyDay', name: 'Drone Safety Day'}
+  const register = [
+    { href: '/pdf/TAC Community Hub Membership form.pdf', name: 'Membership Form' },
+    {href: 'https://forms.gle/KP6BtvUhu83AH1sz8', name: 'Subject Matter Expert Registration'}
   ]
 
   return (
@@ -118,7 +118,18 @@ export default function Navbar({ fixed }) {
                 </Link>
               </li>
 
-              <li className="nav-item my-auto">
+              <DropDownButton
+                label={'Register'}
+                key={'Register'}
+                content={register}
+                setMenuState={setMenuState}
+                menuState={menuState}
+                navbarOpen={navbarOpen}
+                setNavbarOpen={setNavbarOpen}
+                icon={'SchoolProjects.png'}
+              />
+
+              {/* <li className="nav-item my-auto">
               <Link  href="/pdf/TAC Community Hub Membership form.pdf">
                 <a
                   className="px-3 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
@@ -128,7 +139,7 @@ export default function Navbar({ fixed }) {
                   <span className="lg:ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-5 lg:px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>Register</span>
                 </a>
                 </Link>
-              </li>
+              </li> */}
 
             </ul>
           </div>

@@ -50,12 +50,10 @@ export default function Hero() {
                                     extraStyles='bg-[#00C2FF] w-full'/>
                               </a>
                             </Link>
-                            <Link href='/'>
-                              <a>
+                              <a href='/pdf/SOHK General Brochure.pdf' target='_blank' rel="noreferrer" >
                               <Button text={'Download Brochure'}
                                   extraStyles='bg-transparent border w-full'/>
                               </a>
-                            </Link>
                         </div>
                     </div>
                     <img src="/Vector18.png" alt="bottom_green_image" className='absolute -bottom-[0.1rem]'/>

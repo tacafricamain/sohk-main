@@ -6,8 +6,6 @@ import YoutubeEmbed from '../components/video';
 
 export default function SchoolProject() {
 
-    const videoSrc = 'https://www.youtube.com/watch?v=JBUnIRlYvuo&ab_channel=School-of-HardknocksFoundation';
-    const videoThumbnail = 'https://res.cloudinary.com/tacafrica/image/upload/v1683971134/image00002_krsbdi.jpg'
 
     return (
 
@@ -27,9 +25,11 @@ export default function SchoolProject() {
                                 Program To
                                 <br/>
                                 Schools In FCT</h1>
-                            <button className="button-48 border-2 border-blue-500 mx-auto" role="button">
-                                <span className="text-white hover:text-black text-base lg:text-lg font-semibold lg:px-10 font-PanchangRegular ">READ MORE BELOW</span>
-                            </button>
+                            <a href="/pdf/Pilot Schol Brochure.pdf" target='_blank' rel="noreferrer">
+                                <button className="button-48 border-2 border-blue-500 mx-auto" role="button">
+                                    <span className="text-white hover:text-black text-base lg:text-lg font-semibold lg:px-10 font-PanchangRegular ">READ MORE BELOW</span>
+                                </button>
+                            </a>
                         </div>
                         <img src="/bottom_green_image_01.png" alt="bottom_green_image" className='absolute -bottom-[0.1rem]'/>
                     </div>
