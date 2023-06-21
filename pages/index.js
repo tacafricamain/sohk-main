@@ -31,7 +31,7 @@ export default function Home() {
       {/* <HeroSection /> */}
             <Hero />
             <NewsLetter />
-            <NoticePopup  />
+            {/* <NoticePopup  /> */}
             <Objective />
             <Activities />
             <Promotion />
@@ -39,7 +39,7 @@ export default function Home() {
             <Testimonials />
             <Contact />
             <Map />
-            <BottomPopUp />
+            {/* <BottomPopUp /> */}
           </main>
   )
 }
