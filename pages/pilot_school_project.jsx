@@ -76,7 +76,7 @@ export default function SchoolProject() {
                                 <br className='block lg:hidden '/>{` `} { /* for space */}
                                 Skills</h3>
                             <div className=' lg:m-5 w-full '>
-                                <YoutubeEmbed embedId={'JBUnIRlYvuo'} videoSrc={'youtube'} />
+                                <YoutubeEmbed embedId={'1leVU0QGYZdzM-23hgcA6rPnd-LN3ZbWF'} videoSrc={'gDrive'} />
                                 {/* <img src="https://res.cloudinary.com/tacafrica/image/upload/v1683971134/image00002_krsbdi.jpg" alt=""/> */}
                             </div>
                         </div>

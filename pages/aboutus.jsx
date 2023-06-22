@@ -51,38 +51,59 @@ export default function SchoolProject() {
                         <section className=' flex flex-col max-w-6xl mx-auto mt-12 space-y-5 lg:space-y-10'>
                             <div className="flex flex-col lg:flex-row w-full justify-center space-y-5 lg:space-y-0">
                                 <div className="bg-[#F5F5F6] rounded-xl p-5 w-full lg:mx-5 lg:w-5/12 ">
-                                    <img src="/aboutus/digitalLearning.png" alt="aboutUs" className='w-20'/>
+                                    <div className='group'>
+                                        <img src="/aboutus/digitalLearning.png" alt="digitalLearning" className='w-20 absolute group-hover:opacity-0' />
+                                        <img src="/aboutus/digitalLearning.gif" alt="digitalLearning" className='w-20 opacity-0 group-hover:opacity-100' />
+                                    </div>
                                     <h3 className='text-md font-bold'>Digital Learning</h3>
                                     <p>Think online classes, interactive apps, and educational games that use technology to enhance the learning experience.</p>
                                 </div>
                                 <div className="bg-[#F5F5F6] rounded-xl p-5 w-full lg:mx-5 lg:w-5/12 ">
-                                    <img src="/aboutus/learning.png" alt="aboutUs" className='w-20'/>
+                                    <div className='group'>
+                                        <img src="/aboutus/learning.png" alt="learning" className='w-20 absolute group-hover:opacity-0' />
+                                        <img src="/aboutus/learning.gif" alt="learning" className='w-20 opacity-0 group-hover:opacity-100' />
+                                    </div>
                                     <h3 className='text-md font-bold'>Project-Based Learning</h3>
                                     <p>A teaching method that has students working on real-world projects to develop practical skills and knowledge needed in our society.</p>
                                 </div>
                             </div>
+
                             <div className="flex flex-col lg:flex-row w-full justify-center space-y-5 lg:space-y-0">
-                                <div className="bg-[#F5F5F6] rounded-xl p-5 w-full lg:mx-5 lg:w-5/12 ">
-                                    <img src="/aboutus/sports.png" alt="aboutUs" className='w-20'/>
+                                <div className="bg-[#F5F5F6] rounded-xl p-5 w-full lg:mx-5 lg:w-5/12 relative flex flex-col">
+                                    <div className='group'>
+                                        <img src="/aboutus/sports.png" alt="sports" className='w-20 absolute group-hover:opacity-0' />
+                                        <img src="/aboutus/sports.gif" alt="sports" className='w-20 opacity-0 group-hover:opacity-100' />
+                                    </div>
                                     <h3 className='text-md font-bold'>Sports and Extracurricular Activities</h3>
                                     <p>An approach to education that considers each
                                       student`s unique strengths, weaknesses, interests,
                                       and learning style.</p>
                                 </div>
                                 <div className="bg-[#F5F5F6] rounded-xl p-5 w-full lg:mx-5 lg:w-5/12 ">
-                                    <img src="/aboutus/networking.png" alt="aboutUs" className='w-20'/>
+                                    <div className='group'>
+                                        <img src="/aboutus/networking.png" alt="networking" className='w-20 absolute group-hover:opacity-0' />
+                                        <img src="/aboutus/networking.gif" alt="networking" className='w-20 opacity-0 group-hover:opacity-100' />
+                                    </div>
                                     <h3 className='text-md font-bold'>Networking and Connections</h3>
                                     <p>We prioritize social connections which can be valuable sources of support, advice, and inspiration for both kids, teenagers, and adults.</p>
                                 </div>
                             </div>
+
                             <div className="flex flex-col lg:flex-row w-full justify-center space-y-5 lg:space-y-0">
                                 <div className="bg-[#F5F5F6] rounded-xl p-5 w-full lg:mx-5 lg:w-5/12 ">
-                                    <img src="/aboutus/practicalSkill.png" alt="aboutUs" className='w-20'/>
+                                    <div className='group'>
+                                        <img src="/aboutus/practicalSkill.png" alt="practicalSkill" className='w-20 absolute group-hover:opacity-0' />
+                                        <img src="/aboutus/practicalSkill.gif" alt="practicalSkill" className='w-20 opacity-0 group-hover:opacity-100' />
+                                    </div>
                                     <h3 className='text-md font-bold'>Practical Skills Acquisition</h3>
                                     <p>A focus on global citizenship, cultural awareness, and understanding of different perspectives which are helpful to all works of life.</p>
                                 </div>
                                 <div className="bg-[#F5F5F6] rounded-xl p-5 w-full lg:mx-5 lg:w-5/12 ">
-                                    <img src="/aboutus/STEAM.png" alt="aboutUs" className='w-20'/>
+                                    <div className='group'>
+                                        <img src="/aboutus/STEAM.png" alt="steam" className='w-20 absolute group-hover:opacity-0' />
+                                        <img src="/aboutus/STEAM.gif" alt="steam" className='w-20 opacity-0 group-hover:opacity-100' />
+                                    </div>
+                                    {/* <img src="/aboutus/STEAM.png" alt="aboutUs" className='w-20'/> */}
                                     <h3 className='text-md font-bold'>Adherence to STEAM Education Style</h3>
                                     <p>A curriculum that integrates science, technology, engineering, arts, and math to prepare students for careers in these fields.</p>
                                 </div>
