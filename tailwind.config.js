@@ -42,7 +42,11 @@ module.exports = {
                 popupImg: "url('https://res.cloudinary.com/tacafrica/image/upload/v1684160430/my_folder/assets/Rectangle_15button_1_gsafop.png')",
                 aboutUsBestPartSec: "url('https://res.cloudinary.com/tacafrica/image/upload/v1661951046/my_folder/compressed/mandella-and-chess-day-compressed/1-2207230065_result_vm4qzp.webp')",
                 aboutUsXploreSec: "url('https://res.cloudinary.com/tacafrica/image/upload/v1661951039/my_folder/compressed/mandella-and-chess-day-compressed/1-2207230069_result_pio8ig.webp')",
-                newHomeImage: "url('https://res.cloudinary.com/tacafrica/image/upload/v1686759659/my_folder/Website%20pics/b0ef863b-99cf-4cac-aba0-79c5a08ca9e2_elz9hd.jpg')"
+                newHomeImage: "url('https://res.cloudinary.com/tacafrica/image/upload/v1686759659/my_folder/Website%20pics/b0ef863b-99cf-4cac-aba0-79c5a08ca9e2_elz9hd.jpg')",
+                droneTraining: "url('https://res.cloudinary.com/tacafrica/image/upload/v1687533112/my_folder/Website%20pics/drone_wczt3b.jpg')",
+                mentorShipImage: "url('https://res.cloudinary.com/tacafrica/image/upload/v1682950895/drone_safety_day/IMG_1858_km2aag.jpg')",
+                tennisImage: "url('https://res.cloudinary.com/tacafrica/image/upload/v1660567313/my_folder/int%20youth%20day/1-2208130100_llasyk.jpg')",
+                taekwondoImage: "url('https://res.cloudinary.com/tacafrica/image/upload/v1660567184/my_folder/int%20youth%20day/1-2208130038_i3rttl.jpg')"
             },
             colors: {
                 gold: '#FA9600',

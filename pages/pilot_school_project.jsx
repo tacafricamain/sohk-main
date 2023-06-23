@@ -1,11 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Head from 'next/head'
-import VideoComp from '../components/video'
 import YoutubeEmbed from '../components/video';
 
 export default function SchoolProject() {
-
 
     return (
 
@@ -76,7 +74,7 @@ export default function SchoolProject() {
                                 <br className='block lg:hidden '/>{` `} { /* for space */}
                                 Skills</h3>
                             <div className=' lg:m-5 w-full '>
-                                <YoutubeEmbed embedId={'1leVU0QGYZdzM-23hgcA6rPnd-LN3ZbWF'} videoSrc={'gDrive'} />
+                                <YoutubeEmbed embedId={'6c-6DZ3fRcA'} videoSrc={'youtube'} />
                                 {/* <img src="https://res.cloudinary.com/tacafrica/image/upload/v1683971134/image00002_krsbdi.jpg" alt=""/> */}
                             </div>
                         </div>
@@ -85,7 +83,7 @@ export default function SchoolProject() {
                 {/*  */}
                 <div className='space-y-10 lg:space-y-20 bg-[#c3d9ff] lg:pt-0 px-8'>
                     <section className='flex flex-col lg:flex-row w-full pt-28'>
-                        <img src="https://res.cloudinary.com/tacafrica/image/upload/v1684090798/Artboard_1_ypyh8f.png" alt="" className='lg:w-5/12 lg:mr-8 rounded-full'/>
+                        <img src="https://res.cloudinary.com/tacafrica/image/upload/v1684090798/Artboard_1_ypyh8f.png" alt="about the Free Training" className='lg:w-5/12 lg:mr-8 rounded-full'/>
                         <div className='lg:w-7/12 lg:mx-20 my-auto'>
                             <p className='font-semibold text-xl mb-3 mt-12 font-PanchangSemibold'>PREAMBLE</p>
                             <h3 className='text-4xl lg:text-5xl font-semibold font-PanchangSemibold'>What Is This
