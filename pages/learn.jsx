@@ -48,7 +48,7 @@ export default function Learn() {
                         {/* here */}
                         <div className="grid grid-cols-12 gap-6 gap-y-8 ">
                             <div className="col-span-12 sm:col-span-6 md:col-span-3 rounded-md bg-white relative">
-                                    <div id='aboutus' className='flex items-center h-[50vh] lg:h-[20rem] bg-[#0A157C] bg-droneTraining bg-cover bg-top mt-12 rounded-t-3xl'>
+                                    <div id='aboutus' className='flex items-center h-[50vh] lg:h-[20rem] bg-droneTraining bg-cover bg-top mt-12 rounded-t-3xl'>
                                         <div className='w-full h-full relative '>
                                             <div className='absolute bg-black top-0 left-0 right-0 bottom-0 opacity-50 rounded-t-3xl'></div>
                                             <div className='flex flex-col relative lg:justify-start items-center w-full h-[40rem] lg:h-[45rem]'>
@@ -73,7 +73,7 @@ export default function Learn() {
                                 </div>
 
                                 <div className="col-span-12 sm:col-span-6 md:col-span-3 rounded-md bg-white relative">
-                                    <div id='aboutus' className='flex items-center h-[50vh] lg:h-[20rem] bg-[#0A157C] bg-mentorShipImage bg-cover bg-top mt-12 rounded-t-3xl'>
+                                    <div id='aboutus' className='flex items-center h-[50vh] lg:h-[20rem] bg-mentorShipImage bg-cover bg-top mt-12 rounded-t-3xl'>
                                         <div className='w-full h-full relative '>
                                             <div className='absolute bg-black top-0 left-0 right-0 bottom-0 opacity-50 rounded-t-3xl'></div>
                                             <div className='flex flex-col relative lg:justify-start items-center w-full h-[40rem] lg:h-[45rem]'>
