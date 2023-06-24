@@ -46,7 +46,8 @@ module.exports = {
                 droneTraining: "url('https://res.cloudinary.com/tacafrica/image/upload/v1687533112/my_folder/Website%20pics/drone_wczt3b.jpg')",
                 mentorShipImage: "url('https://res.cloudinary.com/tacafrica/image/upload/v1682950895/drone_safety_day/IMG_1858_km2aag.jpg')",
                 tennisImage: "url('https://res.cloudinary.com/tacafrica/image/upload/v1660567313/my_folder/int%20youth%20day/1-2208130100_llasyk.jpg')",
-                taekwondoImage: "url('https://res.cloudinary.com/tacafrica/image/upload/v1660567184/my_folder/int%20youth%20day/1-2208130038_i3rttl.jpg')"
+                taekwondoImage: "url('https://res.cloudinary.com/tacafrica/image/upload/v1660567184/my_folder/int%20youth%20day/1-2208130038_i3rttl.jpg')",
+                golfImage: "url('https://res.cloudinary.com/tacafrica/image/upload/v1675095197/my_folder/Vitality%20Clubhouse%20Tour/YOD04420230112_btyvkz.jpg')"
             },
             colors: {
                 gold: '#FA9600',
