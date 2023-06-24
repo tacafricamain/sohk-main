@@ -22,7 +22,7 @@ export default function Earn() {
                     <div className='w-full h-full relative '>
                         <img src="/Vector18.png" alt="bottom_green_image" className='absolute -bottom-[0.1rem]'/>
                     </div>
-                    <span className="mx-auto absolute w-60 h-60 left-1/2 transform -translate-x-1/2 translate-y-[100%]  bg-[#F5F5F6] px-4 py-2 group cursor-pointer ">
+                    <span className="mx-auto absolute w-60 h-60 left-1/2 transform -translate-x-1/2 translate-y-[100%]  bg-white px-4 py-2 group cursor-pointer rounded-lg rounded-lg ">
                         <div className=''>
                             <img src="/aboutus/earn.png" alt="earn" className='w-60 '/>
                         </div>

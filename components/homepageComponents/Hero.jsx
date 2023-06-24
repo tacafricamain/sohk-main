@@ -60,21 +60,21 @@ const Labels = () => {
     return (
         <div className='flex space-x-3 mt-12 z-40'>
 
-        <span className="bg-white px-4 py-2 relative group cursor-pointer w-20 h-20" onClick={(e) => handleClick(e, 'play')}>
+        <span className="bg-white px-4 py-2 relative group cursor-pointer w-20 h-20 rounded-lg" onClick={(e) => handleClick(e, 'play')}>
             <div>
                 <img src="/aboutus/play.png" alt="play" className='w-10 left-5 absolute group-hover:opacity-0' />
                 <img src="/aboutus/play.gif" alt="play" className='w-10 left-5 absolute opacity-0 group-hover:opacity-100' />
             </div>
             <p className='text-sm text-center mt-10'>Play</p>
         </span>
-        <span className="bg-white px-4 py-2 relative group cursor-pointer w-20 h-20" onClick={(e) => handleClick(e, 'learn')}>
+        <span className="bg-white px-4 py-2 relative group cursor-pointer w-20 h-20 rounded-lg" onClick={(e) => handleClick(e, 'learn')}>
           <div>
               <img src="/aboutus/STEAM.png" alt="steam" className='w-10 left-5 absolute group-hover:opacity-0' />
               <img src="/aboutus/STEAM.gif" alt="steam" className='w-10 left-5 absolute opacity-0 group-hover:opacity-100' />
           </div>
           <p className='text-sm text-center mt-10'>Learn</p>
         </span>
-        <span className="bg-white px-4 py-2 relative group cursor-pointer w-20 h-20" onClick={(e) => handleClick(e, 'earn')}>
+        <span className="bg-white px-4 py-2 relative group cursor-pointer w-20 h-20 rounded-lg" onClick={(e) => handleClick(e, 'earn')}>
           <div className=''>
               <img src="/aboutus/earn.png" alt="earn" className='w-10 left-5 absolute group-hover:opacity-0 ' />
               <img src="/aboutus/earn.gif" alt="earn" className='w-10 left-5 absolute opacity-0 group-hover:opacity-100' />
