@@ -30,7 +30,7 @@ export default function Earn() {
                 </div>
                 {/*  */}
                 <div>
-                    <section className=' pb-12 relative'>
+                    <section className='mt-28 lg:mt-0 pb-12 relative'>
                         <section className=' flex flex-col '>
                             <div className='text-center font-SpaceGrotesk pt-8 lg:pt-16 text-black'>
                                 <h2 className='font-semibold font-PanchangBold text-2xl lg:text-4xl  text-center mb-5'>
@@ -50,7 +50,7 @@ export default function Earn() {
                             <div className="col-span-12 sm:col-span-6 md:col-span-3 rounded-md bg-white relative ">
                                 <div id='aboutus' className='flex items-center h-[50vh] lg:h-[20rem] bg-aboutUsHeroBg bg-cover bg-top mt-12 rounded-t-3xl'>
                                     <div className='w-full h-full relative '>
-                                        <div className='absolute bg-black top-0 left-0 right-0 bottom-0 opacity-50 rounded-t-3xl'></div>
+                                        <div className='absolute top-0 left-0 right-0 bottom-0 opacity-50 rounded-t-3xl'></div>
                                         <div className='flex flex-col relative lg:justify-start items-center w-full h-[40rem] lg:h-[45rem]'></div>
                                         <img src="/Vector18.png" alt="bottom_green_image" className='absolute -bottom-[0.1rem]'/>
                                     </div>
@@ -79,7 +79,7 @@ export default function Earn() {
                             <div className="col-span-12 sm:col-span-6 md:col-span-3 rounded-md bg-white relative">
                                 <div id='aboutus' className='flex items-center h-[50vh] lg:h-[20rem] bg-mentorShipImage bg-cover bg-top mt-12 rounded-t-3xl'>
                                     <div className='w-full h-full relative '>
-                                        <div className='absolute bg-black top-0 left-0 right-0 bottom-0 opacity-50 rounded-t-3xl'></div>
+                                        <div className='absolute top-0 left-0 right-0 bottom-0 opacity-50 rounded-t-3xl'></div>
                                         <div className='flex flex-col relative lg:justify-start items-center w-full h-[40rem] lg:h-[45rem]'></div>
                                         <img src="/Vector18.png" alt="bottom_green_image" className='absolute -bottom-[0.1rem]'/>
                                     </div>
