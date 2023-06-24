@@ -5,7 +5,14 @@ import {data} from '../../pages/api/data';
 import Button from '../Button';
 import Link from 'next/link';
 
+import { useRouter } from 'next/router'
+
+
+
 export default function Hero() {
+
+
+
     return (
         <>
             <div id='aboutus' className='flex items-center h-[50vh] lg:h-[40rem] bg-newHomeImage bg-cover bg-top mt-12 rounded-t-3xl mx-4 lg:mx-8'>
@@ -30,107 +37,50 @@ export default function Hero() {
                                   extraStyles='bg-transparent border w-full'/>
                               </a>
                         </div>
+                              <Labels />
                     </div>
                     <img src="/Vector18.png" alt="bottom_green_image" className='absolute -bottom-[0.1rem]'/>
                 </div>
             </div>
         </>
-
-    // <section className='relative mx-10 mt-20 '
-    // >
-
-    //     <div className="flex flex-col lg:flex-row mx-auto max-w-screen-xl px-4 py-3 lg:py-20 sm:px-6 lg:flex lg:h-screen lg:items- center lg:px-8">
-    //         <div className="max-w-3xl lg:px-16 mt-4 lg:mt-14 sm:text-left z-30">
-    //             <h1 className="font-extrabold text-5xl text-white mb-6">
-    //                 {/* MrTidy Nigeria */}
-    //                 <strong className="z-50 text-3xl lg:text-5xl block font-extrabol font-semibold bg-clip-text">
-    //                 A Radical <br /> Approach  To 21st Century Education
-    //                 </strong>
-    //             </h1>
-
-    //             <div className='my-3 space-x-3 text-[#F3C626] '><b>PLAY </b> <span className='font-bold'>|</span><b> LEARN  </b> <span className='font-bold'>|</span> <b>EARN</b></div>
-
-    //             <p className="mt-4 max-w-lg sm:text-xl leading-normal text-white">
-    //                   {`At its core, the School of Hard knocks curriculum is an innovative approach to education that's designed to equip students with the skills they'll need`}
-    //               </p>
-    //               <div>
-    //                 <Link href="/aboutus"  className='z-[100]' >
-    //                     <a className='z-[100]'>
-    //                         <Button extraStyles="hidden lg:block bg-white text-black mt-5" text={'Learn More'} />
-    //                     </a>
-    //                 </Link>
-    //               </div>
-    //           </div>
-    //           <LargeSingleSlider data={data} />
-
-
-    //     </div>
-    //     </section>
     )
 }
 
 
-const LargeSingleSlider = ({data}) => {
+const Labels = () => {
+
+    const router = useRouter()
 
 
-    const responsive = {
-        desktopAndMobile: {
-            breakpoint: {
-                max: 3000,
-                min: 0
-            },
-            items: 1,
-            slidesToSlide: 1, // optional, default to 1.
-        }
-    };
+    const handleClick = (e, path) => {
+      e.preventDefault()
+      router.push(`/${path}`)
+    }
 
     return (
-        <div className=" max-w-xl container lg:my-auto">
-            <div className="lg:max-w-[600px] md:mx-10 h-full">
-                <div className=" lg:pb-8 flex flex-col justify-center ">
-                    <Carousel swipeable={true}
-                        draggable={true}
-                        responsive={responsive}
-                        // ssr={!true} // means to render carousel on server-side.
-                        infinite={true}
-                        autoPlay={true}
-                        autoPlaySpeed={5000}
-                        keyBoardControl={true}
-                        customTransition="all 0.3s"
-                        transitionDuration={1500}
-                        containerClass="carousel-container "
-                        renderButtonGroupOutside={true}
-                        renderDotsOutside={true}>
-                        {
-                        data.map((edge, i) => (
+        <div className='flex space-x-3 mt-12 z-40'>
 
-                            <div key={i}
-                                className=" flex-none w-12/12 mx-auto overflow-hidden rounded-lg md:mr-4 md:pb-4 my-auto">
-                                {/* <img src={edge?.image} alt={edge?.name} className='lg:w-5/12 lg:mr-8 object-cover rounded-xl max-h-[500px]'/> */}
-                                <div className="py-2 md:mb-8">
-                                    <div className=" max-h-[600px] m-auto">
-                                        <img className="h-[300px] lg:h-[450px]  w-full content-cover object-cover rounded-xl"
-                                            src={
-                                                edge ?. image
-                                            }
-                                            alt={
-                                                edge ?. name
-                                            }/>
-                                    </div>
-                                </div>
-
-                            </div>
-                        ))
-                    } </Carousel>
-                    <Link href="/aboutus" className='z-50'>
-                        <a className='z-50'>
-                            <Button extraStyles="lg:hidden bg-blue-700 text-white mt-5"
-                                text={'Learn More'}/>
-                        </a>
-                    </Link>
-                </div>
-
+        <span className="bg-white px-4 py-2 relative group cursor-pointer w-20 h-20" onClick={(e) => handleClick(e, 'play')}>
+            <div>
+                <img src="/aboutus/play.png" alt="play" className='w-10 left-5 absolute group-hover:opacity-0' />
+                <img src="/aboutus/play.gif" alt="play" className='w-10 left-5 absolute opacity-0 group-hover:opacity-100' />
             </div>
-        </div>
-    );
-};
+            <p className='text-sm text-center mt-10'>Play</p>
+        </span>
+        <span className="bg-white px-4 py-2 relative group cursor-pointer w-20 h-20" onClick={(e) => handleClick(e, 'learn')}>
+          <div>
+              <img src="/aboutus/STEAM.png" alt="steam" className='w-10 left-5 absolute group-hover:opacity-0' />
+              <img src="/aboutus/STEAM.gif" alt="steam" className='w-10 left-5 absolute opacity-0 group-hover:opacity-100' />
+          </div>
+          <p className='text-sm text-center mt-10'>Learn</p>
+        </span>
+        <span className="bg-white px-4 py-2 relative group cursor-pointer w-20 h-20" onClick={(e) => handleClick(e, 'earn')}>
+          <div className=''>
+              <img src="/aboutus/earn.png" alt="earn" className='w-10 left-5 absolute group-hover:opacity-0 ' />
+              <img src="/aboutus/earn.gif" alt="earn" className='w-10 left-5 absolute opacity-0 group-hover:opacity-100' />
+          </div>
+          <p className='text-sm text-center mt-10'>Earn</p>
+        </span>
+      </div>
+    )
+}
