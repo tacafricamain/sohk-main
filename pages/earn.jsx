@@ -67,12 +67,12 @@ export default function Earn() {
                                         <li>Crypto Futures Trading</li>
 
                                     </ul>
-                                    <span className='mt-5'>
-                                        <a href='/pdf/SOHK General Brochure.pdf' target='_blank' rel="noreferrer">
+                                    {/* <span className='mt-5'>
+                                        <a href='https://bit.ly/certifieddronepilot' target='_blank' rel="noreferrer">
                                             <Button text={'Get Started'}
                                                 extraStyles='bg-transparent border w-full bg-[#0E113D]'/>
                                         </a>
-                                    </span>
+                                    </span> */}
                                 </div>
                             </div>
 
@@ -94,12 +94,12 @@ export default function Earn() {
                                         <li>Discord: Features and Opportunities</li>
                                         <li>Sourcing of projects with utilities</li>
                                     </ul>
-                                    <span className='mt-5'>
+                                    {/* <span className='mt-5'>
                                         <a href='/pdf/SOHK General Brochure.pdf' target='_blank' rel="noreferrer">
                                             <Button text={'Get Started'}
                                                 extraStyles='bg-transparent border w-full bg-[#0E113D]'/>
                                         </a>
-                                    </span>
+                                    </span> */}
                                 </div>
                             </div>
 

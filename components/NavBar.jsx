@@ -23,7 +23,7 @@ export default function Navbar({ fixed }) {
 
   const register = [
     { href: '/pdf/TAC Community Hub Membership form.pdf', name: 'Membership Form' },
-    {href: 'https://forms.gle/KP6BtvUhu83AH1sz8', name: 'Subject Matter Expert Registration'}
+    {href: 'https://bit.ly/certifieddronepilot', name: 'Drone Training Registration'}
   ]
 
   return (
