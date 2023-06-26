@@ -50,7 +50,7 @@ export default function Learn() {
                             <div className="col-span-9 sm:col-span-6 md:col-span-3 rounded-md bg-white relative rounded-t-3xl overflow-hidden">
                                     <div id='aboutus' className='flex items-center h-[50vh] lg:h-[20rem] bg-droneTraining bg-cover bg-top rounded-t-3xl'>
                                         <div className='w-full h-full relative '>
-                                            <div className='absolute bg-black top-0 left-0 right-0 bottom-0 opacity-50 rounded-t-3xl'></div>
+                                            <div className='absolute top-0 left-0 right-0 bottom-0 opacity-50 rounded-t-3xl'></div>
                                             <div className='flex flex-col relative lg:justify-start items-center w-full h-[40rem] lg:h-[45rem]'>
 
                                             </div>
@@ -59,7 +59,7 @@ export default function Learn() {
                                     </div>
                                     <div className='flex flex-col text-[#0E113D] p-8'>
                                         <h3 className='font-bold text-xl'>Drone Trainings</h3>
-                                        <p className='font-bold mb-4'>What`s Included?</p>
+                                        <p className='font-bold mb-4'>What is Included?</p>
                                         <ul className='list-disc pl-6'>
                                             <li>Introduction to Drones</li>
                                             <li>Pre-Flight Introductions</li>
@@ -83,13 +83,13 @@ export default function Learn() {
                                         </div>
                                     </div>
                                     <div className='flex flex-col text-[#0E113D] p-8'>
-                                        <h3 className='font-bold text-xl'>Mentorship & Public Speaking Trainings</h3>
-                                        <p className='font-bold mb-4'>What`s Included?</p>
+                                        <h3 className='font-bold text-xl'>Cyber Security and Cyber Defense</h3>
+                                        <p className='font-bold mb-4'>What is Included?</p>
                                         <ul className='list-disc pl-6'>
-                                            <li>Introduction</li>
-                                            <li>Techniques in Speaking</li>
-                                            <li>Organization and Delivery</li>
-                                            <li>Types of Speaking</li>
+                                            <li>Cyber Peace Corps</li>
+                                            <li>Project Chakraview</li>
+                                            <li>Cyber Security Handbook for Primary & Junior Secondary School</li>
+                                            <li>Cyber Security Handbook for Senior Secondary Schools & Tertiary Institution</li>
                                             {/* <li>Introduction to basic (Kibon Chaggi)</li>
                                             <li>Introduction to Stance (Sohgi)</li>
                                             <li>Basic application of leg technique</li> */}
@@ -106,7 +106,7 @@ export default function Learn() {
                 <div className=' bg-[#EDEDED] rounded-3xl h-96 md:h-40 shadow-[0_8px_30px_rgb(0,0,0,0.12)] '>
                 <div className="flex flex-col md:flex-row h-full sm:divide-y-2 md:divide-y-0 md:divide-x-2 divide-slate-200 py-3">
                     <div className='flex w-full h-1/3  md:h-full font-mavin text-lg md:text-3xl  '>
-                        <h2 className='m-auto text-xl font-bold'>See detailed info about the above fun
+                        <h2 className='m-auto text-xl font-bold'>See detailed info about Educational
                             <br/>
                             activities when you download our brochure.</h2>
                     </div>

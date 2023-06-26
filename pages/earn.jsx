@@ -48,7 +48,7 @@ export default function Earn() {
                         {/* here */}
                         <div className="grid max-w-7xl grid-cols-9 lg:gap-6 gap-y-8 bg-[#fafaf9] p-4 pt-8 lg:p-12 mt-12 rounded-3xl ">
                             <div className="col-span-9 sm:col-span-6 md:col-span-3 rounded-md bg-white relative rounded-t-3xl overflow-hidden">
-                                <div id='aboutus' className='flex items-center h-[50vh] lg:h-[20rem] bg-aboutUsHeroBg bg-cover bg-top rounded-t-3xl'>
+                                <div id='aboutus' className='flex items-center h-[50vh] lg:h-[20rem] bg-BlockChainTraining bg-cover bg-top rounded-t-3xl'>
                                     <div className='w-full h-full relative '>
                                         <div className='absolute top-0 left-0 right-0 bottom-0 opacity-50 rounded-t-3xl'></div>
                                         <div className='flex flex-col relative lg:justify-start items-center w-full h-[40rem] lg:h-[45rem]'></div>
@@ -61,23 +61,23 @@ export default function Earn() {
                                     <p className='font-bold mb-4'>Training</p>
                                     <ul className='list-disc pl-6'>
                                         <li>Block Chain Regulation and Legal Issues</li>
-                                        <li>Block Chain Against Corruption</li>
+                                        <li>Degen Trading</li>
                                         <li>Practical Use of Block Chain Tokenomics</li>
                                         <li>Crypto Currency Forensics & Investigation Methodology</li>
-                                        <li>Block Chain Education and Research</li>
+                                        <li>Crypto Futures Trading</li>
 
                                     </ul>
                                     <span className='mt-5'>
                                         <a href='/pdf/SOHK General Brochure.pdf' target='_blank' rel="noreferrer">
-                                            <Button text={'Download Brochure'}
+                                            <Button text={'Get Started'}
                                                 extraStyles='bg-transparent border w-full bg-[#0E113D]'/>
                                         </a>
                                     </span>
                                 </div>
                             </div>
 
-                            <div className="col-span-12 sm:col-span-6 md:col-span-3 rounded-md bg-white relative rounded-t-3xl overflow-hidden">
-                                <div id='aboutus' className='flex items-center h-[50vh] lg:h-[20rem] bg-mentorShipImage bg-cover bg-top'>
+                            <div className="col-span-9 sm:col-span-6 md:col-span-3 rounded-md bg-white relative rounded-t-3xl overflow-hidden">
+                                <div id='aboutus' className='flex items-center h-[50vh] lg:h-[20rem] bg-aboutUsHeroBg bg-cover bg-top rounded-t-3xl'>
                                     <div className='w-full h-full relative '>
                                         <div className='absolute top-0 left-0 right-0 bottom-0 opacity-50 rounded-t-3xl'></div>
                                         <div className='flex flex-col relative lg:justify-start items-center w-full h-[40rem] lg:h-[45rem]'></div>
@@ -85,18 +85,24 @@ export default function Earn() {
                                     </div>
                                 </div>
                                 <div className='flex flex-col text-[#0E113D] p-8'>
-                                    <h3 className='font-bold text-xl'>Mentorship & Public Speaking Trainings</h3>
-                                    <p className='font-bold mb-4'>What`s Included?</p>
+                                    <h3 className='font-bold text-xl'>NFT`s and Web3
+                                    </h3>
+                                    <p className='font-bold mb-4'>Training</p>
                                     <ul className='list-disc pl-6'>
-                                        <li>Introduction</li>
-                                        <li>Techniques in Speaking</li>
-                                        <li>Organization and Delivery</li>
-                                        <li>Types of Speaking</li>
-                                        {/* <li>Introduction to basic (Kibon Chaggi)</li>
-                                            <li>Introduction to Stance (Sohgi)</li>
-                                            <li>Basic application of leg technique</li> */} </ul>
+                                        <li>Beginners Guide to NFT`s </li>
+                                        <li>Introduction to major NFT market places (Buy, Sell, Auction)</li>
+                                        <li>Discord: Features and Opportunities</li>
+                                        <li>Sourcing of projects with utilities</li>
+                                    </ul>
+                                    <span className='mt-5'>
+                                        <a href='/pdf/SOHK General Brochure.pdf' target='_blank' rel="noreferrer">
+                                            <Button text={'Get Started'}
+                                                extraStyles='bg-transparent border w-full bg-[#0E113D]'/>
+                                        </a>
+                                    </span>
                                 </div>
                             </div>
+
 
                         </div>
                         {/*  */} </section>
@@ -105,9 +111,9 @@ export default function Earn() {
                 <div className=' bg-[#EDEDED] rounded-3xl h-96 md:h-40 shadow-[0_8px_30px_rgb(0,0,0,0.12)] '>
                     <div className="flex flex-col md:flex-row h-full sm:divide-y-2 md:divide-y-0 md:divide-x-2 divide-slate-200 py-3">
                         <div className='flex w-full h-1/3  md:h-full font-mavin text-lg md:text-3xl  '>
-                            <h2 className='m-auto text-xl font-bold'>See detailed info about the above fun
+                            <h2 className='m-auto text-xl font-bold'>See detailed info about how you can
                                 <br/>
-                                activities when you download our brochure.</h2>
+                                earn when you download our brochure.</h2>
                         </div>
                         <div className="flex  flex-col md:flex-row w-full md:h-full justify-center md:justify-start md:items-center md:space-x-4 h-full px-5 md:pl-10 ">
                             <span>

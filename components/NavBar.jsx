@@ -129,17 +129,13 @@ export default function Navbar({ fixed }) {
                 icon={'SchoolProjects.png'}
               />
 
-              {/* <li className="nav-item my-auto">
-              <Link  href="/pdf/TAC Community Hub Membership form.pdf">
-                <a
-                  className="px-3 py-2 flex items-center text-xs font-bold leading-snug text-black ease-in duration-200 hover:opacity-65"
-                  target='_blank' rel='noopener'
-                  >
-                  <img src="/nav_icons/Register.png" alt="" className="w-5 lg:hidden" />
-                  <span className="lg:ml-2 font-medium rounded-lg text-sm 2xl:text-lg px-5 lg:px-4 py-2.5 text-center" onClick={() => setNavbarOpen(!navbarOpen)}>Register</span>
+              <Link href="/donate">
+                <a >
+                  <span className="my-auto ml-3">
+                    <Button text={'Donate'} extraStyles={'border-2 border-black bg-white text-black '} />
+                  </span>
                 </a>
-                </Link>
-              </li> */}
+              </Link>
 
             </ul>
           </div>
