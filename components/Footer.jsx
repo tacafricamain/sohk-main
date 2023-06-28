@@ -67,7 +67,7 @@ export default function Footer() {
                                 <div className="">
                                     <div className="">
                                         <h3 className="font-bold text-xl text-white uppercase">
-                                            Quicklinks
+                                            QuickLinks
                                         </h3>
                                         <ul className='space-y-4'>
                                             {
