@@ -11,6 +11,16 @@ import {
 
 export default function Footer() {
 
+    const data = [
+        'Home',
+        'About Us',
+        'Services',
+        'Events',
+        'Discover More',
+        'Become A Member',
+    ];
+
+
     return (
         <div className="bg-fixed bg-center bg-cover bg-footerBG"
             style={
