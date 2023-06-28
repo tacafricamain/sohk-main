@@ -1,4 +1,4 @@
-import Link from 'next/link'
+
 import Button from '../Button'
 export default function Promotion(){
     return(

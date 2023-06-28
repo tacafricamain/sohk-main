@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import { getPostBySlug, getAllPosts } from "../../utils/api";
 import ContentSection from "../../components/ContentSection";
 import Head from "next/head";

@@ -1,7 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
-import Button from './Button'
-import Link from 'next/link'
 
 export default function Map() {
     return (

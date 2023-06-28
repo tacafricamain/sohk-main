@@ -1,9 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Button from '../components/Button'
-/* eslint-disable @next/next/no-img-element */
 import Carousel from "react-multi-carousel";
-// import { data } from "../../pages/api/newsletter";
 import data from "../pages/api/staffData.json"
 
 export default function SMEvolunteers() {

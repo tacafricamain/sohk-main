@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Head from 'next/head'
-import Link from 'next/link'
 import Button from '../components/Button'
 
 export default function Earn() {
@@ -56,16 +55,14 @@ export default function Earn() {
                                     </div>
                                 </div>
                                 <div className='flex flex-col text-[#0E113D] p-8'>
-                                    <h3 className='font-bold text-xl'>Blockchain and Cryptocurrency
-                                    </h3>
-                                    <p className='font-bold mb-4'>Training</p>
+                                    <h3 className='font-bold text-xl'>Blockchain and Cryptocurrency</h3>
+                                    <p className='font-bold mb-4 text-xl'>Training</p>
                                     <ul className='list-disc pl-6'>
                                         <li>Block Chain Regulation and Legal Issues</li>
                                         <li>Degen Trading</li>
                                         <li>Practical Use of Block Chain Tokenomics</li>
                                         <li>Crypto Currency Forensics & Investigation Methodology</li>
                                         <li>Crypto Futures Trading</li>
-
                                     </ul>
                                     {/* <span className='mt-5'>
                                         <a href='https://bit.ly/certifieddronepilot' target='_blank' rel="noreferrer">

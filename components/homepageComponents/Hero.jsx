@@ -1,7 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
-import Carousel from "react-multi-carousel";
-import {data} from '../../pages/api/data';
 import Button from '../Button';
 import Link from 'next/link';
 

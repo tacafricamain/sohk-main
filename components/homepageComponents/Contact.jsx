@@ -1,9 +1,7 @@
 /* eslint-disable react/jsx-key */
 import React from 'react'
-import Button from '../Button'
 
 export default function Contact() {
-    const myENV = process.env.NEXT_PUBLIC_WEB3FORMS_API_KEY
     return (
         <> {/* <link rel="stylesheet" href="https://cdn.tailgrids.com/tailgrids-fallback.css" /> */}
 

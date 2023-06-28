@@ -28,6 +28,7 @@ a {
 	src: url("/fonts/MavenPro-Bold.ttf");
 	font-weight: 900;
 	font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -35,6 +36,7 @@ a {
 	src: url("/fonts/MavenPro-Regular.ttf");
 	font-weight: normal;
 	font-style: normal;
+  font-display: swap;
 }
 /*  Panchang fonts*/
 @font-face {
@@ -43,6 +45,7 @@ a {
   font-weight: 400;
   /* font-display: swap; */
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -51,6 +54,7 @@ a {
   font-weight: 600;
   /* font-display: swap; */
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -59,6 +63,7 @@ a {
   font-weight: 800;
   /* font-display: swap; */
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -67,6 +72,7 @@ a {
   font-weight: 800;
   /* font-display: swap; */
   font-style: normal;
+  font-display: swap;
 }
 /*  */
 
@@ -204,8 +210,6 @@ a {
 /* CSS */
 .button-48 {
   appearance: none;
-  /* background-color: #FFFFFF; */
-  /* border-width: 0; */
   box-sizing: border-box;
   color: #000000;
   cursor: pointer;

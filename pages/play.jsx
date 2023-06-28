@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Head from 'next/head'
-import Link from 'next/link'
 import Button from '../components/Button'
 
 export default function Play() {

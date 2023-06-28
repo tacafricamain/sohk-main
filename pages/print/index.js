@@ -1,10 +1,7 @@
 import React, { useRef } from 'react';
-// import ReactToPrint, { useReactToPrint } from 'react-to-print';
 import withAuth from '../../auth/withAuth';
 import RegistrationForm from '../registrationForm';
 import ReactToPrint, { PrintContextConsumer } from 'react-to-print';
-
-// import { ComponentToPrint } from './ComponentToPrint';
 
 class Example extends React.PureComponent {
   render() {

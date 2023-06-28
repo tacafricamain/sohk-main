@@ -1,5 +1,4 @@
 /* eslint-disable react/jsx-key */
-import {useState, useCallback} from 'react';
 import Link from 'next/link';
 import {
     FaFacebookF,
@@ -11,20 +10,6 @@ import {
 } from 'react-icons/fa';
 
 export default function Footer() {
-    const [menuState, setMenuState] = useState(false);
-
-    const toggleButton = useCallback(() => {
-        setMenuState((menuState) => !menuState);
-    }, []);
-
-    const data = [
-        'Home',
-        'About Us',
-        'Services',
-        'Events',
-        'Discover More',
-        'Become A Member',
-    ];
 
     return (
         <div className="bg-fixed bg-center bg-cover bg-footerBG"
@@ -119,7 +104,7 @@ export default function Footer() {
                                                 <a className='text-white' href="mailto:contactus@schoolofhardknocks.com.ng" target="_blank" rel="noreferrer">
                                                     <b className='uppercase'>email: </b>
                                                     <span>
-                                                        
+
                                                     </span>
                                                      contactus@schoolofhardknocks.com.ng</a>
                                             </p>

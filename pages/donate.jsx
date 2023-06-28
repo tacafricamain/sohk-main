@@ -1,8 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import Head from 'next/head'
-import Button from '../components/Button'
-import Link from 'next/link'
 
 export default function Donate() {
     return (

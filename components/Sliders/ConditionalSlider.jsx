@@ -2,7 +2,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import Popup from 'reactjs-popup';
-// import 'reactjs-popup/dist/index.css';
 import { data } from '../../pages/api/data'
 
 

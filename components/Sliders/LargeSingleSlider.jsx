@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import Carousel from "react-multi-carousel";
-import { data } from "../../pages/api/newsletter";
 import Button from "../Button";
 
 const LargeSingleSlider = ({ data }) => {

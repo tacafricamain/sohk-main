@@ -1,6 +1,5 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
 import Carousel from "react-multi-carousel";
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
