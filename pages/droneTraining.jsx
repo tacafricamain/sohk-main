@@ -51,7 +51,7 @@ export default function DroneTraining() {
                     <Button text='Reserve My Spot'/>
                 </div>
             </section>
-            <section className='bg-[#E6E6E6] py-20 '>
+            <section className='lg:bg-[#E6E6E6] py-20 '>
               <div className='flex flex-col items-center font-SpaceGrotesk p-8 lg:pt-16 text-black'>
                 <div>
                     <h2 className='font-semibold font-PanchangBold text-2xl lg:text-4xl mb-5'>
@@ -67,20 +67,28 @@ export default function DroneTraining() {
                 </div>
               </div>
             </section>
-            <section className='flex w-full my-20'>
+            <section className='flex w-full lg:my-20'>
                 <div className='hidden lg:block ml-20 max-w-xl w-4/12 mt-12 '>
                     <h3 className='text-4xl font-semibold'>Related Videos</h3>
                     <p className='text-xl'>Through homework and regular <br /> feedback in the private.</p>
                 </div>
-                <div className='bg-[#00063C] rounded-tl-xl rounded-tr-xl pt-8 text-white ml-10 lg:ml-0 lg:w-8/12'>
+                <div className='bg-[#00063C] w-full rounded-tl-xl rounded-tr-xl pt-8 text-white ml-10 lg:ml-0 lg:w-8/12 '>
                     <div className='block lg:hidden lg:ml-20 ml-10 mt-12 '>
                         <h3 className='text-4xl font-semibold'>Related Videos</h3>
                         <p className='text-xl'>Through homework and regular <br /> feedback in the private.</p>
                     </div>
-                    <LargeSingleSlider data={data} />
+                  <div className='flex relative w-[500px] md:w-[768px] lg:w-[800px] overflow-x-auto '>
+                    {
+                      data.droneVideo.map((edge, i) => (
+                        <div className='w-[500px] md:w-[768px] lg:w-[600px]' key={i}>
+                          <YoutubeEmbed embedId={edge.link} videoSrc={edge.videoSrc} extraStyles={'h-[350px] '} thumbnail />
+                        </div>
+                      ))
+                    }
+                  </div>
                 </div>
             </section>
-            <section className='flex w-full my-20'>
+            {/* <section className='flex w-full my-20'>
                 <div className=' pt-8 text-black ml-5 lg:ml-0 lg:w-8/12'>
                     <div className='flex lg:hidden lg:ml-20 ml-5 mt-12 '>
                         <h3 className='text-xl font-semibold'>Meet Your <br /> Trainers</h3>
@@ -90,7 +98,7 @@ export default function DroneTraining() {
                       <TrainersSlider data={trainingData} />
                     </div>
                 </div>
-            </section>
+            </section> */}
             <section>
 
             </section>
@@ -114,7 +122,7 @@ const LargeSingleSlider = ({ data }) => {
   };
 
   return (
-    <div className=" container m-4">
+    <div className="container m-4">
       <div className="lg:min-w-[1400px] mx-5 h-full overflow-hidden">
         <div className=" flex flex-col justify-center ">
           <Carousel
@@ -123,7 +131,7 @@ const LargeSingleSlider = ({ data }) => {
             responsive={responsive}
             // ssr={!true} // means to render carousel on server-side.
             infinite={true}
-            // autoPlay={true}
+            autoPlay={true}
             autoPlaySpeed={5000}
             keyBoardControl={true}
             customTransition="all 0.3s"
@@ -133,7 +141,6 @@ const LargeSingleSlider = ({ data }) => {
             renderDotsOutside={true}
           >
             {data.droneVideo.map((edge, i) => (
-
               <div
                     key={i}
                     className="flex-none w-12/12 mx-auto overflow-hidden rounded-lg md:mr-4 md:pb-4 my-auto"
@@ -144,10 +151,9 @@ const LargeSingleSlider = ({ data }) => {
                 </div>
             ))}
           </Carousel>
-        </div>
-
-      </div>
-    </div>
+         </div>
+       </div>
+     </div>
   );
 };
 
@@ -163,7 +169,7 @@ const TrainersSlider = ({ data }) => {
   };
 
   return (
-    <div className=" container bg-white">
+    <div className="container bg-white">
       <div className="lg:max-w-[600px] mx-10 h-full">
         <div className=" lg:pb-8 flex flex-col justify-center ">
           <Carousel

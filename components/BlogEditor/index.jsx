@@ -25,7 +25,7 @@ const BlogEditor = ({ post, close, refresh }) => {
   const pushNewPath = () => {
     Router.push({
       pathname: `/news&events/${currentFileName}`,
-    }, 
+    },
     undefined, { shallow: true }
     )
   }
@@ -85,8 +85,8 @@ const BlogEditor = ({ post, close, refresh }) => {
                 />
               </span>
               <span onClick={() => setCurrentTabs("CONTENT")} >
-                <Button 
-                    text='Content'  
+                <Button
+                    text='Content'
                   // type={currentTabs === "CONTENT" && "primary"}
                 />
               </span>
@@ -108,7 +108,7 @@ const BlogEditor = ({ post, close, refresh }) => {
               ></input>
             </div>
 
-            
+
             <div className="mt-5 flex flex-col items-center">
               <label className="w-full text-sx opacity-50">Date</label>
               <DatePicker

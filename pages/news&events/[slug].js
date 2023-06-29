@@ -20,24 +20,24 @@ const BlogPost = ({ post }) => {
        {/* <Cursor /> */}
       {/* {!showEditor && ( */}
         <>
-            `<div
-              className={`container mx-auto mt-10`}
+            <div
+              className={`container px-10 mx-auto mt-10`}
             >
               {/* <Header isBlog={true} /> */}
               <div className="mt-10 flex flex-col ">
-                  <h1
-                    // ref={textOne}
-                    className="mt-10 text-4xl mob:text-2xl laptop:text-6xl text-bold text-blue-900 m-12 "
-                    style={{padding: '20px'}}
-                  >
-                    {post.title}
-                  </h1>
                 <img
                   className="w-full  rounded-lg shadow-lg object-cover"
                   src={post.image}
                   alt={post.title}
                 ></img>
 
+                  <h1
+                    // ref={textOne}
+                    className="mt-10 px-5 text-4xl mob:text-2xl laptop:text-6xl text-bold text-blue-900 max-w-5xl mx-auto "
+                    style={{paddingTop: '20px'}}
+                  >
+                    {post.title}
+                  </h1>
               </div>
               <ContentSection content={post.content}></ContentSection>
               {/* <Footer /> */}

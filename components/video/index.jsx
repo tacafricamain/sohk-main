@@ -10,11 +10,11 @@ const YoutubeEmbed = ({ embedId, videoSrc, thumbnail, extraStyles }) => {
 
     return (
       <div>
-            <div className="relative w-full p-5">
+            <div className="relative w-[500px] md:w-[768px] lg:w-[600px] p-5">
             {isPlaying ? (
                 <iframe
                 height="480"
-                className="w-full mx-auto rounded-xl overflow-hidden"
+                className="w-full h-[480px] mx-auto rounded-xl overf low-hidden"
                 src={
                     videoSrc === "youtube"
                     ? `https://www.youtube.com/embed/${embedId}?autoplay=1`
