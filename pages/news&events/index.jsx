@@ -63,7 +63,7 @@ const Blog = ({ posts }) => {
           `}
         >
           {/* <Header isBlog={true}></Header> */}
-          <div className="mt-1 0">
+          <div id='blog' className="mt-1 0">
 
 
 

@@ -6,10 +6,28 @@ import Head from "next/head";
 import Button from "../../components/Button";
 import BlogEditor from "../../components/BlogEditor";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 const BlogPost = ({ post }) => {
   const [showEditor, setShowEditor] = useState(false);
   const router = useRouter();
+
+
+  const dateString = post.date
+const dateObj = new Date(dateString);
+
+// Step 2: Define the options for formatting the date
+const options = {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+};
+
+// Step 3: Format the date using the options
+const formattedDate = dateObj.toLocaleDateString('en-US', options);
+
+// Step 4: Print the formatted date
+console.log(formattedDate); // Output: June 29, 2023
 
   return (
     <>
@@ -24,20 +42,30 @@ const BlogPost = ({ post }) => {
               className={`container px-10 mx-auto mt-10`}
             >
               {/* <Header isBlog={true} /> */}
-              <div className="mt-10 flex flex-col ">
+              <div className="mt-16 flex flex-col overflow-hidden ">
                 <img
-                  className="w-full  rounded-lg shadow-lg object-cover"
+                  className="w-full  rounded-xl shadow-lg object-cover mb-5"
                   src={post.image}
                   alt={post.title}
                 ></img>
 
+                <Link href={'/news&events/#blog' } >
+                  <a>
+                    `Back To Blog`
+                  </a>
+                </Link>
+
                   <h1
                     // ref={textOne}
-                    className="mt-10 px-5 text-4xl mob:text-2xl laptop:text-6xl text-bold text-blue-900 max-w-5xl mx-auto "
+                    className="mt-10 px-5 text-[40px] opacity-70 font-bold max-w-5xl mx-auto "
                     style={{paddingTop: '20px'}}
                   >
                     {post.title}
                   </h1>
+                    <div className="flex mob:text-2xl opacity-70  max-w-5xl px-5 mt-10 mx-auto w-full">
+                      <p className="w-full uppercase">School of hardKnocks</p>
+                      <p className="w-full text-right">{formattedDate}</p>
+                    </div>
               </div>
               <ContentSection content={post.content}></ContentSection>
               {/* <Footer /> */}
