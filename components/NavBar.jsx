@@ -10,10 +10,10 @@ export default function Navbar({ fixed }) {
   const [menuState, setMenuState] = React.useState(false);
 
   const data = [
-    {href: '/pilot_school_project', name: 'SOHK PILOT SCHOOL PROGRAM TO SCHOOLS'},
-    {href: '/Digital_skills_&_Golf/GOLF_FOR_PRIMARY_SCHOOLS', name: 'GOLF FOR PRIMARY SCHOOLS '},
-    {href: '/Digital_skills_&_Golf/GOLF_FOR_JUNIOR_SECONDARY_SCHOOLS', name: 'GOLF FOR JUNIOR SECONDARY SCHOOLS'},
-    { href: '/Digital_skills_&_Golf/GOLF_FOR_SENIOR_SECONDARY_SCHOOLS', name: 'GOLF FOR SENIOR SECONDARY SCHOOLS' },
+    {href: '/pilot_school_project', name: 'SOHK pilot School program to Schools'},
+    {href: '/Digital_skills_&Golf/GOLF_FOR_PRIMARY_SCHOOLS', name: 'Golf for Primary Schools '},
+    {href: '/Digital_skills&Golf/GOLF_FOR_JUNIOR_SECONDARY_SCHOOLS', name: 'Golf for Junior Secondary Schools'},
+    {href: '/Digital_skills&_Golf/GOLF_FOR_SENIOR_SECONDARY_SCHOOLS', name: 'Golf for Senior Secondary Schools'}
   ]
 
   const about = [
@@ -23,7 +23,8 @@ export default function Navbar({ fixed }) {
 
   const register = [
     { href: '/pdf/TAC Community Hub Membership form.pdf', name: 'Membership Form' },
-    {href: 'https://bit.ly/certifieddronepilot', name: 'Drone Training Registration'}
+    { href: 'https://bit.ly/certifieddronepilot', name: 'Drone Training Registration' },
+    { href: 'https://forms.gle/nm4MKb5M8PSrt5nu5', name: 'Become a Subject Matter Expert'}
   ]
 
   return (
