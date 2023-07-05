@@ -74,7 +74,7 @@ const formattedDate = dateObj.toLocaleDateString('en-US', options);
                         <FaFacebookF className="mx-6 fa fa-brands fa-instagram fa-2x  text-black ease-in duration-200 hover:text-black"/>
                     </a>
 
-                    <a href={`href="http://www.linkedin.com/shareArticle?mini=true&url=https://www.schoolofhardknocks.com.ng/news&events/${post.slug}`}  target="_blank" rel="noreferrer">
+                    <a href={`https://www.linkedin.com/shareArticle?mini=true&url=https://www.schoolofhardknocks.com.ng/news&events/${post.slug}`}  target="_blank" rel="noreferrer">
                         <FaLinkedinIn className="mx-5 fa fa-brands fa-linkedin fa-2x  text-black ease-in duration-200 hover:text-black"/>
                     </a>
 
