@@ -7,6 +7,16 @@ import Button from "../../components/Button";
 import BlogEditor from "../../components/BlogEditor";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import { FacebookShareButton, FacebookIcon, TwitterIcon, TwitterShareButton } from 'react-share';
+import { ShareSocial } from 'react-share-social'
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaLinkedinIn,
+  FaYoutube,
+  FaWhatsapp
+} from 'react-icons/fa';
 
 const BlogPost = ({ post }) => {
   const [showEditor, setShowEditor] = useState(false);
@@ -25,9 +35,6 @@ const options = {
 
 // Step 3: Format the date using the options
 const formattedDate = dateObj.toLocaleDateString('en-US', options);
-
-// Step 4: Print the formatted date
-console.log(formattedDate); // Output: June 29, 2023
 
   return (
     <>
@@ -49,11 +56,35 @@ console.log(formattedDate); // Output: June 29, 2023
                   alt={post.title}
                 ></img>
 
-                <Link href={'/news&events/#blog' } >
-                  <a>
-                    `Back To Blog`
-                  </a>
-                </Link>
+                <div className="flex justify-between">
+                  <Link href={'/news&events/#blog' } >
+                    <a>
+                      <b className="text-4xl">&#8592;</b> Back To Blog
+                    </a>
+                  </Link>
+
+
+                  <div className="flex justify-center my-6 ">
+
+                    <a href={`whatsapp://send?text=${post.slug}`} data-action="share/whatsapp/share" target="_blank" rel="noreferrer">
+                          <FaWhatsapp className="mx-6 fa fa-brands fa-whatsapp fa-2x  text-black ease-in duration-200 hover:text-black" />
+                    </a>
+                    {/* facebook */}
+                    <a href={`https://www.facebook.com/sharer/sharer.php?u=https://www.schoolofhardknocks.com.ng/news&events/${post.slug}`} target="_blank" rel="noreferrer">
+                        <FaFacebookF className="mx-6 fa fa-brands fa-instagram fa-2x  text-black ease-in duration-200 hover:text-black"/>
+                    </a>
+
+                    <a href={`href="http://www.linkedin.com/shareArticle?mini=true&url=https://www.schoolofhardknocks.com.ng/news&events/${post.slug}`}  target="_blank" rel="noreferrer">
+                        <FaLinkedinIn className="mx-5 fa fa-brands fa-linkedin fa-2x  text-black ease-in duration-200 hover:text-black"/>
+                    </a>
+
+                    <a href={`https://twitter.com/intent/tweet?url=https://www.schoolofhardknocks.com.ng/news&events/${post.slug}`} target="_blank" rel="noreferrer">
+                        <FaTwitter className="mx-5 fa fa-brands fa-twitter fa-2x text-black ease-in duration-200 hover:text-black"/>
+                    </a>
+
+
+                </div>
+                </div>
 
                   <h1
                     // ref={textOne}

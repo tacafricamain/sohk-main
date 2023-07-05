@@ -77,7 +77,7 @@ const Blog = ({ posts }) => {
                   {posts &&
                     posts.map((post) => (
 
-                    <div className="relative fl ex" key={post.slug}
+                    <div className="relative fl ex cursor-pointer" key={post.slug}
                         onClick={() => Router.push(`/news&events/${post.slug}`)}>
                     <img className="w-full bg-gray-200 w- 6/12"
                       src={post.image}
