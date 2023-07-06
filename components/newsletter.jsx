@@ -3,7 +3,7 @@
 import 'reactjs-popup/dist/index.css';
 import LargeSingleSlider from "./Sliders/LargeSingleSlider";
 import Button from "./Button";
-import {data } from "../pages/api/newsletter"
+import { data } from "../pages/api/newsletter"
 
 
 const NewsLetter = () => {
@@ -11,7 +11,7 @@ const NewsLetter = () => {
     return (
         <div id='member' className="w-full ">
             <div className="flex flex-col  w-full md:flex-col lg:flex-row mx-auto my-0 xl:px -12 h-full ">
-                <div className=' bg-blueH ighLight lg:w-7/12 p-8 lg:p-20'>
+                <div className=' lg:w-7/12 p-8 lg:p-20'>
                     <div className="block h-full space-y-4 ">
                         {/** large screen */}
                         <div className="h-2/5 pt-12 mb-8">
