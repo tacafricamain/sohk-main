@@ -17,8 +17,7 @@ export default function Footer() {
         'Services',
         'Events',
         'Discover More',
-        'Become A Member',
-        'Testing'
+        'Become A Member'
     ];
 
 
