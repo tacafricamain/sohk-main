@@ -7,8 +7,6 @@ import Button from "../../components/Button";
 import BlogEditor from "../../components/BlogEditor";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import { FacebookShareButton, FacebookIcon, TwitterIcon, TwitterShareButton } from 'react-share';
-import { ShareSocial } from 'react-share-social'
 import {
   FaFacebookF,
   FaTwitter,
